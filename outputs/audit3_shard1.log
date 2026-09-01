@@ -1,0 +1,14 @@
+样本 336 条，已审计 283 条，续跑剩余…
+
+  ✗ deepseek-v4-pro_G12_Dasatinib: RuntimeError
+  ✗ deepseek-v4-pro_G03_Pimavanserin: RuntimeError
+  ✗ deepseek-v4-pro_G04_Cloperastine: RuntimeError
+  ✗ deepseek-v4-pro_G09_Fluvoxamine: RuntimeError
+  ✗ deepseek-v4-pro_G09_Deferiprone: RuntimeError
+  ✗ deepseek-v4-pro_G12_Ursodeoxycholic: RuntimeError
+  ✗ deepseek-v4-pro_G05_Pomalidomide: RuntimeError
+  ✗ deepseek-v4-pro_G08_Probenecid: RuntimeError
+  ✗ qwen3.7-max_G04_ALS: OverflowError
+  ✗ deepseek-v4-pro_G03_Isoniazid: RuntimeError
+
+完成 → outputs/coded_sample.jsonl（累计已编码 304 条，本轮失败 10 条，可再跑补齐）

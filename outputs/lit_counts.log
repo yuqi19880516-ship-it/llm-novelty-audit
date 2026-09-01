@@ -1,0 +1,16 @@
+唯一术语 146 个（drug+disease）
+  10 完成（最新 Pulmonary arterial hypertension=19213）
+  20 完成（最新 Artemisinin=8869）
+  30 完成（最新 Captopril=12212）
+  40 完成（最新 Deferiprone=1448）
+  50 完成（最新 Empagliflozin=4269）
+  60 完成（最新 Haloperidol=19792）
+  70 完成（最新 Ketotifen=1584）
+  80 完成（最新 Miglustat=461）
+  90 完成（最新 Osilodrostat=165）
+  100 完成（最新 Propranolol=35543）
+  110 完成（最新 Rosiglitazone=6607）
+  120 完成（最新 Simvastatin=11737）
+  130 完成（最新 Terbinafine=3691）
+  140 完成（最新 Upadacitinib=2079）
+完成，缓存 146 个 → outputs/lit_counts.json

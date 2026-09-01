@@ -1,0 +1,593 @@
+{
+  "goal_id": "G07",
+  "disease_en": "Idiopathic pulmonary fibrosis",
+  "goal": "为特发性肺纤维化（Idiopathic pulmonary fibrosis）寻找可重定位的已上市药物及其作用机制",
+  "overview": "Top hypotheses: 青蒿琥酯→选择性清除活化肌成纤维细胞，减轻肺纤维化; 丙戊酸→减轻博来霉素诱导的肺纤维化; 达格列净→降低肺内衰老细胞负荷和纤维化沉积; 阿苯达唑→减少肺纤维化区域血管密度和胶原沉积; 特立帕肽→缓解博来霉素小鼠肺纤维化和改善顺应性",
+  "hypotheses": [
+    {
+      "a": "青蒿琥酯",
+      "b": "通过铁离子依赖的脂质过氧化诱导肌成纤维细胞铁死亡",
+      "c": "选择性清除活化肌成纤维细胞，减轻肺纤维化",
+      "statement": "青蒿琥酯利用铁死亡途径靶向消除致病肌成纤维细胞。",
+      "rationale": "青蒿琥酯的内过氧化物桥受铁激活产生自由基，IPF肌成纤维细胞内不稳定铁池增加，可能使其对铁死亡易感。",
+      "self_novelty": "moderate",
+      "elo": 1295.5137837854045,
+      "review_score": 4.333333333333333,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁死亡靶向肌成纤维细胞新颖，需优化选择性"
+        },
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向肌成纤维细胞铁死亡合理，脱靶效应需评估。"
+        },
+        {
+          "index": 7,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁死亡靶向肌成纤维细胞，选择性机制待确证。"
+        }
+      ]
+    },
+    {
+      "a": "丙戊酸",
+      "b": "抑制HDAC活性上调p53/p21信号，诱导肺成纤维细胞衰老和凋亡",
+      "c": "减轻博来霉素诱导的肺纤维化",
+      "statement": "丙戊酸通过抑制组蛋白去乙酰化酶促使致病成纤维细胞衰老与凋亡，从而缓解肺纤维化。",
+      "rationale": "HDAC抑制剂在肿瘤中诱导细胞周期阻滞，IPF成纤维细胞凋亡抵抗是核心病理，丙戊酸可能重启衰老程序逆转纤维化。",
+      "self_novelty": "moderate",
+      "elo": 1293.8238171626158,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "HDACi衰老诱导机制合理，但脱靶风险需注意"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "HDAC抑制诱导衰老有文献支持，临床证据不足。"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "HDACi抗纤维化报道多，临床耐受性存疑。"
+        }
+      ]
+    },
+    {
+      "a": "达格列净",
+      "b": "激活AMPK/SIRT1并抑制mTOR，减少衰老相关分泌表型并促进衰老细胞凋亡",
+      "c": "降低肺内衰老细胞负荷和纤维化沉积",
+      "statement": "达格列净通过能量感应通路清除衰老细胞并减轻其促纤维化分泌活动。",
+      "rationale": "SGLT2抑制剂延缓多器官衰老并激活AMPK，IPF中衰老细胞驱动纤维化，达格列净可能产生senolytic样效果。",
+      "self_novelty": "moderate",
+      "elo": 1293.782308372061,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "SGLT2i诱导衰老清除，新近证据有力"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "衰老细胞清除机制新颖，IPF临床证据不足。"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "SGLT2i抗衰老证据兴起，直接清衰待验证。"
+        }
+      ]
+    },
+    {
+      "a": "阿苯达唑",
+      "b": "抑制微管聚合导致HIF-1α降解，下调VEGF和成纤维细胞活化标志物",
+      "c": "减少肺纤维化区域血管密度和胶原沉积",
+      "statement": "阿苯达唑通过破坏微管介导的HIF-1α信号抑制异常血管新生和纤维化。",
+      "rationale": "IPF成纤维细胞HIF-1α和VEGF升高促进血管新生与纤维化，阿苯达唑的微管和HIF-1α双重抑制为未探索机制。",
+      "self_novelty": "completely_novel",
+      "elo": 1282.1009603697125,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "微管-HIF-1α抗血管新生罕见，证据偏少"
+        },
+        {
+          "index": 6,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "微管-HIF-1α轴在IPF中证据有限。"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "微管降解HIF-1α新颖，全身微管毒性存忧。"
+        }
+      ]
+    },
+    {
+      "a": "特立帕肽",
+      "b": "激活PTHR1/cAMP轴，抑制TGF-β/Smad2/3核转位",
+      "c": "缓解博来霉素小鼠肺纤维化和改善顺应性",
+      "statement": "特立帕肽通过甲状旁腺激素受体-1信号拮抗TGF-β通路减轻肺纤维化。",
+      "rationale": "PTHrP及cAMP在肾脏纤维化中抑制Smad依赖性转录，特立帕肽可能模拟此作用并抑制成纤维细胞活化。",
+      "self_novelty": "completely_novel",
+      "elo": 1268.0606342834901,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PTHR1/cAMP拮抗TGF-β有创新，动物数据支持"
+        },
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PTHR1/cAMP抗纤维化有支持，长期安全性存疑。"
+        },
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "PTH信号拮抗TGF-β独特，骨肉瘤风险需衡。"
+        }
+      ]
+    },
+    {
+      "a": "非布司他",
+      "b": "抑制黄嘌呤氧化酶降低ROS产生，阻断TGF-β1/Smad2/3信号传导",
+      "c": "减少肺肌成纤维细胞活化和胶原沉积",
+      "statement": "非布司他通过减少氧化应激依赖性TGF-β信号抑制成纤维细胞活化。",
+      "rationale": "IPF中存在异常氧化还原状态，XOD是活性氧主要来源，非布司他可能通过降尿酸和直接抗氧化作用抑制纤维化。",
+      "self_novelty": "moderate",
+      "elo": 1255.135364592191,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "黄嘌呤氧化酶靶点合理，抗氧化抗纤维化已有证据"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "氧化应激与TGF-β关联明确，但IPF临床证据不足。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "降低尿酸间接抗纤维化，证据偏间接。"
+        }
+      ]
+    },
+    {
+      "a": "替格瑞洛",
+      "b": "拮抗P2Y12受体并抑制腺苷再摄取，阻断血小板-成纤维细胞串扰和TGF-β活化",
+      "c": "减轻实验性肺纤维化",
+      "statement": "替格瑞洛通过双重腺苷/P2Y12调控机制抑制血小板驱动的纤维化过程。",
+      "rationale": "P2Y12信号促进血小板释放促纤维化介质，替格瑞洛增加胞外腺苷可激活A2A受体产生额外抗纤维化效应，构成协同机制。",
+      "self_novelty": "moderate",
+      "elo": 1254.3732377734295,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双重腺苷/P2Y12调节合理，动物结果积极"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "腺苷再摄取抑制可能反而促纤维化。"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "腺苷/P2Y12双重阻断串扰，出血风险需评。"
+        }
+      ]
+    },
+    {
+      "a": "氟西汀",
+      "b": "抑制5-HT转运体降低局部5-HT可用性，减少5-HT2B受体介导的成纤维细胞增殖",
+      "c": "降低肺纤维化评分和胶原含量",
+      "statement": "氟西汀通过限制5-羟色胺信号减弱肺成纤维细胞有丝分裂和基质合成。",
+      "rationale": "5-HT通过5-HT2B受体强效促进成纤维细胞增殖，SSRI可能减少肺内可利用的5-HT，提供间接抗纤维化效应。",
+      "self_novelty": "moderate",
+      "elo": 1237.0003217871674,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "SSRI增加胞外5-HT，或促纤维化，机制存疑"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "5-HT2B促纤维化有证据，临床转化需谨慎。"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "5-HT调控机制合理，但肺纤维化获益待证。"
+        }
+      ]
+    },
+    {
+      "a": "氯氮平",
+      "b": "拮抗5-HT2A和多巴胺D4受体同时诱导自噬体形成，抑制肌成纤维细胞分化",
+      "c": "减轻TGF-β驱动的小鼠肺纤维化",
+      "statement": "氯氮平通过多受体靶点与自噬诱导协同抑制肌成纤维细胞转化。",
+      "rationale": "氯氮平上调自噬标记物并对抗炎症，IPF中自噬缺陷加剧纤维化，其未被探索的肺保护潜力值得验证。",
+      "self_novelty": "completely_novel",
+      "elo": 1225.4984497598139,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "多靶点加自噬诱导新颖，但IPF证据薄弱"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "多靶点机制新颖但体内证据薄弱。"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "全新靶点组合，但粒细胞缺乏风险极高。"
+        }
+      ]
+    },
+    {
+      "a": "去铁胺",
+      "b": "螯合游离铁抑制脂质过氧化和肺泡上皮细胞铁死亡",
+      "c": "保护II型肺泡上皮细胞，减轻肺纤维化",
+      "statement": "去铁胺通过阻止铁死亡保护肺泡上皮细胞免于损伤和纤维化反应。",
+      "rationale": "IPF患者肺泡上皮铁蓄积并发生铁死亡，铁螯合剂可阻断上皮丢失这一纤维化触发因素。",
+      "self_novelty": "known",
+      "elo": 1209.3869775907262,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁死亡保护上皮细胞合理，多模型支持"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁螯合保护上皮细胞有证据，需平衡铁死亡。"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "铁死亡保护上皮已知，需优化递送。"
+        }
+      ]
+    },
+    {
+      "a": "褪黑素",
+      "b": "SIRT3激活与线粒体保护",
+      "c": "特发性肺纤维化",
+      "statement": "褪黑素通过激活SIRT3抑制线粒体氧化应激，逆转肺泡上皮细胞衰老并阻止成纤维细胞活化。",
+      "rationale": "IPF中肺泡上皮细胞衰老和线粒体功能障碍驱动纤维化，褪黑素作为已上市的昼夜节律调节药物，可通过SIRT3-线粒体自噬轴恢复上皮细胞稳态。",
+      "self_novelty": "针对衰老的上皮细胞进行逆转而非清除，与达格列净清除衰老细胞机制互补；首次提出褪黑素-SIRT3-线粒体轴在IPF中的药物重定位。",
+      "elo": 1205.0,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "褪黑素线粒体保护稳妥，但疗效可能温和。"
+        }
+      ]
+    },
+    {
+      "a": "辛伐他汀",
+      "b": "同时诱导肌成纤维细胞铁死亡并抑制异常血管新生",
+      "c": "减轻特发性肺纤维化",
+      "statement": "辛伐他汀通过耗竭甲羟戊酸途径产物，既驱动肌成纤维细胞发生铁死亡，又降解HIF-1α蛋白，双通路改善肺纤维化。",
+      "rationale": "辛伐他汀阻碍GGPP合成，致使GPX4脂质修复功能受损并诱发铁死亡，同时阻断HIF-1α的香叶基化修饰促使其蛋白酶体降解，从而减少VEGF驱动的微血管增生和胶原沉积。",
+      "self_novelty": "巧妙融合了青蒿琥酯的铁死亡机制与阿苯达唑的HIF-1α抑制策略，提出他汀类药物针对IPF的‘铁死亡-抗血管生成’协同新机制。",
+      "elo": 1199.7135332119599,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "他汀多效性有基础，铁死亡机制需验证。"
+        },
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "他汀促铁死亡双通路强，再用途有吸引力。"
+        }
+      ]
+    },
+    {
+      "a": "伊维菌素",
+      "b": "抑制肌成纤维细胞活化和自噬通量",
+      "c": "缓解特发性肺纤维化",
+      "statement": "伊维菌素通过阻断PAK1/AKT信号诱导自噬缺陷的肌成纤维细胞凋亡，从而缓解肺纤维化。",
+      "rationale": "伊维菌素作为大环内酯类抗寄生虫药，能够抑制PAK1激酶进而削弱AKT/mTOR信号，使活化肌成纤维细胞因自噬保护丧失而发生凋亡。",
+      "self_novelty": "首次将伊维菌素的PAK1抑制活性与IPF中肌成纤维细胞的自噬生存依赖相链接，提出非传统抗寄生虫药的抗纤维化新用途。",
+      "elo": 1187.8357811233202,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "PAK1/自噬在IPF中不明确，证据极缺。"
+        },
+        {
+          "index": 15,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "伊维菌素靶向PAK1/自噬新，但数据很有限。"
+        }
+      ]
+    },
+    {
+      "a": "孟鲁司特",
+      "b": "阻断CysLT1受体抑制肥大细胞活化和成纤维细胞趋化",
+      "c": "降低IPF中的炎症浸润和胶原沉积",
+      "statement": "孟鲁司特阻断半胱氨酰白三烯信号打破肥大细胞与成纤维细胞的促纤维化串扰。",
+      "rationale": "白三烯在IPF肺内升高，CysLT1受体在成纤维细胞表达，孟鲁司特可能减轻肥大细胞脱颗粒和TGF-β释放。",
+      "self_novelty": "moderate",
+      "elo": 1186.152751349754,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "CysLT1拮抗已有研究，肥大细胞串扰非独特"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "CysLT1拮抗抗纤维化有文献，IPF未证实。"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "CysLT1阻断抗炎，对成纤维直接影响稍弱。"
+        }
+      ]
+    },
+    {
+      "a": "阿司匹林",
+      "b": "乙酰化环氧合酶-1抑制血小板活化，减少PDGF和TGF-β从血小板释放",
+      "c": "减弱博来霉素诱导的肺纤维化进展",
+      "statement": "阿司匹林通过抗血小板作用减少促纤维化生长因子释放而缓解IPF。",
+      "rationale": "活化血小板在IPF中富集并分泌大量TGF-β和PDGF，低剂量阿司匹林靶向血小板可截断纤维化放大环路。",
+      "self_novelty": "known",
+      "elo": 1179.187121713272,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 2,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "抗血小板研究多，但抑制PGE2可能加重纤维化"
+        },
+        {
+          "index": 8,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "抗血小板策略已有研究，机制不新。"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "抗血小板策略合理，但临床获益证据初步。"
+        }
+      ]
+    },
+    {
+      "a": "去铁酮",
+      "b": "铁螯合与铁死亡抑制",
+      "c": "特发性肺纤维化",
+      "statement": "去铁酮通过螯合不稳定铁，抑制肺泡上皮细胞铁死亡和促纤维化信号释放。",
+      "rationale": "IPF患者肺组织铁负载增加诱发上皮细胞铁死亡，促进纤维化；去铁酮作为口服铁螯合剂，可降低铁池并阻断此致病链条。",
+      "self_novelty": "与青蒿琥酯利用铁死亡杀伤肌成纤维细胞的策略相反，从保护上皮细胞铁死亡的角度提出重定位，开辟IPF中铁稳态调控新方向。",
+      "elo": 1172.2351697743811,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "口服铁螯合剂优势，但粒细胞缺乏风险者慎。"
+        }
+      ]
+    },
+    {
+      "a": "非诺贝特",
+      "b": "激活PPARα上调脂联素并抑制TGF-β/Smad3通路",
+      "c": "减轻小鼠肺纤维化并抑制上皮间质转化",
+      "statement": "非诺贝特通过PPARα-脂联素轴拮抗TGF-β信号和上皮间质转化。",
+      "rationale": "PPARα在肝纤维化中抗纤维化，脂联素可阻断TGF-β1效应，非诺贝特作为PPARα激动剂可能实现肺内抗纤维化。",
+      "self_novelty": "moderate",
+      "elo": 1166.7648220976184,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PPARα-脂联素轴文献较多，机制明确可行"
+        },
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PPARα抗纤维化机制明确，临床转化待验证。"
+        },
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "PPARα-脂联素轴明确，临床转化证据不足。"
+        }
+      ]
+    },
+    {
+      "a": "利培酮",
+      "b": "拮抗多巴胺D2和5-HT2A受体，下调P物质/NK1R神经源性炎症",
+      "c": "减轻神经源性炎症驱动的肺成纤维细胞增殖和纤维化",
+      "statement": "利培酮通过抑制神经递质受体减少P物质介导的肺纤维化加剧。",
+      "rationale": "肺内神经末梢释放P物质放大纤维化，非典型抗精神病药能阻滞相关受体，神经免疫机制在IPF中极少被探索。",
+      "self_novelty": "completely_novel",
+      "elo": 1149.4767445700804,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "神经源性炎症IPF关联弱，D2/5-HT2A非直接靶"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "神经源性炎症靶点新颖，但临床证据缺。"
+        },
+        {
+          "index": 12,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "神经源性炎症靶向十分新颖，但证据极少。"
+        }
+      ]
+    },
+    {
+      "a": "吡格列酮",
+      "b": "激活PPARγ诱导肌成纤维细胞转分化为脂肪细胞样细胞并抑制TGF-β信号",
+      "c": "减少肺纤维化区域成纤维细胞积聚",
+      "statement": "吡格列酮通过代谢重编程将致病肌成纤维细胞转化为脂肪细胞样表型。",
+      "rationale": "PPARγ是脂肪生成主调控因子，其激动剂可在纤维化中促进成纤维-脂肪转化，逆转肌成纤维细胞活化状态。",
+      "self_novelty": "moderate",
+      "elo": 1138.9582206830019,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PPARγ介导成脂分化有报道，代谢重编程新颖"
+        },
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "转分化概念吸引力强，体内证据有限。"
+        },
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "转分化为脂肪细胞概念诱人，需长期安全性。"
+        }
+      ]
+    }
+  ]
+}

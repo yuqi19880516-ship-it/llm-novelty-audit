@@ -1,0 +1,152 @@
+[
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "已上市药物氟伏沙明（Fluvoxamine）",
+"B": "激活Sigma-1受体，抑制内质网应激IRE1α-XBP1通路，减少肺动脉内皮细胞凋亡和炎症小体NLRP3活化",
+"C": "缓解肺动脉高压血管重构和右心室收缩压",
+"statement": "氟伏沙明通过Sigma-1受体抑制内质网应激，减轻肺动脉内皮损伤，从而逆转肺动脉高压。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "已上市药物卡格列净（Canagliflozin）",
+"B": "抑制SGLT2非依赖的线粒体复合物I，激活AMPK-PGC1α轴，降低肺动脉平滑肌细胞增殖性代谢重编程",
+"C": "抑制肺动脉中膜增厚和右心室纤维化",
+"statement": "卡格列净非依赖降糖途径，通过抑制线粒体复合物I激活AMPK，纠正肺动脉平滑肌代谢异常，改善肺血管重构。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "已上市药物阿瑞匹坦（Aprepitant）",
+"B": "拮抗NK-1受体，阻断P物质介导的肺动脉内皮-间质转化和血管周围神经源性炎症",
+"C": "减轻丛状病变形成和肺血管阻力",
+"statement": "阿瑞匹坦通过阻断NK-1受体，抑制P物质驱动的内皮间质转化，延缓丛状病变进展。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "已上市药物特立氟胺（Teriflunomide）",
+"B": "抑制二氢乳清酸脱氢酶，耗竭嘧啶核苷酸，选择性阻断活化的CD4+ T细胞扩增，减少肺动脉周围三级淋巴结构形成",
+"C": "抑制肺动脉高压中自身免疫性血管炎症",
+"statement": "特立氟胺通过抑制嘧啶从头合成，遏制致病性T细胞驱动的肺血管周围三级淋巴结构生成，改善PAH。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "已上市药物吡非尼酮（Pirfenidone）",
+"B": "抑制TGF-β1/Smad3和HIF-1α串扰，阻断肺动脉外膜成纤维细胞活化及细胞外基质交联酶LOX表达",
+"C": "减轻肺动脉外膜纤维化和血管僵硬度",
+"statement": "吡非尼酮通过抑制TGF-β和低氧信号协同，阻断肺动脉外膜成纤维细胞活化，降低血管硬度。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "已上市药物米非司酮（Mifepristone）",
+"B": "拮抗糖皮质激素受体和孕激素受体，上调BMPR2信号通路关键调节因子FKBP12去抑制，恢复肺动脉内皮细胞凋亡抵抗",
+"C": "逆转遗传性肺动脉高压血管闭塞",
+"statement": "米非司酮通过解除糖皮质激素受体对BMPR2通路的抑制，恢复内皮细胞凋亡敏感性，治疗PAH。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "已上市药物艾曲泊帕（Eltrombopag）",
+"B": "非血小板生成素受体激动途径，通过铁螯合和抑制线粒体通透性转换孔，减少肺动脉平滑肌细胞铁死亡和坏死性凋亡",
+"C": "减轻野百合碱诱导的肺动脉高压和右心衰",
+"statement": "艾曲泊帕通过铁螯合和mPTP抑制，阻断肺动脉平滑肌铁死亡，缓解实验性肺动脉高压。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "已上市药物丁苯酞（dl-3-n-Butylphthalide）",
+"B": "激活Nrf2/ARE通路并抑制线粒体分裂蛋白Drp1，改善肺动脉内皮细胞线粒体动力学和氧化应激",
+"C": "预防低氧性肺动脉高压的发生",
+"statement": "丁苯酞通过Nrf2激活和Drp1抑制，恢复线粒体融合-分裂平衡，防止低氧诱导的PAH。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "已上市药物维拉帕米（Verapamil）",
+"B": "阻断Cav1.2通道非依赖的T型钙通道CaV3.1，抑制肺动脉平滑肌细胞钙库操纵性钙内流和增殖信号",
+"C": "逆转已建立的肺动脉高压血管重构",
+"statement": "维拉帕米通过抑制T型钙通道和钙库操纵性钙内流，减弱肺动脉平滑肌的增殖信号，治疗PAH。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "已上市药物利格列汀（Linagliptin）",
+"B": "DPP-4抑制增加基质细胞衍生因子-1α，招募循环内皮祖细胞归巢至肺微血管，并抑制内皮间质转化",
+"C": "促进肺微血管再生和降低肺血管阻力",
+"statement": "利格列汀通过DPP-4抑制提高SDF-1α，动员内皮祖细胞修复肺血管，逆转PAH微血管稀疏。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "已上市药物塞来昔布（Celecoxib）",
+"B": "COX-2非依赖性降解COX-2产物PGI2合成酶，上调PGI2/IP受体-cAMP轴，并抑制STAT3二聚化",
+"C": "扩张肺动脉并抑制平滑肌增殖",
+"statement": "塞来昔布通过非COX-2抑制途径稳定PGI2合成酶，提升前列环素水平，产生肺血管舒张和抗增殖作用。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "已上市药物芬戈莫德（Fingolimod）",
+"B": "鞘氨醇-1-磷酸受体-1功能拮抗导致受体降解，阻断S1P诱导的肺动脉平滑肌细胞迁移和内皮屏障破坏",
+"C": "减少肺动脉肌化和血管渗漏",
+"statement": "芬戈莫德通过功能性拮抗S1PR1，阻断S1P驱动的平滑肌迁移和内皮渗透，改善PAH血管重塑。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "已上市药物拉帕替尼（Lapatinib）",
+"B": "抑制EGFR/ErbB2异二聚化，阻断NRG-1介导的肺动脉平滑肌细胞蛋白合成和肥大信号",
+"C": "减轻肺动脉高压中的向心性血管肥大",
+"statement": "拉帕替尼通过抑制ErbB2反式激活，阻断神经调节蛋白诱导的平滑肌肥大，缓解PAH血管壁增厚。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "已上市药物托法替布（Tofacitinib）",
+"B": "抑制JAK1/3，减少IL-6/STAT3信号驱动的Th17分化，并下调肺动脉平滑肌细胞中促纤维化IL-17反应",
+"C": "缓解炎症性肺动脉高压和右心室纤维化",
+"statement": "托法替布通过阻断JAK-STAT通路，抑制IL-6和IL-17轴，减轻炎症驱动的肺血管和右心纤维化。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "已上市药物氯喹（Chloroquine）",
+"B": "抑制溶酶体酸化阻断自噬流，同时激活TRPV4通道导致肺动脉内皮细胞钙内流选择性扩血管",
+"C": "急性降低肺血管阻力和改善右心室功能",
+"statement": "氯喹通过双重机制即抑制自噬和激活TRPV4介导的内皮依赖性舒张，快速降低肺动脉压力。",
+"self_novelty": "completely_novel"
+}
+]

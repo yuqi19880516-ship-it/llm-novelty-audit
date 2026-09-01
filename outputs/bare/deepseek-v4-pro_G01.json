@@ -1,0 +1,152 @@
+[
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "Disulfiram",
+"B": "Chelation of copper by disulfiram metabolite diethyldithiocarbamate suppresses NPL4-UFD1-VCP-mediated protein degradation, leading to unresolved ER stress in AML stem cells.",
+"C": "Selective apoptosis of CD34+CD38- AML stem cells while sparing normal hematopoietic stem cells.",
+"statement": "Disulfiram, an anti-alcoholism drug, eradicates quiescent AML stem cells via copper-dependent NPL4 inhibition without myelotoxicity.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "Auranofin",
+"B": "Inhibition of thioredoxin reductase (TXNRD1) causes lethal accumulation of reactive oxygen species specifically in AML cells with hyperactive oxidative phosphorylation.",
+"C": "Collapse of mitochondrial membrane potential and ferroptotic death in AML blasts, including venetoclax-resistant MCL1-dependent clones.",
+"statement": "Auranofin, an oral anti-rheumatic gold compound, sensitizes high-ROS AML cells to ferroptosis by disabling the thioredoxin antioxidant barrier.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "Prochlorperazine",
+"B": "Dopamine receptor D2 (DRD2) antagonism on AML cells disrupts STAT5 phosphorylation and downstream c-Myc translation via a non-canonical dopamine-cAMP-PKA pathway.",
+"C": "Impaired self-renewal of leukemic stem cells and reduced bone marrow engraftment in NPM1-mutated AML.",
+"statement": "Prochlorperazine, a DRD2 antagonist approved for vertigo, blocks STAT5-driven stemness programs in NPM1c+ AML through a dopamine receptor-mediated mechanism.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "Pirfenidone",
+"B": "Inhibition of TGF-β1-mediated SMAD2/3 phosphorylation in bone marrow mesenchymal stromal cells reverses leukemic niche-mediated quiescence of AML stem cells.",
+"C": "Cell-cycle re-entry of dormant AML stem cells, sensitizing them to cytarabine and reducing minimal residual disease.",
+"statement": "Pirfenidone, an antifibrotic agent, overcomes stroma-induced chemoresistance by normalizing TGF-β signaling in the AML niche, forcing leukemic stem cells out of dormancy.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "Itraconazole",
+"B": "Inhibition of Hedgehog pathway activator Smoothened (SMO) and concurrent suppression of mitochondrial cholesterol trafficking via NPC1 blockade in AML cells results in dual GLI1 depletion and oxysterol-mediated LXR activation.",
+"C": "Terminal myeloid differentiation and apoptosis of FLT3-ITD AML blasts, independent of FLT3 mutation status.",
+"statement": "Itraconazole, a triazole antifungal, differentiates AML blasts by simultaneously blocking SMO and NPC1, synergistically depleting GLI1 and activating LXR-mediated pro-differentiation transcripts.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "Mebendazole",
+"B": "Tubulin depolymerization at low concentrations selectively reduces cell-surface integrin α5β1 trafficking in AML cells, blocking fibronectin-mediated adhesion and VLA-4-dependent homing.",
+"C": "Prevention of leukemic cell engraftment in the bone marrow niche and mobilization of AML blasts into peripheral blood.",
+"statement": "Mebendazole, an anthelmintic, reduces AML bone marrow retention by disrupting integrin α5β1 surface expression through microtubule-dependent vesicular transport inhibition.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "Clofazimine",
+"B": "Lysosomal accumulation of clofazimine in AML cells triggers lysosomal membrane permeabilization and release of cathepsin B, activating the NLRP3 inflammasome and pyroptosis specifically in monocytes/macrophage-like AML.",
+"C": "Pyroptotic clearance of AML blasts and modulation of immune microenvironment via IL-1β release and dendritic cell maturation.",
+"statement": "Clofazimine, an antileprosy drug, induces immunogenic pyroptosis in monocytic AML subtypes through lysosomal destabilization and inflammasome activation.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "Terbinafine",
+"B": "Squalene epoxidase inhibition by terbinafine causes squalene accumulation, leading to a specific disruption of lipid raft architecture and impaired internalization of FLT3 receptor in AML cells.",
+"C": "Sustained FLT3 surface expression leading to enhanced degradation-independent downregulation of FLT3 signaling and selective apoptosis in FLT3-ITD AML.",
+"statement": "Terbinafine, an antifungal, suppresses FLT3-ITD signaling via altering lipid raft composition, locking FLT3 on the plasma membrane in a signaling-inactive conformation.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "Sulfasalazine",
+"B": "Inhibition of xCT (SLC7A11) by sulfasalazine blocks cystine import, depleting glutathione specifically in AML cells with mutant IDH1/2, which already exhibit NADPH depletion from 2-hydroxyglutarate production.",
+"C": "Massive lipid peroxidation and ferroptosis in IDH-mutant AML cells under normoxic conditions.",
+"statement": "Sulfasalazine, an anti-inflammatory, induces synthetic lethality with IDH mutations in AML by exacerbating glutathione depletion and ferroptosis.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "Tolcapone",
+"B": "Catechol-O-methyltransferase (COMT) inhibition by tolcapone increases the concentration of endogenous catechol metabolites that directly alkylate and inactivate mutant LDHA in AML cells reliant on aerobic glycolysis.",
+"C": "Metabolic collapse from NAD+ regeneration failure and ATP depletion, selectively killing AML cells with high glycolytic flux.",
+"statement": "Tolcapone, a COMT inhibitor for Parkinson's, disrupts glycolysis in AML via toxic catechol accumulation that inactivates mutant LDHA.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "Leflunomide",
+"B": "Dihydroorotate dehydrogenase (DHODH) inhibition by leflunomide’s active metabolite teriflunomide blocks de novo pyrimidine synthesis, reducing the intracellular UTP pool and consequently inhibiting P2Y purinergic receptor-driven calcium oscillations in AML blasts.",
+"C": "Reversal of P2Y-linked chemoresistance and induction of differentiation in NPM1-mutant AML under low-cytosine conditions.",
+"statement": "Leflunomide, an immunosuppressive, overrides differentiation block in NPM1-mutant AML by reducing pyrimidine-driven P2Y receptor signaling.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "Prazosin",
+"B": "Alpha-1 adrenergic receptor blockade on AML blasts paradoxically activates the STING pathway via mitochondrial DNA release due to disruption of mitochondrial quality control mediated by α1-AR-AMPK axis.",
+"C": "Induction of type I interferon response and immunogenic cell death, promoting CD8+ T cell-mediated clearance of AML.",
+"statement": "Prazosin, an antihypertensive, turns AML cells immunologically hot by triggering STING-dependent interferon production through mitochondrial stress caused by α1-AR inhibition.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "Escitalopram",
+"B": "Selective serotonin reuptake inhibition by escitalopram increases extracellular serotonin in bone marrow, activating 5-HT2B receptor on AML cells, which triggers PLCβ-Ca2+-NFAT-mediated expression of pro-apoptotic factor BIM.",
+"C": "Selective apoptosis of AML blasts overexpressing 5-HT2B receptor, particularly in MLL-rearranged infant AML.",
+"statement": "Escitalopram, an SSRI antidepressant, drives BIM-dependent apoptosis in AML via boosting serotonin-mediated 5-HT2B receptor signaling.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "Candesartan",
+"B": "Angiotensin II type 1 receptor (AT1R) blockade by candesartan abrogates angiotensin II-induced secretion of IL-6 and CCL2 from AML-associated bone marrow adipocytes, interrupting paracrine support for AML stem cell quiescence.",
+"C": "Loss of niche protection, leading to depletion of CD36+ AML stem cells co-localized with adipocytes.",
+"statement": "Candesartan, an ARB antihypertensive, eradicates CD36+ AML stem cells by breaking AT1R-mediated crosstalk with bone marrow adipocytes.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "Verapamil",
+"B": "L-type calcium channel blockade by verapamil at sub-cardiotropic doses specifically inhibits the calcium-dependent protease calpain-2 in FLT3-ITD AML, preventing cleavage of the pro-apoptotic protein BID into mtBID.",
+"C": "Accumulation of full-length BID with unexpected pro-apoptotic gain-of-function, sensitizing AML cells to TRAIL-induced apoptosis.",
+"statement": "Verapamil, a calcium channel blocker, sensitizes FLT3-ITD AML to TRAIL by blocking calpain-mediated BID cleavage, paradoxically promoting the activity of full-length BID.",
+"self_novelty": "completely_novel"
+}
+]

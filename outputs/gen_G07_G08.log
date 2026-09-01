@@ -1,0 +1,45 @@
+  ✗ deepseek-v4-pro G07 失败: _CallTimeout: hard deadline exceeded
+Traceback (most recent call last):
+  File "/Users/xinchuanxueyuan/Documents/ckan/run_full_generation.py", line 48, in main
+    res = sysm.run(goal_prompt(g))
+  File "/Users/xinchuanxueyuan/Documents/ckan/audit_pipeline/coscientist/system.py", line 221, in run
+    hyps = self.generate(goal, self.n_initial)
+  File "/Users/xinchuanxueyuan/Documents/ckan/audit_pipeline/coscientist/system.py", line 101, in generate
+    data = _as_list(_extract_json(self.llm.complete(prompt, max_tokens=8000)))
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/xinchuanxueyuan/Documents/ckan/audit_pipeline/llm.py", line 110, in complete
+    raise last
+  File "/Users/xinchuanxueyuan/Documents/ckan/audit_pipeline/llm.py", line 98, in complete
+    data = json.loads(r.read().decode())
+                      ~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ~~~~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 544, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/xinchuanxueyuan/Documents/ckan/audit_pipeline/llm.py", line 77, in _on_alarm
+    raise _CallTimeout("hard deadline exceeded")
+audit_pipeline.llm.OpenAICompatibleClient.complete.<locals>._CallTimeout: hard deadline exceeded
+  跳过 deepseek-v4-pro G08（已存在）
+[deepseek-v4-pro] 本次新跑 0 目标  calls=0  in=0 out=0  ≈ $0.00
+
+  ✓ qwen3.7-max G07 Idiopathic pulmonary fibrosis: 19 条  (累计 calls=43, in=11277, out=67857)
+  ✓ qwen3.7-max G08 Non-alcoholic steatohepatitis: 19 条  (累计 calls=86, in=22929, out=140821)
+[qwen3.7-max] 本次新跑 2 目标  calls=86  in=22929 out=140821  ≈ $0.36
+
+=== 本次新增成本 ≈ $0.36 ===
+=== outputs/generation: 20/24 格已完成，假设总数 = 363 ===

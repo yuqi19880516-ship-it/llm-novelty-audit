@@ -1,0 +1,14 @@
+样本 321 条，已审计 109 条，续跑剩余…
+
+  ✗ deepseek-v4-pro_G06_Raloxifene: RuntimeError
+  ✗ deepseek-v4-pro_G12_Tadalafil: RuntimeError
+  ✗ deepseek-v4-pro_G12_Dasatinib: RuntimeError
+  ✗ deepseek-v4-pro_G12_Ursodeoxycholic: RuntimeError
+  ✗ deepseek-v4-pro_G12_Miglustat: RuntimeError
+  ✗ deepseek-v4-pro_G11_Dipyridamole: RuntimeError
+  ✗ deepseek-v4-pro_G11_Deferiprone: RuntimeError
+  ✗ deepseek-v4-pro_G01_Trifluoperazine: RuntimeError
+  ✗ deepseek-v4-pro_G03_Mebendazole: RuntimeError
+  ✗ deepseek-v4-pro_G04_Tranilast: RuntimeError
+
+完成 → outputs/coded_sample.jsonl（累计已编码 283 条，本轮失败 10 条，可再跑补齐）

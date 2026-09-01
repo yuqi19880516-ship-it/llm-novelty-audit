@@ -1,0 +1,593 @@
+{
+  "goal_id": "G05",
+  "disease_en": "Alzheimer's disease",
+  "goal": "为阿尔茨海默病（Alzheimer's disease）寻找可重定位的已上市药物及其作用机制",
+  "overview": "老药新用为阿尔茨海默病(AD)提供多靶点策略。孟鲁司特(Elo1294)调控神经血管炎症改善脑微循环与认知；沙丁胺醇(Elo1276)经β2AR-BDNF轴增强突触可塑性；达格列净(Elo1271)促酮体生成供能并抑制NLRP3炎症小体减缓神经退变；氯沙坦(Elo1259)干预RAS系统降低tau缠结负荷；利拉鲁肽(Elo1246)借肠-脑轴改善脑葡萄糖代谢。这为AD治疗提供新方向。",
+  "hypotheses": [
+    {
+      "a": "孟鲁司特",
+      "b": "阻断白三烯受体抑制神经血管单元炎症反应",
+      "c": "改善AD脑血流灌注和认知功能",
+      "statement": "孟鲁司特通过神经血管炎症调控改善AD脑微循环。",
+      "rationale": "白三烯通路在AD血管病理中的作用机制具有探索价值。",
+      "self_novelty": "completely_novel",
+      "elo": 1293.7538853703268,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "视角新颖，神经血管靶向机制需进一步验证"
+        },
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向神经血管单元炎症视角新，需临床验证。"
+        },
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "神经血管单元靶点新颖，需更多验证。"
+        }
+      ]
+    },
+    {
+      "a": "沙丁胺醇",
+      "b": "激活β2肾上腺素受体促进脑源性神经营养因子释放",
+      "c": "增强AD模型动物突触可塑性和学习能力",
+      "statement": "沙丁胺醇通过β2AR-BDNF轴改善AD突触功能障碍。",
+      "rationale": "支气管扩张剂对中枢神经营养因子调控的跨界作用具有新颖性。",
+      "self_novelty": "completely_novel",
+      "elo": 1276.3605144003022,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制合理，外周心血管副作用限制中枢应用"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "中枢受体作用复杂且外周心血管副作用显著。"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "外周心血管副作用大，脑内靶向性差。"
+        }
+      ]
+    },
+    {
+      "a": "达格列净",
+      "b": "缓解AD神经退行性变和认知衰退",
+      "c": "酮体代谢重编程与NLRP3炎症小体",
+      "statement": "达格列净通过促进肝脏酮体生成为AD大脑提供替代能量底物并抑制小胶质细胞NLRP3炎症小体激活减缓神经退行性变。",
+      "rationale": "SGLT2抑制诱导的轻度酮症可绕过AD脑葡萄糖代谢障碍，同时β-羟基丁酸作为内源性HDAC抑制剂阻断NLRP3介导的神经炎症级联。",
+      "self_novelty": "首次将SGLT2抑制剂的酮体代谢重编程与表观遗传抗炎机制整合为AD双重干预策略，区别于AMPK/mTOR和肠-脑轴假说。",
+      "elo": 1271.2760023418589,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "代谢重编程与抗炎双管齐下，机制新颖自洽。"
+        },
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "酮体替代能量机制新颖，临床潜力大。"
+        }
+      ]
+    },
+    {
+      "a": "氯沙坦",
+      "b": "阻断AT1受体减少血管紧张素II诱导的tau蛋白磷酸化",
+      "c": "降低AD患者脑内神经纤维缠结负荷",
+      "statement": "氯沙坦通过RAS系统干预tau病理进程。",
+      "rationale": "高血压药物对AD特异性病理标志物的直接影响尚未明确。",
+      "self_novelty": "completely_novel",
+      "elo": 1258.9309932481042,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶点明确，但关联tau病理的直接证据不足"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "RAS系统与tau病理联系待深化。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶点明确，但穿透血脑屏障能力存疑。"
+        }
+      ]
+    },
+    {
+      "a": "利拉鲁肽",
+      "b": "激活GLP-1受体增强脑内胰岛素信号传导",
+      "c": "改善AD患者脑葡萄糖代谢和认知功能",
+      "statement": "利拉鲁肽通过肠-脑轴改善AD脑能量代谢障碍。",
+      "rationale": "GLP-1受体激动剂对AD脑代谢重编程的作用机制尚待验证。",
+      "self_novelty": "moderate",
+      "elo": 1246.2347964477578,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "研究热点，潜力大但需警惕外周副作用"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "当前研究热点，临床转化前景广阔且证据强。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "肠脑轴机制热门，临床转化前景较好。"
+        }
+      ]
+    },
+    {
+      "a": "二甲双胍",
+      "b": "激活AMPK通路抑制mTOR介导的神经炎症",
+      "c": "减缓阿尔茨海默病认知衰退",
+      "statement": "二甲双胍通过AMPK/mTOR轴调控小胶质细胞极化改善AD病理。",
+      "rationale": "代谢调节与神经炎症的交叉作用为老药新用提供新视角。",
+      "self_novelty": "moderate",
+      "elo": 1244.3275647102396,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制经典但缺乏创新，临床证据尚存争议"
+        },
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制经典但缺乏创新，临床证据已较充分。"
+        },
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制经典但缺乏创新，临床证据混杂。"
+        }
+      ]
+    },
+    {
+      "a": "螺内酯",
+      "b": "拮抗醛固酮受体减轻氧化应激诱导的线粒体功能障碍",
+      "c": "保护AD神经元免受凋亡",
+      "statement": "螺内酯通过盐皮质激素受体通路维持神经元线粒体稳态。",
+      "rationale": "醛固酮系统在中枢神经退行性变中的作用鲜有研究。",
+      "self_novelty": "completely_novel",
+      "elo": 1238.8787990410922,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "创新性好，但入脑能力及直接证据尚不足"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "药物血脑屏障穿透率低，中枢直接作用存疑。"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "脑内受体分布有限，脱靶效应风险高。"
+        }
+      ]
+    },
+    {
+      "a": "卡马西平",
+      "b": "稳定神经元膜电位抑制异常网络同步化放电",
+      "c": "改善AD相关癫痫样活动和认知波动",
+      "statement": "卡马西平通过抗癫痫机制改善AD神经网络功能紊乱。",
+      "rationale": "抗惊厥药对AD亚临床癫痫样活动的干预价值需验证。",
+      "self_novelty": "moderate",
+      "elo": 1226.448216243503,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "针对特定亚群有效，非核心病理修饰药物"
+        },
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "针对AD亚临床癫痫放电，临床证据正积累。"
+        },
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "针对特定亚群有效，需精准生物标志物。"
+        }
+      ]
+    },
+    {
+      "a": "西格列汀",
+      "b": "抑制DPP-4增强内源性GLP-1对神经发生的促进作用",
+      "c": "增加AD海马新生神经元数量",
+      "statement": "西格列汀通过DPP-4/GLP-1轴促进AD海马神经发生。",
+      "rationale": "DPP-4抑制剂对成体神经发生的调控机制在AD中尚未阐明。",
+      "self_novelty": "moderate",
+      "elo": 1224.1111400065429,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "口服便利，但内源性肠促胰素提升幅度有限"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，但内源性肠促胰素提升幅度受限。"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制与肠促胰素类似，口服依从性更好。"
+        }
+      ]
+    },
+    {
+      "a": "西地那非",
+      "b": "挽救AD突触可塑性损伤和认知功能",
+      "c": "NO-cGMP-PKG信号通路",
+      "statement": "西地那非通过激活NO-cGMP-PKG信号通路增强突触可塑性并抑制tau蛋白过度磷酸化改善AD认知功能。",
+      "rationale": "PDE5抑制可提升海马cGMP水平，既促进CREB依赖的突触长时程增强又通过GSK-3β失活减少tau病理沉积。",
+      "self_novelty": "将PDE5抑制剂的血管效应拓展至突触tau病理双重调控，区别于现有神经血管炎症假说。",
+      "elo": 1222.6252802022768,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "真实世界数据支持，但临床试验结果待确证。"
+        },
+        {
+          "index": 15,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "真实世界数据支持，需随机对照试验确证。"
+        }
+      ]
+    },
+    {
+      "a": "奥利司他",
+      "b": "抑制胃肠道脂肪酶调节肠-脑轴脂质信号",
+      "c": "改善AD脑内脂质代谢紊乱和神经炎症",
+      "statement": "奥利司他通过肠-脑脂质轴调控AD神经病理进程。",
+      "rationale": "减肥药对中枢脂质代谢的远端调控机制具有探索意义。",
+      "self_novelty": "completely_novel",
+      "elo": 1219.0050942600494,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "创新性强，肠脑轴调控链条长且直接证据弱"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "外周作用为主，肠脑轴调控链条长且证据弱。"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "机制链条过长，缺乏直接入脑证据。"
+        }
+      ]
+    },
+    {
+      "a": "Dimethyl fumarate",
+      "b": "Nrf2激活剂",
+      "c": "小胶质细胞极化调控",
+      "statement": "富马酸二甲酯通过Nrf2-HO-1轴驱动小胶质细胞M2极化以减轻AD神经炎症和突触损伤。",
+      "rationale": "富马酸二甲酯作为已批准的多发性硬化药物，通过共价修饰KEAP1释放Nrf2入核激活抗氧化基因网络，同时抑制NF-κB信号将小胶质细胞从促炎M1表型重编程为神经保护性M2表型。",
+      "self_novelty": "区别于孟鲁司特的神经血管炎症调控和沙丁胺醇的突触可塑性路径，本假设首次将Nrf2-小胶质细胞极化轴引入AD药物重定位，从固有免疫代谢重编程角度切入神经退行性病变。",
+      "elo": 1212.4759497516445,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "免疫调节作用强，需关注长期安全性。"
+        }
+      ]
+    },
+    {
+      "a": "Empagliflozin",
+      "b": "SGLT2抑制剂",
+      "c": "酮体代谢重编程",
+      "statement": "恩格列净通过诱导轻度酮症为AD神经元提供替代能量底物从而改善认知功能。",
+      "rationale": "恩格列净通过SGLT2抑制促进肝脏酮体生成，β-羟基丁酸经MCT1转运穿越血脑屏障替代葡萄糖供能并增强线粒体氧化应激抵抗。",
+      "self_novelty": "区别于利拉鲁肽的肠-脑轴葡萄糖代谢路径，本假设聚焦SGLT2抑制剂驱动的酮体替代能源机制，开辟AD能量代谢干预的新底物维度。",
+      "elo": 1210.0,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制与达格列净重叠，需头对头比较。"
+        }
+      ]
+    },
+    {
+      "a": "雷帕霉素",
+      "b": "增强自噬清除异常聚集的tau蛋白",
+      "c": "延缓AD神经退行性病变进程",
+      "statement": "雷帕霉素通过自噬-溶酶体途径促进tau蛋白降解。",
+      "rationale": "mTOR抑制剂对tau病理的特异性清除机制需进一步验证。",
+      "self_novelty": "known",
+      "elo": 1192.1689987388324,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "机制明确，免疫抑制副作用限制其临床转化"
+        },
+        {
+          "index": 7,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制明确但全身免疫抑制副作用限制其应用。"
+        },
+        {
+          "index": 7,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制明确，但免疫抑制副作用限制应用。"
+        }
+      ]
+    },
+    {
+      "a": "氨氯地平",
+      "b": "阻断L型钙通道减少钙超载诱导的神经元损伤",
+      "c": "保护AD易感脑区神经元存活",
+      "statement": "氨氯地平通过钙通道阻滞减轻AD神经元钙稳态失衡。",
+      "rationale": "长效钙拮抗剂对AD神经元钙信号异常的特异性保护作用值得研究。",
+      "self_novelty": "moderate",
+      "elo": 1186.4777509602304,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制经典，入脑能力弱且缺乏特异临床证据"
+        },
+        {
+          "index": 13,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "靶点经典但药物脑渗透性一般，缺乏新突破。"
+        },
+        {
+          "index": 13,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "靶点经典，但血脑屏障穿透能力较弱。"
+        }
+      ]
+    },
+    {
+      "a": "普瑞巴林",
+      "b": "调节电压门控钙通道减少兴奋性神经毒性",
+      "c": "保护AD海马神经元免受损伤",
+      "statement": "普瑞巴林通过钙通道调控减轻AD兴奋性毒性损伤。",
+      "rationale": "抗癫痫药物对AD神经元兴奋性失衡的干预机制值得研究。",
+      "self_novelty": "moderate",
+      "elo": 1178.3087744977781,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "侧重症状控制，缺乏疾病修饰与病理证据"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "仅能缓解兴奋性毒性症状，难逆转核心病理。"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "仅能对症缓解，缺乏疾病修饰证据。"
+        }
+      ]
+    },
+    {
+      "a": "非布司他",
+      "b": "抑制黄嘌呤氧化酶减少尿酸介导的神经炎症",
+      "c": "降低AD脑内氧化应激水平",
+      "statement": "非布司他通过嘌呤代谢通路减轻AD神经氧化损伤。",
+      "rationale": "降尿酸药物对AD氧化应激的特异性干预机制尚不明确。",
+      "self_novelty": "moderate",
+      "elo": 1133.9670164120073,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "尿酸具双重作用，过度降低或加重氧化应激"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "脑内尿酸具抗氧化性，过度降低恐加重损伤。"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "尿酸具神经保护作用，降尿酸或适得其反。"
+        }
+      ]
+    },
+    {
+      "a": "阿托伐他汀",
+      "b": "调节胆固醇代谢影响Aβ前体蛋白的γ-分泌酶切割",
+      "c": "减少AD脑内淀粉样斑块沉积",
+      "statement": "阿托伐他汀通过脂质筏微环境干预Aβ生成。",
+      "rationale": "他汀类药物对Aβ代谢的膜微区调控机制具有新颖性。",
+      "self_novelty": "moderate",
+      "elo": 1130.814573436112,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制合理但临床获益存疑，入脑能力较差"
+        },
+        {
+          "index": 3,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制合理但临床试验未证实认知改善获益。"
+        },
+        {
+          "index": 3,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制合理，但大型临床试验结果阴性。"
+        }
+      ]
+    },
+    {
+      "a": "塞来昔布",
+      "b": "抑制COX-2/PGE2通路调节突触可塑性相关基因表达",
+      "c": "逆转AD模型小鼠记忆障碍",
+      "statement": "塞来昔布通过神经炎症-突触功能轴发挥认知保护作用。",
+      "rationale": "非甾体抗炎药对突触可塑性的特异性调控机制值得探索。",
+      "self_novelty": "moderate",
+      "elo": 1128.8346499313413,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 2,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "临床转化失败率高，长期用药安全性存疑"
+        },
+        {
+          "index": 2,
+          "novelty": 2,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "临床转化失败率高，长期神经毒性风险未明。"
+        },
+        {
+          "index": 2,
+          "novelty": 2,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "神经炎症机制合理，但临床试验多失败。"
+        }
+      ]
+    }
+  ]
+}

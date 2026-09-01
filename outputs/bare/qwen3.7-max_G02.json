@@ -1,0 +1,152 @@
+[
+{
+"model": "qwen3.7-max",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Metformin",
+"B": "AMPK activation inhibiting mTOR signaling",
+"C": "Reduced glioblastoma stem cell proliferation",
+"statement": "Metformin reduces glioblastoma stem cell proliferation via AMPK-mediated mTOR inhibition.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Atorvastatin",
+"B": "Depletion of geranylgeranyl pyrophosphate impairing Rho GTPase signaling",
+"C": "Decreased GBM cell invasion",
+"statement": "Atorvastatin decreases GBM invasion by blocking Rho GTPase prenylation through mevalonate pathway inhibition.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Disulfiram",
+"B": "Copper-dependent ROS generation and proteasome inhibition",
+"C": "Induction of GBM ferroptosis",
+"statement": "Disulfiram combined with copper induces ferroptosis in GBM via ROS accumulation and proteasomal blockade.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Ivermectin",
+"B": "Inhibition of PAK1 kinase activity",
+"C": "Suppression of GBM angiogenesis",
+"statement": "Ivermectin suppresses GBM angiogenesis by targeting PAK1-mediated cytoskeletal remodeling in endothelial cells.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Niclosamide",
+"B": "Blockade of Wnt/β-catenin and STAT3 pathways",
+"C": "Reversal of GBM temozolomide resistance",
+"statement": "Niclosamide reverses temozolomide resistance in GBM by dual inhibition of Wnt/β-catenin and STAT3 signaling.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Artemisinin",
+"B": "Heme-mediated free radical generation",
+"C": "Selective GBM cell apoptosis",
+"statement": "Artemisinin induces selective apoptosis in GBM cells through heme-dependent free radical production.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Cannabidiol (CBD)",
+"B": "Activation of TRPV2 channels inducing autophagy",
+"C": "Inhibition of GBM cell viability",
+"statement": "Cannabidiol inhibits GBM viability by triggering TRPV2-mediated autophagic cell death.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Chloroquine",
+"B": "Lysosomal membrane permeabilization",
+"C": "Enhanced radiation sensitivity in GBM",
+"statement": "Chloroquine enhances GBM radiosensitivity by inducing lysosomal membrane permeabilization and subsequent cathepsin release.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Mebendazole",
+"B": "Microtubule depolymerization and Hedgehog pathway inhibition",
+"C": "Reduction of GBM tumor growth",
+"statement": "Mebendazole reduces GBM growth via dual microtubule disruption and Hedgehog signaling inhibition.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Valproic Acid",
+"B": "HDAC inhibition altering chromatin accessibility",
+"C": "Upregulation of death receptor 5 (DR5)",
+"statement": "Valproic acid sensitizes GBM to TRAIL-induced apoptosis by epigenetically upregulating DR5 expression.",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Sildenafil",
+"B": "PDE5 inhibition increasing intracellular cGMP",
+"C": "Improved blood-brain barrier penetration of chemotherapeutics",
+"statement": "Sildenafil improves BBB penetration of chemotherapeutics in GBM by modulating tight junctions via cGMP elevation.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Thioridazine",
+"B": "Dopamine receptor D2 antagonism targeting glioma stem cells",
+"C": "Differentiation of GBM stem cells",
+"statement": "Thioridazine forces differentiation of GBM stem cells by blocking dopamine receptor D2 signaling.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Auranofin",
+"B": "Thioredoxin reductase inhibition",
+"C": "Lethal oxidative stress in GBM",
+"statement": "Auranofin induces lethal oxidative stress in GBM by irreversibly inhibiting thioredoxin reductase.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Pimozide",
+"B": "STAT5 inhibition and lipid metabolism disruption",
+"C": "Sensitization of GBM to metabolic stress",
+"statement": "Pimozide sensitizes GBM to metabolic stress by inhibiting STAT5 and disrupting tumor lipid metabolism.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Penfluridol",
+"B": "Inhibition of T-type calcium channels",
+"C": "Suppression of GBM cell migration",
+"statement": "Penfluridol suppresses GBM migration by blocking T-type calcium channel-mediated calcium signaling.",
+"self_novelty": "completely_novel"
+}
+]

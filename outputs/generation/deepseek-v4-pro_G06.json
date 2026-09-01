@@ -1,0 +1,503 @@
+{
+  "goal_id": "G06",
+  "disease_en": "Pulmonary arterial hypertension",
+  "goal": "为肺动脉高压（Pulmonary arterial hypertension）寻找可重定位的已上市药物及其作用机制",
+  "overview": "Top hypotheses: 达格列净 (Dapagliflozin)→改善右心室-肺动脉耦联并延缓右心衰竭; 芬戈莫德 (Fingolimod)→降低肺动脉压力并逆转肺血管重构; 特立帕肽 (Teriparatide)→选择性消除新生内膜中的平滑肌细胞; 曲美他嗪 (Trimetazidine)→提高右心室机械效率并延迟失代偿; 氯硝柳胺 (Niclosamide)→缩小丛状病变体积",
+  "hypotheses": [
+    {
+      "a": "达格列净 (Dapagliflozin)",
+      "b": "抑制钠-葡萄糖共转运体 2 后激活 AMPK/PGC-1α 轴，纠正肺动脉内皮细胞线粒体分裂-融合失衡并减轻氧化应激",
+      "c": "改善右心室-肺动脉耦联并延缓右心衰竭",
+      "statement": "SGLT2 抑制剂达格列净可能通过改善内皮线粒体动力学来逆转肺动脉高压相关的代谢重编程。",
+      "rationale": "SGLT2 在肺动脉内皮异位表达且其抑制可激活 AMPK，已在心衰中获益，但 PAH 中内皮线粒体碎片化机制未被此通路干预过。",
+      "self_novelty": "completely_novel",
+      "elo": 1333.5188519822145,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "线粒体动力学机制契合已知代谢重编程。"
+        },
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "SGLT2i改善线粒体动力学已有心血管证据，PAH扩展合理。"
+        },
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "SGLT2i改善内皮线粒体动力学有理有据"
+        }
+      ]
+    },
+    {
+      "a": "芬戈莫德 (Fingolimod)",
+      "b": "激活 S1PR1 介导的内皮细胞一氧化氮合酶磷酸化，同时抑制 S1PR3 驱动的肺动脉平滑肌细胞 Rho 激酶过度活化",
+      "c": "降低肺动脉压力并逆转肺血管重构",
+      "statement": "鞘氨醇-1-磷酸受体调节剂芬戈莫德可通过差异调控 S1PR1/S1PR3 信号恢复肺血管舒张-收缩平衡，治疗肺动脉高压。",
+      "rationale": "PAH 患者肺内皮 S1PR1 下调而平滑肌 S1PR3 上调，芬戈莫德作为 S1PR 泛调节剂，已批准用于多发性硬化，具备重塑鞘氨醇信号的潜力。",
+      "self_novelty": "completely_novel",
+      "elo": 1273.4316365583518,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "功能性拮抗可能抵消S1PR1激动效应。"
+        },
+        {
+          "index": 0,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "S1PR1/S1PR3差异调控逻辑清晰，但缺乏体内选择性证据。"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "S1PR1/S1PR3双调机制合理但临床证据缺乏"
+        }
+      ]
+    },
+    {
+      "a": "特立帕肽 (Teriparatide)",
+      "b": "间歇性低剂量激活 PTH1R 后，cAMP/PKA 介导的 Notch3 胞内域降解加速，清除肺动脉平滑肌细胞中抗凋亡的 Notch3 信号",
+      "c": "选择性消除新生内膜中的平滑肌细胞",
+      "statement": "重组甲状旁腺激素特立帕肽可通过 Notch3 蛋白降解作用诱导致闭塞性平滑肌细胞凋亡。",
+      "rationale": "Notch3 过表达驱动 PAH 平滑肌细胞抵抗凋亡，PTH1R 活化可触发 Notch 降解，特立帕肽的间歇性给药模式适合慢性疾病，但从未与此关联。",
+      "self_novelty": "completely_novel",
+      "elo": 1265.7342784040557,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "Notch3降解假说新颖但全身副作用大。"
+        },
+        {
+          "index": 7,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "PTH1R/Notch3降解促进凋亡巧妙，但消除新生内膜选择性存疑。"
+        },
+        {
+          "index": 7,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "间歇PTH1R激活降解Notch3胞内域证据不足"
+        }
+      ]
+    },
+    {
+      "a": "曲美他嗪 (Trimetazidine)",
+      "b": "抑制长链 3-酮酰基辅酶 A 硫解酶，使右心室心肌细胞底物利用从脂肪酸氧化转向效率更高的葡萄糖氧化",
+      "c": "提高右心室机械效率并延迟失代偿",
+      "statement": "脂肪酸氧化抑制剂曲美他嗪可通过代谢重构直接增强右心室功能而不仅是降低后负荷。",
+      "rationale": "右心衰竭是 PAH 死因，代谢药物曲美他嗪用于心绞痛，其改善心肌效率的机制尚未在 PAH 相关右心衰竭中前瞻验证。",
+      "self_novelty": "moderate",
+      "elo": 1257.516079002638,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "代谢转向改善右室功能已有证据支持。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "代谢转向增强右室功能有坚实原理，但PAH中证据待加强。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "代谢底物转向葡萄糖氧化改善右心功能可靠"
+        }
+      ]
+    },
+    {
+      "a": "氯硝柳胺 (Niclosamide)",
+      "b": "解除 LKB1 蛋白乙酰化依赖的降解，恢复 AMPK 对 mTORC1 的抑制，阻断肺动脉平滑肌细胞自噬失调导致的过度增殖",
+      "c": "缩小丛状病变体积",
+      "statement": "抗蠕虫药氯硝柳胺可作为 AMPK 通路稳定剂抑制 PAH 血管闭塞性病变。",
+      "rationale": "氯硝柳胺是已知 mTOR 通路抑制剂，但通过调节 LKB1 乙酰化间接激活 AMPK 对抗 PAH 丛状病变的假设从未被提出。",
+      "self_novelty": "completely_novel",
+      "elo": 1250.1899468086162,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "LKB1乙酰化降解在PAH中需确证。"
+        },
+        {
+          "index": 5,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "LKB1乙酰化降解机制在PAH中验证不足，风险较高。"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "LKB1乙酰化-AMPK-mTOR轴新颖但体内验证欠缺"
+        }
+      ]
+    },
+    {
+      "a": "帕罗西汀 (Paroxetine)",
+      "b": "抑制肥大细胞类胰蛋白酶依赖性 PAR2 反式激活 EGFR，从而干扰肺动脉平滑肌细胞中 CD44-HA 介导的炎症性迁移",
+      "c": "减少中膜增厚和周围炎症浸润",
+      "statement": "SSRI 帕罗西汀可能通过非 5-HT 重摄取抑制的抗肥大细胞效应来限制血管重塑。",
+      "rationale": "PAH 患者肥大细胞积聚于重塑血管周围，帕罗西汀具有意外的 PAR2 信号干扰作用，可切割肥大细胞-平滑肌交互，此药在 PAH 中的这一机制完全未知。",
+      "self_novelty": "completely_novel",
+      "elo": 1240.0236199061071,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "5-HT增殖效应可能掩盖抗肥大细胞作用。"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "抗肥大细胞PAR2轴避开5-HT，但SSRI多种效应干扰。"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "肥大细胞PAR2/EGFR非经典通路连接尚不牢固"
+        }
+      ]
+    },
+    {
+      "a": "雷洛昔芬 (Raloxifene)",
+      "b": "选择性雌激素受体 β 激动介导的 caveolin-1 表达上调，抑制 TGF-β/Smad3 非经典通路",
+      "c": "减轻内皮间质转化和血管周围纤维化",
+      "statement": "雷洛昔芬可通过选择性激活雌激素受体 β 稳定内皮细胞小窝蛋白，阻碍促纤维化信号。",
+      "rationale": "女性 PAH 预后优于男性暗示雌激素受体亚型差异，选择性 ERβ 激动已被提出，但雷洛昔芬作为已上市 SERM 从未在 PAH 中测试抗 EndoMT 效应。",
+      "self_novelty": "completely_novel",
+      "elo": 1229.4936004715285,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "ERβ/caveolin-1抗纤维化证据需更多验证。"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "ERβ/caveolin-1/TGF-β非经典轴机制缜密，靶向EndMT创新。"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "ERβ上调caveolin-1抑制TGF-β通路设计精巧"
+        }
+      ]
+    },
+    {
+      "a": "罗格列酮 (Rosiglitazone)",
+      "b": "通过 PPARγ 激动抑制 HIF-2α 介导的肺动脉平滑肌细胞糖酵解开关，并恢复 apelin 分泌",
+      "c": "抑制增殖性、抗凋亡性肺血管重塑",
+      "statement": "PPARγ 激动剂罗格列酮可通过解除 HIF-2α 驱动的代谢异常发挥抗重塑作用。",
+      "rationale": "PAH 患者肺血管 PPARγ 缺失与 HIF-2α 激活共存，罗格列酮虽因心血管安全性退市，但低剂量精准校正代谢可能分离获益。",
+      "self_novelty": "moderate",
+      "elo": 1228.5846238030551,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "心衰风险可能抵消肺血管获益。"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PPARγ与HIF-2α交叉对话新颖，但罗格列酮安全性限制应用。"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PPARγ激动纠正代谢异常已有临床前支持"
+        }
+      ]
+    },
+    {
+      "a": "阿达木单抗 (Adalimumab)",
+      "b": "中和可溶性 TNF-α 后恢复 TNFR1/TNFR2 平衡，使内皮细胞 eNOS 脱耦联逆转并恢复 BMPR2 信号传导",
+      "c": "改善内皮功能并减缓遗传性 PAH 外显",
+      "statement": "抗 TNF-α 单抗阿达木单抗可能通过恢复 BMPR2 信号治疗遗传性 PAH。",
+      "rationale": "TNF-α 下调 BMPR2 是已知道路，但在已上市生物制剂中，仅阿达木单抗被证明可穿越内皮屏障到达肺血管，从未被作为预防高危 BMPR2 突变携带者的干预测试。",
+      "self_novelty": "moderate",
+      "elo": 1205.1445071991761,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "抗TNFα或可延缓BMPR2突变外显。"
+        },
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "TNF-α/BMPR2串扰存在，但遗传性PAH外显干预时机难控。"
+        },
+        {
+          "index": 9,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "抗TNF恢复BMPR2信号有文献基础但非全新"
+        }
+      ]
+    },
+    {
+      "a": "托伐普坦 (Tolvaptan)",
+      "b": "抑制集合管 V2 受体诱导水利尿后，间接降低血压素非依赖性激活的肺内皮 V1aR 介导的 Weibel-Palade 小体胞吐",
+      "c": "降低循环中 von Willebrand 因子和 P-选择素，抑制血小板-内皮粘附",
+      "statement": "加压素 V2 受体拮抗剂托伐普坦可能通过减少 V1a 受体配体可用性来减轻肺血管内皮的促凝血表型。",
+      "rationale": "血管加压素促凝作用由 V1a 介导，托伐普坦因水利尿增加清除，PAH 中内皮 V1aR 上调且 vWF 升高，但从未考虑这一间接抗凝血途径。",
+      "self_novelty": "completely_novel",
+      "elo": 1189.4206243198455,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "利尿反升高加压素，可能激活V1aR。"
+        },
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "V1aR交叉激活促进胞吐有据，但水利尿间接途径不确定。"
+        },
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "V2拮抗间接影响V1a促凝血机制太迂回"
+        }
+      ]
+    },
+    {
+      "a": "多潘立酮 (Domperidone)",
+      "b": "选择性阻断外周多巴胺 D2 受体后，解除对肾上腺髓质嗜铬颗粒释放的多巴胺的自身抑制，增加循环 β-羟化酶介导的去甲肾上腺素转换并选择性激活肺动脉 α1D-AR/c-Src 通路",
+      "c": "加重肺动脉收缩压升高，提供一种负向重定位提示（药物再定位中的警示性假设）",
+      "statement": "外周 D2 拮抗剂多潘立酮可能通过促进 α1D 介导的肺血管收缩而恶化 PAH，从而指导禁忌症重定位。",
+      "rationale": "多潘立酮不通过血脑屏障，但其促去甲肾上腺素释放效应可在肺血管床局部增强 α1D-AR 信号，该亚型在 PAH 中特异上调，此致病性药物相互作用从未被报道。",
+      "self_novelty": "completely_novel",
+      "elo": 1182.3362735794906,
+      "review_score": 4.333333333333333,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "外周D2拮抗致肺血管收缩警示合理。"
+        },
+        {
+          "index": 10,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "负向定位警示新颖，D2自身抑制解除假说需直接证据。"
+        },
+        {
+          "index": 10,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "D2阻断促α1D缩血管的负向警示假设坚实"
+        }
+      ]
+    },
+    {
+      "a": "米诺地尔 (Minoxidil)",
+      "b": "其活性代谢物米诺地尔硫酸盐打开 ATP 敏感钾通道 (KATP)，选择性舒张已因氧化应激而关闭的细动脉段，同时抑制 NLRP3 炎症小体组装",
+      "c": "优先降低闭锁的远端肺动脉阻力并抑制微血管内皮炎症",
+      "statement": "KATP 开放剂米诺地尔可能选择性靶向 PAH 中缺氧性微血管收缩和炎症复合体活化。",
+      "rationale": "PAH 患者远端肺动脉 KATP 下调，米诺地尔直接开放此通道并意外具有抗 NLRP3 作用，这两种药理学特性联合作用于肺循环从未被研究。",
+      "self_novelty": "completely_novel",
+      "elo": 1178.2277877569884,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "反射性交感激活和水肿易恶化右心衰。"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "KATP开放靶向远端细动脉合理，但NLRP3抑制作用剂量窗不明。"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "KATP开放靶向缺氧微血管及NLRP3具特色"
+        }
+      ]
+    },
+    {
+      "a": "塞利尼索 (Selinexor)",
+      "b": "抑制核输出蛋白 Exportin-1 (XPO1)，强制核内滞留并激活 FOXO1 转录活性，上调细胞周期抑制剂 p27Kip1",
+      "c": "阻断肺动脉平滑肌细胞增殖并促进凋亡",
+      "statement": "选择性核输出抑制剂塞利尼索可通过激活 FOXO1/p27 轴治疗 PAH 血管增殖。",
+      "rationale": "XPO1 在 PAH 重塑血管中过表达驱动促增殖因子出核，塞利尼索已批准用于多发性骨髓瘤，其在肺动脉高压中的应用仅被零星提及，但连接 FOXO1 的具体机制未验证。",
+      "self_novelty": "moderate",
+      "elo": 1174.9410600337249,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "XPO1抑制剂毒性限制非恶性PAH应用。"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "XPO1/FOXO1/p27轴在增殖性疾病中已验证，PAH扩展合理。"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 2,
+          "critique": "XPO1/FOXO1/p27轴可行但细胞毒性成瓶颈"
+        }
+      ]
+    },
+    {
+      "a": "阿格列汀 (Alogliptin)",
+      "b": "抑制 DPP-4 酶后稳定基质细胞衍生因子-1α (SDF-1α)，将循环促炎性单核细胞捕获于骨髓，阻止其向肺血管周围募集",
+      "c": "减轻炎性单核细胞浸润所致的血管周围炎症",
+      "statement": "DPP-4 抑制剂阿格列汀可通过稳定 SDF-1α 减轻肺血管炎症负荷。",
+      "rationale": "DPP-4 抑制已知增加 SDF-1α，但将其用于防止 PAH 中异常单核细胞募集的骨髓保留疗法，以及对血管周围免疫微环境的重塑效应未曾被提出。",
+      "self_novelty": "completely_novel",
+      "elo": 1152.3575908396951,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "SDF-1α稳定可捕获炎性单核细胞。"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "SDF-1α/CXCR4轴调控单核细胞归巢逻辑强，但骨髓滞留特异性待考。"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "SDF-1α稳定捕获单核细胞机制直接可信"
+        }
+      ]
+    },
+    {
+      "a": "利福平 (Rifampicin)",
+      "b": "通过激动孕烷 X 受体 (PXR) 转录上调 CYP3A4 依赖的 20-羟基二十碳四烯酸 (20-HETE) 灭活途径，同时诱导血管保护性 EET 生成",
+      "c": "降低肺血管阻力而无全身性低血压",
+      "statement": "利福平作为 PXR 激动剂可能通过调节内皮依赖的超极化因子和收缩性二十烷类平衡来治疗 PAH。",
+      "rationale": "PXR 激活改变花生四烯酸 CYP 通路生成的血管活性物质，利福平用于结核可意外降低肺动脉压力，但这一机制从未被系统探索为 PAH 治疗。",
+      "self_novelty": "completely_novel",
+      "elo": 1114.0795193345123,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "PXR激活多效性，肺血管特异性存疑。"
+        },
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PXR/20-HETE/EET平衡有创意，但利福平多效性干扰。"
+        },
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PXR调控20-HETE/EET平衡利福平多效性难控"
+        }
+      ]
+    }
+  ]
+}

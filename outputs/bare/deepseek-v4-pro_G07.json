@@ -1,0 +1,152 @@
+[
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Itraconazole",
+"B": "Inhibition of hedgehog (Hh) signaling via suppression of Smoothened (SMO) translocation and GLI1 transcriptional activity",
+"C": "Attenuation of fibroblast-to-myofibroblast transition and extracellular matrix deposition in IPF",
+"statement": "Itraconazole, an FDA-approved antifungal, could be repurposed for IPF by suppressing hedgehog pathway-driven fibroblast activation.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Disulfiram",
+"B": "Inhibition of aldehyde dehydrogenase (ALDH) leading to accumulation of acetaldehyde and subsequent downregulation of TGF-β1-induced Smad2/3 phosphorylation",
+"C": "Reduction of collagen production and myofibroblast differentiation in pulmonary fibrosis",
+"statement": "Disulfiram, an alcohol-aversion drug, may mitigate IPF through ALDH-mediated disruption of TGF-β signaling in fibroblasts.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Zileuton",
+"B": "5-lipoxygenase (5-LOX) inhibition reducing leukotriene B4 (LTB4) synthesis, thereby blocking monocyte-derived macrophage recruitment and alternative (M2) activation",
+"C": "Decreased pro-fibrotic macrophage accumulation in the IPF lung and less fibroblast activation",
+"statement": "Zileuton, an asthma drug, could limit IPF progression by blunting 5-LOX-dependent LTB4-driven recruitment of fibrosis-promoting macrophages.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Pentoxifylline",
+"B": "Phosphodiesterase inhibition elevating intracellular cAMP, which enhances protein kinase A (PKA)-mediated inhibition of ERK1/2 and NF-κB pathways in epithelial cells",
+"C": "Reduction of epithelial-mesenchymal transition (EMT) and apoptosis resistance in type II alveolar epithelial cells",
+"statement": "Pentoxifylline, a hemorheologic agent, may protect against IPF by cAMP-dependent suppression of EMT and promotion of epithelial repair.",
+"self_novelty": "known"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Fluvoxamine",
+"B": "Sigma-1 receptor (S1R) agonism reducing ER stress and the unfolded protein response (UPR) via IRE1α-XBP1 axis modulation in alveolar epithelial cells",
+"C": "Prevention of epithelial cell apoptosis and senescence, preserving alveolar architecture in IPF",
+"statement": "Fluvoxamine, an SSRI with potent S1R agonist activity, could be repurposed for IPF by attenuating epithelial ER stress-driven apoptosis.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Verapamil",
+"B": "L-type calcium channel blockade reducing mitochondrial calcium overload and inhibiting calcium-dependent activation of calcineurin/NFATc3 signaling in fibroblasts",
+"C": "Inhibition of fibroblast proliferation and matrix synthesis driven by NFATc3, a recognized pro-fibrotic transcription factor in IPF",
+"statement": "Verapamil, a calcium channel blocker, could suppress IPF fibroblast activity by preventing calcineurin/NFATc3 pathway activation.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Thalidomide",
+"B": "Cereblon-mediated degradation of Ikaros transcription factors IKZF1/IKZF3, leading to reduced B-cell activating factor (BAFF) and aberrant B-cell responses",
+"C": "Diminishing pulmonary B-cell aggregates and autoantibody production that contribute to IPF progression",
+"statement": "Thalidomide, an immunomodulatory drug, may be effective in IPF by reducing pathogenic B-cell responses via cereblon-Ikaros axis.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Metformin",
+"B": "AMPK activation leading to inhibition of mTORC1 and induction of autophagy, which clears mitochondrial reactive oxygen species (mtROS) in senescent fibroblasts",
+"C": "Elimination of senescent myofibroblasts via enhanced autophagy, reducing fibrotic niche persistence in IPF",
+"statement": "Metformin, a diabetes drug, could promote senescent cell clearance in IPF through AMPK-driven autophagy in fibrosis-associated senescent cells.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Candesartan",
+"B": "Angiotensin II type 1 receptor (AT1R) blockade upregulating angiotensin-converting enzyme 2 (ACE2) and angiotensin-(1-7) production, which counteracts TGF-β via Mas receptor",
+"C": "Attenuation of TGF-β-driven fibrosis through enhanced protective renin-angiotensin system (RAS) arm in IPF",
+"statement": "Candesartan, an ARB, could be repurposed for IPF by shifting RAS balance from pro-fibrotic Ang II to anti-fibrotic Ang-(1-7).",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Roflumilast",
+"B": "Phosphodiesterase-4 (PDE4) inhibition reducing cAMP hydrolysis, which suppresses NF-κB and TNF-α production while promoting IL-10 in alveolar macrophages",
+"C": "Shift of alveolar macrophage phenotype from pro-fibrotic M2 to anti-fibrotic M1/regulatory state, reducing fibroblast stimulation",
+"statement": "Roflumilast, a PDE4 inhibitor for COPD, may mitigate IPF by repolarizing alveolar macrophages toward an anti-fibrotic profile.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Sildenafil",
+"B": "Phosphodiesterase-5 (PDE5) inhibition stabilizing cGMP, which activates protein kinase G (PKG) leading to phosphorylation and inhibition of TGF-β-activated kinase 1 (TAK1)",
+"C": "Interruption of TGF-β non-canonical signaling pathway in fibroblasts and reduced myofibroblast persistence",
+"statement": "Sildenafil, an erectile dysfunction drug, may directly inhibit fibrogenesis in IPF by cGMP/PKG-mediated blockade of TAK1, a key TGF-β effector.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Nintedanib (already approved, but repositioning insight)",
+"B": "Inhibition of colony-stimulating factor 1 receptor (CSF1R) signaling in monocytes, blocking differentiation and survival of pro-fibrotic monocyte-derived macrophages",
+"C": "Reduction of the pathogenic macrophage subset that drives progressive fibrosis, beyond its known anti-fibrotic kinase inhibition",
+"statement": "Nintedanib's CSF1R inhibition property could be leveraged as a primary mechanism to deplete pro-fibrotic monocyte-derived macrophages in IPF.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Fenofibrate",
+"B": "PPARα agonism inducing expression of fibroblast growth factor 21 (FGF21), which acts as an autocrine/paracrine factor to suppress TGF-β1-induced collagen expression",
+"C": "Attenuation of matrix production by lung fibroblasts through a novel FGF21-dependent anti-fibrotic pathway",
+"statement": "Fenofibrate, a lipid-lowering drug, could inhibit IPF fibroblast collagen synthesis by PPARα-mediated induction of FGF21.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Deferoxamine",
+"B": "Iron chelation reducing intracellular labile iron pool, thereby inhibiting iron-dependent prolyl hydroxylase domain (PHD) enzymes and stabilizing hypoxia-inducible factor (HIF)-2α, which promotes antioxidant gene expression in epithelial cells",
+"C": "Protection of alveolar epithelial cells from iron-induced oxidative damage and ferroptosis, slowing IPF progression",
+"statement": "Deferoxamine, an iron-chelator for hemochromatosis, could be repositioned for IPF by preventing ferroptosis and oxidative injury in alveolar epithelium.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Colchicine",
+"B": "Inhibition of microtubule polymerization suppressing NLRP3 inflammasome assembly and IL-1β release in alveolar macrophages and fibroblasts",
+"C": "Reduction of IL-1β-driven fibroblast activation and chronic inflammation that contributes to IPF progression",
+"statement": "Colchicine, a gout medication, may treat IPF by blocking NLRP3 inflammasome-mediated IL-1β production, a key pro-fibrotic cytokine.",
+"self_novelty": "moderate"
+}
+]

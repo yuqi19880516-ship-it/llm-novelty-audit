@@ -1,0 +1,593 @@
+{
+  "goal_id": "G04",
+  "disease_en": "Amyotrophic lateral sclerosis",
+  "goal": "为肌萎缩侧索硬化（Amyotrophic lateral sclerosis）寻找可重定位的已上市药物及其作用机制",
+  "overview": "针对肌萎缩侧索硬化，五种已上市药物展现出重定位的治疗潜力。螺内酯通过阻断盐皮质激素受体保护膈肌，维持呼吸功能并延长生存期；去铁酮螯合铁离子并抑制铁死亡，保护脊髓运动神经元；达格列净促进细胞自噬以清除病理蛋白聚集；巴瑞替尼抑制毒性星形胶质细胞表型，减轻兴奋性毒性；氯硝柳胺则预防肌肉萎缩与纤维化重塑。这些多靶点机制为疾病治疗提供了新策略。",
+  "hypotheses": [
+    {
+      "a": "Spironolactone",
+      "b": "Mineralocorticoid receptor antagonism reducing skeletal muscle fibrosis and inflammation",
+      "c": "Maintenance of respiratory muscle function",
+      "statement": "Spironolactone prolongs survival in ALS by preserving diaphragm function via mineralocorticoid receptor blockade.",
+      "rationale": "MR antagonism prevents fibrotic replacement and inflammatory damage in respiratory muscles, a primary cause of ALS mortality.",
+      "self_novelty": "completely_novel",
+      "elo": 1297.055119318276,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "高钾血症风险限制其临床应用。"
+        },
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 5,
+          "plausibility": 3,
+          "critique": "高钾血症风险限制其临床应用。"
+        },
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "保护膈肌功能具临床价值，属辅助策略。"
+        }
+      ]
+    },
+    {
+      "a": "Deferiprone",
+      "b": "Chelation of labile iron pool and reduction of ferroptosis",
+      "c": "Preservation of spinal motor neurons",
+      "statement": "Deferiprone rescues ALS motor neurons by chelating iron and inhibiting ferroptotic cell death.",
+      "rationale": "Iron accumulation drives lipid peroxidation and ferroptosis in ALS; brain-penetrant chelators block this pathway.",
+      "self_novelty": "moderate",
+      "elo": 1287.4645094365749,
+      "review_score": 4.333333333333333,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁死亡机制的权重仍需验证。"
+        },
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "铁代谢在ALS中作用具双面性。"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 5,
+          "critique": "靶向铁死亡是前沿且合理的策略。"
+        }
+      ]
+    },
+    {
+      "a": "Dapagliflozin",
+      "b": "Activation of AMPK and enhancement of autophagic flux",
+      "c": "Clearance of TDP-43 aggregates and motor neuron survival",
+      "statement": "Dapagliflozin repurposing reduces TDP-43 pathology in ALS via AMPK-mediated autophagy.",
+      "rationale": "SGLT2 inhibitors activate AMPK, a known enhancer of autophagy that clears misfolded proteins in neurodegeneration.",
+      "self_novelty": "moderate",
+      "elo": 1283.02628224819,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "血脑屏障穿透性存疑。"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "血脑屏障穿透性存疑。"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "机制合理但血脑屏障穿透性存疑。"
+        }
+      ]
+    },
+    {
+      "a": "Baricitinib",
+      "b": "JAK-STAT pathway inhibition reducing astrocyte reactivity",
+      "c": "Decreased excitotoxicity and motor neuron apoptosis",
+      "statement": "Baricitinib mitigates ALS excitotoxicity by blocking JAK-STAT-dependent toxic astrocyte phenotypes.",
+      "rationale": "JAK inhibitors reverse the neurotoxic A1 astrocyte state implicated in ALS non-cell-autonomous toxicity.",
+      "self_novelty": "moderate",
+      "elo": 1277.0396686547062,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "需警惕免疫抑制副作用。"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "免疫抑制副作用需警惕。"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向星形胶质细胞反应性，逻辑严密。"
+        }
+      ]
+    },
+    {
+      "a": "Niclosamide",
+      "b": "Inhibition of STAT3 and Wnt/β-catenin signaling in denervated muscle",
+      "c": "Prevention of muscle atrophy and fibrosis",
+      "statement": "Niclosamide preserves muscle mass in ALS by blocking STAT3/Wnt-driven atrophy and fibrotic remodeling.",
+      "rationale": "STAT3 and Wnt pathways mediate denervation-induced muscle wasting; their inhibition maintains neuromuscular function.",
+      "self_novelty": "completely_novel",
+      "elo": 1272.1388286313124,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "仅改善肌肉难阻神经元死亡。"
+        },
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "全身毒性与脱靶效应风险高。"
+        },
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "靶向肌肉萎缩合理，但无法阻止中枢退化。"
+        }
+      ]
+    },
+    {
+      "a": "Fasudil",
+      "b": "ROCK inhibition for cytoskeletal restoration",
+      "c": "Axonal transport and neuromuscular junction integrity",
+      "statement": "Fasudil preserves motor function in ALS by inhibiting Rho-associated kinase to restore impaired axonal transport and stabilize degenerating neuromuscular junctions.",
+      "rationale": "ROCK overactivation disrupts cytoskeletal dynamics critical for motor neuron axonal transport and NMJ maintenance, offering a structural neuroprotection strategy orthogonal to the signaling and receptor pathways targeted by existing hypotheses.",
+      "self_novelty": "high",
+      "elo": 1267.170528980075,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 3,
+          "critique": "半衰期短且具血管扩张副作用。"
+        },
+        {
+          "index": 16,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "改善轴突运输切中核心病理机制。"
+        }
+      ]
+    },
+    {
+      "a": "Tauroursodeoxycholic acid (TUDCA)",
+      "b": "Inhibition of Bax translocation and mitochondrial outer membrane permeabilization",
+      "c": "Prevention of motor neuron apoptosis",
+      "statement": "TUDCA prevents ALS motor neuron death by blocking Bax-mediated mitochondrial apoptosis.",
+      "rationale": "TUDCA stabilizes mitochondrial membranes and inhibits the intrinsic apoptotic cascade triggered by ER stress in ALS.",
+      "self_novelty": "known",
+      "elo": 1249.2686141213446,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "机制经典且已有临床试验支持。"
+        },
+        {
+          "index": 8,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "临床转化剂量与疗效待确证。"
+        },
+        {
+          "index": 8,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制明确且已入临床，但新颖性较低。"
+        }
+      ]
+    },
+    {
+      "a": "Acamprosate",
+      "b": "Modulation of GABA/glutamate balance and mGluR5 antagonism",
+      "c": "Reduction of glutamate-induced excitotoxicity",
+      "statement": "Acamprosate reduces ALS excitotoxicity by restoring GABA/glutamate homeostasis and blocking mGluR5.",
+      "rationale": "mGluR5 antagonism and GABAergic enhancement counteract the fatal glutamate excitotoxicity in ALS motor circuits.",
+      "self_novelty": "moderate",
+      "elo": 1239.4068804062376,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "具体分子靶点及机制尚存争议。"
+        },
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "中枢靶点结合亲和力较弱。"
+        },
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "调节平衡合理，但靶点作用存在争议。"
+        }
+      ]
+    },
+    {
+      "a": "Ibudilast",
+      "b": "PDE4 inhibition and macrophage migration inhibitory factor (MIF) antagonism",
+      "c": "Suppression of neurotoxic microglial cytokine release",
+      "statement": "Ibudilast halts ALS neurodegeneration by dual PDE4/MIF inhibition in microglia.",
+      "rationale": "MIF and PDE4 drive pro-inflammatory microglial states; their inhibition reduces toxic cytokine exposure to motor neurons.",
+      "self_novelty": "moderate",
+      "elo": 1227.454956650572,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "靶向小胶质细胞机制明确合理。"
+        },
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "临床疗效可能较为有限。"
+        },
+        {
+          "index": 9,
+          "novelty": 1,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向小胶质细胞合理，但已进入过临床。"
+        }
+      ]
+    },
+    {
+      "a": "Dimethyl fumarate",
+      "b": "Nrf2 activation and microglial polarization",
+      "c": "Oxidative stress and neuroinflammation",
+      "statement": "Dimethyl fumarate slows motor neuron loss in ALS by activating Nrf2-dependent antioxidant defenses and reprogramming microglia toward neuroprotective M2 phenotypes.",
+      "rationale": "As an approved MS therapy targeting oxidative damage and neuroinflammation, DMF addresses the microglial-driven neurodegeneration axis mechanistically distinct from the astrocyte, muscle atrophy, and mineralocorticoid pathways in existing hypotheses.",
+      "self_novelty": "high",
+      "elo": 1215.034126658954,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 3,
+          "critique": "既往ALS临床试验结果不佳。"
+        },
+        {
+          "index": 15,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双重机制明确，与病理高度契合。"
+        }
+      ]
+    },
+    {
+      "a": "ALS",
+      "b": "Drug Repurposing",
+      "c": "Mechanism of Action",
+      "statement": "Dimethyl fumarate (DMF) slows ALS progression by activating the Nrf2 pathway to reduce oxidative stress and neuroinflammation.",
+      "rationale": "DMF, an approved drug for multiple sclerosis, enhances cellular antioxidant defenses and modulates immune responses, which are critical in mitigating ALS-associated motor neuron damage.",
+      "self_novelty": "Combines Nrf2 activation with neuroinflammation modulation in ALS context.",
+      "elo": 1205.0,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "与前述假设重复，缺乏额外新机制。"
+        }
+      ]
+    },
+    {
+      "a": "Semaglutide",
+      "b": "GLP-1 receptor-mediated suppression of neuroinflammation and microglial activation",
+      "c": "Attenuation of motor cortex degeneration",
+      "statement": "Semaglutide slows ALS progression by dampening microglial neuroinflammation via GLP-1R signaling.",
+      "rationale": "GLP-1 agonists cross the blood-brain barrier and inhibit NLRP3 inflammasome activation in microglia.",
+      "self_novelty": "moderate",
+      "elo": 1200.1344726068799,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "多肽类药物入脑能力受限。"
+        },
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "代谢改善与神经保护需区分。"
+        },
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "抗炎机制明确但缺乏ALS特异性证据。"
+        }
+      ]
+    },
+    {
+      "a": "ALS",
+      "b": "Drug Repurposing",
+      "c": "Mechanism of Action",
+      "statement": "Metformin extends motor neuron survival in ALS by improving mitochondrial function and reducing TDP-43 mislocalization via AMPK activation.",
+      "rationale": "Metformin's known effects on mitochondrial biogenesis and protein homeostasis through AMPK signaling address key pathological features of ALS, including mitochondrial dysfunction and TDP-43 aggregation.",
+      "self_novelty": "Links AMPK-mediated mitochondrial improvement to TDP-43 pathology resolution in ALS.",
+      "elo": 1182.8482157184455,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向蛋白清除比单纯降活性氧更合理。"
+        }
+      ]
+    },
+    {
+      "a": "Dimethyl fumarate",
+      "b": "Nrf2-mediated upregulation of antioxidant defenses and mitochondrial biogenesis",
+      "c": "Protection of neuromuscular junctions from oxidative stress",
+      "statement": "Dimethyl fumarate preserves neuromuscular junction integrity in ALS through Nrf2-driven mitochondrial protection.",
+      "rationale": "Nrf2 activation counters the severe oxidative stress and mitochondrial dysfunction characteristic of ALS motor neurons.",
+      "self_novelty": "known",
+      "elo": 1172.8982137679704,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "机制明确但临床转化效果有限。"
+        },
+        {
+          "index": 2,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "对NMJ的直接保护作用证据弱。"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "激活有效但神经肌肉接头保护待验证。"
+        }
+      ]
+    },
+    {
+      "a": "Metformin",
+      "b": "Inhibition of mitochondrial complex I and reduction of ROS production",
+      "c": "Delayed onset of motor symptoms",
+      "statement": "Metformin delays ALS onset by lowering mitochondrial ROS via complex I modulation.",
+      "rationale": "Metformin's mild complex I inhibition reduces oxidative damage, a key driver of motor neuron vulnerability.",
+      "self_novelty": "known",
+      "elo": 1167.1312181950914,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "减重副作用或加速疾病恶化。"
+        },
+        {
+          "index": 4,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "临床流行病学证据存在争议。"
+        },
+        {
+          "index": 4,
+          "novelty": 2,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "能量受损时抑制复合体一可能适得其反。"
+        }
+      ]
+    },
+    {
+      "a": "Fingolimod",
+      "b": "S1P receptor modulation preventing lymphocyte egress and CNS infiltration",
+      "c": "Reduction of peripheral immune-mediated motor neuron damage",
+      "statement": "Fingolimod protects motor neurons in ALS by restricting peripheral immune cell infiltration into the CNS.",
+      "rationale": "S1P modulators limit neuroinflammation by sequestering lymphocytes, addressing the peripheral immune contribution to ALS.",
+      "self_novelty": "moderate",
+      "elo": 1126.1553405475017,
+      "review_score": 2.0,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 2,
+          "critique": "非典型外周免疫浸润疾病。"
+        },
+        {
+          "index": 5,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 2,
+          "critique": "ALS非典型外周免疫浸润疾病。"
+        },
+        {
+          "index": 5,
+          "novelty": 2,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "该病非外周免疫主导，此机制可能无效。"
+        }
+      ]
+    },
+    {
+      "a": "Pioglitazone",
+      "b": "PPARγ activation enhancing lipid metabolism and reducing lipotoxicity",
+      "c": "Improved motor neuron energy homeostasis",
+      "statement": "Pioglitazone rescues ALS motor neurons by correcting lipid dyshomeostasis via PPARγ activation.",
+      "rationale": "PPARγ agonists resolve the toxic accumulation of lipid droplets and ceramides observed in ALS models.",
+      "self_novelty": "moderate",
+      "elo": 1115.635157439709,
+      "review_score": 1.6666666666666667,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "既往临床试验未显示显著获益。"
+        },
+        {
+          "index": 6,
+          "novelty": 1,
+          "correctness": 4,
+          "plausibility": 2,
+          "critique": "既往临床试验已宣告失败。"
+        },
+        {
+          "index": 6,
+          "novelty": 1,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "临床已失败，脂质代谢靶向未能转化。"
+        }
+      ]
+    },
+    {
+      "a": "Verapamil",
+      "b": "L-type calcium channel blockade reducing intracellular calcium overload",
+      "c": "Protection against excitotoxic motor neuron death",
+      "statement": "Verapamil protects ALS motor neurons from excitotoxicity by limiting calcium influx via L-type channels.",
+      "rationale": "Calcium dysregulation and excitotoxicity are central to ALS pathology; L-type blockers mitigate this lethal influx.",
+      "self_novelty": "moderate",
+      "elo": 1114.7025376227648,
+      "review_score": 1.6666666666666667,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 1,
+          "correctness": 4,
+          "plausibility": 2,
+          "critique": "未触及谷氨酸介导的核心毒性。"
+        },
+        {
+          "index": 10,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 2,
+          "critique": "靶向L型通道难以逆转兴奋毒性。"
+        },
+        {
+          "index": 10,
+          "novelty": 1,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "未靶向主要兴奋毒性受体，机制不匹配。"
+        }
+      ]
+    },
+    {
+      "a": "Rapamycin",
+      "b": "mTORC1 inhibition inducing macroautophagy",
+      "c": "Clearance of SOD1 and FUS aggregates",
+      "statement": "Rapamycin clears mutant SOD1 and FUS aggregates in ALS by stimulating mTOR-independent autophagy.",
+      "rationale": "mTOR inhibition is a canonical inducer of autophagy, facilitating the degradation of aggregation-prone ALS proteins.",
+      "self_novelty": "known",
+      "elo": 1085.4353289953945,
+      "review_score": 1.6666666666666667,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 1,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "动物模型中可能加速疾病恶化。"
+        },
+        {
+          "index": 7,
+          "novelty": 1,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "动物模型中可能加速疾病恶化。"
+        },
+        {
+          "index": 7,
+          "novelty": 1,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "概念陈旧且在动物模型中效果存在争议。"
+        }
+      ]
+    }
+  ]
+}

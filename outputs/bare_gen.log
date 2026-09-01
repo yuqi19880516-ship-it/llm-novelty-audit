@@ -1,0 +1,27 @@
+  deepseek-v4-pro G01 (Acute myeloid leukemia): 15 条 → outputs/bare/deepseek-v4-pro_G01.json
+  deepseek-v4-pro G02 (Glioblastoma): 15 条 → outputs/bare/deepseek-v4-pro_G02.json
+  deepseek-v4-pro G03 (Pancreatic ductal adenocarcinoma): 15 条 → outputs/bare/deepseek-v4-pro_G03.json
+  deepseek-v4-pro G04 (Amyotrophic lateral sclerosis): 15 条 → outputs/bare/deepseek-v4-pro_G04.json
+  deepseek-v4-pro G05 (Alzheimer's disease): 15 条 → outputs/bare/deepseek-v4-pro_G05.json
+  deepseek-v4-pro G06 (Pulmonary arterial hypertension): 15 条 → outputs/bare/deepseek-v4-pro_G06.json
+  deepseek-v4-pro G07 (Idiopathic pulmonary fibrosis): 15 条 → outputs/bare/deepseek-v4-pro_G07.json
+  deepseek-v4-pro G08 (Non-alcoholic steatohepatitis): 15 条 → outputs/bare/deepseek-v4-pro_G08.json
+  deepseek-v4-pro G09 (Drug-resistant tuberculosis): 15 条 → outputs/bare/deepseek-v4-pro_G09.json
+  ! deepseek-v4-pro G10: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>
+  deepseek-v4-pro G11 (Inflammatory bowel disease): 15 条 → outputs/bare/deepseek-v4-pro_G11.json
+  deepseek-v4-pro G12 (Treatment-resistant depression): 15 条 → outputs/bare/deepseek-v4-pro_G12.json
+== deepseek-v4-pro: 调用 11, tokens in/out 1564/34347 ==
+  qwen3.7-max G01 (Acute myeloid leukemia): 15 条 → outputs/bare/qwen3.7-max_G01.json
+  qwen3.7-max G02 (Glioblastoma): 15 条 → outputs/bare/qwen3.7-max_G02.json
+  qwen3.7-max G03 (Pancreatic ductal adenocarcinoma): 15 条 → outputs/bare/qwen3.7-max_G03.json
+  qwen3.7-max G04 (Amyotrophic lateral sclerosis): 15 条 → outputs/bare/qwen3.7-max_G04.json
+  qwen3.7-max G05 (Alzheimer's disease): 15 条 → outputs/bare/qwen3.7-max_G05.json
+  qwen3.7-max G06 (Pulmonary arterial hypertension): 15 条 → outputs/bare/qwen3.7-max_G06.json
+  qwen3.7-max G07 (Idiopathic pulmonary fibrosis): 15 条 → outputs/bare/qwen3.7-max_G07.json
+  qwen3.7-max G08 (Non-alcoholic steatohepatitis): 15 条 → outputs/bare/qwen3.7-max_G08.json
+  qwen3.7-max G09 (Drug-resistant tuberculosis): 15 条 → outputs/bare/qwen3.7-max_G09.json
+  qwen3.7-max G10 (Systemic lupus erythematosus): 15 条 → outputs/bare/qwen3.7-max_G10.json
+  qwen3.7-max G11 (Inflammatory bowel disease): 15 条 → outputs/bare/qwen3.7-max_G11.json
+  qwen3.7-max G12 (Treatment-resistant depression): 15 条 → outputs/bare/qwen3.7-max_G12.json
+== qwen3.7-max: 调用 12, tokens in/out 1757/53957 ==
+裸基座生成完成

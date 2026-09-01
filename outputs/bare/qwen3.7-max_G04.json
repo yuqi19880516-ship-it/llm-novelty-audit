@@ -1,0 +1,152 @@
+[
+{
+"model": "qwen3.7-max",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "达格列净",
+"B": "促进神经元酮体代谢与改善线粒体自噬",
+"C": "延缓ALS运动神经元退化",
+"statement": "达格列净可通过诱导酮体生成与增强线粒体自噬来为ALS运动神经元提供替代能量并清除受损细胞器。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "法莫替丁",
+"B": "调节自噬溶酶体途径清除TDP-43聚集",
+"C": "减轻ALS蛋白毒性",
+"statement": "法莫替丁能够作为自噬诱导剂加速ALS病理核心蛋白TDP-43的溶酶体降解。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "孟鲁司特",
+"B": "阻断CysLT1受体介导的血脑屏障破坏与外周免疫细胞浸润",
+"C": "改善ALS神经炎症微环境",
+"statement": "孟鲁司特通过拮抗白三烯受体维持血-脊髓屏障完整性从而阻断外周促炎细胞向中枢神经系统的浸润。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "螺内酯",
+"B": "抑制星形胶质细胞中的促炎性NF-κB信号通路",
+"C": "减少ALS模型中的运动神经元凋亡",
+"statement": "螺内酯可通过阻断盐皮质激素受体抑制ALS星形胶质细胞的反应性增生及NF-κB介导的神经毒性因子释放。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "氯沙坦",
+"B": "阻断AT1受体减轻骨骼肌纤维化与神经肌肉接头退化",
+"C": "维持ALS晚期运动功能",
+"statement": "氯沙坦通过抑制局部血管紧张素II信号来延缓ALS骨骼肌纤维化并维持神经肌肉接头的结构稳态。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "西地那非",
+"B": "增加cGMP水平改善脊髓微血管灌注与血-脊髓屏障完整性",
+"C": "缓解ALS缺血性神经损伤",
+"statement": "西地那非通过提升cGMP浓度扩张脊髓微血管并增强内皮细胞紧密连接以改善ALS运动神经元的血液供应。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "熊去氧胆酸",
+"B": "稳定线粒体膜电位并抑制细胞色素c释放",
+"C": "阻止ALS运动神经元凋亡",
+"statement": "熊去氧胆酸能够直接作用于线粒体膜以阻止ALS中由氧化应激触发的细胞色素c释放及后续凋亡级联反应。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "氨溴索",
+"B": "增强葡萄糖脑苷脂酶活性促进溶酶体脂质清除",
+"C": "减轻ALS运动神经元脂毒性",
+"statement": "氨溴索作为分子伴侣增强溶酶体酶活性，从而加速ALS运动神经元内异常累积的毒性脂质代谢物的清除。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "别嘌醇",
+"B": "减少尿酸生成过程中的活性氧爆发并降低氧化应激",
+"C": "保护ALS神经元免受氧化损伤",
+"statement": "别嘌醇通过抑制黄嘌呤氧化酶阻断ALS中枢神经系统内源性活性氧的大量生成并减轻神经元氧化损伤。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "维拉帕米",
+"B": "阻断L型钙通道防止运动神经元内钙超载与线粒体崩溃",
+"C": "延缓ALS疾病进展",
+"statement": "维拉帕米通过限制L型电压门控钙通道的过度开放来防止ALS运动神经元内的病理性钙超载及线粒体功能障碍。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "舒林酸",
+"B": "抑制Wnt/β-catenin通路异常激活以维持神经肌肉接头稳态",
+"C": "改善ALS骨骼肌萎缩",
+"statement": "舒林酸通过下调过度激活的Wnt信号通路来阻止ALS神经肌肉接头的异常重塑及随后的骨骼肌萎缩。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "普瑞巴林",
+"B": "减少突触前谷氨酸释放并抑制小胶质细胞突触修剪",
+"C": "保护ALS脊髓突触连接",
+"statement": "普瑞巴林结合α2δ亚基以降低兴奋性突触前谷氨酸释放，同时抑制小胶质细胞对ALS受损突触的过度吞噬。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "美西律",
+"B": "阻断晚期钠电流(INaL)减少细胞内钠钙超载",
+"C": "挽救ALS运动神经元",
+"statement": "美西律特异性阻断晚期钠电流以纠正ALS运动神经元异常的电生理活动并防止继发的钠钙超载性细胞死亡。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "氯吡格雷",
+"B": "抑制小胶质细胞P2Y12受体介导的突触吞噬作用",
+"C": "保护ALS神经肌肉接头与中枢突触",
+"statement": "氯吡格雷通过不可逆地拮抗小胶质细胞表面的P2Y12受体来阻断其对ALS病变突触的趋化性吞噬与清除。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "坦索罗辛",
+"B": "改善自主神经功能并优化脊髓微循环血流动力学",
+"C": "延缓ALS非运动症状及继发性神经损伤",
+"statement": "坦索罗辛通过调节交感神经张力改善ALS患者的自主神经功能障碍并优化脊髓微循环以减轻继发性缺血损伤。",
+"self_novelty": "completely_novel"
+}
+]

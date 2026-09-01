@@ -1,0 +1,13 @@
+样本 321 条，已审计 109 条，续跑剩余…
+
+  ✗ deepseek-v4-pro_G09_Ibuprofen: RuntimeError
+  ✗ deepseek-v4-pro_G08_Ezetimibe: RuntimeError
+  ✗ deepseek-v4-pro_G04_Cloperastine: RuntimeError
+  ✗ deepseek-v4-pro_G10_Agomelatine: RuntimeError
+  ✗ deepseek-v4-pro_G10_Trimetazidine: RuntimeError
+  ✗ deepseek-v4-pro_G10_Dimethyl: RuntimeError
+  ✗ deepseek-v4-pro_G03_Pimavanserin: RuntimeError
+  ✗ deepseek-v4-pro_G05_Pomalidomide: RuntimeError
+  ✗ deepseek-v4-pro_G06_Tolvaptan: RuntimeError
+
+完成 → outputs/coded_sample.jsonl（累计已编码 281 条，本轮失败 9 条，可再跑补齐）

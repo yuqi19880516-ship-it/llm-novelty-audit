@@ -1,0 +1,593 @@
+{
+  "goal_id": "G06",
+  "disease_en": "Pulmonary arterial hypertension",
+  "goal": "为肺动脉高压（Pulmonary arterial hypertension）寻找可重定位的已上市药物及其作用机制",
+  "overview": "肺动脉高压药物重定位研究揭示了多靶点治疗新策略。替尔泊肽双激活肠抑胃肽与胰高血糖素样肽受体，增强右心室代谢适应；卡格列净抑制钠氢交换体降低胞内钠，预防右室心律失常。针对血管重塑，芦可替尼与巴瑞替尼均抑制JAK激酶通路，前者减少STAT蛋白磷酸化以逆转干扰素诱导重塑，后者阻断平滑肌增殖。此外，奥扎莫德激活鞘氨醇-1-磷酸受体，维持肺微血管内皮屏障完整性。",
+  "hypotheses": [
+    {
+      "a": "Tirzepatide",
+      "b": "Dual activation of GIP and GLP-1 receptors leading to improved metabolic flexibility",
+      "c": "Enhancement of right ventricular metabolic adaptation in PAH",
+      "statement": "Tirzepatide enhances right ventricular metabolic adaptation in PAH through dual activation of GIP and GLP-1 receptors.",
+      "rationale": "Dual GIP/GLP-1 receptor activation improves metabolic flexibility and insulin sensitivity, which could support the failing right ventricle in PAH.",
+      "self_novelty": "completely_novel",
+      "elo": 1339.614529870561,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双靶点代谢调节极具新颖性。"
+        },
+        {
+          "index": 14,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双靶点改善右室代谢极具创新与转化潜力。"
+        },
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双靶点改善右室代谢极具新意，契合重塑"
+        }
+      ]
+    },
+    {
+      "a": "Ruxolitinib",
+      "b": "Inhibition of JAK1/JAK2 leading to decreased STAT1/STAT3 phosphorylation",
+      "c": "Reversal of interferon-gamma-induced pulmonary vascular remodeling",
+      "statement": "Ruxolitinib reverses interferon-gamma-induced pulmonary vascular remodeling by inhibiting JAK1/JAK2 and decreasing STAT1/STAT3 phosphorylation.",
+      "rationale": "Interferon-gamma signaling via JAK-STAT pathways contributes to vascular remodeling; JAK inhibition could block this process.",
+      "self_novelty": "moderate",
+      "elo": 1307.0457078717677,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "针对特定炎症表型极具潜力。"
+        },
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "针对特定炎症表型精准，但适用人群受限。"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "针对干扰素驱动的重塑有效，机制逻辑严密"
+        }
+      ]
+    },
+    {
+      "a": "Canagliflozin",
+      "b": "Inhibition of NHE1 and reduction of intracellular sodium in cardiomyocytes",
+      "c": "Prevention of right ventricular arrhythmias in PAH",
+      "statement": "Canagliflozin prevents right ventricular arrhythmias in PAH by inhibiting NHE1 and reducing intracellular sodium in cardiomyocytes.",
+      "rationale": "NHE1 inhibition reduces intracellular sodium and calcium overload, which are key factors in arrhythmogenesis in the failing right ventricle.",
+      "self_novelty": "completely_novel",
+      "elo": 1291.526803570998,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "抗心律失常机制合理但需验证。"
+        },
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "抗心律失常机制新颖，电生理获益待证实。"
+        },
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "抑制钠氢交换抗心律失常合理，需直接证据"
+        }
+      ]
+    },
+    {
+      "a": "Baricitinib",
+      "b": "Inhibition of JAK1/JAK2 signaling in pulmonary artery smooth muscle cells",
+      "c": "Prevention of pulmonary artery smooth muscle cell proliferation in PAH",
+      "statement": "Baricitinib prevents pulmonary artery smooth muscle cell proliferation in PAH by inhibiting JAK1/JAK2 signaling.",
+      "rationale": "JAK-STAT signaling is upregulated in PAH and contributes to smooth muscle cell proliferation, making JAK inhibitors a potential therapy.",
+      "self_novelty": "moderate",
+      "elo": 1272.1408592518526,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "JAK通路在PAH中具治疗潜力。"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶点合理，但需警惕全身免疫抑制副作用。"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向激酶抗重塑合理，需警惕免疫抑制风险"
+        }
+      ]
+    },
+    {
+      "a": "Ozanimod",
+      "b": "Selective activation of S1P1 and S1P5 receptors on endothelial cells",
+      "c": "Promotion of endothelial barrier integrity in pulmonary microvasculature",
+      "statement": "Ozanimod promotes endothelial barrier integrity in pulmonary microvasculature by selectively activating S1P1 and S1P5 receptors.",
+      "rationale": "Selective S1P1/5 activation strengthens endothelial barriers, potentially preventing the vascular leakage and remodeling seen in PAH.",
+      "self_novelty": "moderate",
+      "elo": 1258.6617515789178,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "屏障保护与促重塑作用存争议。"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "选择性激动受体更优，避免血管收缩风险。"
+        },
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "选择性激动受体促屏障完整，优于芬戈莫德"
+        }
+      ]
+    },
+    {
+      "a": "Dapagliflozin",
+      "b": "Right ventricular-pulmonary arterial coupling improvement in PAH",
+      "c": "SGLT2 inhibition promoting ketone body utilization and NHE1-mediated oxidative stress reduction",
+      "statement": "Dapagliflozin improves right ventricular-pulmonary arterial coupling in PAH by shifting myocardial substrate utilization toward ketone bodies and attenuating pulmonary vascular oxidative stress via NHE1 inhibition.",
+      "rationale": "SGLT2 inhibitors enhance cardiac ketone metabolism and inhibit sodium-hydrogen exchanger 1, simultaneously addressing the RV energetic deficit and vascular redox imbalance that drive PAH progression.",
+      "self_novelty": "High - SGLT2 inhibitors have not been explored for PAH drug repositioning despite their proven cardioprotective and metabolic reprogramming effects.",
+      "elo": 1257.956227725161,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制全面但略显拼凑，需动物模型验证。"
+        },
+        {
+          "index": 15,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "整合酮体与钠氢交换抑制，全面解释偶联"
+        }
+      ]
+    },
+    {
+      "a": "Sparsentan",
+      "b": "Synergistic reversal of pulmonary vascular remodeling in PAH",
+      "c": "Dual ETA/AT1 receptor blockade inhibiting convergent fibroproliferative signaling",
+      "statement": "Sparsentan synergistically reverses pulmonary vascular remodeling in PAH through simultaneous blockade of endothelin A and angiotensin II type 1 receptors to suppress convergent fibroproliferative signaling.",
+      "rationale": "Dual ETA/AT1 antagonism uniquely targets both endothelin-1 and angiotensin II-driven vasoconstriction and fibroproliferation, which are parallel pathogenic axes in pulmonary arterial remodeling.",
+      "self_novelty": "High - Sparsentan is a newly approved dual antagonist whose combined ETA/AT1 blockade offers a mechanistically distinct approach beyond single-target endothelin receptor antagonists currently used in PAH.",
+      "elo": 1254.2481109621963,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "双靶点阻断促增殖信号，重定位前景广阔。"
+        },
+        {
+          "index": 16,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "双靶点机制明确已进临床，缺乏重定位新意"
+        }
+      ]
+    },
+    {
+      "a": "Vorinostat",
+      "b": "HDAC-mediated BMPR2 silencing",
+      "c": "BMPR2 expression restoration",
+      "statement": "Vorinostat restores BMPR2 expression in PAH by inhibiting class I/II HDAC activity and reversing epigenetic silencing of the BMPR2 promoter in pulmonary artery smooth muscle cells.",
+      "rationale": "BMPR2 downregulation is a central pathogenic feature of PAH, and HDAC-mediated histone deacetylation at the BMPR2 promoter contributes to its transcriptional silencing, making epigenetic reactivation therapeutically viable.",
+      "self_novelty": "Novel application of an approved HDAC inhibitor to directly address the BMPR2 deficiency hallmark of PAH through epigenetic reprogramming rather than gene therapy.",
+      "elo": 1246.2996118860024,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "表观遗传恢复受体表达巧妙，但需关注毒性"
+        }
+      ]
+    },
+    {
+      "a": "Upadacitinib",
+      "b": "Selective inhibition of JAK1 leading to reduced IL-6 signaling",
+      "c": "Attenuation of hypoxia-induced pulmonary vascular remodeling",
+      "statement": "Upadacitinib attenuates hypoxia-induced pulmonary vascular remodeling by selectively inhibiting JAK1 and reducing IL-6 signaling.",
+      "rationale": "IL-6 signaling via JAK1 is a key driver of hypoxia-induced vascular remodeling; selective JAK1 inhibition could specifically target this pathway.",
+      "self_novelty": "moderate",
+      "elo": 1242.4601131573056,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "阻断IL-6通路机制清晰合理。"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向炎症通路合理，契合缺氧性发病机制。"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "选择性抑制激酶阻断白介素六，机制合理"
+        }
+      ]
+    },
+    {
+      "a": "Semaglutide",
+      "b": "GLP-1 receptor-mediated reduction of systemic and pulmonary inflammation",
+      "c": "Attenuation of pulmonary arterial pressure elevation in PAH",
+      "statement": "Semaglutide attenuates pulmonary arterial pressure elevation in PAH by reducing systemic and pulmonary inflammation via GLP-1 receptor activation.",
+      "rationale": "GLP-1 agonists possess anti-inflammatory properties that could mitigate the inflammatory component of pulmonary vascular remodeling.",
+      "self_novelty": "moderate",
+      "elo": 1235.2089499832962,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "抗炎机制合理，具临床转化潜力。"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "抗炎机制合理，对肥胖患者具潜在价值。"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "抗炎机制合理，但对非肥胖患者疗效存疑"
+        }
+      ]
+    },
+    {
+      "a": "Apremilast",
+      "b": "Inhibition of PDE4 leading to increased cAMP levels in immune cells",
+      "c": "Reduction of perivascular inflammation in PAH",
+      "statement": "Apremilast reduces perivascular inflammation in PAH by inhibiting PDE4 and increasing cAMP levels in immune cells.",
+      "rationale": "PDE4 inhibition elevates cAMP, which has anti-inflammatory effects that could reduce the inflammatory infiltrates in PAH vessels.",
+      "self_novelty": "moderate",
+      "elo": 1225.5292518767967,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PDE4抑制抗炎机制合理可行。"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "抗炎机制明确，但同类药物疗效可能有限。"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "抑制该酶抗炎明确，对血管重塑有潜在益处"
+        }
+      ]
+    },
+    {
+      "a": "Dimethyl fumarate",
+      "b": "Activation of Nrf2 pathway leading to enhanced antioxidant defenses",
+      "c": "Protection against oxidative stress-induced endothelial dysfunction in PAH",
+      "statement": "Dimethyl fumarate protects against oxidative stress-induced endothelial dysfunction in PAH by activating the Nrf2 pathway.",
+      "rationale": "Nrf2 activation enhances antioxidant defenses, which could counteract the oxidative stress implicated in PAH pathogenesis.",
+      "self_novelty": "moderate",
+      "elo": 1216.262013127135,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "Nrf2机制明确，但新颖性不足。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "抗氧化机制确切，临床转化需评估耐受性。"
+        },
+        {
+          "index": 4,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "抗氧化机制经典，临床转化潜力较大"
+        }
+      ]
+    },
+    {
+      "a": "Colchicine",
+      "b": "NLRP3 inflammasome assembly",
+      "c": "Pulmonary vascular remodeling",
+      "statement": "Colchicine attenuates pulmonary vascular remodeling in PAH by disrupting microtubule-dependent NLRP3 inflammasome assembly in pulmonary vascular cells.",
+      "rationale": "NLRP3 inflammasome activation drives IL-1β-mediated pulmonary artery smooth muscle proliferation, and colchicine's microtubule depolymerization blocks ASC speck formation and subsequent caspase-1 activation.",
+      "self_novelty": "First proposal linking colchicine's anti-inflammasome mechanism specifically to pulmonary vascular remodeling in PAH, distinct from its known cardiac anti-inflammatory effects.",
+      "elo": 1215.0,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "抑制炎症小体机制经典，老药新用潜力大"
+        }
+      ]
+    },
+    {
+      "a": "Tofacitinib",
+      "b": "Suppression of STAT3-mediated transcription of survivin",
+      "c": "Induction of apoptosis in pulmonary artery smooth muscle cells in PAH",
+      "statement": "Tofacitinib induces apoptosis in pulmonary artery smooth muscle cells in PAH by suppressing STAT3-mediated transcription of survivin.",
+      "rationale": "STAT3 activation promotes survivin expression, preventing apoptosis in PAH smooth muscle cells; JAK inhibition could reverse this.",
+      "self_novelty": "moderate",
+      "elo": 1204.5364209709533,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向STAT3-survivin机制清晰。"
+        },
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "促凋亡通路明确，与现有抑制剂机制重叠。"
+        },
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "抑制转录因子促凋亡机制成立，同类研究多"
+        }
+      ]
+    },
+    {
+      "a": "Dapagliflozin",
+      "b": "Inhibition of NHE1 (Na+/H+ exchanger 1) activity",
+      "c": "Reduction of right ventricular hypertrophy in PAH",
+      "statement": "Dapagliflozin reduces right ventricular hypertrophy in PAH through direct inhibition of NHE1 activity.",
+      "rationale": "SGLT2 inhibitors like dapagliflozin have been shown to inhibit NHE1, which is implicated in cardiac hypertrophy and heart failure.",
+      "self_novelty": "completely_novel",
+      "elo": 1200.1759389312888,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "SGLT2i抑制NHE1机制合理。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "抑制钠氢交换保护右室具合理性与潜力。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "抑制钠氢交换改善右室肥厚，机制具合理性"
+        }
+      ]
+    },
+    {
+      "a": "Liraglutide",
+      "b": "Upregulation of eNOS expression via GLP-1 receptor signaling",
+      "c": "Enhancement of nitric oxide bioavailability in pulmonary arteries",
+      "statement": "Liraglutide enhances nitric oxide bioavailability in pulmonary arteries by upregulating eNOS expression via GLP-1 receptor signaling.",
+      "rationale": "GLP-1 receptor activation has been shown to upregulate eNOS, potentially improving endothelial function and vasodilation in PAH.",
+      "self_novelty": "moderate",
+      "elo": 1179.0792277065175,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "改善内皮功能机制明确合理。"
+        },
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "舒张血管机制合理，肺血管特异性待验证。"
+        },
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "受体上调一氧化氮合酶机制合理，改善内皮"
+        }
+      ]
+    },
+    {
+      "a": "Empagliflozin",
+      "b": "Enhancement of mitochondrial biogenesis via SIRT1 activation",
+      "c": "Improvement of right ventricular function in PAH",
+      "statement": "Empagliflozin improves right ventricular function in PAH by enhancing mitochondrial biogenesis via SIRT1 activation.",
+      "rationale": "SGLT2 inhibitors activate SIRT1, which promotes mitochondrial biogenesis and could improve right ventricular energetics in PAH.",
+      "self_novelty": "completely_novel",
+      "elo": 1174.157918823256,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "改善右心代谢机制合理且前沿。"
+        },
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "改善右室代谢合理，契合心衰研究基础。"
+        },
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "改善线粒体功能合理，契合右室代谢需求"
+        }
+      ]
+    },
+    {
+      "a": "Metformin",
+      "b": "Activation of AMPK leading to inhibition of mTOR signaling",
+      "c": "Reversal of pulmonary vascular remodeling in PAH",
+      "statement": "Metformin reverses pulmonary vascular remodeling in PAH by activating AMPK and inhibiting mTOR signaling.",
+      "rationale": "AMPK activation is known to inhibit mTOR, a key pathway in cell proliferation and vascular remodeling, suggesting metformin's potential in PAH.",
+      "self_novelty": "moderate",
+      "elo": 1141.9913752976329,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制经典但缺乏新颖性。"
+        },
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制明确但缺乏创新，已有大量研究。"
+        },
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制明确但缺乏创新，已有大量研究报道"
+        }
+      ]
+    },
+    {
+      "a": "Fingolimod",
+      "b": "Modulation of S1P receptors leading to reduced endothelial permeability",
+      "c": "Decreased pulmonary vascular leakage and edema in PAH",
+      "statement": "Fingolimod decreases pulmonary vascular leakage and edema in PAH by modulating S1P receptors to reduce endothelial permeability.",
+      "rationale": "S1P receptor modulation stabilizes endothelial barriers, which could mitigate vascular leakage associated with severe PAH.",
+      "self_novelty": "moderate",
+      "elo": 1118.105187408361,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "S1P激动可能加重肺血管重塑。"
+        },
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "受体调节复杂，可能加剧肺血管收缩风险。"
+        },
+        {
+          "index": 7,
+          "novelty": 2,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "该受体调节作用复杂，可能加重肺动脉高压"
+        }
+      ]
+    }
+  ]
+}

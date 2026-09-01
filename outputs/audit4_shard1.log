@@ -1,0 +1,8 @@
+样本 334 条，已审计 282 条，续跑剩余…
+
+  ✗ deepseek-v4-pro_G03_Liposomal clodronate: URLError
+  ✗ deepseek-v4-pro_G12_Tadalafil: RuntimeError
+  ✗ deepseek-v4-pro_G08_Ezetimibe: RuntimeError
+  ✗ deepseek-v4-pro_G04_Tranilast: RuntimeError
+
+完成 → outputs/coded_sample.jsonl（累计已编码 298 条，本轮失败 4 条，可再跑补齐）

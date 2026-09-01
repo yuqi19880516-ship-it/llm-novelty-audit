@@ -1,0 +1,32 @@
+裸基座去重后 120 条
+  bare_deepseek-v4-pro_G01_Prochlorperazine: cooc=0 z=-1.16 L2
+  bare_deepseek-v4-pro_G01_Clofazimine: cooc=1 z=-0.91 L2
+  bare_deepseek-v4-pro_G01_Leflunomide: cooc=7 z=1.90 L1
+  bare_deepseek-v4-pro_G01_Verapamil: cooc=26 z=-0.39 L1
+  bare_deepseek-v4-pro_G02_Niclosamide: cooc=9 z=5.07 L1
+  bare_deepseek-v4-pro_G02_Secukinumab: cooc=0 z=-2.03 L2
+  bare_deepseek-v4-pro_G02_Fluvoxamine: cooc=4 z=-0.34 L1
+  bare_deepseek-v4-pro_G03_Disulfiram: cooc=6 z=2.68 L1
+  bare_deepseek-v4-pro_G03_Itraconazole: cooc=1 z=-2.01 L2
+  bare_deepseek-v4-pro_G03_Minocycline: cooc=2 z=-1.23 L2
+  bare_deepseek-v4-pro_G03_Ritonavir: cooc=3 z=-0.80 L1
+  bare_deepseek-v4-pro_G04_Atomoxetine: cooc=0 z=-1.41 L2
+  bare_deepseek-v4-pro_G04_Levosimendan: cooc=8 z=4.79 L1
+  bare_deepseek-v4-pro_G04_Sarpogrelate: cooc=0 z=-0.51 L2
+  bare_deepseek-v4-pro_G04_Raltegravir: cooc=1 z=-0.69 L2
+  bare_deepseek-v4-pro_G05_Fenofibrate: cooc=16 z=-1.13 L2
+  bare_deepseek-v4-pro_G05_Ivacaftor: cooc=1 z=-2.86 L2
+  bare_deepseek-v4-pro_G05_Zileuton: cooc=12 z=4.47 L1
+  bare_deepseek-v4-pro_G05_Pyridostigmine: cooc=25 z=3.92 L1
+  bare_deepseek-v4-pro_G06_Teriflunomide: cooc=0 z=-0.71 L2
+  bare_deepseek-v4-pro_G06_dl-3-n-Butylphthalide: cooc=0 z=-0.36 L2
+  bare_deepseek-v4-pro_G06_Fingolimod: cooc=2 z=0.35 L2
+  bare_deepseek-v4-pro_G07_Itraconazole: cooc=9 z=2.08 L1
+  bare_deepseek-v4-pro_G07_Fluvoxamine: cooc=1 z=-0.22 L2
+  bare_deepseek-v4-pro_G07_Candesartan: cooc=2 z=0.72 L2
+  bare_deepseek-v4-pro_G07_Fenofibrate: cooc=1 z=-0.51 L2
+  bare_deepseek-v4-pro_G08_Teriparatide: cooc=0 z=-0.74 L2
+  bare_deepseek-v4-pro_G08_Cabergoline: cooc=0 z=-0.63 L2
+  bare_deepseek-v4-pro_G08_Fingolimod: cooc=0 z=-0.78 L2
+  bare_deepseek-v4-pro_G08_Ezetimibe: cooc=26 z=26.12 L1
+shard 2 done, fail=0

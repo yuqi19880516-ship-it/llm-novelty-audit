@@ -1,0 +1,152 @@
+[
+{
+"model": "qwen3.7-max",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "氯硝柳胺",
+"B": "抑制STAT3磷酸化并重塑肠道巨噬细胞向M2型极化",
+"C": "缓解DSS诱导的结肠炎黏膜损伤",
+"statement": "抗寄生虫药氯硝柳胺可通过抑制STAT3信号通路重塑巨噬细胞极化从而治疗炎症性肠病。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "螺内酯",
+"B": "拮抗盐皮质激素受体以抑制肠道成纤维细胞TGF-β信号传导",
+"C": "延缓克罗恩病肠纤维化狭窄进程",
+"statement": "利尿剂螺内酯能通过阻断盐皮质激素受体介导的促纤维化通路来逆转克罗恩病的肠道狭窄。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "氟西汀",
+"B": "调节肠嗜铬细胞5-HT分泌并抑制Th17细胞异常分化",
+"C": "减轻IBD相关的肠道炎症与抑郁共病",
+"statement": "抗抑郁药氟西汀可借由肠脑轴调节外周血清素水平以同步改善炎症性肠病及其伴发的抑郁症状。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "卡马西平",
+"B": "诱导自噬清除受损线粒体并减少肠上皮细胞活性氧产生",
+"C": "促进IBD肠黏膜溃疡愈合",
+"statement": "抗癫痫药卡马西平能够通过增强肠上皮细胞线粒体自噬来减轻氧化应激并加速肠道溃疡愈合。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "阿托伐他汀",
+"B": "抑制甲羟戊酸通路介导的RhoA预酰化以阻断中性粒细胞趋化",
+"C": "降低IBD急性发作期的组织浸润",
+"statement": "降脂药阿托伐他汀可通过干扰RhoA蛋白修饰来抑制中性粒细胞向肠道炎症部位的过度趋化浸润。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "西地那非",
+"B": "提升cGMP水平激活PKG通路以改善肠道微血管内皮功能",
+"C": "缓解IBD相关的肠道缺血与微循环障碍",
+"statement": "勃起功能障碍药物西地那非能利用其血管扩张效应改善肠道微循环从而缓解炎症性肠病的局部缺血损伤。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "别嘌醇",
+"B": "抑制黄嘌呤氧化酶减少尿酸结晶介导的NLRP3炎症小体激活",
+"C": "降低IBD肠道组织的IL-1β释放",
+"statement": "痛风药别嘌醇可通过抑制黄嘌呤氧化酶阻断NLRP3炎症小体激活来减轻炎症性肠病的级联炎症反应。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "孟鲁司特",
+"B": "拮抗CysLT1受体阻断白三烯诱导的肠道杯状细胞黏蛋白过度分泌",
+"C": "纠正IBD肠道黏液层屏障缺陷",
+"statement": "哮喘药孟鲁司特能通过拮抗白三烯受体来恢复肠道杯状细胞的正常分泌功能并修复IBD黏液屏障。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "吡格列酮",
+"B": "激活PPARγ促进肠道巨噬细胞脂质代谢重编程为抗炎表型",
+"C": "抑制IBD慢性炎症期的组织破坏",
+"statement": "降糖药吡格列酮可借由PPARγ通路重编程肠道巨噬细胞的脂质代谢以发挥治疗炎症性肠病的长效抗炎作用。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "氨甲环酸",
+"B": "抑制纤溶酶原激活以阻断基质金属蛋白酶对肠道基底膜的降解",
+"C": "减少溃疡性结肠炎活动期的黏膜出血",
+"statement": "止血药氨甲环酸可通过抑制局部纤溶系统过度激活来保护肠道基底膜并控制溃疡性结肠炎的难治性出血。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "普瑞巴林",
+"B": "结合α2δ-1亚基抑制肠道内脏感觉神经P物质释放",
+"C": "改善IBD缓解期患者的内脏高敏感性腹痛",
+"statement": "神经痛药物普瑞巴林能通过抑制肠道感觉神经递质释放来有效治疗炎症性肠病缓解期的内脏高敏感腹痛。",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "丙戊酸",
+"B": "抑制HDAC活性上调Foxp3表达并扩增肠道调节性T细胞",
+"C": "恢复IBD患者的免疫耐受稳态",
+"statement": "抗癫痫药丙戊酸可利用其组蛋白去乙酰化酶抑制特性扩增肠道调节性T细胞以重建炎症性肠病的免疫耐受。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "氯喹",
+"B": "阻断TLR9内体酸化并抑制浆细胞样树突状细胞I型干扰素分泌",
+"C": "减轻溃疡性结肠炎的异常免疫激活",
+"statement": "抗疟药氯喹可通过干扰内体酸化阻断TLR9信号传导从而抑制溃疡性结肠炎中异常的干扰素免疫应答。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "雷帕霉素",
+"B": "抑制mTORC1信号增强Paneth细胞抗菌肽分泌",
+"C": "重塑IBD患者肠道菌群与宿主防御平衡",
+"statement": "免疫抑制剂雷帕霉素能通过靶向mTORC1通路增强Paneth细胞功能以纠正炎症性肠病患者的肠道微生态失衡。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "二甲双胍",
+"B": "激活AMPK通路增强肠道上皮细胞紧密连接蛋白表达",
+"C": "改善IBD肠道屏障功能",
+"statement": "降糖药二甲双胍可通过激活AMPK信号通路上调紧密连接蛋白表达来修复炎症性肠病受损的肠道机械屏障。",
+"self_novelty": "known"
+}
+]

@@ -1,0 +1,14 @@
+样本 321 条，已审计 109 条，续跑剩余…
+
+  ✗ deepseek-v4-pro_G02_Fluoxetine: RuntimeError
+  ✗ deepseek-v4-pro_G08_Probenecid: RuntimeError
+  ✗ deepseek-v4-pro_G09_Deferiprone: RuntimeError
+  ✗ deepseek-v4-pro_G10_Duloxetine: RuntimeError
+  ✗ deepseek-v4-pro_G06_Paroxetine: RuntimeError
+  ✗ deepseek-v4-pro_G09_Fluvoxamine: RuntimeError
+  ✗ deepseek-v4-pro_G05_Teriparatide: RuntimeError
+  ✗ deepseek-v4-pro_G10_Zileuton: RuntimeError
+  ✗ deepseek-v4-pro_G01_Sulfasalazine: RuntimeError
+  ✗ deepseek-v4-pro_G12_Nalbuphine: RuntimeError
+
+完成 → outputs/coded_sample.jsonl（累计已编码 269 条，本轮失败 10 条，可再跑补齐）

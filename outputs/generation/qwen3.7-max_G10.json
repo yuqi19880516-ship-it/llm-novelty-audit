@@ -1,0 +1,593 @@
+{
+  "goal_id": "G10",
+  "disease_en": "Systemic lupus erythematosus",
+  "goal": "为系统性红斑狼疮（Systemic lupus erythematosus）寻找可重定位的已上市药物及其作用机制",
+  "overview": "本研究揭示五种已上市药物在系统性红斑狼疮中的重定位机制。二甲双胍激活AMPK抑制脂肪合成，减少Th17分化。达格列净与恩格列净改善狼疮肾炎，前者借生酮抑制NLRP3，后者抑制NHE1防钙超载保护足细胞。富马酸二甲酯激活Nrf2抑制NET形成，减少抗原暴露。阿托伐他汀抑制蛋白异戊二烯化，阻断TLR7运输降低干扰素。上述多靶点机制为临床治疗提供了新策略。",
+  "hypotheses": [
+    {
+      "a": "Metformin",
+      "b": "Activation of AMPK and phosphorylation of acetyl-CoA carboxylase (ACC)",
+      "c": "Inhibition of de novo lipogenesis and reduction of pathogenic Th17 cell differentiation",
+      "statement": "Metformin reduces pathogenic Th17 cell differentiation in SLE by activating AMPK, which phosphorylates acetyl-CoA carboxylase and inhibits the de novo lipogenesis required for Th17 development.",
+      "rationale": "Th17 cells rely on de novo lipogenesis for differentiation, and metformin's activation of AMPK directly inhibits ACC, the rate-limiting enzyme in this metabolic pathway.",
+      "self_novelty": "moderate",
+      "elo": 1315.7655203967574,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "靶向脂质代谢抑制Th17机制明确合理。"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "激活AMPK抑制Th17代谢机制确切。"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "脂代谢调Th17机制合理。"
+        }
+      ]
+    },
+    {
+      "a": "Dapagliflozin",
+      "b": "Induction of ketogenesis and elevation of systemic beta-hydroxybutyrate",
+      "c": "Inhibition of the NLRP3 inflammasome and reduction of lupus nephritis progression",
+      "statement": "Dapagliflozin reduces lupus nephritis progression by inducing ketogenesis, where elevated beta-hydroxybutyrate acts as an endogenous inhibitor of the NLRP3 inflammasome.",
+      "rationale": "NLRP3 inflammasome activation drives renal injury in SLE, and SGLT2 inhibitors like dapagliflozin increase systemic beta-hydroxybutyrate, a known NLRP3 inhibitor.",
+      "self_novelty": "completely_novel",
+      "elo": 1315.5973554642949,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 5,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "机制新颖，但局部酮体浓度起效存疑。"
+        },
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "诱导酮体抑制NLRP3小体机制巧妙。"
+        },
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "酮体抑NLRP3新颖合理。"
+        }
+      ]
+    },
+    {
+      "a": "Dimethyl fumarate (DMF)",
+      "b": "Activation of Nrf2 and inhibition of NETosis",
+      "c": "Decreased autoantigen exposure and reduced lupus nephritis severity",
+      "statement": "Dimethyl fumarate ameliorates lupus nephritis by activating the Nrf2 pathway, which suppresses neutrophil extracellular trap (NET) formation and limits autoantigen exposure.",
+      "rationale": "NETosis drives autoantigen presentation in SLE, and Nrf2 activation by DMF has been shown to inhibit ROS-dependent NETosis in other inflammatory conditions.",
+      "self_novelty": "completely_novel",
+      "elo": 1272.4579845625349,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "抑制NETosis机制合理且具新意。"
+        },
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向Nrf2抑制NETosis合理且新颖。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "抗氧化抑制NET机制合理。"
+        }
+      ]
+    },
+    {
+      "a": "Atorvastatin",
+      "b": "Inhibition of protein prenylation and reduction of TLR7 trafficking to endosomes",
+      "c": "Decreased type I interferon production by plasmacytoid dendritic cells",
+      "statement": "Atorvastatin decreases type I interferon production in SLE by inhibiting protein prenylation, which impairs the endosomal trafficking of TLR7 in plasmacytoid dendritic cells.",
+      "rationale": "TLR7 endosomal localization is required for IFN-alpha production in SLE, and statins inhibit the mevalonate pathway, reducing the prenylation necessary for vesicular trafficking.",
+      "self_novelty": "completely_novel",
+      "elo": 1269.1244185131184,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制新颖，但他汀临床疗效存疑。"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "他汀阻断TLR7内体转运机制具新意。"
+        },
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制合理但临床疗效存疑。"
+        }
+      ]
+    },
+    {
+      "a": "Empagliflozin",
+      "b": "Inhibition of NHE1 and reduction of intracellular sodium/calcium overload in podocytes",
+      "c": "Protection against podocyte injury and proteinuria in lupus nephritis",
+      "statement": "Empagliflozin protects against podocyte injury and reduces proteinuria in lupus nephritis by inhibiting the Na+/H+ exchanger 1 (NHE1), thereby preventing intracellular calcium overload.",
+      "rationale": "Podocyte injury in SLE is linked to calcium signaling dysregulation, and SGLT2 inhibitors like empagliflozin have off-target NHE1 inhibitory effects that stabilize podocyte cytoskeleton.",
+      "self_novelty": "completely_novel",
+      "elo": 1262.8410239279747,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "护肾机制明确，直接抑制NHE1存疑。"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "恩格列净护肾机制合理，靶点确切。"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "护肾机制合理且具前沿性。"
+        }
+      ]
+    },
+    {
+      "a": "Acarbose",
+      "b": "Gut microbiome remodeling and enhanced intestinal barrier integrity",
+      "c": "Reduction of systemic type I interferon signature via decreased microbial DNA translocation",
+      "statement": "Acarbose ameliorates SLE disease activity by remodeling gut microbiota composition and enhancing intestinal barrier function, thereby reducing translocation of microbial DNA that drives TLR9-dependent type I interferon production by plasmacytoid dendritic cells.",
+      "rationale": "As an alpha-glucosidase inhibitor, acarbose alters carbohydrate availability in the distal gut to favor short-chain fatty acid-producing bacteria, which strengthen tight junctions and limit circulating microbial DNA that constitutively activates the TLR9-MyD88-IRF7 axis central to SLE pathogenesis.",
+      "self_novelty": "This hypothesis introduces a gut-immune axis mechanism via microbial DNA translocation and TLR9-driven interferonopathy, entirely distinct from the existing hypotheses that focus on AMPK-lipogenesis, ketogenesis-NLRP3, and Nrf2-NETosis pathways.",
+      "elo": 1261.8619031525511,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "重塑肠道屏障减少TLR9激活机制合理。"
+        },
+        {
+          "index": 15,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "肠免疫轴机制新颖且合理。"
+        }
+      ]
+    },
+    {
+      "a": "Ruxolitinib",
+      "b": "Inhibition of JAK1/JAK2 and reduction of CXCL10-mediated T cell chemotaxis",
+      "c": "Decreased infiltration of pathogenic T cells into the kidneys in lupus nephritis",
+      "statement": "Ruxolitinib decreases pathogenic T cell infiltration into the kidneys by inhibiting JAK1/JAK2, which suppresses the production of the chemokine CXCL10 by renal tubular cells.",
+      "rationale": "CXCL10 drives T cell recruitment to the lupus kidney, and its expression is strictly dependent on JAK-STAT signaling, which is targeted by ruxolitinib.",
+      "self_novelty": "moderate",
+      "elo": 1257.555472657734,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "阻断CXCL10趋化通路机制明确合理。"
+        },
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "芦可替尼阻断CXCL10趋化机制确切。"
+        },
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "阻断趋化因子机制明确。"
+        }
+      ]
+    },
+    {
+      "a": "Colchicine",
+      "b": "Dual suppression of NETosis and NLRP3 inflammasome assembly via microtubule depolymerization",
+      "c": "Attenuation of immune complex-mediated tissue injury and lupus nephritis progression",
+      "statement": "Colchicine mitigates lupus nephritis by disrupting microtubule polymerization in neutrophils, which simultaneously prevents the nuclear decondensation required for NET extrusion and blocks the intracellular trafficking necessary for NLRP3 inflammasome assembly.",
+      "rationale": "Colchicine binds tubulin and inhibits microtubule dynamics, thereby impairing both the cytoskeletal rearrangements essential for chromatin expulsion during NETosis and the ASC speck transport needed for NLRP3 activation, convergently reducing autoantigen exposure and IL-1beta/IL-18-driven renal inflammation.",
+      "self_novelty": "This hypothesis uniquely proposes a dual-mechanism targeting cytoskeletal-dependent NETosis and inflammasome assembly simultaneously, diverging from the existing hypotheses that address lipogenesis, ketone-mediated NLRP3 inhibition, and Nrf2-dependent NET suppression through separate molecular routes.",
+      "elo": 1248.808141546497,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "秋水仙碱双靶点抑制炎症小体机制确切。"
+        },
+        {
+          "index": 16,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "双靶点抗炎机制明确合理。"
+        }
+      ]
+    },
+    {
+      "a": "Ibrutinib",
+      "b": "Irreversible BTK inhibition disrupting the shared signaling node downstream of B cell receptor and endosomal TLR9",
+      "c": "Selective silencing of autoreactive B cells activated by self-DNA immune complexes and reduction of anti-dsDNA autoantibody production",
+      "statement": "Ibrutinib suppresses pathogenic autoantibody production in SLE by covalently inhibiting Bruton's tyrosine kinase, which is the obligate shared signaling hub for synergistic BCR and TLR9 co-activation by self-DNA-containing immune complexes.",
+      "rationale": "Autoreactive B cells in SLE require simultaneous engagement of surface BCR and endosomal TLR9 by DNA-containing immune complexes, both converging on BTK for NF-κB and PI3K activation; ibrutinib uniquely blocks this dual-signal checkpoint at a single kinase node, selectively anergizing autoreactive clones while preserving TLR-independent protective humoral immunity.",
+      "self_novelty": "组合BCR与TLR9双信号协同激活模型，将BTK抑制剂从B细胞恶性肿瘤重定位至SLE，精准靶向自身DNA免疫复合物驱动的自反应B细胞活化节点。",
+      "elo": 1247.9904235657993,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制描述精准但靶点不新。"
+        }
+      ]
+    },
+    {
+      "a": "Pioglitazone",
+      "b": "Activation of PPAR-gamma and enhancement of regulatory T cell (Treg) suppressive function",
+      "c": "Restoration of immune tolerance and reduction of systemic autoimmunity",
+      "statement": "Pioglitazone restores immune tolerance in SLE by activating PPAR-gamma, which enhances the metabolic fitness and suppressive capacity of regulatory T cells.",
+      "rationale": "Treg dysfunction in SLE is linked to metabolic defects, and PPAR-gamma activation by pioglitazone promotes fatty acid oxidation, which is essential for Treg function.",
+      "self_novelty": "completely_novel",
+      "elo": 1235.1739223040813,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "调节Treg代谢与功能具探索价值。"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "激活PPARg增强Treg功能机制合理。"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "代谢重编程调Treg合理。"
+        }
+      ]
+    },
+    {
+      "a": "Ibrutinib",
+      "b": "Inhibition of BTK and disruption of TLR9-MyD88 signaling in B cells",
+      "c": "Suppression of autoreactive B cell activation and autoantibody production",
+      "statement": "Ibrutinib suppresses autoantibody production in SLE by inhibiting Bruton's tyrosine kinase (BTK), which disrupts the synergistic signaling between the B cell receptor and TLR9.",
+      "rationale": "BTK is crucial for both BCR and TLR9 signaling pathways that drive autoreactive B cell survival, and ibrutinib is a potent, approved BTK inhibitor.",
+      "self_novelty": "moderate",
+      "elo": 1234.4317009595266,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "阻断BCR与TLR串扰机制经典。"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "抑制BTK治疗红斑狼疮已进入临床。"
+        },
+        {
+          "index": 3,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "BTK靶向SLE已入临床。"
+        }
+      ]
+    },
+    {
+      "a": "Spironolactone",
+      "b": "Antagonism of the mineralocorticoid receptor (MR) on macrophages",
+      "c": "Polarization of macrophages towards an M2 phenotype and reduction of renal inflammation",
+      "statement": "Spironolactone reduces renal inflammation in lupus nephritis by antagonizing the mineralocorticoid receptor on macrophages, promoting an anti-inflammatory M2 polarization.",
+      "rationale": "Mineralocorticoid receptor activation promotes pro-inflammatory M1 macrophage polarization, and spironolactone is a well-established MR antagonist with immunomodulatory potential.",
+      "self_novelty": "moderate",
+      "elo": 1233.1015648143857,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "醛固酮受体拮抗促M2极化机制合理。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "拮抗醛固酮受体促M2极化机制合理。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "拮抗MR抗炎具一定潜力。"
+        }
+      ]
+    },
+    {
+      "a": "Omeprazole",
+      "b": "Inhibition of the vacuolar H+-ATPase and alkalinization of endosomes",
+      "c": "Impaired activation of endosomal TLR7 and TLR9 in B cells",
+      "statement": "Omeprazole impairs the activation of endosomal TLR7 and TLR9 in SLE B cells by inhibiting vacuolar H+-ATPase, leading to endosomal alkalinization and reduced autoantibody production.",
+      "rationale": "Endosomal acidification is strictly required for TLR7/9 signaling, and proton pump inhibitors like omeprazole can alter endosomal pH in immune cells.",
+      "self_novelty": "completely_novel",
+      "elo": 1216.9992199409803,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "奥美拉唑碱化内体作用弱于羟氯喹。"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "奥美拉唑碱化内体抑制TLR具新意。"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制巧妙但或诱发药狼。"
+        }
+      ]
+    },
+    {
+      "a": "Acarbose",
+      "b": "Redirection of carbohydrate fermentation to the distal colon enriching SCFA-producing commensals that activate GPR43 on dendritic cells",
+      "c": "Induction of tolerogenic dendritic cells and systemic expansion of regulatory T cells suppressing autoreactive responses in SLE",
+      "statement": "Acarbose ameliorates SLE by shifting starch digestion to the distal gut, where it enriches short-chain fatty acid-producing bacteria that promote tolerogenic dendritic cell differentiation and regulatory T cell expansion via GPR43 signaling.",
+      "rationale": "Alpha-glucosidase inhibition by acarbose increases undigested carbohydrate delivery to the distal colon, selectively expanding butyrate- and propionate-producing commensals whose metabolites engage GPR43 on intestinal dendritic cells to induce a retinoic acid-secreting tolerogenic phenotype that systemically dampens autoreactive T cell responses driving SLE.",
+      "self_novelty": "跳出免疫代谢框架，将α-葡萄糖苷酶抑制剂与肠-免疫轴关联，首次提出通过改变碳水化合物消化位点重塑远端肠道菌群以治疗SLE的重定位策略。",
+      "elo": 1215.0,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "短链脂肪酸促耐受合理。"
+        }
+      ]
+    },
+    {
+      "a": "Acamprosate",
+      "b": "Modulation of mGluR5 signaling and reduction of intracellular calcium flux in T cells",
+      "c": "Suppression of NFAT activation and decreased IL-21 production by T follicular helper cells",
+      "statement": "Acamprosate suppresses IL-21 production by T follicular helper cells in SLE by modulating mGluR5 signaling, which reduces intracellular calcium flux and subsequent NFAT activation.",
+      "rationale": "Tfh cells drive autoantibody production via IL-21, and acamprosate is an mGluR5 modulator that can dampen calcium-dependent NFAT signaling in lymphocytes.",
+      "self_novelty": "completely_novel",
+      "elo": 1208.8061469926774,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "机制极具新意，但靶点证据不足。"
+        },
+        {
+          "index": 12,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "调节mGluR5抑制Tfh细胞具新意。"
+        },
+        {
+          "index": 12,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "靶点新颖但表达需验证。"
+        }
+      ]
+    },
+    {
+      "a": "Baricitinib",
+      "b": "Inhibition of JAK1/JAK2 and suppression of IFN-gamma signaling",
+      "c": "Reduction of Th1-driven tissue damage in cutaneous lupus erythematosus",
+      "statement": "Baricitinib ameliorates cutaneous lupus erythematosus by inhibiting JAK1/JAK2, which blocks IFN-gamma signaling and subsequent Th1-mediated keratinocyte apoptosis.",
+      "rationale": "IFN-gamma and JAK-STAT signaling are heavily implicated in cutaneous lupus lesions, and baricitinib is an approved JAK1/2 inhibitor.",
+      "self_novelty": "known",
+      "elo": 1207.9572268028403,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 5,
+          "critique": "阻断干扰素通路治疗皮狼合理。"
+        },
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "抑制JAK治疗皮肤红斑狼疮机制确切。"
+        },
+        {
+          "index": 7,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "JAK抑制剂治CLE证据足。"
+        }
+      ]
+    },
+    {
+      "a": "Losartan",
+      "b": "Antagonism of AT1R and reduction of TGF-beta-mediated fibroblast activation",
+      "c": "Prevention of renal fibrosis and preservation of kidney function in late-stage lupus nephritis",
+      "statement": "Losartan prevents renal fibrosis in late-stage lupus nephritis by antagonizing the angiotensin II type 1 receptor (AT1R), which blocks TGF-beta-mediated fibroblast activation.",
+      "rationale": "AT1R signaling synergizes with TGF-beta to drive fibrosis, and losartan is a standard AT1R blocker that may offer anti-fibrotic benefits beyond hemodynamic control in SLE.",
+      "self_novelty": "known",
+      "elo": 1188.4058724993981,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "属于常规临床治疗，缺乏重定位新意。"
+        },
+        {
+          "index": 13,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "氯沙坦抗肾纤维化属临床常规缺乏新意。"
+        },
+        {
+          "index": 13,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "经典抗纤维化缺乏新颖性。"
+        }
+      ]
+    },
+    {
+      "a": "Metformin",
+      "b": "Activation of AMPK and inhibition of mTOR signaling",
+      "c": "Reduction of T cell glycolysis and amelioration of SLE disease activity",
+      "statement": "Metformin reduces SLE disease activity by activating AMPK, which inhibits mTOR signaling and subsequently reduces the glycolytic metabolism of pathogenic T cells.",
+      "rationale": "SLE T cells exhibit increased glycolysis and mTOR activation; metformin is a known AMPK activator and mTOR inhibitor that can reverse this metabolic reprogramming.",
+      "self_novelty": "moderate",
+      "elo": 1184.8560870207102,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制明确且已有较多文献支持。"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制明确且已有较多文献支持。"
+        },
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制经典但缺乏新颖性。"
+        }
+      ]
+    },
+    {
+      "a": "Metformin",
+      "b": "Inhibition of mitochondrial complex I and reduction of mitochondrial ROS",
+      "c": "Decreased oxidation of LDL and reduced cardiovascular risk in SLE",
+      "statement": "Metformin reduces cardiovascular risk in SLE patients by inhibiting mitochondrial complex I, which decreases mitochondrial ROS production and subsequent LDL oxidation.",
+      "rationale": "Oxidized LDL drives atherosclerosis in SLE, and metformin's known inhibition of complex I reduces mitochondrial ROS, a key driver of LDL oxidation.",
+      "self_novelty": "moderate",
+      "elo": 1173.2660148781385,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，但心血管风险因素复杂。"
+        },
+        {
+          "index": 6,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "二甲双胍抗氧化降心血管风险属常识。"
+        },
+        {
+          "index": 6,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "心血管保护机制经典欠新。"
+        }
+      ]
+    }
+  ]
+}

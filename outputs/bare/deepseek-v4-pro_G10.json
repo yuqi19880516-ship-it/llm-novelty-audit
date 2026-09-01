@@ -1,0 +1,152 @@
+[
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Memantine",
+"B": "Antagonism of NR2-containing NMDA receptors to prevent neuronal excitotoxicity induced by cross-reactive anti-dsDNA antibodies",
+"C": "Improvement in cognitive function scores in SLE patients with neuropsychiatric lupus",
+"statement": "Memantine mitigates SLE-associated cognitive impairment by blocking NMDA receptor-mediated synaptic toxicity of anti-dsDNA antibodies.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Pirfenidone",
+"B": "Inhibition of TGF-β/Smad signalling and renal fibroblast proliferation",
+"C": "Delayed progression of renal interstitial fibrosis in lupus nephritis",
+"statement": "Pirfenidone attenuates kidney fibrosis in lupus nephritis by suppressing TGF-β pathways and extracellular matrix deposition.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Dapagliflozin",
+"B": "Blockade of proximal tubular SGLT2 leading to reduced hyperfiltration and NLRP3 inflammasome activation",
+"C": "Reduction in proteinuria and preservation of eGFR in lupus nephritis",
+"statement": "Dapagliflozin reduces proteinuria and slows renal decline in lupus nephritis through tubuloglomerular feedback restoration and dampened inflammasome activity.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Denosumab",
+"B": "Neutralisation of RANKL to diminish dendritic cell survival and autoantibody production",
+"C": "Decreased SLE disease activity and anti-dsDNA antibody titres",
+"statement": "Denosumab lowers SLE activity and autoantibody levels by interfering with RANKL-dependent crosstalk between bone and immune cells.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Rifaximin",
+"B": "Modulation of gut microbiota composition to reduce pathobiont translocation and type I interferon signalling",
+"C": "Lower SLEDAI scores and circulating interferon signatures",
+"statement": "Rifaximin dampens systemic autoimmunity in SLE by reshaping the gut microbiome and decreasing microbial trigger-induced interferon activation.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Dimethyl fumarate",
+"B": "Activation of Nrf2 antioxidant response and inhibition of NF-κB-driven inflammation",
+"C": "Reduction in renal oxidative stress markers and proteinuria in lupus nephritis",
+"statement": "Dimethyl fumarate protects the kidney in lupus nephritis by upregulating Nrf2-dependent antioxidant defences and suppressing NF-κB.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Anakinra",
+"B": "Blockade of IL-1 receptor, suppressing inflammasome-driven NETosis and inflammatory amplification",
+"C": "Rapid resolution of SLE-associated arthritis and serositis",
+"statement": "Anakinra quickly ameliorates joint and serosal inflammation in SLE by interrupting the IL-1β–NETosis feed-forward loop.",
+"self_novelty": "known"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Bromocriptine",
+"B": "Inhibition of pituitary prolactin secretion, removing prolactin-mediated lymphocyte stimulation",
+"C": "Reduced disease activity postpartum and during active SLE phases",
+"statement": "Bromocriptine lowers SLE flares and disease activity by normalising elevated prolactin levels and diminishing immune cell activation.",
+"self_novelty": "known"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Tofacitinib",
+"B": "JAK1/3 inhibition to block signalling of multiple proinflammatory cytokines and type I interferon",
+"C": "Improvement in SLE arthritis, rash, and global disease activity indices",
+"statement": "Tofacitinib dampens SLE manifestations by concurrently targeting IFN-α, IL-6, and other JAK-dependent cytokines.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Metoprolol",
+"B": "β1-adrenergic receptor blockade reducing sympathetic nervous system-driven germinal centre reactions in the spleen",
+"C": "Lower anti-dsDNA antibody levels and decreased flare rates",
+"statement": "Metoprolol decreases autoantibody production and SLE relapse by interrupting adrenergic signalling that sustains germinal centre B-cell responses.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Ursodeoxycholic acid",
+"B": "Activation of TGR5 bile acid receptor to inhibit macrophage polarisation and NLRP3 inflammasome",
+"C": "Improved hepatic inflammatory markers and reduced systemic CRP in SLE with liver involvement",
+"statement": "Ursodeoxycholic acid attenuates liver and systemic inflammation in SLE via TGR5-mediated suppression of NLRP3 and NF-κB.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Metformin",
+"B": "AMPK activation leading to mTORC1 inhibition and metabolic reprogramming of CD4+ T cells",
+"C": "Reduced SLEDAI scores and decreased cardiovascular risk in SLE",
+"statement": "Metformin shifts T-cell metabolism away from proinflammatory states through AMPK–mTOR regulation, improving SLE outcomes.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Eplerenone",
+"B": "Selective mineralocorticoid receptor antagonism attenuating renal inflammation and fibrosis",
+"C": "Reduction in proteinuria and blood pressure in lupus nephritis",
+"statement": "Eplerenone decreases proteinuria and slows renal injury in lupus nephritis by blocking aldosterone-mediated glomerular inflammation.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Sildenafil",
+"B": "PDE5 inhibition enhancing cGMP-mediated vasodilation and endothelial function",
+"C": "Improvement in SLE-related Raynaud phenomenon and secondary pulmonary hypertension",
+"statement": "Sildenafil ameliorates digital ulceration and pulmonary artery pressure in SLE by augmenting nitric oxide–cGMP signalling.",
+"self_novelty": "known"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Allopurinol",
+"B": "Xanthine oxidase inhibition reducing uric acid and reactive oxygen species, thereby suppressing NETosis",
+"C": "Lowered disease activity and improved renal function in SLE",
+"statement": "Allopurinol diminishes SLE activity and renal deterioration by decreasing hyperuricaemia-driven oxidative burst and NET formation.",
+"self_novelty": "moderate"
+}
+]

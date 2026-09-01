@@ -1,0 +1,152 @@
+[
+{
+"model": "qwen3.7-max",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "二甲双胍",
+"B": "激活AMPK通路抑制mTOR介导的神经炎症",
+"C": "减缓阿尔茨海默病认知衰退",
+"statement": "二甲双胍通过AMPK/mTOR轴调控小胶质细胞极化改善AD病理。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "氯沙坦",
+"B": "阻断AT1R受体减少Aβ诱导的突触毒性",
+"C": "保护AD模型中的记忆功能",
+"statement": "氯沙坦通过非降压依赖途径减轻Aβ突触损伤。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "塞来昔布",
+"B": "抑制COX-2/PGE2通路调节tau蛋白磷酸化",
+"C": "延缓AD神经纤维缠结进展",
+"statement": "塞来昔布通过炎症介质影响tau病理级联反应。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "阿托伐他汀",
+"B": "调节胆固醇代谢影响γ-分泌酶活性",
+"C": "降低AD患者脑内Aβ沉积",
+"statement": "他汀类药物通过脂筏微环境改变Aβ生成。",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "利拉鲁肽",
+"B": "激活GLP-1R增强突触可塑性相关基因表达",
+"C": "改善AD早期认知障碍",
+"statement": "GLP-1受体激动剂通过BDNF-TrkB通路发挥神经保护作用。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "螺内酯",
+"B": "拮抗醛固酮受体减轻氧化应激损伤",
+"C": "保护AD神经元免受Aβ毒性",
+"statement": "盐皮质激素受体拮抗剂通过Nrf2通路增强抗氧化防御。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "吡格列酮",
+"B": "激活PPARγ促进小胶质细胞Aβ吞噬",
+"C": "加速AD脑内淀粉样斑块清除",
+"statement": "噻唑烷二酮类药物通过TREM2依赖性途径增强吞噬功能。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "卡马西平",
+"B": "调节电压门控钠通道抑制神经元过度兴奋",
+"C": "减少AD相关癫痫样活动",
+"statement": "抗癫痫药物通过稳定神经网络改善AD认知症状。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "雷帕霉素",
+"B": "增强自噬流促进异常蛋白聚集体降解",
+"C": "同时清除Aβ和tau病理产物",
+"statement": "mTOR抑制剂通过TFEB核转位激活溶酶体生物合成。",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "孟鲁司特",
+"B": "拮抗CysLT1受体抑制神经血管单元炎症",
+"C": "改善AD脑血流灌注和认知功能",
+"statement": "白三烯受体拮抗剂通过保护血脑屏障完整性发挥作用。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "达格列净",
+"B": "抑制SGLT2改善脑能量代谢底物利用",
+"C": "缓解AD神经元能量危机",
+"statement": "SGLT2抑制剂通过酮体代谢途径提供替代能源。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "沙库巴曲缬沙坦",
+"B": "双重调节利钠肽和RAAS系统减轻神经炎症",
+"C": "多靶点干预AD病理进程",
+"statement": "ARNI类药物通过cGMP-PKG通路发挥神经保护作用。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "托法替布",
+"B": "抑制JAK-STAT通路调节神经免疫微环境",
+"C": "重塑AD脑内免疫稳态",
+"statement": "JAK抑制剂通过调控小胶质细胞-星形胶质细胞互作发挥作用。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "恩格列净",
+"B": "改善线粒体动力学和生物能量学",
+"C": "保护AD神经元免受代谢应激",
+"statement": "SGLT2抑制剂通过PGC-1α通路增强线粒体质量控制。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "巴瑞替尼",
+"B": "选择性抑制JAK1/2调节I型干扰素信号",
+"C": "减轻AD神经炎症和突触丢失",
+"statement": "JAK1/2抑制剂通过阻断IFN-β信号通路发挥保护作用。",
+"self_novelty": "completely_novel"
+}
+]

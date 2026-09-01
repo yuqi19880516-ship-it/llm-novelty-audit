@@ -1,0 +1,10 @@
+  跳过 deepseek-v4-pro G09（已存在）
+  跳过 deepseek-v4-pro G10（已存在）
+[deepseek-v4-pro] 本次新跑 0 目标  calls=0  in=0 out=0  ≈ $0.00
+
+  ✓ qwen3.7-max G09 Drug-resistant tuberculosis: 19 条  (累计 calls=43, in=10417, out=83202)
+  ✓ qwen3.7-max G10 Systemic lupus erythematosus: 19 条  (累计 calls=86, in=24135, out=171275)
+[qwen3.7-max] 本次新跑 2 目标  calls=86  in=24135 out=171275  ≈ $0.43
+
+=== 本次新增成本 ≈ $0.43 ===
+=== outputs/generation: 21/24 格已完成，假设总数 = 382 ===

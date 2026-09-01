@@ -1,0 +1,152 @@
+[
+{
+"model": "qwen3.7-max",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "氯硝柳胺",
+"B": "抑制Wnt/β-catenin信号通路并下调c-Myc",
+"C": "消除AML白血病干细胞",
+"statement": "氯硝柳胺通过抑制Wnt/β-catenin信号通路消除急性髓系白血病干细胞。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "双硫仑",
+"B": "螯合细胞内铜离子并诱导ROS介导的铜死亡",
+"C": "诱导FLT3-ITD突变型AML细胞凋亡",
+"statement": "双硫仑通过螯合铜离子诱导铜死亡从而特异性杀伤FLT3-ITD突变型AML细胞。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "阿托伐他汀",
+"B": "抑制甲羟戊酸途径并减少RhoA蛋白异戊二烯化",
+"C": "逆转AML细胞对阿糖胞苷的耐药性",
+"statement": "阿托伐他汀通过阻断甲羟戊酸途径介导的RhoA异戊二烯化逆转AML对阿糖胞苷的耐药。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "氟西汀",
+"B": "拮抗5-HT1A受体并下调cAMP/PKA/CREB信号轴",
+"C": "抑制AML细胞增殖并诱导髓系分化",
+"statement": "氟西汀通过拮抗5-HT1A受体阻断cAMP/PKA/CREB信号轴以促进AML细胞髓系分化。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "伊维菌素",
+"B": "结合并激活P2X4嘌呤能受体引发钙超载",
+"C": "触发AML细胞发生免疫原性细胞死亡",
+"statement": "伊维菌素通过激活P2X4受体引发胞内钙超载从而诱导AML细胞发生免疫原性细胞死亡。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "螺内酯",
+"B": "降解雄激素受体并抑制DNA双链断裂修复",
+"C": "增强PARP抑制剂在TP53突变型AML中的疗效",
+"statement": "螺内酯通过降解雄激素受体抑制DNA修复从而敏化TP53突变型AML对PARP抑制剂的响应。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "二甲双胍",
+"B": "抑制线粒体复合物I并激活AMPK/mTORC1自噬通路",
+"C": "清除处于静息状态的AML微小残留病灶",
+"statement": "二甲双胍通过抑制线粒体复合物I激活自噬通路以清除静息态的AML微小残留病灶。",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "氯喹",
+"B": "抑制自噬体与溶酶体融合并积累p62蛋白",
+"C": "阻断Nrf2介导的抗氧化防御并诱导AML细胞铁死亡",
+"statement": "氯喹通过阻断自噬流积累p62蛋白进而抑制Nrf2抗氧化防御以诱导AML细胞铁死亡。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "普萘洛尔",
+"B": "阻断β2-肾上腺素能受体并下调HIF-1α糖酵解通路",
+"C": "破坏AML骨髓微环境中的血管生成拟态",
+"statement": "普萘洛尔通过阻断β2受体下调HIF-1α通路从而破坏AML骨髓微环境中的血管生成拟态。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "塞来昔布",
+"B": "抑制COX-2/PGE2信号并下调MDR1/P-gp表达",
+"C": "克服AML干细胞对柔红霉素的流出泵介导耐药",
+"statement": "塞来昔布通过抑制COX-2/PGE2信号下调P-gp表达以克服AML干细胞对柔红霉素的耐药。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "硫利达嗪",
+"B": "拮抗多巴胺D2受体并抑制PI3K/AKT/mTOR通路",
+"C": "诱导AML细胞发生内质网应激介导的凋亡",
+"statement": "硫利达嗪通过拮抗多巴胺D2受体抑制PI3K/AKT通路从而触发AML细胞内质网应激凋亡。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "青蒿琥酯",
+"B": "裂解内过氧化物桥产生自由基并烷基化线粒体蛋白",
+"C": "诱导NPM1突变型AML细胞发生线粒体自噬性死亡",
+"statement": "青蒿琥酯通过产生自由基烷基化线粒体蛋白诱导NPM1突变型AML发生线粒体自噬性死亡。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "奥美拉唑",
+"B": "抑制V-ATPase并阻断溶酶体酸化",
+"C": "阻止AML细胞降解CXCR4受体从而阻断其骨髓归巢",
+"statement": "奥美拉唑通过抑制V-ATPase阻断溶酶体酸化以稳定CXCR4受体从而异常锁定AML细胞的骨髓归巢。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "孟鲁司特",
+"B": "阻断CysLT1受体并抑制5-脂氧合酶代谢物",
+"C": "抑制AML细胞与骨髓基质细胞的黏附介导耐药",
+"statement": "孟鲁司特通过阻断CysLT1受体抑制5-脂氧合酶代谢物从而消除AML细胞的黏附介导耐药。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G01",
+"disease": "Acute myeloid leukemia",
+"A": "硝苯地平",
+"B": "阻断L型钙通道并抑制钙调磷酸酶/NFAT信号",
+"C": "逆转TET2缺失型AML的异常表观遗传分化阻滞",
+"statement": "硝苯地平通过阻断钙通道抑制钙调磷酸酶/NFAT信号以逆转TET2缺失型AML的分化阻滞。",
+"self_novelty": "completely_novel"
+}
+]

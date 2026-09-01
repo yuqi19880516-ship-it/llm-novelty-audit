@@ -1,0 +1,555 @@
+{
+  "goal_id": "G04",
+  "disease_en": "Amyotrophic lateral sclerosis",
+  "goal": "为肌萎缩侧索硬化（Amyotrophic lateral sclerosis）寻找可重定位的已上市药物及其作用机制",
+  "overview": "肌萎缩侧索硬化（ALS）的药物重定位研究已揭示多个候选老药通过不同机制干预疾病进程。双硫仑（Elo 1313）可靶向FROUNT-CCR2/CCR5轴，减少病理性小胶质细胞在运动神经元胞体周围聚集，从而抑制神经炎症。氯哌斯汀（Elo 1298）通过增强Kv11.1钾通道功能缓解运动神经过度的兴奋毒性压力，延缓早期快乐性异常和神经元死亡。芬戈莫德（Elo 1269）作为鞘氨醇-1-磷酸受体调节剂，能够转变小胶质细胞表型并增加神经营养因子支持，进而降低星形胶质细胞驱动的运动神经元变性。曲尼司特（Elo 1256）抑制NLRP3炎症小体介导的神经炎症，保护运动神经元免受TDP-43蛋白毒害。三氟拉嗪（Elo 1246）则通过激活转录因子TFEB，增强自噬途径对胞质TDP-43聚集体清除，减轻包涵体病理。上述药物分别针对神经免疫、离子稳态和蛋白稳态失衡等通路，展现了从旧药中发掘ALS治疗手段的潜力。",
+  "hypotheses": [
+    {
+      "a": "Disulfiram",
+      "b": "Inhibition of FROUNT-mediated chemokine receptor signaling to block microglial migration and activation",
+      "c": "Attenuation of motor neuron inflammation in ALS",
+      "statement": "Disulfiram reduces pathological microglial accumulation at motor neuron soma by targeting the FROUNT-CCR2/CCR5 axis.",
+      "rationale": "Disulfiram was identified as a FROUNT inhibitor, and chemokine-driven microgliosis contributes to ALS progression.",
+      "self_novelty": "completely_novel",
+      "elo": 1312.9129602812443,
+      "review_score": 4.333333333333333,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "机制新颖，但体内验证有限"
+        },
+        {
+          "index": 3,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "FROUNT靶向极新颖，ALS中通路证据匮乏。"
+        },
+        {
+          "index": 3,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "FROUNT新靶点，ALS炎症数据缺乏。"
+        }
+      ]
+    },
+    {
+      "a": "Cloperastine",
+      "b": "Selective enhancer of hERG-related Kv11.1 potassium currents to stabilize motor neuron resting membrane potential and reduce excitotoxicity",
+      "c": "Delay of motor neuron hyperexcitability and death in ALS models",
+      "statement": "Cloperastine reduces motor neuron excitotoxic stress by potentiating Kv11.1 channel function, counteracting early hyperexcitability.",
+      "rationale": "ALS motor neurons show early hyperexcitability and KV channel deficits; cloperastine is a known hERG activator used as antitussive.",
+      "self_novelty": "completely_novel",
+      "elo": 1298.4224213008126,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 1,
+          "critique": "Kv11.1在运动神经元表达极低"
+        },
+        {
+          "index": 6,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "Kv11.1在运动神经元功能与毒性证据薄弱。"
+        },
+        {
+          "index": 6,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "hERG增强剂在运动神经元作用未知。"
+        }
+      ]
+    },
+    {
+      "a": "Fingolimod (S1P receptor modulator)",
+      "b": "Reducing neurotoxic astrocyte reactivity via S1PR1 downregulation and enhancing BDNF secretion from microglia",
+      "c": "Slowing motor neuron degeneration in ALS",
+      "statement": "Fingolimod repurposing reduces astrocyte-driven motor neuron death by shifting microglial phenotype and increasing neurotrophin support.",
+      "rationale": "S1P signaling is implicated in ALS neuroinflammation, and fingolimod is CNS-penetrant with known effects on glial cells in multiple sclerosis.",
+      "self_novelty": "moderate",
+      "elo": 1269.0111081823945,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "已有临床研究，机制部分明确"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "S1P通路已有临床前数据，机制部分证实。"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "已有临床试验，神经保护机制待确认。"
+        }
+      ]
+    },
+    {
+      "a": "Tranilast",
+      "b": "Suppression of NLRP3 inflammasome assembly in microglia, decreasing IL-1β maturation",
+      "c": "Reduced neuroinflammatory motor neuron loss in TDP-43 proteinopathy models",
+      "statement": "Tranilast inhibits NLRP3-driven inflammation in ALS microglia, protecting motor neurons from TDP-43 toxicity.",
+      "rationale": "Tranilast directly binds NLRP3 and blocks its oligomerization, and NLRP3 activation is observed in ALS patient microglia.",
+      "self_novelty": "completely_novel",
+      "elo": 1256.344253757737,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "NLRP3靶向合理，药物证据需加强"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "NLRP3抑制有前景，Tranilast选择性存疑。"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "NLRP3抑制明确，TDP-43模型待验证。"
+        }
+      ]
+    },
+    {
+      "a": "Trifluoperazine",
+      "b": "Activation of TFEB nuclear translocation to enhance lysosomal exocytosis and autophagic clearance of TDP-43 aggregates",
+      "c": "Reduction of cytoplasmic TDP-43 inclusions in ALS neurons",
+      "statement": "Trifluoperazine promotes autophagy-mediated TDP-43 aggregate clearance in ALS neurons via TFEB activation.",
+      "rationale": "Trifluoperazine is a known calmodulin antagonist that triggers TFEB dephosphorylation, and TDP-43 accumulation is central to ALS pathology.",
+      "self_novelty": "moderate",
+      "elo": 1246.2302426146896,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "TFEB机制已知，ALS特异性待查"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "TFEB介导自噬清除TDP-43已有较多支撑。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "TFEB激活有据，TDP-43清除率待考。"
+        }
+      ]
+    },
+    {
+      "a": "Pirfenidone",
+      "b": "Inhibition of TGF-β1 signaling in ALS-associated fibroblasts surrounding neuromuscular junctions, preventing fibrosis and synaptic destabilization",
+      "c": "Maintenance of neuromuscular junction structure and function in ALS mice",
+      "statement": "Pirfenidone prevents perisynaptic fibrosis at neuromuscular junctions by blocking TGF-β1, thereby preserving motor input.",
+      "rationale": "Fibrotic remodeling at NMJs is observed in ALS, and pirfenidone is an approved anti-fibrotic targeting TGF-β signals.",
+      "self_novelty": "completely_novel",
+      "elo": 1245.813305241224,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "NMJ纤维化在ALS中证据薄弱"
+        },
+        {
+          "index": 5,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "NMJ纤维化在ALS中为新概念，证据待累积。"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "NMJ纤维化证据有限，概念新颖。"
+        }
+      ]
+    },
+    {
+      "a": "Pizotifen",
+      "b": "Functional antagonism at serotonin 5-HT2A receptors on spinal microglia, reducing NADPH oxidase 2-mediated oxidative burst",
+      "c": "Lowered oxidative damage in motor neurons and improved motor function",
+      "statement": "Pizotifen suppresses microglial NOX2-dependent oxidative stress in ALS spinal cord via blockade of 5-HT2A receptors.",
+      "rationale": "5-HT2A receptor activation on microglia induces ROS production, and pizotifen is a clinically used 5-HT2 antagonist for migraine.",
+      "self_novelty": "completely_novel",
+      "elo": 1240.6306562157338,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "微胶质5-HT2A机制需ALS验证"
+        },
+        {
+          "index": 9,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "5-HT2A在脊髓小胶质细胞氧化爆发有报道。"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "5-HT2A在脊髓小胶质细胞作用待验。"
+        }
+      ]
+    },
+    {
+      "a": "Metformin",
+      "b": "Activation of AMPK to enhance mitophagy and reduce mitochondrial reactive oxygen species in motor neurons",
+      "c": "Preservation of neuromuscular junction integrity in SOD1-ALS models",
+      "statement": "Metformin improves mitochondrial quality control in ALS motor neurons through AMPK-dependent mitophagy upregulation.",
+      "rationale": "Mitochondrial dysfunction and impaired autophagy are hallmarks of ALS, and metformin induces both AMPK activation and mitochondrial turnover.",
+      "self_novelty": "moderate",
+      "elo": 1237.9338025287782,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "AMPK通路研究成熟，ALS特异证据不足"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "AMPK促线粒体自噬在ALS模型中已不少见。"
+        },
+        {
+          "index": 1,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "AMPK通路研究多，NMJ保护需确证。"
+        }
+      ]
+    },
+    {
+      "a": "Colchicine",
+      "b": "Inhibition of microtubule-dependent NLRP3 inflammasome transport to mitochondria and ASC speck formation",
+      "c": "Suppression of sustained IL-1β release in ALS microglia-motor neuron co-culture",
+      "statement": "Low-dose colchicine specifically blocks microtubule trafficking required for NLRP3 assembly in ALS microglia, reducing chronic IL-1β secretion.",
+      "rationale": "Colchicine inhibits NLRP3 by preventing microtubule-mediated inflammasome assembly at physiological low doses; sustained inflammasome activity drives ALS progression.",
+      "self_novelty": "completely_novel",
+      "elo": 1220.8985202017407,
+      "review_score": 4.333333333333333,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制精准，低剂量安全性需评估"
+        },
+        {
+          "index": 13,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "微管转运NLRP3是巧妙的低剂量策略。"
+        },
+        {
+          "index": 13,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "微管抑制影响广，安全窗需考量。"
+        }
+      ]
+    },
+    {
+      "a": "Terazosin",
+      "b": "PGK1 activator",
+      "c": "Metabolic rescue of motor neurons",
+      "statement": "Terazosin delays motor neuron degeneration in ALS by activating phosphoglycerate kinase 1 (PGK1) to enhance glycolytic ATP production and restore autophagic flux.",
+      "rationale": "PGK1 activation corrects TDP-43-linked bioenergetic failure and proteostatic collapse, thereby protecting vulnerable motor neurons from energy crisis-driven death.",
+      "self_novelty": "high",
+      "elo": 1207.5761736613438,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "PGK1激活作为能量挽救机制极具新颖性。"
+        },
+        {
+          "index": 15,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PGK1激活有研究，跨病种假设合理。"
+        }
+      ]
+    },
+    {
+      "a": "Verapamil",
+      "b": "Inhibition of CaV1.3 L-type calcium channels in motor neurons to reduce ER stress and calpain overactivation",
+      "c": "Prevention of axonal degeneration and synaptic failure in slow motor neuron pools",
+      "statement": "Verapamil protects vulnerable motor neurons in ALS by blocking excessive calcium entry through upregulated CaV1.3 channels, reducing calpain cleavage of neurofilaments.",
+      "rationale": "CaV1.3-mediated calcium toxicity is implicated in ALS selective vulnerability, and verapamil is a CNS-penetrant CCB.",
+      "self_novelty": "completely_novel",
+      "elo": 1191.352642619282,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "CaV1.3上调证据有限"
+        },
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "CaV1.3钙超载假说已有文献，非新靶点。"
+        },
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "CaV1.3亚型作用证据有限。"
+        }
+      ]
+    },
+    {
+      "a": "Candesartan",
+      "b": "AT1 receptor blockade on pericytes to reduce capillary constriction and restore spinal cord microcirculation",
+      "c": "Improvement of tissue oxygenation and survival of hypoxic motor neurons in ALS",
+      "statement": "Candesartan reverses pericyte-mediated capillary constriction in ALS spinal cord by blocking angiotensin II signaling, ameliorating chronic hypoxia.",
+      "rationale": "Spinal cord hypoperfusion and pericyte constriction occur in ALS; candesartan crosses the blood-brain barrier and improves microvascular flow in stroke models.",
+      "self_novelty": "completely_novel",
+      "elo": 1178.986960296696,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "脊髓微循环假说新颖但证据不足"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "微循环障碍致缺氧假说新颖，直接证据少。"
+        },
+        {
+          "index": 12,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "血管假说新颖，缺氧改善证据不足。"
+        }
+      ]
+    },
+    {
+      "a": "Roflumilast",
+      "b": "PDE4 inhibitor",
+      "c": "Astrocyte phenotypic shift",
+      "statement": "Roflumilast repurposing suppresses neurotoxic reactive astrocytes and fosters a neuroprotective phenotype in ALS through cAMP elevation and NF-κB pathway inhibition.",
+      "rationale": "By increasing intracellular cAMP, roflumilast dampens pro-inflammatory astrocytic mediators and upregulates trophic factor release, breaking the non-cell-autonomous loop of motor neuron destruction.",
+      "self_novelty": "high",
+      "elo": 1174.5860596576695,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PDE4抑制调控表型，cAMP-NF-κB通路明确。"
+        },
+        {
+          "index": 16,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PDE4调节星形胶质细胞有依据。"
+        }
+      ]
+    },
+    {
+      "a": "Fenofibrate",
+      "b": "PPARα-mediated induction of PGC-1α and downstream antioxidant enzymes in motor neurons",
+      "c": "Mitigation of oxidative stress and motor neuron degeneration in ALS",
+      "statement": "Fenofibrate activates PPARα to upregulate PGC-1α and antioxidant defenses, directly protecting ALS motor neurons from oxidative injury.",
+      "rationale": "PGC-1α loss occurs in ALS, and fenofibrate is a safe PPARα agonist that induces mitochondrial biogenesis and ROS scavenging in neurons.",
+      "self_novelty": "moderate",
+      "elo": 1166.6776546749281,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "PPARα激动剂已有类似研究"
+        },
+        {
+          "index": 10,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PPARα激动剂抗氧化已在ALS模型验证。"
+        },
+        {
+          "index": 10,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "PPARα激动剂有文献，神经特异性待定。"
+        }
+      ]
+    },
+    {
+      "a": "Ursodeoxycholic acid (UDCA)",
+      "b": "Stabilization of mitochondrial membrane potential and inhibition of Bax translocation to prevent cytochrome c release",
+      "c": "Apoptosis resistance in motor neurons expressing mutant SOD1",
+      "statement": "UDCA blocks intrinsic apoptosis in ALS motor neurons by preserving mitochondrial outer membrane integrity.",
+      "rationale": "UDCA improves mitochondrial function and reduces apoptosis in hepatocytes; mitochondrial apoptosis is a key death pathway in ALS.",
+      "self_novelty": "moderate",
+      "elo": 1162.491773527398,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "已有ALS研究，机制明确"
+        },
+        {
+          "index": 8,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "TUDCA机制明确，已有ALS临床探索。"
+        },
+        {
+          "index": 8,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "已有研究，临床获益不确定。"
+        }
+      ]
+    },
+    {
+      "a": "Ceftriaxone",
+      "b": "Upregulation of astrocytic GLT-1 (EAAT2) glutamate transporter to reduce synaptic glutamate spillover in spinal cord",
+      "c": "Decrease in glutamate-induced excitotoxicity and motor neuron loss in ALS",
+      "statement": "Ceftriaxone restores GLT-1 expression on astrocytes, lowering extracellular glutamate and protecting motor neurons.",
+      "rationale": "GLT-1 downregulation is a consistent feature of ALS, and ceftriaxone upregulates GLT-1 transcription via NF-κB signaling; prior clinical trial in ALS used suboptimal endpoint.",
+      "self_novelty": "known",
+      "elo": 1150.1949571943587,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 1,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "已有大规模临床试验，阴性"
+        },
+        {
+          "index": 7,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "GLT-1上调经典，但临床试验已失败。"
+        },
+        {
+          "index": 7,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 2,
+          "critique": "临床试验阴性，机制已确证。"
+        }
+      ]
+    },
+    {
+      "a": "Eprosartan",
+      "b": "Dual AT1 receptor and presynaptic α2-adrenoceptor antagonism to enhance noradrenergic tone in lumbar spinal cord and increase motor neuron supportive BDNF from astrocytes",
+      "c": "Delay of functional motor decline in ALS",
+      "statement": "Eprosartan increases spinal noradrenaline via α2-blockade, which stimulates astrocytic BDNF production through β-adrenoceptors, promoting motor neuron survival.",
+      "rationale": "Eprosartan uniquely blocks both AT1 and α2 receptors; reduced noradrenergic tone accelerates ALS in mice, and BDNF is neuroprotective.",
+      "self_novelty": "completely_novel",
+      "elo": 1149.936508043969,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 1,
+          "plausibility": 1,
+          "critique": "Eprosartan无α2阻断作用，药理学错"
+        },
+        {
+          "index": 14,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "双机制设计巧妙，α2拮抗促BDNF需验证。"
+        },
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "α2拮抗药理不实，假设根基薄弱。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+样本 334 条，已审计 282 条，续跑剩余…
+
+  ✗ deepseek-v4-pro_G10_Trimetazidine: RuntimeError
+  ✗ deepseek-v4-pro_G11_Dipyridamole: RuntimeError
+  ✗ deepseek-v4-pro_G02_Fluoxetine: RuntimeError
+  ✗ deepseek-v4-pro_G10_Duloxetine: RuntimeError
+  ✗ deepseek-v4-pro_G08_Low-dose naltrexone: RuntimeError
+  ✗ deepseek-v4-pro_G04_Cloperastine: RuntimeError
+  ✗ deepseek-v4-pro_G09_Fluvoxamine: RuntimeError
+  ✗ deepseek-v4-pro_G09_Deferiprone: RuntimeError
+  ✗ deepseek-v4-pro_G05_Teriparatide: RuntimeError
+
+完成 → outputs/coded_sample.jsonl（累计已编码 306 条，本轮失败 9 条，可再跑补齐）

@@ -1,0 +1,152 @@
+[
+{
+"model": "qwen3.7-max",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Metformin",
+"B": "Activation of AMPK pathway inhibiting mTOR signaling",
+"C": "Reduction of T cell glycolysis and autoantibody production in SLE",
+"statement": "Metformin reduces SLE disease activity by suppressing T cell metabolic reprogramming via AMPK/mTOR inhibition.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Dimethyl fumarate",
+"B": "Nrf2 activation suppressing NETosis and oxidative stress",
+"C": "Decreased neutrophil extracellular traps and renal inflammation in lupus nephritis",
+"statement": "Dimethyl fumarate ameliorates lupus nephritis by enhancing Nrf2-mediated antioxidant defenses and inhibiting NETosis.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Pioglitazone",
+"B": "PPARγ agonism shifting macrophage polarization from M1 to M2",
+"C": "Attenuation of systemic inflammation and tissue damage in SLE",
+"statement": "Pioglitazone mitigates SLE inflammation by promoting PPARγ-dependent M2 macrophage polarization.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Empagliflozin",
+"B": "SGLT2 inhibition reducing renal hypoxia and HIF-1α signaling",
+"C": "Protection against podocyte injury and proteinuria in lupus nephritis",
+"statement": "Empagliflozin protects against lupus nephritis by alleviating renal hypoxia and suppressing HIF-1α-mediated podocyte damage.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Simvastatin",
+"B": "Inhibition of the mevalonate pathway reducing Rho GTPase prenylation",
+"C": "Decreased dendritic cell activation and type I interferon production in SLE",
+"statement": "Simvastatin reduces type I interferon signatures in SLE by blocking mevalonate-dependent Rho GTPase signaling in dendritic cells.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Liraglutide",
+"B": "GLP-1 receptor activation enhancing Treg stability via cAMP/PKA signaling",
+"C": "Restoration of immune tolerance and reduction of autoantibody titers in SLE",
+"statement": "Liraglutide restores immune tolerance in SLE by stabilizing regulatory T cells through GLP-1R/cAMP/PKA signaling.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Spironolactone",
+"B": "Mineralocorticoid receptor antagonism inhibiting NLRP3 inflammasome assembly",
+"C": "Reduction of IL-1β and IL-18 driven vascular inflammation in SLE",
+"statement": "Spironolactone attenuates SLE-associated vascular inflammation by blocking mineralocorticoid receptor-mediated NLRP3 inflammasome activation.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Acamprosate",
+"B": "Modulation of mGluR5 signaling reducing aberrant B cell calcium flux",
+"C": "Suppression of autoreactive B cell activation and autoantibody secretion in SLE",
+"statement": "Acamprosate suppresses autoreactive B cells in SLE by normalizing intracellular calcium flux via mGluR5 modulation.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Telmisartan",
+"B": "Partial PPARγ agonism and AT1R blockade synergistically reducing endothelial senescence",
+"C": "Improvement of endothelial dysfunction and reduction of cardiovascular risk in SLE",
+"statement": "Telmisartan improves endothelial dysfunction in SLE by combining AT1R blockade with PPARγ-mediated anti-senescence effects.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Metformin",
+"B": "Inhibition of mitochondrial complex I reducing ROS-driven B cell hyperactivation",
+"C": "Decreased anti-dsDNA antibody production in SLE",
+"statement": "Metformin reduces anti-dsDNA antibodies in SLE by limiting mitochondrial ROS production in B cells.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Fingolimod",
+"B": "S1P receptor modulation sequestering autoreactive lymphocytes in lymph nodes",
+"C": "Reduction of central nervous system inflammation in neuropsychiatric SLE",
+"statement": "Fingolimod ameliorates neuropsychiatric SLE by preventing autoreactive lymphocyte egress into the central nervous system.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Dapagliflozin",
+"B": "SGLT2 inhibition promoting ketogenesis and enhancing Treg metabolic fitness",
+"C": "Expansion of functional Tregs and suppression of lupus nephritis",
+"statement": "Dapagliflozin expands functional Tregs in lupus nephritis by inducing ketone body production which supports Treg metabolic fitness.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Riluzole",
+"B": "Inhibition of voltage-gated sodium channels reducing T cell hyperexcitability and cytokine release",
+"C": "Attenuation of systemic inflammation and tissue damage in SLE",
+"statement": "Riluzole attenuates SLE inflammation by dampening T cell hyperexcitability through voltage-gated sodium channel blockade.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Allopurinol",
+"B": "Xanthine oxidase inhibition reducing uric acid-mediated NLRP3 inflammasome activation",
+"C": "Decreased IL-1β production and amelioration of lupus arthritis",
+"statement": "Allopurinol ameliorates lupus arthritis by lowering uric acid levels and subsequent NLRP3 inflammasome activation.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G10",
+"disease": "Systemic lupus erythematosus",
+"A": "Niclosamide",
+"B": "Inhibition of STAT3 signaling suppressing Th17 cell differentiation",
+"C": "Reduction of IL-17-mediated tissue damage in SLE",
+"statement": "Niclosamide reduces IL-17-mediated tissue damage in SLE by blocking STAT3-dependent Th17 differentiation.",
+"self_novelty": "moderate"
+}
+]

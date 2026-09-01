@@ -1,0 +1,593 @@
+{
+  "goal_id": "G07",
+  "disease_en": "Idiopathic pulmonary fibrosis",
+  "goal": "为特发性肺纤维化（Idiopathic pulmonary fibrosis）寻找可重定位的已上市药物及其作用机制",
+  "overview": "特发性肺纤维化药物重定位揭示了五种上市药物的抗纤维化机制。替米沙坦经激活PPARγ与阻断AT1R协同抑制成纤维细胞活化及上皮间质转化；利伐沙班抑制Xa因子及PAR-1信号，减轻凝血驱动的细胞活化；螺内酯拮抗盐皮质激素受体并降低氧化应激以减少胶原交联；二甲双胍激活AMPK并抑制TGF-β通路，阻断肌成纤维细胞转化及胶原沉积；阿托伐他汀抑制甲羟戊酸及RhoA信号以减轻EMT。这为临床治疗提供新策略。",
+  "hypotheses": [
+    {
+      "a": "Telmisartan",
+      "b": "Dual activation of PPARγ and blockade of AT1R",
+      "c": "Synergistic inhibition of fibroblast activation and EMT in IPF",
+      "statement": "Telmisartan synergistically inhibits fibroblast activation and EMT in IPF through dual PPARγ activation and AT1R blockade.",
+      "rationale": "Telmisartan uniquely combines AT1R antagonism with partial PPARγ agonism, targeting both TGF-β activation and Wnt/β-catenin signaling in IPF.",
+      "self_novelty": "moderate",
+      "elo": 1324.8080316077046,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "双重机制明确，但缺乏临床转化数据。"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "双靶点机制明确，临床前证据较充分。"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "双重机制协同，优于单一拮抗剂。"
+        }
+      ]
+    },
+    {
+      "a": "Rivaroxaban",
+      "b": "Inhibition of Factor Xa and PAR-1 signaling",
+      "c": "Attenuation of coagulation-driven fibroblast activation in IPF",
+      "statement": "Rivaroxaban attenuates coagulation-driven fibroblast activation in IPF by inhibiting Factor Xa and downstream PAR-1 signaling.",
+      "rationale": "Coagulation cascade activation promotes fibrosis via PAR-1; rivaroxaban blocks Factor Xa, reducing thrombin generation and PAR-1-mediated fibroblast proliferation.",
+      "self_novelty": "moderate",
+      "elo": 1295.5237266204156,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制合理但抗凝增加出血死亡风险。"
+        },
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "机制合理，但抗凝增加IPF死亡风险。"
+        },
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "促纤机制成立，但出血风险限制应用。"
+        }
+      ]
+    },
+    {
+      "a": "Spironolactone",
+      "b": "Antagonism of the mineralocorticoid receptor and reduction of oxidative stress",
+      "c": "Decreased collagen cross-linking in IPF",
+      "statement": "Spironolactone decreases collagen cross-linking in IPF by antagonizing the mineralocorticoid receptor and reducing oxidative stress.",
+      "rationale": "Mineralocorticoid receptor activation promotes oxidative stress and fibrosis; spironolactone blocks this, potentially reducing LOX-mediated collagen cross-linking.",
+      "self_novelty": "completely_novel",
+      "elo": 1286.9619145143504,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "肺脏受体作用及直接证据偏弱。"
+        },
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶点新颖，但高钾血症风险限制应用。"
+        },
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制具启发性，缺肺部临床数据。"
+        }
+      ]
+    },
+    {
+      "a": "Metformin",
+      "b": "AMPK/mTOR/TGF-β axis",
+      "c": "Fibroblast-to-myofibroblast transition and collagen deposition",
+      "statement": "Metformin suppresses fibroblast-to-myofibroblast transition and collagen deposition in IPF by activating AMPK and inhibiting mTOR-dependent TGF-β/Smad3 signaling.",
+      "rationale": "AMPK activation by metformin negatively regulates both mTOR and Smad3 phosphorylation, providing a dual brake on the metabolic and transcriptional programs driving fibrogenesis in IPF.",
+      "self_novelty": "Introduces the AMPK/mTOR metabolic axis as an anti-fibrotic target distinct from the coagulation, RAAS, and PPARγ pathways in existing hypotheses.",
+      "elo": 1256.2243893569878,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "与假设0高度重复，缺乏额外新颖性。"
+        },
+        {
+          "index": 15,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "与假设零重复，机制描述更详尽。"
+        }
+      ]
+    },
+    {
+      "a": "Atorvastatin",
+      "b": "Inhibition of the mevalonate pathway and RhoA/ROCK signaling",
+      "c": "Attenuation of epithelial-mesenchymal transition (EMT) in IPF",
+      "statement": "Atorvastatin attenuates EMT in IPF by inhibiting the mevalonate pathway and downstream RhoA/ROCK signaling.",
+      "rationale": "Statins block the mevalonate pathway, reducing isoprenoid synthesis required for RhoA membrane localization and activation, which drives EMT.",
+      "self_novelty": "moderate",
+      "elo": 1254.661062416816,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "经典老药新用，缺乏临床突破。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "通路明确，临床转化潜力待验证。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "通路明确，临床转化待验证。"
+        }
+      ]
+    },
+    {
+      "a": "Dapagliflozin",
+      "b": "SGLT2/SIRT1-AMPK-PGC1α axis",
+      "c": "Epithelial senescence and metabolic reprogramming",
+      "statement": "Dapagliflozin mitigates alveolar epithelial cell senescence and subsequent fibrogenesis in IPF by activating the SIRT1-AMPK axis to enhance mitophagy and suppress the senescence-associated secretory phenotype.",
+      "rationale": "SGLT2 inhibition reduces intracellular glucose flux and mitochondrial ROS in alveolar epithelial cells, triggering SIRT1-mediated deacetylation of PGC-1α and FOXO3a, which restores mitochondrial quality control and blunts SASP-driven paracrine fibroblast activation.",
+      "self_novelty": "First-in-class metabolic repositioning that targets epithelial senescence as the upstream driver of IPF, complementing the fibroblast-centric mechanisms of existing hypotheses.",
+      "elo": 1252.3416847837814,
+      "review_score": 4.333333333333333,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向细胞衰老，极具转化前景。"
+        }
+      ]
+    },
+    {
+      "a": "Baricitinib",
+      "b": "Inhibition of JAK1/2 and STAT3 signaling",
+      "c": "Reduction of profibrotic cytokine signaling in IPF",
+      "statement": "Baricitinib reduces profibrotic cytokine signaling in IPF by inhibiting JAK1/2 and downstream STAT3 activation.",
+      "rationale": "JAK-STAT pathways mediate signaling of multiple profibrotic cytokines; baricitinib blocks JAK1/2, potentially dampening fibroblast activation.",
+      "self_novelty": "moderate",
+      "elo": 1250.4557570370819,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向炎症通路，对晚期纤维化无效。"
+        },
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制明确，需警惕JAK抑制感染风险。"
+        },
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，需警惕靶向药安全性。"
+        }
+      ]
+    },
+    {
+      "a": "Losartan",
+      "b": "Blockade of AT1R and reduction of TGF-β1 activation",
+      "c": "Decreased myofibroblast differentiation in IPF",
+      "statement": "Losartan decreases myofibroblast differentiation in IPF by blocking AT1R and reducing latent TGF-β1 activation.",
+      "rationale": "Angiotensin II via AT1R promotes TGF-β1 activation; losartan blocks this receptor, thereby limiting TGF-β1-mediated fibroblast-to-myofibroblast transition.",
+      "self_novelty": "known",
+      "elo": 1249.8521445799568,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "机制经典但临床试验多呈阴性。"
+        },
+        {
+          "index": 2,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "老药新用，机制已被广泛证实。"
+        },
+        {
+          "index": 2,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "老药新用，机制已被广泛证实。"
+        }
+      ]
+    },
+    {
+      "a": "Simvastatin",
+      "b": "RhoA/ROCK-YAP/TAZ mechanotransduction axis",
+      "c": "Myofibroblast contractility and extracellular matrix stiffening",
+      "statement": "Simvastatin attenuates mechanotransduction-driven myofibroblast contractility and extracellular matrix stiffening in IPF by inhibiting the RhoA/ROCK signaling axis.",
+      "rationale": "HMG-CoA reductase inhibition depletes geranylgeranyl pyrophosphate required for RhoA prenylation, thereby disrupting ROCK-mediated actin stress fiber formation and YAP/TAZ nuclear translocation that sustain fibrotic mechanosignaling.",
+      "self_novelty": "Targets the mechanotransduction and RhoA/ROCK-YAP/TAZ axis, a completely different paradigm from the soluble factor signaling (coagulation, RAAS, TGF-β) addressed in existing hypotheses.",
+      "elo": 1242.5025200992297,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "引入机械转导机制，新颖且合理性高。"
+        },
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "引入力学传导，提升理论深度。"
+        }
+      ]
+    },
+    {
+      "a": "Empagliflozin",
+      "b": "Inhibition of SGLT2 and reduction of systemic inflammation",
+      "c": "Attenuation of pulmonary fibrosis progression in IPF",
+      "statement": "Empagliflozin attenuates pulmonary fibrosis progression in IPF by inhibiting SGLT2 and reducing systemic inflammation.",
+      "rationale": "SGLT2 inhibitors have anti-inflammatory effects beyond glucose lowering, which may mitigate the chronic inflammation contributing to IPF pathogenesis.",
+      "self_novelty": "completely_novel",
+      "elo": 1222.5675387025767,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "肺部靶点表达及直接证据尚缺乏。"
+        },
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "肺部靶点表达低，抗纤维化证据弱。"
+        },
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "跨界重定位，肺部直接证据尚弱。"
+        }
+      ]
+    },
+    {
+      "a": "Colchicine",
+      "b": "NLRP3 inflammasome/microtubule dynamics",
+      "c": "Innate immune-fibrotic crosstalk modulation",
+      "statement": "Colchicine attenuates fibroblast proliferation and extracellular matrix deposition in IPF by disrupting microtubule-dependent NLRP3 inflammasome assembly and downstream IL-1β autocrine signaling.",
+      "rationale": "Colchicine inhibits tubulin polymerization, preventing ASC speck formation and caspase-1 activation, thereby blocking the IL-1β loop that drives fibroblast-to-myofibroblast transition in the fibrotic lung microenvironment.",
+      "self_novelty": "Repositions a classic anti-inflammatory drug to target innate immune-fibrotic crosstalk, mechanistically orthogonal to the coagulation, RAAS, and PPARγ axes in existing hypotheses.",
+      "elo": 1215.0,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "与假设九重重复，侧重自分泌信号。"
+        }
+      ]
+    },
+    {
+      "a": "Pioglitazone",
+      "b": "Activation of PPARγ and suppression of Wnt/β-catenin signaling",
+      "c": "Inhibition of fibroblast activation in IPF",
+      "statement": "Pioglitazone inhibits fibroblast activation in IPF by activating PPARγ, which suppresses Wnt/β-catenin signaling.",
+      "rationale": "PPARγ activation by pioglitazone has been shown to antagonize Wnt/β-catenin, a critical pathway driving fibroblast proliferation and matrix synthesis.",
+      "self_novelty": "moderate",
+      "elo": 1210.294324613331,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "靶点合理但副作用限制其应用。"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，但需关注激动剂副作用。"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，但副作用需考量。"
+        }
+      ]
+    },
+    {
+      "a": "Dimethyl fumarate",
+      "b": "Activation of Nrf2 and enhancement of antioxidant defenses",
+      "c": "Protection against oxidative stress-induced alveolar epithelial cell apoptosis in IPF",
+      "statement": "Dimethyl fumarate protects against oxidative stress-induced alveolar epithelial cell apoptosis in IPF by activating Nrf2.",
+      "rationale": "Nrf2 activation by dimethyl fumarate upregulates antioxidant genes, counteracting the oxidative stress that drives epithelial injury in IPF.",
+      "self_novelty": "moderate",
+      "elo": 1194.0254671696032,
+      "review_score": 4.333333333333333,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "抗氧化机制明确，临床潜力较好。"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "靶向Nrf2前景好，需防免疫抑制。"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "靶点明确，需关注免疫抑制副作用。"
+        }
+      ]
+    },
+    {
+      "a": "Fingolimod",
+      "b": "Modulation of S1P receptors and inhibition of lymphocyte egress",
+      "c": "Reduction of adaptive immune-driven fibrosis in IPF",
+      "statement": "Fingolimod reduces adaptive immune-driven fibrosis in IPF by modulating S1P receptors and inhibiting lymphocyte egress from lymph nodes.",
+      "rationale": "S1P receptor modulation by fingolimod sequesters lymphocytes, potentially reducing the adaptive immune contribution to fibrotic remodeling in IPF.",
+      "self_novelty": "completely_novel",
+      "elo": 1190.508306070792,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 2,
+          "critique": "IPF非典型免疫病，免疫抑制风险高。"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "非典型免疫病，免疫抑制疗效存疑。"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "非典型免疫病，淋巴细胞靶向收益存疑。"
+        }
+      ]
+    },
+    {
+      "a": "Allopurinol",
+      "b": "Inhibition of xanthine oxidase and reduction of uric acid and ROS production",
+      "c": "Protection of alveolar epithelial cells from oxidative damage in IPF",
+      "statement": "Allopurinol protects alveolar epithelial cells from oxidative damage in IPF by inhibiting xanthine oxidase and reducing ROS production.",
+      "rationale": "Xanthine oxidase generates ROS during purine metabolism; allopurinol inhibits this enzyme, potentially limiting oxidative injury in IPF lungs.",
+      "self_novelty": "moderate",
+      "elo": 1172.7139475326492,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "单纯抗氧化策略在IPF中获益有限。"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "抗氧化明确，但非IPF核心致病通路。"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "靶点明确，单纯抗氧化难逆转纤维化。"
+        }
+      ]
+    },
+    {
+      "a": "Colchicine",
+      "b": "Inhibition of microtubule polymerization and NLRP3 inflammasome activation",
+      "c": "Reduction of neutrophil-mediated lung injury in IPF",
+      "statement": "Colchicine reduces neutrophil-mediated lung injury in IPF by inhibiting microtubule polymerization and NLRP3 inflammasome activation.",
+      "rationale": "Colchicine disrupts microtubules and blocks NLRP3 inflammasome assembly, reducing IL-1β release and neutrophil recruitment that exacerbate IPF.",
+      "self_novelty": "moderate",
+      "elo": 1170.731865690219,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制合理但临床疗效存在较大争议。"
+        },
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，但治疗窗窄且毒性较大。"
+        },
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "机制明确，临床剂量与毒性需平衡。"
+        }
+      ]
+    },
+    {
+      "a": "Omeprazole",
+      "b": "Inhibition of the proton pump and reduction of microaspiration-induced inflammation",
+      "c": "Slowing of IPF progression",
+      "statement": "Omeprazole slows IPF progression by reducing gastric acid microaspiration and subsequent alveolar inflammation.",
+      "rationale": "Gastric acid microaspiration is implicated in IPF exacerbations; proton pump inhibitors like omeprazole reduce acid exposure, potentially mitigating injury-driven fibrosis.",
+      "self_novelty": "known",
+      "elo": 1154.2464287934333,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 2,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "指南已不推荐，缺乏抗纤维化证据。"
+        },
+        {
+          "index": 4,
+          "novelty": 2,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "临床获益存疑，微吸入理论有争议。"
+        },
+        {
+          "index": 4,
+          "novelty": 2,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "临床证据存疑，非直接抗纤维化。"
+        }
+      ]
+    },
+    {
+      "a": "Metformin",
+      "b": "Activation of AMPK and inhibition of mTOR signaling",
+      "c": "Reduction of fibroblast proliferation and collagen deposition in IPF",
+      "statement": "Metformin reduces pulmonary fibrosis by activating AMPK and inhibiting mTOR signaling.",
+      "rationale": "Metformin is known to activate AMPK, which negatively regulates mTOR, a key pathway in fibroblast activation and extracellular matrix production.",
+      "self_novelty": "moderate",
+      "elo": 1137.753456451462,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "机制明确但临床转化证据不足。"
+        },
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制经典但缺乏新颖性。"
+        },
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制经典但缺乏新颖性。"
+        }
+      ]
+    },
+    {
+      "a": "Sildenafil",
+      "b": "Inhibition of PDE5 and elevation of cGMP levels",
+      "c": "Improvement of pulmonary hemodynamics and reduction of vascular remodeling in IPF",
+      "statement": "Sildenafil improves pulmonary hemodynamics and reduces vascular remodeling in IPF by inhibiting PDE5 and elevating cGMP.",
+      "rationale": "PDE5 inhibition increases cGMP, promoting vasodilation and inhibiting smooth muscle proliferation, which may alleviate pulmonary hypertension associated with IPF.",
+      "self_novelty": "known",
+      "elo": 1118.8274339596096,
+      "review_score": 2.0,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 1,
+          "correctness": 4,
+          "plausibility": 2,
+          "critique": "仅改善血流动力学，不抗纤维化。"
+        },
+        {
+          "index": 5,
+          "novelty": 1,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "临床证实不改善IPF主要终点。"
+        },
+        {
+          "index": 5,
+          "novelty": 1,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "临床已失败，仅限合并肺高压。"
+        }
+      ]
+    }
+  ]
+}

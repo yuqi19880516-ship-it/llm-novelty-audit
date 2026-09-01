@@ -1,0 +1,593 @@
+{
+  "goal_id": "G09",
+  "disease_en": "Drug-resistant tuberculosis",
+  "goal": "为耐药结核（Drug-resistant tuberculosis）寻找可重定位的已上市药物及其作用机制",
+  "overview": "耐药结核药物重定位研究揭示了多种老药新用机制。双硫仑螯合铜离子抑制超氧化物歧化酶，引发氧化应激致死耐药菌；氯硝柳胺解偶联氧化磷酸化诱导活性氧爆发，杀灭持留态耐多药菌株。宿主靶向方面，丙戊酸上调抗菌肽增强肺泡巨噬细胞非特异性杀伤；氯喹阻断铁蛋白自噬限制游离铁，饿死依赖铁代谢的耐药菌。此外，硝呋太尔经特定硝基还原酶激活，靶向杀灭对传统硝基咪唑类耐药的结核菌株，提供多维治疗策略。",
+  "hypotheses": [
+    {
+      "a": "双硫仑",
+      "b": "螯合分枝杆菌内铜离子并抑制超氧化物歧化酶",
+      "c": "导致氧化应激介导的耐药菌死亡",
+      "statement": "双硫仑通过螯合铜离子抑制超氧化物歧化酶导致耐药结核菌死于氧化应激。",
+      "rationale": "戒酒药双硫仑的金属螯合特性可特异性破坏结核菌抵御巨噬细胞氧化杀伤的核心酶系统。",
+      "self_novelty": "completely_novel",
+      "elo": 1311.4102371911617,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铜螯合抑制歧化酶机制合理。"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "双硫仑主要致铜毒性而非单纯剥夺。"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "螯合铜抑制SOD的机制合理且有潜力。"
+        }
+      ]
+    },
+    {
+      "a": "氯硝柳胺",
+      "b": "解偶联分枝杆菌氧化磷酸化并诱导致死性ROS爆发",
+      "c": "杀灭持留态耐多药结核菌",
+      "statement": "氯硝柳胺可通过解偶联氧化磷酸化诱导ROS爆发来杀灭持留态耐多药结核菌。",
+      "rationale": "作为已上市的抗绦虫药，其破坏细菌质子动力势的脱靶效应为清除代谢休眠的耐药菌提供了新途径。",
+      "self_novelty": "moderate",
+      "elo": 1306.9880231358125,
+      "review_score": 4.333333333333333,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制明确但新颖性略显不足。"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，已有抗结核活性报道。"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制明确但新颖性不足，已有较多研究。"
+        }
+      ]
+    },
+    {
+      "a": "丙戊酸",
+      "b": "抑制宿主组蛋白去乙酰化酶并上调抗菌肽LL-37表达",
+      "c": "增强肺泡巨噬细胞对耐药结核菌的非特异性杀伤",
+      "statement": "丙戊酸通过上调抗菌肽LL-37表达增强肺泡巨噬细胞对耐药结核菌的非特异性杀伤。",
+      "rationale": "抗癫痫药的表观遗传调控作用能重新激活宿主先天免疫基因，提供不依赖于细菌靶点的杀菌机制。",
+      "self_novelty": "moderate",
+      "elo": 1272.829032735212,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "抑制去乙酰化酶上调肽机制经典。"
+        },
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制明确，抑制HDAC上调LL-37证据充分。"
+        },
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "HDAC抑制剂上调LL-37机制明确。"
+        }
+      ]
+    },
+    {
+      "a": "氯喹",
+      "b": "阻断宿主铁蛋白自噬限制胞内游离铁",
+      "c": "饿死依赖铁代谢的耐药结核菌",
+      "statement": "氯喹通过阻断铁蛋白自噬限制胞内游离铁以饿死依赖铁代谢的耐药结核菌。",
+      "rationale": "抗疟药氯喹改变溶酶体pH值的能力可干扰宿主铁稳态，从而对需铁量极高的分枝杆菌实施营养免疫。",
+      "self_novelty": "moderate",
+      "elo": 1265.3376671790559,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "阻断铁蛋白自噬限铁机制合理。"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "逻辑自洽，符合宿主导向限铁策略。"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "氯喹抗结核临床疗效存疑且机制复杂。"
+        }
+      ]
+    },
+    {
+      "a": "硝呋太尔",
+      "b": "被分枝杆菌硝基还原酶激活产生毒性中间体",
+      "c": "靶向杀灭对传统硝基咪唑类耐药的结核菌株",
+      "statement": "硝呋太尔可被特定硝基还原酶激活以靶向杀灭对传统硝基咪唑类耐药的结核菌株。",
+      "rationale": "这种已上市的抗滴虫药具有独特的硝基呋喃结构，能绕过现有硝基还原酶突变引发的耐药机制。",
+      "self_novelty": "completely_novel",
+      "elo": 1264.98027134695,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "硝基呋喃类交叉耐药风险需评估。"
+        },
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "硝基呋喃可绕过硝基咪唑类耐药机制。"
+        },
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "需明确其还原酶是否异于硝基咪唑类。"
+        }
+      ]
+    },
+    {
+      "a": "伊马替尼",
+      "b": "抑制c-Abl激酶介导的巨噬细胞肌动蛋白重塑",
+      "c": "阻止耐药结核菌逃逸吞噬体",
+      "statement": "伊马替尼能抑制肌动蛋白重塑从而阻止耐药结核菌逃逸巨噬细胞吞噬体。",
+      "rationale": "靶向抗癌药伊马替尼可干预宿主细胞骨架动力学，将病原体永久封锁在具有杀菌活性的吞噬溶酶体中。",
+      "self_novelty": "moderate",
+      "elo": 1258.3876590789278,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "阻止吞噬体逃逸证据尚不充分。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，有宿主导向治疗研究支持。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制已有文献支持，新颖性略显不足。"
+        }
+      ]
+    },
+    {
+      "a": "辛伐他汀(Simvastatin)",
+      "b": "宿主胆固醇耗竭",
+      "c": "脂质碳源饥饿介导的持留菌代谢崩溃",
+      "statement": "辛伐他汀通过抑制宿主HMG-CoA还原酶耗竭巨噬细胞内胆固醇池，切断耐药持留结核菌依赖宿主脂质β-氧化供能的代谢通路以实现饥饿杀灭。",
+      "rationale": "耐多药结核菌在持留态高度上调胆固醇摄取与β-氧化基因簇以替代糖代谢，他汀类药物的宿主导向脂质剥夺策略可从根本上规避细菌对传统抗生素靶点的耐药突变。",
+      "self_novelty": "0.88",
+      "elo": 1241.6153762723075,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "宿主导向治疗策略合理，但临床转化难。"
+        }
+      ]
+    },
+    {
+      "a": "塞来昔布",
+      "b": "抑制COX-2/PGE2轴并重塑肉芽肿微环境血管生成",
+      "c": "改善抗结核药物在耐药病灶中的渗透性",
+      "statement": "塞来昔布能重塑肉芽肿微环境血管生成以改善抗结核药物在耐药病灶中的渗透性。",
+      "rationale": "非甾体抗炎药可通过调节局部炎症介质网络，逆转结核肉芽肿的异常血管化并恢复药物递送效率。",
+      "self_novelty": "moderate",
+      "elo": 1235.1660613174859,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "改善药物渗透的临床转化较难。"
+        },
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，符合肉芽肿微环境重塑策略。"
+        },
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "抑制PGE2可能削弱宿主抗结核免疫。"
+        }
+      ]
+    },
+    {
+      "a": "Drug Repurposing",
+      "b": "Mechanism of Action",
+      "c": "Drug-resistant tuberculosis",
+      "statement": "阿托伐醌通过抑制细胞色素bc1复合物阻断电子传递链，特异性杀灭依赖氧化磷酸化的持留态耐药结核菌。",
+      "rationale": "耐药结核菌在持留状态下高度依赖呼吸链维持膜电位，阿托伐醌作为已上市的抗疟药可精准靶向其能量代谢弱点。",
+      "self_novelty": "将抗疟药阿托伐醌的靶点从疟原虫线粒体重新定位到结核分枝杆菌持留态的呼吸链依赖性上。",
+      "elo": 1230.670217562191,
+      "review_score": 4.333333333333333,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向bc1正确，但对持留态效果存争议。"
+        },
+        {
+          "index": 15,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制明确且已获广泛验证，新颖性一般。"
+        }
+      ]
+    },
+    {
+      "a": "Drug Repurposing",
+      "b": "Mechanism of Action",
+      "c": "Drug-resistant tuberculosis",
+      "statement": "地昔帕明通过抑制分枝杆菌外排泵Rv1258c恢复耐药结核菌对一线药物的敏感性。",
+      "rationale": "三环类抗抑郁药地昔帕明具有钙通道阻滞特性，可干扰结核菌外排泵的构象变化从而逆转获得性耐药表型。",
+      "self_novelty": "利用精神类药物的非经典靶点效应，将外排泵抑制机制引入耐药结核的联合治疗策略中。",
+      "elo": 1223.5510092949385,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "具外排泵抑制潜力，但特异性靶点证据弱。"
+        },
+        {
+          "index": 16,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向特定外排泵有文献支持，较为合理。"
+        }
+      ]
+    },
+    {
+      "a": "金诺芬(Auranofin)",
+      "b": "硫氧还蛋白还原酶(TrxB2)抑制",
+      "c": "硫醇氧化还原失衡介导的耐药菌死亡",
+      "statement": "金诺芬通过高亲和力结合结核分枝杆菌硫氧还蛋白还原酶TrxB2的硒代半胱氨酸残基，破坏硫醇氧化还原稳态使耐药菌丧失抵御宿主氧化攻击的能力而死亡。",
+      "rationale": "TrxB2是耐药结核菌维持还原型硫醇池的核心防线且与哺乳动物同源酶结构差异显著，该机制从硫醇代谢维度补充了现有假设中SOD抑制与ROS爆发的氧化应激路径。",
+      "self_novelty": "0.82",
+      "elo": 1220.0,
+      "review_score": 4.333333333333333,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "靶向TrxB2机制确凿，重定位潜力大。"
+        }
+      ]
+    },
+    {
+      "a": "硫利达嗪",
+      "b": "抑制分枝杆菌外排泵并增加细胞膜通透性",
+      "c": "恢复耐药结核菌对利福平的敏感性",
+      "statement": "硫利达嗪通过抑制外排泵恢复耐药结核菌对利福平的敏感性。",
+      "rationale": "经典抗精神病药物已被证实具有钙拮抗和膜活性，能有效逆转由外排泵过表达介导的多药耐药性。",
+      "self_novelty": "known",
+      "elo": 1212.5857049921588,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "经典外排泵抑制剂，新颖性低。"
+        },
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "经典外排泵抑制剂，机制正确但新颖性低。"
+        },
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "经典外排泵抑制剂，机制明确但缺新意。"
+        }
+      ]
+    },
+    {
+      "a": "氟西汀",
+      "b": "调节巨噬细胞自噬流并促进溶酶体酸化",
+      "c": "增强宿主清除胞内耐药结核菌的能力",
+      "statement": "氟西汀能通过促进溶酶体酸化增强巨噬细胞清除胞内耐药结核菌的能力。",
+      "rationale": "选择性5-羟色胺再摄取抑制剂已被发现具有调节宿主细胞自噬和囊泡运输的免疫代谢功能。",
+      "self_novelty": "moderate",
+      "elo": 1209.5406766275316,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "抗结核直接证据较弱需验证。"
+        },
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "氟西汀促溶酶体酸化证据不足。"
+        },
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "促进溶酶体酸化的直接证据不足。"
+        }
+      ]
+    },
+    {
+      "a": "雷帕霉素",
+      "b": "抑制mTORC1并诱导异种自噬受体p62磷酸化",
+      "c": "加速巨噬细胞内耐药结核菌的溶酶体降解",
+      "statement": "雷帕霉素通过诱导异种自噬受体p62磷酸化加速巨噬细胞内耐药结核菌的溶酶体降解。",
+      "rationale": "免疫抑制剂雷帕霉素是经典的自噬诱导剂，能特异性增强宿主细胞对胞内难治性病原体的清除效率。",
+      "self_novelty": "moderate",
+      "elo": 1173.8178483954337,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "诱导自噬机制经典但临床受限。"
+        },
+        {
+          "index": 13,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "经典自噬诱导剂，机制合理但新颖性不足。"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "雷帕霉素主要促p62降解而非磷酸化。"
+        }
+      ]
+    },
+    {
+      "a": "没食子酸铋",
+      "b": "置换分枝杆菌金属酶中的锌离子并使其失活",
+      "c": "克服由金属酶突变介导的耐药结核菌抗性",
+      "statement": "没食子酸铋通过置换金属酶中的锌离子克服由金属酶突变介导的耐药结核菌抗性。",
+      "rationale": "铋剂的金属置换特性可靶向破坏结核菌维持生存必需的金属酶活性中心，提供一种全新的非抗生素杀菌策略。",
+      "self_novelty": "completely_novel",
+      "elo": 1157.0226778647918,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铋置换锌机制合理但靶点需明确。"
+        },
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铋剂置换锌离子机制合理，具抗耐药潜力。"
+        },
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "结核一线耐药极少由金属酶突变介导。"
+        }
+      ]
+    },
+    {
+      "a": "阿托伐他汀",
+      "b": "抑制宿主甲羟戊酸途径从而剥夺分枝杆菌细胞壁合成前体",
+      "c": "协同一线药物逆转耐药表型",
+      "statement": "阿托伐他汀可通过剥夺细胞壁合成前体协同一线药物逆转结核菌的耐药表型。",
+      "rationale": "分枝杆菌高度依赖宿主提供的胆固醇及异戊二烯前体，他汀类药物能切断这一关键营养补给线。",
+      "self_novelty": "moderate",
+      "elo": 1155.6404508803962,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "细胞壁前体剥夺机制描述有误。"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "宿主甲羟戊酸途径不提供菌壁前体。"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "结核菌细胞壁前体主要依赖自身合成。"
+        }
+      ]
+    },
+    {
+      "a": "氨氯地平",
+      "b": "阻断分枝杆菌钙离子通道并干扰其胞内钙信号传导",
+      "c": "抑制耐药结核菌的生物膜形成与持留",
+      "statement": "氨氯地平通过干扰胞内钙信号传导抑制耐药结核菌的生物膜形成与持留。",
+      "rationale": "钙通道阻滞剂可能交叉反应于原核生物的钙离子稳态系统，从而破坏耐药菌在病灶内的空间聚集防御。",
+      "self_novelty": "completely_novel",
+      "elo": 1145.2687043282617,
+      "review_score": 2.0,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "细菌钙通道非氨氯地平直接靶点。"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "分枝杆菌无典型真核钙通道，靶点存疑。"
+        },
+        {
+          "index": 10,
+          "novelty": 2,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "分枝杆菌缺乏真核生物L型钙通道。"
+        }
+      ]
+    },
+    {
+      "a": "二甲双胍",
+      "b": "诱导线粒体复合物I逆向电子传递产生超氧化物",
+      "c": "破坏耐药结核菌的抗氧化防御系统",
+      "statement": "二甲双胍通过诱导线粒体超氧化物产生来破坏耐药结核菌的抗氧化防御系统。",
+      "rationale": "经典降糖药在感染微环境中引发的特定线粒体代谢重编程可作为宿主导向疗法的强效辅助手段。",
+      "self_novelty": "moderate",
+      "elo": 1118.7557249987694,
+      "review_score": 1.3333333333333333,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "结核菌无线粒体，机制描述错误。"
+        },
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 1,
+          "plausibility": 1,
+          "critique": "结核菌无线粒体，机制存在常识错误。"
+        },
+        {
+          "index": 5,
+          "novelty": 2,
+          "correctness": 1,
+          "plausibility": 1,
+          "critique": "结核菌为原核生物，根本无线粒体。"
+        }
+      ]
+    },
+    {
+      "a": "阿奇霉素",
+      "b": "结合分枝杆菌核糖体并干扰群体感应信号分子合成",
+      "c": "削弱耐药结核菌的毒力与免疫逃逸能力",
+      "statement": "阿奇霉素通过干扰群体感应信号分子合成削弱耐药结核菌的毒力与免疫逃逸能力。",
+      "rationale": "大环内酯类抗生素在亚抑菌浓度下可作为群体感应抑制剂，解除结核菌对宿主巨噬细胞的免疫抑制。",
+      "self_novelty": "moderate",
+      "elo": 1081.4326567986138,
+      "review_score": 2.3333333333333335,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "结核菌群体感应机制证据不充分。"
+        },
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 1,
+          "plausibility": 1,
+          "critique": "结核菌天然耐药且无典型群体感应机制。"
+        },
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "结核菌群体感应机制不典型且证据薄弱。"
+        }
+      ]
+    }
+  ]
+}

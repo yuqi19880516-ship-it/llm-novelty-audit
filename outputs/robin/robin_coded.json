@@ -1,0 +1,425 @@
+[
+  {
+    "drug": "Avacincaptad pegol",
+    "strength": 0.6644788531002918,
+    "cooc": 47,
+    "z": 237.98081213778622,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Risuteganib",
+    "strength": 0.5758458469573289,
+    "cooc": 8,
+    "z": 97.55356394947361,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Elamipretide",
+    "strength": 0.5408110654732619,
+    "cooc": 8,
+    "z": 24.640347840468106,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Pegcetacoplan",
+    "strength": 0.521351138463146,
+    "cooc": 67,
+    "z": 175.55994878031788,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "MCC950",
+    "strength": 0.49167799799536227,
+    "cooc": 5,
+    "z": 5.230980537178161,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Metformin",
+    "strength": 0.4448874205138246,
+    "cooc": 61,
+    "z": 8.370935986065689,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Lutein",
+    "strength": 0.3768280925137623,
+    "cooc": 544,
+    "z": 249.42698231148347,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Nicotinamide Mononucleotide",
+    "strength": 0.3457746578354038,
+    "cooc": 6,
+    "z": 5.609191227679442,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Metformin hydrochloride",
+    "strength": 0.33648067531217174,
+    "cooc": 0,
+    "z": -0.6303342931308031,
+    "disjoint": true,
+    "atypical": true,
+    "L": "L2_跨文献新颖"
+  },
+  {
+    "drug": "Fenofibrate",
+    "strength": 0.3225603620984135,
+    "cooc": 13,
+    "z": 6.125060245672548,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Alda-1",
+    "strength": 0.2688866261848557,
+    "cooc": 0,
+    "z": -0.34979258942016106,
+    "disjoint": true,
+    "atypical": true,
+    "L": "L2_跨文献新颖"
+  },
+  {
+    "drug": "Recombinant human Gas6",
+    "strength": 0.26649506286284447,
+    "cooc": 0,
+    "z": -0.08599442518621057,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "SkQ1",
+    "strength": 0.2547069806330599,
+    "cooc": 13,
+    "z": 32.19114589052311,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Tauroursodeoxycholic acid",
+    "strength": 0.2482005722985146,
+    "cooc": 5,
+    "z": 5.32424516405911,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Dimethyl fumarate",
+    "strength": 0.22896189688484336,
+    "cooc": 6,
+    "z": 4.175562110136795,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Docosahexaenoic acid",
+    "strength": 0.2164729381216809,
+    "cooc": 125,
+    "z": 34.51349276438482,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Sulforaphane",
+    "strength": 0.20147763408707392,
+    "cooc": 11,
+    "z": 5.986794488586636,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Fenretinide",
+    "strength": 0.17884792404602878,
+    "cooc": 9,
+    "z": 12.94110989900408,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Omaveloxolone",
+    "strength": 0.1515714555308712,
+    "cooc": 0,
+    "z": -0.23479090946453773,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Ataluren",
+    "strength": 0.10182353865764751,
+    "cooc": 0,
+    "z": -0.3775226461943633,
+    "disjoint": true,
+    "atypical": true,
+    "L": "L2_跨文献新颖"
+  },
+  {
+    "drug": "MitoQ",
+    "strength": 0.09947050695005621,
+    "cooc": 1,
+    "z": 0.8868275309123228,
+    "disjoint": true,
+    "atypical": true,
+    "L": "L2_跨文献新颖"
+  },
+  {
+    "drug": "Everolimus",
+    "strength": 0.08745701545631744,
+    "cooc": 3,
+    "z": -1.1535639665255915,
+    "disjoint": false,
+    "atypical": true,
+    "L": "L2_跨文献新颖"
+  },
+  {
+    "drug": "AICAR",
+    "strength": 0.04407906422381501,
+    "cooc": 11,
+    "z": 7.5978995489260965,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Recombinant human MFG-E8",
+    "strength": 0.0385838001856804,
+    "cooc": 0,
+    "z": -0.10371318572579673,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "VX-765",
+    "strength": 0.026975953849076237,
+    "cooc": 0,
+    "z": -0.3300139558493845,
+    "disjoint": true,
+    "atypical": true,
+    "L": "L2_跨文献新颖"
+  },
+  {
+    "drug": "Trehalose",
+    "strength": 0.01805224765600181,
+    "cooc": 10,
+    "z": 0.9437072343692918,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Anakinra",
+    "strength": -0.020075466632930153,
+    "cooc": 0,
+    "z": -1.4343386452477358,
+    "disjoint": true,
+    "atypical": true,
+    "L": "L2_跨文献新颖"
+  },
+  {
+    "drug": "Dapansutrile",
+    "strength": -0.025710960687565648,
+    "cooc": 0,
+    "z": -0.12434775256669166,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Bardoxolone methyl",
+    "strength": -0.07173212353129048,
+    "cooc": 1,
+    "z": 2.0423985034394083,
+    "disjoint": true,
+    "atypical": true,
+    "L": "L2_跨文献新颖"
+  },
+  {
+    "drug": "Humanin",
+    "strength": -0.11315747653577941,
+    "cooc": 15,
+    "z": 25.85549337570575,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "SR9009",
+    "strength": -0.13234213030762887,
+    "cooc": 0,
+    "z": -0.29104481736275717,
+    "disjoint": true,
+    "atypical": true,
+    "L": "L2_跨文献新颖"
+  },
+  {
+    "drug": "Rapamycin",
+    "strength": -0.1534180480794387,
+    "cooc": 88,
+    "z": 11.624517170942674,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Eculizumab",
+    "strength": -0.15393272041683964,
+    "cooc": 20,
+    "z": 12.816874487488706,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "BGP-15",
+    "strength": -0.17527520619396275,
+    "cooc": 0,
+    "z": -0.24597765182084866,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Canakinumab",
+    "strength": -0.19938586077415354,
+    "cooc": 0,
+    "z": -0.8692872860176752,
+    "disjoint": true,
+    "atypical": true,
+    "L": "L2_跨文献新颖"
+  },
+  {
+    "drug": "Trodusquemine",
+    "strength": -0.21889498678826436,
+    "cooc": 0,
+    "z": -0.1758543301500571,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "AZ10606120",
+    "strength": -0.32873546641933654,
+    "cooc": 0,
+    "z": -0.170023268930745,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Emixustat hydrochloride",
+    "strength": -0.3374391897024439,
+    "cooc": 3,
+    "z": 47.20409697978436,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Resveratrol",
+    "strength": -0.3898659696017865,
+    "cooc": 82,
+    "z": 19.12270697484099,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Carvedilol",
+    "strength": -0.4013838104487757,
+    "cooc": 1,
+    "z": -1.0274279080074618,
+    "disjoint": true,
+    "atypical": true,
+    "L": "L2_跨文献新颖"
+  },
+  {
+    "drug": "SR9011",
+    "strength": -0.40982310515055353,
+    "cooc": 0,
+    "z": -0.10371318572579673,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "Naringenin",
+    "strength": -0.5164576731569713,
+    "cooc": 6,
+    "z": 1.5767771812963918,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "SRT1720",
+    "strength": -0.5302589213627635,
+    "cooc": 2,
+    "z": 3.425115318875009,
+    "disjoint": true,
+    "atypical": true,
+    "L": "L2_跨文献新颖"
+  },
+  {
+    "drug": "ZLN005",
+    "strength": -0.5362710622668089,
+    "cooc": 1,
+    "z": 4.539934408990523,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "T0901317",
+    "strength": -0.6075727068881721,
+    "cooc": 0,
+    "z": -0.6080766272945906,
+    "disjoint": true,
+    "atypical": true,
+    "L": "L2_跨文献新颖"
+  },
+  {
+    "drug": "Apocynin",
+    "strength": -0.630871703134248,
+    "cooc": 5,
+    "z": 2.6142065114420334,
+    "disjoint": false,
+    "atypical": false,
+    "L": "L1_既知重组"
+  },
+  {
+    "drug": "β-Lapachone",
+    "strength": -0.8368900849594859,
+    "cooc": 0,
+    "z": -0.6456143899496535,
+    "disjoint": true,
+    "atypical": true,
+    "L": "L2_跨文献新颖"
+  }
+]

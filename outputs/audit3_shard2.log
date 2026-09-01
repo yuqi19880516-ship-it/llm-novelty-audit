@@ -1,0 +1,9 @@
+样本 336 条，已审计 283 条，续跑剩余…
+
+  ✗ deepseek-v4-pro_G03_Menadione: URLError
+  ✗ deepseek-v4-pro_G06_Paroxetine: RuntimeError
+  ✗ deepseek-v4-pro_G09_Dimethyl: RuntimeError
+  ✗ deepseek-v4-pro_G06_Tolvaptan: RuntimeError
+  ✗ deepseek-v4-pro_G12_Nalbuphine: RuntimeError
+
+完成 → outputs/coded_sample.jsonl（累计已编码 304 条，本轮失败 5 条，可再跑补齐）

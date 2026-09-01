@@ -1,0 +1,161 @@
+{
+  "goal": "为急性髓系白血病(AML)寻找可重定位的已上市药物及其作用机制",
+  "overview": "Top hypotheses: Disulfiram (anti-alcoholism drug)→Eradication of leukemia stem cells in NPM1-mutated AML; Ivacaftor (CFTR potentiator)→Selective apoptosis of MCL-1-dependent AML cells regardless of genetic subtype; Flunarizine (vestibular migraine prophylactic)→Synthetic lethality in FLT3-ITD+ AML cells under metabolic stress; Nitazoxanide (broad-spectrum antiparasitic)→Paraptosis-like cell death in TP53-mutant AML; Probenecid (uricosuric agent)→Suppression of inflammatory niche-driven AML progression and chemoresistance",
+  "hypotheses": [
+    {
+      "a": "Disulfiram (anti-alcoholism drug)",
+      "b": "Cu²⁺-dependent inhibition of ALDH1A1 stemness pathway and induction of oxidative stress via NPL4 aggregation",
+      "c": "Eradication of leukemia stem cells in NPM1-mutated AML",
+      "statement": "Disulfiram with copper supplementation selectively eliminates NPM1-mutated AML stem cells by targeting ALDH1A1 activity and inducing proteotoxic stress.",
+      "rationale": "Disulfiram's metabolite CuET targets NPL4, a key component of the p97/VCP segregase, and ALDH1A1 is a known stem cell marker in AML; NPM1 mutation creates a specific vulnerability to nucleolar stress.",
+      "self_novelty": "completely_novel",
+      "elo": 1337.2939680231193,
+      "reviews": []
+    },
+    {
+      "a": "Ivacaftor (CFTR potentiator)",
+      "b": "Restoration of chloride efflux and intracellular pH in AML blasts, reversing aberrant MCL-1 stabilization caused by cytosolic acidification",
+      "c": "Selective apoptosis of MCL-1-dependent AML cells regardless of genetic subtype",
+      "statement": "Ivacaftor rebalances intracellular pH to destabilize MCL-1 protein in AML cells that exhibit defective anion transport.",
+      "rationale": "AML cells often have dysregulated ion homeostasis; CFTR expression is found in hematopoietic cells, and ivacaftor's ability to modify pH-dependent BCL-2 family proteins represents a new BH3-mimetic-like strategy.",
+      "self_novelty": "completely_novel",
+      "elo": 1302.530974421479,
+      "reviews": []
+    },
+    {
+      "a": "Flunarizine (vestibular migraine prophylactic)",
+      "b": "Disruption of autophagic flux by inhibiting TRPML1 calcium channels, blocking fusion of autophagosomes with lysosomes",
+      "c": "Synthetic lethality in FLT3-ITD+ AML cells under metabolic stress",
+      "statement": "Flunarizine impairs autophagy completion in FLT3-ITD-driven AML cells, leading to toxic accumulation of damaged mitochondria and apoptotic crisis.",
+      "rationale": "FLT3-ITD+ AML relies heavily on autophagy for survival; flunarizine is a potent TRPML1 inhibitor not previously explored in AML, creating a druggable lysosomal vulnerability.",
+      "self_novelty": "completely_novel",
+      "elo": 1295.3840498329753,
+      "reviews": []
+    },
+    {
+      "a": "Nitazoxanide (broad-spectrum antiparasitic)",
+      "b": "Unfolded protein response overload through PERK/ATF4 axis hyperactivation combined with glutathione depletion via inhibition of GRP78 and G6PD",
+      "c": "Paraptosis-like cell death in TP53-mutant AML",
+      "statement": "Nitazoxanide triggers a non-apoptotic, ER-stress-driven cell death in p53-deficient AML by simultaneously blocking protein folding and antioxidant defenses.",
+      "rationale": "TP53-mutant AML is chemoresistant and lacks effective therapy; nitazoxanide inhibits GRP78 and the pentose phosphate pathway, a dual vulnerability that induces paraptosis, a death mode bypassing p53 defects.",
+      "self_novelty": "completely_novel",
+      "elo": 1286.661079379286,
+      "reviews": []
+    },
+    {
+      "a": "Probenecid (uricosuric agent)",
+      "b": "Inhibition of pannexin-1 channels, reducing ATP release and P2X7 receptor-mediated NLRP3 inflammasome activation in the bone marrow niche",
+      "c": "Suppression of inflammatory niche-driven AML progression and chemoresistance",
+      "statement": "Probenecid dampens AML-supportive inflammation by blocking pannexin-1-dependent purinergic signaling between AML blasts and mesenchymal stromal cells.",
+      "rationale": "Pannexin-1 is overexpressed in AML and linked to poor prognosis; probenecid is a known panx-1 inhibitor, and P2X7-NLRP3 axis fuels leukemia progression, offering a niche-targeting strategy.",
+      "self_novelty": "completely_novel",
+      "elo": 1280.4375778826209,
+      "reviews": []
+    },
+    {
+      "a": "Dantrolene (muscle relaxant for malignant hyperthermia)",
+      "b": "Ryanodine receptor (RyR1/2) inhibition, preventing IP3R-to-RyR calcium-induced calcium release and thus blocking NFAT/calcineurin-driven oncogenic signaling",
+      "c": "Growth arrest and differentiation of MLL-rearranged AML cells",
+      "statement": "Dantrolene disrupts a calcium signaling amplification loop that sustains the MLL-fusion oncogenic program, pushing AML cells toward myeloid differentiation.",
+      "rationale": "MLL-rearranged AMLs are dependent on a specific calcium-CaMKII/NFAT circuit; dantrolene is a clinically approved RyR blocker, and its ability to modulate this circuit has never been tested in AML, proposing a rapid translation.",
+      "self_novelty": "completely_novel",
+      "elo": 1229.4821974799559,
+      "reviews": []
+    },
+    {
+      "a": "Riluzole (ALS treatment)",
+      "b": "Blockade of glutamate-cystine antiporter xCT, causing severe cystine deprivation and ferroptosis induction in NRAS-mutant AML",
+      "c": "Selective ferroptotic death of NRAS-driven AML cells addicted to glutathione synthesis",
+      "statement": "Riluzole exploits the heightened cystine dependency of NRAS-mutant AML to trigger ferroptosis by inhibiting the xCT transporter.",
+      "rationale": "NRAS-mutant AML exhibits increased cystine metabolism and ROS stress; riluzole is a known xCT inhibitor with brain penetration, and repurposing it for AML ferroptosis induction is a novel precision-medicine angle.",
+      "self_novelty": "completely_novel",
+      "elo": 1203.3770314357434,
+      "reviews": []
+    },
+    {
+      "a": "Mebendazole (anti-helminthic)",
+      "b": "Inhibition of tubulin polymerization and integrin β1 trafficking, leading to detachment-induced anoikis and MYB downregulation in AML blasts",
+      "c": "Curative outcome in high-risk AML via disruption of niche adhesion and oncogenic transcription",
+      "statement": "Mebendazole forces AML blasts out of the protective bone marrow niche by depolymerizing microtubules required for integrin β1 surface expression, concurrently reducing MYB levels.",
+      "rationale": "MYB is a validated AML oncogene, integrin β1-mediated adhesion drives drug resistance; mebendazole has known anti-tubulin activity and was shown to affect MYB in other cancers, making this dual mechanism highly AML-relevant.",
+      "self_novelty": "moderate",
+      "elo": 1175.3304480315426,
+      "reviews": []
+    },
+    {
+      "a": "1",
+      "b": "Disulfiram + Ivacaftor",
+      "c": "ALDH1A1, CFTR, MCL-1",
+      "statement": "Disulfiram and Ivacaftor synergistically eradicate leukemia stem cells by simultaneously inducing copper-dependent proteotoxic stress and pH-mediated MCL-1 destabilization.",
+      "rationale": "Disulfiram/copper targets ALDH1A1 to cause protein aggregation while Ivacaftor reduces intracellular pH to prevent MCL-1 stabilization, cooperatively disabling two orthogonal stem cell survival pathways.",
+      "self_novelty": "high",
+      "elo": 1165.4666292048191,
+      "reviews": []
+    },
+    {
+      "a": "2",
+      "b": "Canagliflozin",
+      "c": "SGLT2, mitochondrial complex I",
+      "statement": "Canagliflozin selectively eliminates MCL-1-dependent AML cells by blocking SGLT2-mediated glucose uptake and inhibiting mitochondrial complex I, inducing lethal bioenergetic collapse.",
+      "rationale": "AML cells with defective anion transport rely on glucose metabolism and MCL-1; canagliflozin disrupts both glycolytic and oxidative energy supplies, selectively triggering apoptosis.",
+      "self_novelty": "high",
+      "elo": 1146.049256521203,
+      "reviews": []
+    },
+    {
+      "a": "Acetazolamide",
+      "b": "MCL-1-dependent AML",
+      "c": "Carbonic anhydrase inhibition → intracellular acidification → MCL-1 destabilization",
+      "statement": "Acetazolamide, a carbonic anhydrase inhibitor, triggers selective apoptosis in MCL-1-dependent AML cells by acidifying the cytosol and destabilizing the pH-sensitive MCL-1 protein.",
+      "rationale": "Intracellular acidification from carbonic anhydrase inhibition disrupts electrostatic interactions within MCL-1's BH3-binding groove, promoting its ubiquitination and proteasomal degradation, thereby unleashing pro-apoptotic BCL-2 family members.",
+      "self_novelty": "Repurposing carbonic anhydrase inhibitors to target MCL-1 protein stability via pH modulation is an unexplored strategy distinct from direct MCL-1 antagonists.",
+      "elo": 1138.9045369878743,
+      "reviews": []
+    },
+    {
+      "a": "Tranexamic acid (antifibrinolytic)",
+      "b": "Inhibition of plasminogen activation, thereby preventing plasmin-mediated cleavage of the AML surface protein CD147/EMMPRIN and reducing MCT1/4 lactate transport",
+      "c": "Intracellular lactic acidosis and metabolic crisis in glycolytically active AML",
+      "statement": "Tranexamic acid stabilizes CD147 on AML blasts in a proteolytically inactive conformation that paradoxically blocks monocarboxylate transporters and disrupts pH homeostasis.",
+      "rationale": "CD147 chaperone function for MCTs is essential for lactate efflux in glycolytic tumors; plasmin cleaves CD147, and tranexamic acid is a lysine-mimetic that alters protein interactions—an entirely new application in AML metabolism.",
+      "self_novelty": "completely_novel",
+      "elo": 1119.2741453215767,
+      "reviews": []
+    },
+    {
+      "a": "Dipyridamole (antiplatelet drug)",
+      "b": "Inhibition of the equilibrative nucleoside transporter 1 (ENT1), reducing extracellular adenosine salvage and forcing reliance on de novo purine synthesis, which is co-targeted with methotrexate",
+      "c": "Profound ATP depletion and metabolic collapse in AML with PNP deficiency or MYC-driven purine addiction",
+      "statement": "Dipyridamole locks AML cells into an adenosine-depleted state, synergizing with antifolates to cut off both arms of purine supply.",
+      "rationale": "AML blasts often overexpress MYC and are addicted to purines; dipyridamole is an ENT1 inhibitor already in clinical use; this creates a synthetic purine auxotrophy specifically lethal to highly proliferative leukemic cells.",
+      "self_novelty": "moderate",
+      "elo": 1115.4838783244502,
+      "reviews": []
+    },
+    {
+      "a": "Zinc pyrithione (topical antiseborrheic agent)",
+      "b": "Zinc ionophore activity overwhelming the mitochondrial Zn²⁺ buffering system, leading to mitochondrial permeability transition pore (mPTP) opening in AML stem cells",
+      "c": "Elimination of quiescent leukemia stem cells irrespective of BCL-2 dependence",
+      "statement": "Zinc pyrithione delivers a toxic zinc load into AML stem cell mitochondria, bypassing apoptosis blocks by directly triggering mPTP-driven necrosis.",
+      "rationale": "Leukemia stem cells are resistant to apoptosis but have altered zinc homeostasis; zinc pyrithione rapidly transports zinc across membranes and kills cancer cells via mPTP—a mechanism unexplored for AML stem cells and orthogonal to venetoclax.",
+      "self_novelty": "completely_novel",
+      "elo": 1113.481364178246,
+      "reviews": []
+    },
+    {
+      "a": "Colesevelam (bile acid sequestrant for hyperlipidemia)",
+      "b": "Binding and sequestering gut-derived short-chain fatty acids and bile acids that act as natural HDAC inhibitors, thereby enhancing histone acetylation and derepressing tumor-suppressor genes",
+      "c": "Epigenetic differentiation of AML blasts through gut-bone marrow axis modulation",
+      "statement": "Colesevelam alters the gut metabolome to systemically reduce endogenous HDAC-inhibitory metabolites, leading to histone hyperacetylation and reactivation of silenced differentiation programs in AML.",
+      "rationale": "Gut microbiota-derived butyrate and secondary bile acids influence hematopoiesis via epigenetic modulation; colesevelam binds these molecules, potentially shifting the marrow's epigenetic landscape—a completely novel systemic, non-cytotoxic AML intervention.",
+      "self_novelty": "completely_novel",
+      "elo": 1090.8428629751083,
+      "reviews": []
+    }
+  ],
+  "usage": {
+    "calls": 79,
+    "prompt_tokens": 18487,
+    "completion_tokens": 42743
+  }
+}

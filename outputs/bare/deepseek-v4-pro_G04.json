@@ -1,0 +1,152 @@
+[
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "Bumetanide",
+"B": "Inhibition of NKCC1 restores hyperpolarizing GABAergic inhibition, reducing corticospinal hyperexcitability in ALS",
+"C": "Reduction of muscle spasticity and slowing of motor function decline",
+"statement": "Repurposing the loop diuretic bumetanide for ALS could counteract motor neuron excitotoxicity by downregulating intracellular chloride and restoring inhibitory GABAergic tone.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "Atomoxetine",
+"B": "Selective norepinephrine reuptake inhibition enhances locus coeruleus-derived noradrenergic input to spinal motor neurons, upregulating BDNF-TrkB signalling",
+"C": "Preservation of motor unit integrity and delayed loss of muscle strength",
+"statement": "Atomoxetine, an ADHD drug, may slow ALS progression by boosting norepinephrine-mediated neurotrophic support to vulnerable motor neurons.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "Drospirenone",
+"B": "Mineralocorticoid receptor antagonism in microglia suppresses NLRP3 inflammasome priming and IL-1β release",
+"C": "Attenuation of neuroinflammation-driven motor neuron death, particularly in female ALS patients",
+"statement": "The progestin drospirenone, used in oral contraceptives, could be repositioned for ALS to target microglial mineralocorticoid receptor-driven neuroinflammation.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "Esomeprazole",
+"B": "Moderate inhibition of lysosomal V-ATPase lowers lysosomal pH within an optimal range to enhance autophagic degradation of TDP-43 aggregates",
+"C": "Reduced cytoplasmic TDP-43 inclusion burden and delayed motor symptom onset",
+"statement": "The proton-pump inhibitor esomeprazole may promote clearance of pathological TDP-43 by fine-tuning lysosomal acidification and autophagy.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "Rifaximin",
+"B": "Gut-selective antibiotic reshapes microbiota composition, lowering systemic lipopolysaccharide and neurotoxic bile acid levels that activate CNS inflammatory pathways",
+"C": "Reduction of peripheral and central neuroinflammation, slowing functional decline",
+"statement": "Rifaximin, a non-absorbable antibiotic for gut infections, could attenuate ALS neuroinflammation by eliminating bacterial sources of pro-inflammatory mediators.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "Levosimendan",
+"B": "Opening of mitochondrial ATP-sensitive potassium channels improves mitochondrial bioenergetics and calcium handling in motor neurons",
+"C": "Preservation of diaphragmatic and limb muscle function, delaying respiratory failure",
+"statement": "The cardiac calcium sensitizer and mitoKATP opener levosimendan may protect dying motor neurons by stabilizing mitochondrial energy production in ALS.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "Acamprosate",
+"B": "Restoration of astrocytic glutamate transporter GLT-1 expression combined with mild NMDA receptor antagonism counteracts excitotoxic glutamate spillover",
+"C": "Decreased motor neuron excitotoxic injury and extended survival",
+"statement": "Acamprosate, an anti-craving drug, may redress glutamate homeostasis in ALS by both boosting astrocytic reuptake and tempering NMDA receptor overactivation.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "Telmisartan",
+"B": "Dual angiotensin II type 1 receptor blockade and partial PPARγ activation jointly suppress NADPH oxidase-driven oxidative stress and NF-κB-mediated inflammation",
+"C": "Attenuation of motoneuronal oxidative injury and glial reactivity",
+"statement": "Telmisartan’s unique dual action could provide a combinational neuroprotective approach against both oxidative and inflammatory arms of ALS pathogenesis.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "Digoxin",
+"B": "Na/K-ATPase-mediated Src kinase inhibition suppresses astrocytic IL-6 and TNF-α release, reducing motor neuron inflammatory microenvironment",
+"C": "Decreased surrounding glial toxicity and improved motor neuron survival",
+"statement": "The cardiac glycoside digoxin could be redirected to ALS by dampening astrocyte-derived neurotoxic cytokine secretion via the Na/K-ATPase signalosome.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "Sarpogrelate",
+"B": "5-HT2A receptor antagonism prevents serotonin-induced microglial activation and platelet pro-inflammatory mediator release",
+"C": "Reduced microglia-driven neuroinflammation and motor neuron damage",
+"statement": "Sarpogrelate, a 5-HT2A antagonist used for peripheral artery disease, may mitigate ALS neuroinflammation by blocking serotonin-mediated microgliosis.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "Colchicine",
+"B": "Inhibition of microtubule-dependent NLRP3 inflammasome assembly and ASC speck formation blocks IL-1β/IL-18 maturation",
+"C": "Lessened inflammasome-driven neuroinflammation and delayed disease acceleration",
+"statement": "Colchicine, a long-used gout therapy, could be repurposed to suppress the NLRP3 inflammasome overactivation observed in ALS microglia.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "Teriflunomide",
+"B": "Inhibition of dihydroorotate dehydrogenase reduces de novo pyrimidine synthesis, curtailing proliferation of pathogenic T cells and microglia",
+"C": "Decreased autoimmune and inflammatory attack on motor units",
+"statement": "Teriflunomide, an oral MS drug, may limit maladaptive T cell and microglial expansion contributing to motor neuron loss in ALS.",
+"self_novelty": "known"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "Carvedilol",
+"B": "Combined β1/α1 adrenoceptor blockade with strong antioxidant activity suppresses microglial oxidative burst and stress kinase activation",
+"C": "Lowered oxidative and adrenergic stress, prolonging motor neuron viability",
+"statement": "Carvedilol’s triple neuroprotective profile could address microglial hyperactivation and sympathetic dysregulation simultaneously in ALS.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "Raltegravir",
+"B": "Inhibition of human endogenous retrovirus type K integrase reduces HERV-K reverse transcriptase activity and its neurotoxic envelope protein expression",
+"C": "Attenuation of retrovirus-induced neuronal toxicity and inflammation, slowing progression",
+"statement": "The HIV integrase inhibitor raltegravir could be repositioned to suppress re-activated endogenous retrovirus HERV-K, a suspected neurotoxic driver in ALS.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G04",
+"disease": "Amyotrophic lateral sclerosis",
+"A": "Alosetron",
+"B": "Antagonism of enteric and vagal 5-HT3 receptors dampens gut-derived afferent pro-inflammatory reflex arcs that sustain systemic and neuroinflammation",
+"C": "Reduced circulating inflammatory cytokines and delayed motor decline",
+"statement": "Alosetron, a 5-HT3 antagonist for IBS, could interrupt the gut-brain inflammatory reflex contributing to ALS progression.",
+"self_novelty": "completely_novel"
+}
+]

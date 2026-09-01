@@ -1,0 +1,152 @@
+[
+{
+"model": "qwen3.7-max",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "二甲双胍",
+"B": "激活AMPK通路抑制小胶质细胞NLRP3炎症小体组装",
+"C": "逆转难治性抑郁的神经炎症表型",
+"statement": "二甲双胍通过激活AMPK通路抑制小胶质细胞NLRP3炎症小体组装从而逆转难治性抑郁的神经炎症表型。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "沙库巴曲缬沙坦",
+"B": "抑制脑内脑啡肽酶以提升脑源性神经营养因子和神经肽Y水平",
+"C": "改善难治性抑郁相关的突触可塑性受损",
+"statement": "沙库巴曲缬沙坦通过抑制脑内脑啡肽酶以提升脑源性神经营养因子和神经肽Y水平进而改善难治性抑郁相关的突触可塑性受损。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "巴瑞替尼",
+"B": "阻断JAK-STAT信号通路介导的星形胶质细胞A1型神经毒性转化",
+"C": "缓解难治性抑郁患者的神经元凋亡与突触丢失",
+"statement": "巴瑞替尼通过阻断JAK-STAT信号通路介导的星形胶质细胞A1型神经毒性转化来缓解难治性抑郁患者的神经元凋亡与突触丢失。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "达格列净",
+"B": "促进肝脏酮体生成并作为替代能源改善前额叶皮层线粒体功能",
+"C": "治疗伴随代谢紊乱的难治性抑郁",
+"statement": "达格列净通过促进肝脏酮体生成并作为替代能源改善前额叶皮层线粒体功能以治疗伴随代谢紊乱的难治性抑郁。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "特立氟胺",
+"B": "抑制二氢乳清酸脱氢酶调节色氨酸-犬尿氨酸代谢途径向神经保护分支偏移",
+"C": "改善难治性抑郁的兴奋性毒性与神经退行性变",
+"statement": "特立氟胺通过抑制二氢乳清酸脱氢酶调节色氨酸-犬尿氨酸代谢途径向神经保护分支偏移来改善难治性抑郁的兴奋性毒性与神经退行性变。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "去铁酮",
+"B": "螯合脑内游离铁抑制小胶质细胞铁死亡及随后的神经炎症级联",
+"C": "逆转难治性抑郁的微观结构损伤",
+"statement": "去铁酮通过螯合脑内游离铁抑制小胶质细胞铁死亡及随后的神经炎症级联以逆转难治性抑郁的微观结构损伤。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "利拉鲁肽",
+"B": "激活GLP-1受体增强内侧前额叶皮层GABA能中间神经元活性",
+"C": "改善难治性抑郁的认知与情绪调节障碍",
+"statement": "利拉鲁肽通过激活GLP-1受体增强内侧前额叶皮层GABA能中间神经元活性从而改善难治性抑郁的认知与情绪调节障碍。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "维拉帕米",
+"B": "阻断L型钙通道抑制外侧缰核神经元的异常簇状放电",
+"C": "快速发挥抗难治性抑郁作用",
+"statement": "维拉帕米通过阻断L型钙通道抑制外侧缰核神经元的异常簇状放电以快速发挥抗难治性抑郁作用。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "非布司他",
+"B": "抑制黄嘌呤氧化酶减少尿酸及活性氧生成以保护血脑屏障紧密连接",
+"C": "缓解难治性抑郁伴随的神经血管单元功能障碍",
+"statement": "非布司他通过抑制黄嘌呤氧化酶减少尿酸及活性氧生成以保护血脑屏障紧密连接进而缓解难治性抑郁伴随的神经血管单元功能障碍。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "螺内酯",
+"B": "拮抗盐皮质激素受体下调杏仁核基底外侧核的突触过度兴奋",
+"C": "改善难治性抑郁伴随的严重焦虑与绝望行为",
+"statement": "螺内酯通过拮抗盐皮质激素受体下调杏仁核基底外侧核的突触过度兴奋来改善难治性抑郁伴随的严重焦虑与绝望行为。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "孟鲁司特",
+"B": "阻断半胱氨酰白三烯1受体抑制海马区神经炎症并促进新生神经元存活",
+"C": "治疗对传统单胺类药物无应答的难治性抑郁",
+"statement": "孟鲁司特通过阻断半胱氨酰白三烯1受体抑制海马区神经炎症并促进新生神经元存活以治疗对传统单胺类药物无应答的难治性抑郁。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "伊布替尼",
+"B": "抑制布鲁顿酪氨酸激酶阻断小胶质细胞Fcγ受体介导的突触吞噬作用",
+"C": "改善难治性抑郁的突触丢失与神经网络异常",
+"statement": "伊布替尼通过抑制布鲁顿酪氨酸激酶阻断小胶质细胞Fcγ受体介导的突触吞噬作用来改善难治性抑郁的突触丢失与神经网络异常。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "地高辛",
+"B": "轻度抑制钠钾ATP酶上调星形胶质细胞谷氨酸转运体GLT-1表达",
+"C": "清除突触间隙过量谷氨酸以治疗难治性抑郁",
+"statement": "低剂量地高辛通过轻度抑制钠钾ATP酶上调星形胶质细胞谷氨酸转运体GLT-1表达以清除突触间隙过量谷氨酸从而治疗难治性抑郁。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "尼可地尔",
+"B": "开放线粒体ATP敏感性钾通道减轻前额叶皮层氧化应激并维持能量稳态",
+"C": "改善难治性抑郁的神经代谢缺陷",
+"statement": "尼可地尔通过开放线粒体ATP敏感性钾通道减轻前额叶皮层氧化应激并维持能量稳态以改善难治性抑郁的神经代谢缺陷。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "法莫替丁",
+"B": "阻断组胺H2受体抑制小胶质细胞cAMP/PKA/NF-κB炎症级联反应",
+"C": "缓解难治性抑郁的中枢炎症微环境",
+"statement": "法莫替丁通过阻断组胺H2受体抑制小胶质细胞cAMP/PKA/NF-κB炎症级联反应以缓解难治性抑郁的中枢炎症微环境。",
+"self_novelty": "moderate"
+}
+]

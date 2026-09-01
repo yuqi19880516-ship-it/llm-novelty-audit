@@ -1,0 +1,593 @@
+{
+  "goal_id": "G01",
+  "disease_en": "Acute myeloid leukemia",
+  "goal": "为急性髓系白血病（Acute myeloid leukemia）寻找可重定位的已上市药物及其作用机制",
+  "overview": "急性髓系白血病药物重定位研究揭示了多种老药新用机制。匹莫齐特通过抑制STAT5与阻断钾通道，诱导FLT3-ITD及JAK2突变型AML凋亡。地高辛靶向钠钾泵和HIF-1α，抑制缺氧骨髓微环境下的AML存活。氯硝柳胺双重抑制STAT3与线粒体氧化磷酸化以根除白血病干细胞，并与双硫仑协同破坏其氧化还原稳态。青蒿素则经血红素铁介导活性氧生成诱导细胞铁死亡。上述多靶点机制为AML精准治疗提供了新策略。",
+  "hypotheses": [
+    {
+      "a": "Pimozide",
+      "b": "Inhibition of STAT5 and blockade of potassium channels",
+      "c": "Induction of apoptosis in FLT3-ITD and JAK2 mutated AML",
+      "statement": "Pimozide induces apoptosis in FLT3-ITD and JAK2 mutated AML via STAT5 inhibition and potassium channel blockade.",
+      "rationale": "STAT5 is a downstream effector of FLT3 and JAK2, and pimozide is a known STAT5 inhibitor and potassium channel blocker.",
+      "self_novelty": "moderate",
+      "elo": 1292.5613638131058,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双靶点协同合理，但中枢神经副作用较大。"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双靶点机制合理，精神类副作用限制其应用"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "匹莫齐特靶向信号通路机制新颖但毒性大"
+        }
+      ]
+    },
+    {
+      "a": "Digoxin",
+      "b": "Inhibition of Na+/K+-ATPase and subsequent downregulation of HIF-1α",
+      "c": "Suppression of AML cell survival under hypoxic bone marrow conditions",
+      "statement": "Digoxin suppresses AML survival in hypoxic niches by inhibiting Na+/K+-ATPase and HIF-1α expression.",
+      "rationale": "HIF-1α is crucial for AML adaptation to hypoxia, and cardiac glycosides like digoxin inhibit HIF-1α translation.",
+      "self_novelty": "moderate",
+      "elo": 1285.2570337688016,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向缺氧龛思路好，但地高辛治疗窗极窄。"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向缺氧微环境机制巧妙，心脏毒性需关注"
+        },
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "地高辛靶向缺氧微环境机制合理但治疗窗窄"
+        }
+      ]
+    },
+    {
+      "a": "Niclosamide",
+      "b": "Inhibition of STAT3 phosphorylation and mitochondrial oxidative phosphorylation",
+      "c": "Eradication of AML leukemia stem cells",
+      "statement": "Niclosamide eradicates AML stem cells by dual inhibition of STAT3 and mitochondrial OXPHOS.",
+      "rationale": "AML stem cells depend on STAT3 and OXPHOS for survival, and niclosamide is a known inhibitor of both pathways.",
+      "self_novelty": "moderate",
+      "elo": 1281.8087074865086,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制明确合理，但生物利用度低限制应用。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "氯硝柳胺靶向干细胞机制经典，但毒性受限"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "氯硝柳胺靶向干细胞机制经典但吸收较差"
+        }
+      ]
+    },
+    {
+      "a": "Artemisinin",
+      "b": "Generation of reactive oxygen species via heme-iron interaction",
+      "c": "Induction of ferroptosis in AML cells",
+      "statement": "Artemisinin induces ferroptosis in AML cells through heme-iron mediated ROS generation.",
+      "rationale": "AML cells have high iron demand and heme synthesis; artemisinin reacts with iron to produce ROS, leading to lipid peroxidation and ferroptosis.",
+      "self_novelty": "completely_novel",
+      "elo": 1269.9777242782448,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁死亡机制合理，需明确与凋亡的界限。"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "青蒿素诱导铁死亡机制新颖，契合铁代谢"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "青蒿素诱导铁死亡机制新颖且契合疾病特征"
+        }
+      ]
+    },
+    {
+      "a": "Niclosamide",
+      "b": "Disulfiram",
+      "c": "AML stem cells",
+      "statement": "Niclosamide and Disulfiram synergistically eradicate AML stem cells by concurrently disrupting mitochondrial OXPHOS and ALDH1A1-mediated redox homeostasis.",
+      "rationale": "Dual targeting of mitochondrial metabolism and aldehyde dehydrogenase activity overwhelms the adaptive stress response mechanisms unique to AML stem cells.",
+      "self_novelty": "Combines mitochondrial OXPHOS inhibition with ALDH1A1 blockade to overcome metabolic plasticity in AML stem cells.",
+      "elo": 1259.4169249381619,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "联用靶向干细胞代谢与氧化还原，机制合理"
+        },
+        {
+          "index": 15,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双药联合靶向干细胞代谢与氧化还原潜力大"
+        }
+      ]
+    },
+    {
+      "a": "Auranofin",
+      "b": "Inhibition of thioredoxin reductase and induction of oxidative stress",
+      "c": "Selective apoptosis of AML cells with high ROS baseline",
+      "statement": "Auranofin selectively kills AML cells with elevated baseline ROS by inhibiting thioredoxin reductase.",
+      "rationale": "AML cells often have high ROS and rely on thioredoxin reductase for redox balance; its inhibition pushes cells past the apoptotic threshold.",
+      "self_novelty": "moderate",
+      "elo": 1253.9883092173638,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制明确合理，已进入相关早期临床试验。"
+        },
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "靶向硫氧还蛋白还原酶机制确凿，已进临床"
+        },
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "金诺芬靶向硫氧还蛋白还原酶机制明确有效"
+        }
+      ]
+    },
+    {
+      "a": "Artemisinin",
+      "b": "Niclosamide",
+      "c": "AML cells",
+      "statement": "Artemisinin and Niclosamide co-treatment triggers catastrophic oxidative stress in AML cells by coupling heme-iron ROS generation with STAT3-mediated antioxidant suppression.",
+      "rationale": "Inhibiting STAT3-dependent antioxidant defenses while simultaneously generating heme-iron ROS creates an unresolvable ferroptotic cascade in AML cells.",
+      "self_novelty": "Links heme-iron ROS generation to STAT3-dependent antioxidant failure to induce synthetic lethality via ferroptosis.",
+      "elo": 1245.5730807381228,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "两药联用诱发致命氧化应激，极具创新性"
+        },
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "联合用药引发氧化应激崩溃，机制互补性强"
+        }
+      ]
+    },
+    {
+      "a": "Chloroquine",
+      "b": "Inhibition of autophagy and lysosomal degradation of ferritin",
+      "c": "Sensitization of AML cells to venetoclax",
+      "statement": "Chloroquine sensitizes AML cells to venetoclax by blocking autophagy and inducing ferritinophagy.",
+      "rationale": "Autophagy inhibition prevents AML cells from escaping venetoclax-induced stress, while lysosomal dysfunction alters iron homeostasis, promoting cell death.",
+      "self_novelty": "moderate",
+      "elo": 1243.8976674384123,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "联合前景好，但铁蛋白自噬机制需确证。"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "联用维奈克拉机制合理，铁代谢调节是亮点"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "羟氯喹联合维奈克拉具临床前景且机制合理"
+        }
+      ]
+    },
+    {
+      "a": "Pimozide",
+      "b": "Niclosamide",
+      "c": "Digoxin",
+      "statement": "Pimozide and Niclosamide synergistically eliminate FLT3-ITD AML by dual STAT5/STAT3 blockade to prevent compensatory signaling escape.",
+      "rationale": "FLT3-ITD AML often relapses via STAT3 activation when STAT5 is inhibited, so simultaneous targeting of both STAT family members blocks resistance mechanisms.",
+      "self_novelty": "Addresses kinase inhibitor resistance through parallel STAT pathway inhibition rather than sequential or single-target approaches.",
+      "elo": 1241.9955296786247,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "双重信号阻断机制合理但需警惕心脏毒性"
+        }
+      ]
+    },
+    {
+      "a": "Disulfiram",
+      "b": "Inhibition of ALDH1A1 and copper-dependent proteasome degradation",
+      "c": "Sensitization of AML stem cells to cytarabine",
+      "statement": "Disulfiram sensitizes AML stem cells to cytarabine through ALDH1A1 inhibition and proteasome impairment.",
+      "rationale": "ALDH1A1 protects AML stem cells from chemotherapy, and disulfiram-copper complexes inhibit proteasome function, inducing proteotoxic stress.",
+      "self_novelty": "moderate",
+      "elo": 1239.534794688602,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铜依赖毒性在体内骨髓微环境较难控制。"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双硫仑靶向白血病干细胞机制扎实，前景好"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双硫仑靶向白血病干细胞机制扎实且具潜力"
+        }
+      ]
+    },
+    {
+      "a": "Sulfasalazine",
+      "b": "Inhibition of system xc- cystine/glutamate antiporter",
+      "c": "Induction of ferroptosis in AML cells",
+      "statement": "Sulfasalazine induces ferroptosis in AML by blocking the system xc- antiporter.",
+      "rationale": "System xc- is essential for glutathione synthesis and ROS detoxification; its inhibition leads to lipid peroxidation and ferroptosis in cancer cells.",
+      "self_novelty": "moderate",
+      "elo": 1238.7482401060133,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "机制非常经典，但缺乏针对该病的新颖性。"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "抑制胱氨酸转运机制经典，缺乏创新性"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "柳氮磺吡啶诱导铁死亡机制经典且证据充分"
+        }
+      ]
+    },
+    {
+      "a": "Mebendazole",
+      "b": "Disruption of microtubule dynamics and inhibition of Hedgehog signaling",
+      "c": "Inhibition of AML cell cycle progression and stemness",
+      "statement": "Mebendazole inhibits AML cell cycle and stemness via microtubule disruption and Hedgehog pathway suppression.",
+      "rationale": "Microtubules are essential for mitosis, and Hedgehog signaling maintains AML stem cells; mebendazole targets both mechanisms.",
+      "self_novelty": "completely_novel",
+      "elo": 1238.4151124458558,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制双重且合理，但体内组织分布需考量。"
+        },
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "甲苯咪唑抗微管与刺猬通路明确，创新中等"
+        },
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "甲苯咪唑抗微管机制明确但骨髓穿透力存疑"
+        }
+      ]
+    },
+    {
+      "a": "Ivermectin",
+      "b": "Inhibition of PAK1 kinase and Wnt/β-catenin signaling",
+      "c": "Suppression of AML cell proliferation and self-renewal",
+      "statement": "Ivermectin suppresses AML proliferation and self-renewal by targeting PAK1 and Wnt/β-catenin pathways.",
+      "rationale": "PAK1 and Wnt signaling are critical for AML stem cell maintenance, and ivermectin has been shown to inhibit PAK1 in other cancers.",
+      "self_novelty": "completely_novel",
+      "elo": 1231.0129977266067,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "靶点较杂，抑制该通路的特异性证据不足。"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "伊维菌素抗白血病已有报道，机制缺乏突破"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "伊维菌素药代动力学限制了其在血液瘤应用"
+        }
+      ]
+    },
+    {
+      "a": "Atorvastatin",
+      "b": "Depletion of geranylgeranyl pyrophosphate impairing Rho GTPase prenylation",
+      "c": "Induction of apoptosis in FLT3-ITD mutated AML cells",
+      "statement": "Atorvastatin triggers apoptosis in FLT3-ITD AML by blocking Rho GTPase prenylation.",
+      "rationale": "FLT3-ITD signaling relies on Rho GTPases for survival, and statins inhibit the mevalonate pathway required for their membrane localization.",
+      "self_novelty": "moderate",
+      "elo": 1230.7102210836226,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "逻辑合理，但临床可达浓度是主要瓶颈。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "他汀类抗白血病机制合理，但单药疗效存疑"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "他汀类抗白血病机制合理，临床转化潜力大"
+        }
+      ]
+    },
+    {
+      "a": "Digoxin",
+      "b": "Niclosamide",
+      "c": "Pimozide",
+      "statement": "Digoxin enhances Niclosamide-mediated AML stem cell eradication in hypoxic niches by coupling HIF-1α suppression with OXPHOS inhibition.",
+      "rationale": "Hypoxia stabilizes HIF-1α to promote metabolic adaptation, so combining its suppression with mitochondrial OXPHOS blockade eliminates stem cells dependent on both pathways.",
+      "self_novelty": "Links hypoxia-specific ion pump inhibition to stem cell metabolic vulnerability rather than targeting either pathway alone.",
+      "elo": 1210.0,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "联合靶向缺氧与代谢，但地高辛治疗窗极窄"
+        }
+      ]
+    },
+    {
+      "a": "Thioridazine",
+      "b": "Antagonism of dopamine receptors and inhibition of DNA repair",
+      "c": "Sensitization of AML cells to DNA-damaging agents",
+      "statement": "Thioridazine sensitizes AML cells to DNA-damaging agents via dopamine receptor antagonism and DNA repair inhibition.",
+      "rationale": "Dopamine receptors are expressed on AML cells and promote survival; thioridazine blocks these and impairs DNA damage response.",
+      "self_novelty": "completely_novel",
+      "elo": 1160.8007898057556,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "增敏化疗合理，但抑制修复的证据偏弱。"
+        },
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "机制牵强，多巴胺受体与基因修复关联弱"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "硫利达嗪增敏机制较弱且心脏毒性风险极高"
+        }
+      ]
+    },
+    {
+      "a": "Captopril",
+      "b": "Inhibition of angiotensin-converting enzyme and reduction of angiotensin II",
+      "c": "Decreased bone marrow angiogenesis and AML blast proliferation",
+      "statement": "Captopril reduces AML proliferation and bone marrow angiogenesis by lowering angiotensin II levels.",
+      "rationale": "Angiotensin II promotes angiogenesis and hematopoietic stem cell proliferation; ACE inhibitors may disrupt this supportive microenvironment.",
+      "self_novelty": "completely_novel",
+      "elo": 1156.3234047749752,
+      "review_score": 2.3333333333333335,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 2,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "骨髓微环境复杂，直接抗白血病证据较弱。"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "卡托普利改善骨髓微环境合理，直接杀伤弱"
+        },
+        {
+          "index": 8,
+          "novelty": 2,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "卡托普利抗血管生成在白血病中临床意义小"
+        }
+      ]
+    },
+    {
+      "a": "Valproic acid",
+      "b": "Inhibition of histone deacetylases and upregulation of death receptors",
+      "c": "Enhancement of TRAIL-induced apoptosis in AML cells",
+      "statement": "Valproic acid enhances TRAIL-induced apoptosis in AML by HDAC inhibition and death receptor upregulation.",
+      "rationale": "HDAC inhibitors upregulate death receptors like DR4/DR5, sensitizing cancer cells to TRAIL-mediated apoptosis.",
+      "self_novelty": "known",
+      "elo": 1141.010404032979,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "机制极其经典，但相关配体临床转化不佳。"
+        },
+        {
+          "index": 14,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "丙戊酸联用机制极其经典，缺乏创新性"
+        },
+        {
+          "index": 14,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "丙戊酸增敏凋亡机制经典但新颖性严重不足"
+        }
+      ]
+    },
+    {
+      "a": "Metformin",
+      "b": "Activation of AMPK leading to inhibition of mTORC1 signaling",
+      "c": "Induction of differentiation in AML blasts",
+      "statement": "Metformin induces differentiation of AML blasts via AMPK-mediated mTORC1 inhibition.",
+      "rationale": "AMPK activation is known to suppress mTORC1, a key regulator of cell growth and differentiation block in AML.",
+      "self_novelty": "moderate",
+      "elo": 1133.9676939782432,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制经典，但诱导分化需更多体内验证。"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制明确但创新性一般，临床转化潜力有限"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制明确但新颖性一般，已有较多研究。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,593 @@
+{
+  "goal_id": "G11",
+  "disease_en": "Inflammatory bowel disease",
+  "goal": "为炎症性肠病（Inflammatory bowel disease）寻找可重定位的已上市药物及其作用机制",
+  "overview": "近期研究揭示了多种已上市药物在炎症性肠病中的重定位潜力。贝派地酸通过阻断糖酵解重编程，抑制巨噬细胞分泌白介素1β和6以减轻炎症。依伐卡托借助增强黏液水合，恢复溃疡性结肠炎的屏障与微生态稳态。恩格列净展现双重机制：通过诱导酮体生成，抑制炎症小体并促进调节性T细胞分化，加速黏膜愈合。此外，牛磺熊去氧胆酸通过缓解内质网应激，恢复克罗恩病潘氏细胞的抗菌功能。这些多靶点机制为治疗提供了新策略。",
+  "hypotheses": [
+    {
+      "a": "Bempedoic acid",
+      "b": "Inhibition of ATP citrate lyase (ACL) in intestinal macrophages",
+      "c": "Suppression of IL-1β and IL-6 production via metabolic reprogramming in IBD",
+      "statement": "Bempedoic acid suppresses IBD macrophage inflammation by blocking ACL-dependent glycolytic reprogramming.",
+      "rationale": "Macrophage activation in IBD relies on ACL-driven lipid and glycolytic shifts; inhibiting ACL starves the inflammatory response.",
+      "self_novelty": "completely_novel",
+      "elo": 1302.5154976595804,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "免疫代谢视角新颖，需验证靶点。"
+        },
+        {
+          "index": 6,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "代谢重编程视角极具创新，逻辑严密。"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "代谢重编程切入点新颖且机制合理。"
+        }
+      ]
+    },
+    {
+      "a": "Ivacaftor",
+      "b": "Enhancement of CFTR-mediated chloride and bicarbonate secretion",
+      "c": "Restoration of mucus barrier integrity and microbiome homeostasis in Ulcerative Colitis",
+      "statement": "Ivacaftor can improve UC outcomes by boosting CFTR-dependent mucus hydration and barrier function.",
+      "rationale": "CFTR dysfunction is implicated in IBD mucus defects; correcting this with a CFTR modulator addresses a primary physical barrier deficit.",
+      "self_novelty": "completely_novel",
+      "elo": 1280.1090308534062,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向黏液层缺陷，思路新颖合理。"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "切入点巧妙，契合UC黏液屏障缺陷。"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向黏液层水合机制新颖合理。"
+        }
+      ]
+    },
+    {
+      "a": "Empagliflozin",
+      "b": "Inflammatory Bowel Disease",
+      "c": "β-hydroxybutyrate-mediated NLRP3 inflammasome inhibition in intestinal macrophages",
+      "statement": "Empagliflozin attenuates NLRP3-driven mucosal injury in IBD by elevating systemic β-hydroxybutyrate as an endogenous inflammasome checkpoint.",
+      "rationale": "SGLT2 inhibition shifts hepatic metabolism toward ketogenesis, and the resulting β-hydroxybutyrate directly blocks NLRP3 oligomerization in lamina propria macrophages, curtailing IL-18-mediated epithelial apoptosis and barrier erosion.",
+      "self_novelty": "High—links an approved anti-diabetic to IBD through a metabolite-inflammasome axis rather than direct receptor pharmacology, distinct from existing metabolic reprogramming hypotheses.",
+      "elo": 1271.923050626616,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制明确，但与假设八存在一定重叠。"
+        },
+        {
+          "index": 16,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "酮体抑制炎症小体机制合理且具潜力。"
+        }
+      ]
+    },
+    {
+      "a": "Empagliflozin",
+      "b": "SGLT2 inhibition and subsequent ketogenesis/butyrate mimicry",
+      "c": "Promotion of regulatory T cell differentiation and mucosal healing in IBD",
+      "statement": "Empagliflozin promotes Treg-mediated mucosal healing in IBD through SGLT2-induced systemic ketone body production.",
+      "rationale": "Ketone bodies like beta-hydroxybutyrate act as HDAC inhibitors that promote Treg differentiation, linking metabolic drugs to IBD immunomodulation.",
+      "self_novelty": "completely_novel",
+      "elo": 1265.3631281105468,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制巧妙，需体内实验验证疗效。"
+        },
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "酮体介导免疫调节合理，但全身效应弱。"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "酮体介导免疫调节机制合理。"
+        }
+      ]
+    },
+    {
+      "a": "Tauroursodeoxycholic acid (TUDCA)",
+      "b": "Crohn's Disease",
+      "c": "IRE1α-XBP1 ER stress pathway in Paneth cells",
+      "statement": "TUDCA restores Paneth cell antimicrobial function and mucosal homeostasis in Crohn's Disease via chemical chaperone-mediated ER stress resolution.",
+      "rationale": "TUDCA alleviates IRE1α-XBP1-dependent unfolded protein response in Paneth cells, rescuing Defensin granule maturation and restoring the antimicrobial barrier that is genetically compromised in CD.",
+      "self_novelty": "High—repositioning a bile acid chaperone to target the Paneth cell ER stress axis unique to CD genetics (ATG16L1/XBP1) is an underexplored mechanistic angle.",
+      "elo": 1262.9672155339497,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制契合CD，但相关研究已非常成熟。"
+        },
+        {
+          "index": 15,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "缓解潘氏细胞内质网应激机制明确。"
+        }
+      ]
+    },
+    {
+      "a": "Deferasirox",
+      "b": "Chelation of intracellular labile iron in intestinal epithelial cells",
+      "c": "Inhibition of ferroptosis and preservation of epithelial barrier function in IBD",
+      "statement": "Deferasirox protects the IBD mucosal barrier by chelating iron and preventing epithelial ferroptosis.",
+      "rationale": "Iron overload and ferroptosis are newly recognized drivers of IBD epithelial death; oral iron chelators can locally and systemically halt this process.",
+      "self_novelty": "completely_novel",
+      "elo": 1260.4552790276703,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "切中铁死亡热点，具重定位潜力。"
+        },
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制前沿，但口服铁螯合剂易扰乱菌群。"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁死亡机制热门，螯合剂应用合理。"
+        }
+      ]
+    },
+    {
+      "a": "Telmisartan",
+      "b": "PPAR-γ activation and AT1R blockade in gut endothelial cells",
+      "c": "Reduction of leukocyte extravasation and mucosal angiogenesis in IBD",
+      "statement": "Telmisartan reduces IBD-associated pathological angiogenesis and leukocyte infiltration via dual PPAR-γ/AT1R modulation.",
+      "rationale": "Its unique PPAR-γ partial agonism among ARBs provides a dual anti-inflammatory and anti-angiogenic mechanism relevant to IBD vasculopathy.",
+      "self_novelty": "completely_novel",
+      "elo": 1257.9198291830216,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双重靶点机制合理，具转化潜力。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双重机制合理，但老药新用创新性稍弱。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双重靶点机制合理且有研究基础。"
+        }
+      ]
+    },
+    {
+      "a": "Maraviroc",
+      "b": "CCR5 antagonism on gut-homing memory T cells and macrophages",
+      "c": "Prevention of leukocyte recruitment and granuloma formation in Crohn's disease",
+      "statement": "Maraviroc prevents Crohn's disease progression by blocking CCR5-dependent gut homing of pathogenic Th1/Th17 cells.",
+      "rationale": "CCR5 is highly expressed on gut-homing T cells in CD; repurposing this HIV entry inhibitor directly targets the recruitment step of mucosal inflammation.",
+      "self_novelty": "moderate",
+      "elo": 1257.2482352321422,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "机制明确，但临床疗效数据尚缺。"
+        },
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制明确，但同类药物临床疗效不一。"
+        },
+        {
+          "index": 9,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向CCR5治疗克罗恩病已有探索。"
+        }
+      ]
+    },
+    {
+      "a": "Spironolactone",
+      "b": "Mineralocorticoid receptor antagonism in intestinal fibroblasts",
+      "c": "Prevention of intestinal fibrosis and stricture formation in chronic IBD",
+      "statement": "Spironolactone repurposing targets intestinal fibrosis by blocking mineralocorticoid receptor-induced fibroblast activation.",
+      "rationale": "MR antagonism is proven in cardiac fibrosis, and emerging data links aldosterone signaling to gut fibrogenesis in chronic inflammation.",
+      "self_novelty": "completely_novel",
+      "elo": 1246.531842585818,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "肠道成纤维细胞MR表达需验证。"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "靶点新颖，但肠道MR作用仍需验证。"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "抗纤维化合理但缺特异性证据。"
+        }
+      ]
+    },
+    {
+      "a": "Allopurinol",
+      "b": "Inhibition of xanthine oxidase and reduction of reactive oxygen species (ROS)",
+      "c": "Attenuation of oxidative stress-induced DNA damage and senescence in IBD fibroblasts",
+      "statement": "Allopurinol limits IBD fibrosis by inhibiting xanthine oxidase-derived ROS and subsequent fibroblast senescence.",
+      "rationale": "XO-derived ROS drives the senescence-associated secretory phenotype (SASP) in gut fibroblasts; blocking it prevents stricture formation.",
+      "self_novelty": "moderate",
+      "elo": 1241.968876661038,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "靶向衰老思路好，局部药效存疑。"
+        },
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "抗氧化机制合理，但临床转化潜力有限。"
+        },
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "抗氧化明确，靶向细胞衰老较新颖。"
+        }
+      ]
+    },
+    {
+      "a": "Ivacaftor",
+      "b": "CFTR-mediated ion transport",
+      "c": "Mucus barrier hydration",
+      "statement": "Ivacaftor→Potentiation of CFTR-dependent mucus hydration and reinforcement of the inner mucus barrier in IBD",
+      "rationale": "Ivacaftor enhances CFTR channel activity in intestinal goblet cells, promoting adequate chloride and bicarbonate secretion required for proper mucin expansion and formation of a protective mucus barrier that prevents bacterial translocation in IBD.",
+      "self_novelty": "Repurposes a CFTR potentiator to address mucus layer defects in IBD through ion channel modulation, a completely unexplored mechanism in IBD drug repurposing.",
+      "elo": 1218.5074324300842,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "增强CFTR介导黏液水合机制合理。"
+        }
+      ]
+    },
+    {
+      "a": "Riociguat",
+      "b": "Stimulation of soluble guanylate cyclase (sGC) and cGMP production in enteric glia",
+      "c": "Restoration of enteric glial barrier support and reduction of neuroinflammation in IBD",
+      "statement": "Riociguat restores enteric glial function and barrier integrity in IBD via sGC/cGMP pathway activation.",
+      "rationale": "Enteric glia are crucial for barrier maintenance and are damaged in IBD; sGC stimulators promote glial survival and neuroprotective signaling.",
+      "self_novelty": "completely_novel",
+      "elo": 1217.018385613345,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "靶向肠胶质细胞极具创新需验证。"
+        },
+        {
+          "index": 13,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "肠胶质细胞靶点创新，但全身副作用大。"
+        },
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "靶向肠胶质细胞机制新颖但证据少。"
+        }
+      ]
+    },
+    {
+      "a": "TUDCA",
+      "b": "Paneth cell ER stress resolution",
+      "c": "Antimicrobial peptide secretion",
+      "statement": "TUDCA→Resolution of Paneth cell endoplasmic reticulum stress and restoration of antimicrobial defense in IBD",
+      "rationale": "TUDCA functions as a chemical chaperone that alleviates chronic ER stress in Paneth cells, restoring proper folding and secretion of antimicrobial peptides like α-defensins to reestablish mucosal host-microbe homeostasis in IBD.",
+      "self_novelty": "Targets Paneth cell proteostasis via ER chaperone activity, a distinct mechanism from metabolic reprogramming, ferroptosis inhibition, or Treg modulation.",
+      "elo": 1215.0,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "恢复潘氏细胞抗菌功能证据充分。"
+        }
+      ]
+    },
+    {
+      "a": "Acamprosate",
+      "b": "Modulation of mGluR5 and NMDA receptors in the enteric nervous system",
+      "c": "Alleviation of visceral hypersensitivity and neurogenic inflammation in IBD",
+      "statement": "Acamprosate repurposing targets enteric glutamatergic signaling to reduce IBD-associated visceral pain and neurogenic inflammation.",
+      "rationale": "Glutamate signaling in the ENS drives neurogenic inflammation; modulating it with an approved CNS drug offers a gut-brain axis intervention.",
+      "self_novelty": "completely_novel",
+      "elo": 1213.0529406575945,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "肠神经系统靶点表达及药效存疑。"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "针对内脏痛有新意，对核心炎症作用弱。"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "肠神经靶向新颖但直接证据薄弱。"
+        }
+      ]
+    },
+    {
+      "a": "Tiotropium",
+      "b": "Blockade of M3 muscarinic receptors on intestinal epithelial and immune cells",
+      "c": "Inhibition of acetylcholine-driven epithelial proliferation and Th17 polarization in IBD",
+      "statement": "Tiotropium mitigates IBD inflammation by antagonizing M3 receptor-mediated neuro-immune-epithelial crosstalk.",
+      "rationale": "Vagal acetylcholine signaling via M3 receptors exacerbates gut inflammation; blocking it with an inhaled anticholinergic provides localized relief.",
+      "self_novelty": "moderate",
+      "elo": 1204.530406414688,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制合理，但恐加重肠道动力障碍。"
+        },
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "视角新颖，但全身抗胆碱副作用较大。"
+        },
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "神经免疫串扰机制有趣但需验证。"
+        }
+      ]
+    },
+    {
+      "a": "Dimethyl fumarate",
+      "b": "Nrf2 pathway activation and suppression of NF-κB",
+      "c": "Attenuation of macrophage-driven mucosal inflammation in Crohn's disease",
+      "statement": "Dimethyl fumarate can mitigate Crohn's disease inflammation via Nrf2-mediated oxidative stress reduction.",
+      "rationale": "Originally used for psoriasis and MS, its immunomodulatory effects on macrophage polarization offer a novel mechanism for gut mucosal protection.",
+      "self_novelty": "moderate",
+      "elo": 1199.4609663541823,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "机制明确，需关注肠道局部浓度。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，但DMF用于IBD已有探索。"
+        },
+        {
+          "index": 1,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "已有较多临床前研究支持。"
+        }
+      ]
+    },
+    {
+      "a": "Fingolimod",
+      "b": "S1P receptor modulation and retention of lymphocytes in lymph nodes",
+      "c": "Reduction of circulating gut-tropic effector T cells and mucosal inflammation in UC",
+      "statement": "Fingolimod reduces UC severity by sequestering gut-tropic lymphocytes in secondary lymphoid organs via S1P modulation.",
+      "rationale": "While used in MS, its specific effect on gut-homing lymphocyte egress offers a targeted systemic approach to severe, refractory UC.",
+      "self_novelty": "moderate",
+      "elo": 1159.3826802767915,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "同类药已获批，缺乏重定位新意。"
+        },
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制正确，但同类药已获批，新颖性低。"
+        },
+        {
+          "index": 11,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "S1P调节剂已获批用于UC。"
+        }
+      ]
+    },
+    {
+      "a": "Metformin",
+      "b": "AMPK activation and inhibition of mTOR signaling",
+      "c": "Reduction of intestinal epithelial apoptosis and barrier restoration in IBD",
+      "statement": "Metformin repurposing for IBD relies on AMPK-mediated mucosal healing.",
+      "rationale": "Metformin's known metabolic effects on AMPK can counteract the inflammatory and apoptotic pathways driving epithelial damage in IBD.",
+      "self_novelty": "moderate",
+      "elo": 1131.3119441463477,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制经典但缺乏临床转化证据。"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制明确但新颖性一般，已有较多研究。"
+        },
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制明确但新颖性不足。"
+        }
+      ]
+    },
+    {
+      "a": "Osilodrostat",
+      "b": "Inhibition of CYP11B1 and reduction of local intestinal cortisol/corticosterone synthesis",
+      "c": "Modulation of local glucocorticoid metabolism to prevent steroid resistance in refractory IBD",
+      "statement": "Osilodrostat overcomes IBD steroid resistance by modulating local intestinal glucocorticoid metabolism and receptor sensitivity.",
+      "rationale": "Altered local steroidogenesis contributes to steroid resistance; inhibiting specific CYP enzymes can reset the local HPA-axis equivalent in the gut.",
+      "self_novelty": "completely_novel",
+      "elo": 1114.7332586331777,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "逻辑矛盾，抑制局部激素会加重炎症。"
+        },
+        {
+          "index": 14,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "抑制皮质醇合成或加重炎症，逻辑矛盾。"
+        },
+        {
+          "index": 14,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "局部激素代谢调节新颖但缺乏证据。"
+        }
+      ]
+    }
+  ]
+}

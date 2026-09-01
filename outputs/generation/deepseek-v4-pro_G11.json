@@ -1,0 +1,593 @@
+{
+  "goal_id": "G11",
+  "disease_en": "Inflammatory bowel disease",
+  "goal": "为炎症性肠病（Inflammatory bowel disease）寻找可重定位的已上市药物及其作用机制",
+  "overview": "药物重定位为炎症性肠病（IBD）提供了新的治疗思路。阿托伐他汀通过PPARα依赖途径诱导肠道调节性T细胞扩增，有效缓解结肠炎症反应。异维A酸借助视黄酸信号重定向淋巴细胞运输，显著减少炎性细胞向肠黏膜浸润。维拉帕米阻断钙信号传导，抑制NLRP3炎症小体的异常活化，从而减轻IL-1β驱动的肠道炎症损伤。针对上皮屏障保护，去铁酮通过清除铁脂质过氧化阻止铁死亡，显著降低肠上皮细胞死亡。孟鲁",
+  "hypotheses": [
+    {
+      "a": "Atorvastatin",
+      "b": "Activates PPARα in intestinal dendritic cells to promote regulatory T cell differentiation",
+      "c": "Ameliorates colonic inflammation",
+      "statement": "Atorvastatin alleviates IBD by PPARα-dependent induction of intestinal Tregs.",
+      "rationale": "Statins upregulate PPARα, and PPARα agonists exhibit anti-inflammatory effects, suggesting a novel Treg-mediated mechanism.",
+      "self_novelty": "moderate",
+      "elo": 1291.0330037854171,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PPARα在肠道DC中诱导Treg的证据尚不充分。"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PPARα-Treg pathway plausible but not unique to atorvastatin."
+        },
+        {
+          "index": 0,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PPARα在肠道DCs的作用证据有限"
+        }
+      ]
+    },
+    {
+      "a": "Isotretinoin",
+      "b": "Modulates retinoic acid signaling in intestinal dendritic cells, reducing CCR9+ pathogenic T cell homing",
+      "c": "Decreases inflammatory cell infiltration into the gut",
+      "statement": "Isotretinoin alleviates colitis by retinoic-acid-dependent redirection of lymphocyte trafficking.",
+      "rationale": "Retinoic acid determines lymphocyte gut tropism; pharmacological modulation with isotretinoin may limit pathogenic T-cell recruitment.",
+      "self_novelty": "completely_novel",
+      "elo": 1288.8538487869469,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "视黄酸调控淋巴细胞归巢机制成熟，高剂量毒性需关注。"
+        },
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "RA signaling in lymphocyte homing is established."
+        },
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "维甲酸调控CCR9归巢机制已知"
+        }
+      ]
+    },
+    {
+      "a": "Verapamil",
+      "b": "Blocks L-type calcium channels to inhibit NLRP3 inflammasome assembly",
+      "c": "Relieves IL-1β-driven intestinal inflammation",
+      "statement": "Verapamil suppresses NLRP3 inflammasome activation via calcium signaling blockade.",
+      "rationale": "Calcium influx is essential for NLRP3 activation; verapamil, a calcium channel blocker, shows promise in dampening IL-1β-mediated pathology.",
+      "self_novelty": "moderate",
+      "elo": 1287.6217959379358,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "钙信号参与NLRP3组装已有共识，IBD特异性待定。"
+        },
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "Ca2+ channel block inhibits NLRP3, well-known."
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "钙通道阻滞抑制NLRP3证据需加强"
+        }
+      ]
+    },
+    {
+      "a": "Deferiprone",
+      "b": "Chelates excess labile iron in intestinal macrophages, inhibiting ferroptosis and lipid peroxidation",
+      "c": "Reduces intestinal epithelial cell death",
+      "statement": "Deferiprone protects IBD epithelium by preventing ferroptosis.",
+      "rationale": "Intraluminal bleeding leads to iron overload that triggers ferroptosis; the iron chelator deferiprone may mitigate this damage.",
+      "self_novelty": "completely_novel",
+      "elo": 1276.6432195624404,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "铁死亡在IBD中已证实，螯合剂全身影响需评估。"
+        },
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "Macrophage-to-epithelium ferroptosis link needs data."
+        },
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁死亡在IBD上皮损伤中证据较好"
+        }
+      ]
+    },
+    {
+      "a": "Montelukast",
+      "b": "Antagonizes cysteinyl leukotriene receptor CysLT1R, suppressing neutrophil extracellular trap formation",
+      "c": "Reduces intestinal immunothrombosis in IBD",
+      "statement": "Montelukast mitigates IBD hypercoagulability by blocking leukotriene-induced NETosis.",
+      "rationale": "Leukotrienes enhance NET release; montelukast used in asthma may diminish microvascular thrombosis in IBD.",
+      "self_novelty": "completely_novel",
+      "elo": 1256.200758574749,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "CysLT1R介导NETosis的机制缺乏直接肠道证据。"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "NETosis-IBD link is novel; CysLT1R role emerging."
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "NETosis在IBD血栓中的作用待验证"
+        }
+      ]
+    },
+    {
+      "a": "Apremilast",
+      "b": "Inhibits PDE4, upregulating IL-10-producing B regulatory cells in the gut",
+      "c": "Induces mucosal immune tolerance",
+      "statement": "Repurposed apremilast expands IL-10+ Breg cells to suppress IBD inflammation.",
+      "rationale": "PDE4 inhibition elevates intracellular cAMP, promoting regulatory B cell profiles; this mechanism can be exploited for IBD.",
+      "self_novelty": "moderate",
+      "elo": 1248.511555766358,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PDE4抑制上调Breg IL-10的因果关系需证实。"
+        },
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PDE4-induced Breg expansion has initial support."
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PDE4抑制与Breg扩增关联需更多证据"
+        }
+      ]
+    },
+    {
+      "a": "Fluoxetine",
+      "b": "Enhances mitophagy in intestinal epithelial cells via sigma-1 receptor activation",
+      "c": "Preserves gut barrier integrity",
+      "statement": "Fluoxetine protects the intestinal barrier by sigma-1 receptor-mediated mitophagy.",
+      "rationale": "Sigma-1 receptors regulate autophagy; fluoxetine is a known agonist, and autophagy defects are critical in IBD pathogenesis.",
+      "self_novelty": "completely_novel",
+      "elo": 1241.9035506042583,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "Sigma-1受体活化mitophagy在肠上皮中属全新假设。"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Sigma-1 mitophagy in IEC barrier lacks direct proof."
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "Sigma-1R介导肠上皮线粒体自噬证据弱"
+        }
+      ]
+    },
+    {
+      "a": "Losartan",
+      "b": "Blocks angiotensin II type 1 receptor on intestinal fibroblasts, reducing TGF-β-driven fibrosis",
+      "c": "Prevents IBD-associated intestinal fibrosis",
+      "statement": "Losartan inhibits intestinal fibrosis by attenuating AT1R/TGF-β crosstalk.",
+      "rationale": "AT1R signaling promotes fibrosis; losartan as an ARB is effective in renal fibrosis, warranting evaluation in gut fibrosis.",
+      "self_novelty": "moderate",
+      "elo": 1236.9279459816028,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "AT1R/TGF-β crosstalk明确，但肠道纤维化模型需验证。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "AT1R/TGF-β axis in fibrosis is well-supported."
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "AT1R/TGF-β轴在肠纤维化中较明确"
+        }
+      ]
+    },
+    {
+      "a": "Indapamide",
+      "b": "Inhibits carbonic anhydrase activity, lowering luminal pH to favor SCFA-producing bacteria",
+      "c": "Shifts microbiota toward anti-inflammatory short-chain fatty acid output",
+      "statement": "Indapamide remodels the IBD microbiome by modulating intestinal pH via carbonic anhydrase inhibition.",
+      "rationale": "Carbonic anhydrase inhibitors alter ion transport and microclimate; indapamide may promote symbiotic bacteria growth.",
+      "self_novelty": "completely_novel",
+      "elo": 1227.9514255881227,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "肠道碳酸酐酶调节pH进而改变菌群缺乏体内实证。"
+        },
+        {
+          "index": 9,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "Intestinal CA inhibition by indapamide unverified."
+        },
+        {
+          "index": 9,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "碳酸酐酶抑制调控微生物组需验证"
+        }
+      ]
+    },
+    {
+      "a": "Probenecid",
+      "b": "Relieves NLRP3-driven colitis",
+      "c": "Pannexin-1/ATP/NLRP3 pathway",
+      "statement": "Probenecid→Relieves NLRP3-driven colitis: Probenecid blocks pannexin-1 channels to reduce extracellular ATP and prevent NLRP3 inflammasome assembly in intestinal macrophages.",
+      "rationale": "Probenecid is a safe approved uricosuric that inhibits pannexin-1, limiting danger signal ATP release; this upstream block of NLRP3 activation could uniquely treat autoinflammatory colitis distinct from calcium signaling.",
+      "self_novelty": "High: pannexin-1 targeting in IBD is unexplored, and probenecid provides an immediate clinical opportunity.",
+      "elo": 1215.0,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "Pannexin-1/ATP/NLRP3轴证据较好"
+        }
+      ]
+    },
+    {
+      "a": "Fenofibrate",
+      "b": "Activates PPARα to enhance fatty acid oxidation in intestinal epithelial cells, providing energy for repair",
+      "c": "Accelerates mucosal healing",
+      "statement": "Fenofibrate promotes mucosal repair by PPARα-mediated epithelial fatty acid oxidation.",
+      "rationale": "Epithelial restitution is energy-intensive; fenofibrate supports anti-inflammatory and metabolic programs for wound healing.",
+      "self_novelty": "moderate",
+      "elo": 1213.7447234975812,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PPARα促脂肪酸氧化修复黏膜，逻辑合理但需损伤模型。"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PPARα-FAO in mucosal healing has prior data."
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PPARα促上皮能量代谢逻辑合理"
+        }
+      ]
+    },
+    {
+      "a": "Metformin",
+      "b": "Activates AMPK to promote MUC2 mucin secretion by goblet cells",
+      "c": "Reinforces the intestinal mucus barrier",
+      "statement": "Metformin strengthens the mucus layer through AMPK-dependent MUC2 secretion.",
+      "rationale": "AMPK activation is linked to barrier function, and metformin ameliorates colitis; specifically enhancing mucin secretion is a novel angle.",
+      "self_novelty": "moderate",
+      "elo": 1201.7323272860192,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "AMPK驱动MUC2分泌的直接证据有限。"
+        },
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "AMPK-driven MUC2 secretion is rational."
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "AMPK-MUC2通路较明确"
+        }
+      ]
+    },
+    {
+      "a": "Dipyridamole",
+      "b": "Elevates extracellular adenosine by inhibiting uptake, activating A2A adenosine receptors to polarize M2 macrophages",
+      "c": "Suppresses intestinal inflammation",
+      "statement": "Dipyridamole drives M2 polarization through adenosinergic signaling as an IBD therapy.",
+      "rationale": "Dipyridamole increases adenosine levels; A2A receptor activation robustly promotes anti-inflammatory M2 macrophages.",
+      "self_novelty": "moderate",
+      "elo": 1201.1227823181434,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "腺苷A2A促M2极化通路明确，抗血小板混淆疗效。"
+        },
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "Adenosine-A2A M2 polarization widely reported."
+        },
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "腺苷A2A驱动M2极化机制支持"
+        }
+      ]
+    },
+    {
+      "a": "Riluzole",
+      "b": "TREK-1 potassium channel",
+      "c": "IBD",
+      "statement": "Riluzole alleviates IBD by activating enteric glial TREK-1 channels to reduce neurogenic inflammation and protect barrier integrity.",
+      "rationale": "TREK-1 activation stabilizes enteric glial membrane potential, limiting pro-inflammatory mediator release from glia and preventing epithelial leak.",
+      "self_novelty": "Moderately novel: first repositioning of a glial potassium channel opener for neuro-immune interplay in IBD.",
+      "elo": 1198.6963700498711,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Enteric glial TREK-1 role remains to be established."
+        },
+        {
+          "index": 16,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "肠胶质TREK-1调节神经炎症证据薄弱"
+        }
+      ]
+    },
+    {
+      "a": "Empagliflozin",
+      "b": "Inhibits SGLT2 in intestinal epithelium, limiting glucose uptake and glycolysis required for Th17 differentiation",
+      "c": "Attenuates pathogenic Th17 responses in the gut",
+      "statement": "Empagliflozin restricts glycolytic fuel for Th17 cells via intestinal SGLT2 blockade.",
+      "rationale": "SGLT2 is expressed in the gut; reducing local glucose availability can selectively impair pro-inflammatory Th17 cell metabolism.",
+      "self_novelty": "completely_novel",
+      "elo": 1191.7933123021576,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "SGLT2在肠道限制糖供给影响Th17分化过于间接。"
+        },
+        {
+          "index": 10,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Local SGLT2 limiting Th17 glycolysis unconfirmed."
+        },
+        {
+          "index": 10,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "肠上皮SGLT2抑制限制Th17糖酵解新颖"
+        }
+      ]
+    },
+    {
+      "a": "Metformin",
+      "b": "AMPK",
+      "c": "IBD",
+      "statement": "Metformin treats IBD by activating AMPK to concurrently suppress NLRP3 inflammasome and prevent ferroptotic death in intestinal epithelial cells.",
+      "rationale": "AMPK activation hinders NLRP3 priming and boosts GPX4 synthesis, thus blocking both pyroptosis and ferroptosis.",
+      "self_novelty": "Highly novel: dual block of pyroptosis and ferroptosis by a single metabolic modulator.",
+      "elo": 1187.6437511142688,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "AMPK pleiotropy known; combo not highly novel."
+        },
+        {
+          "index": 15,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "AMPK双重机制合理但非新发现"
+        }
+      ]
+    },
+    {
+      "a": "Minocycline",
+      "b": "Preserves intestinal barrier integrity",
+      "c": "PARP-1 inhibition",
+      "statement": "Minocycline→Preserves intestinal barrier integrity: Minocycline inhibits PARP-1 to attenuate inflammatory enterocyte apoptosis and maintain tight junction proteins in colitis.",
+      "rationale": "Minocycline, a brain-penetrant antibiotic, is a validated PARP-1 inhibitor that reduces cell death and inflammation; applying this anti-apoptotic action to gut epithelial cells could fortify the barrier without immunosuppression.",
+      "self_novelty": "High: repurposing minocycline for gut barrier protection via PARP-1 is a novel mechanistic jump from its neuroprotective use.",
+      "elo": 1181.460137123265,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PARP-1保护肠屏障机制文献支持"
+        }
+      ]
+    },
+    {
+      "a": "Paroxetine",
+      "b": "Inhibits serotonin transporter to increase 5-HT, activating 5-HT4 receptors on enteric neurons for survival",
+      "c": "Ameliorates IBD-associated enteric neuropathy",
+      "statement": "Paroxetine rescues enteric neurons via 5-HT4 receptor neuroprotection.",
+      "rationale": "IBD involves neurodegeneration; 5-HT4 agonists are neurotrophic and anti-inflammatory, suggesting paroxetine as a neural rescue therapy.",
+      "self_novelty": "completely_novel",
+      "elo": 1138.6594142668803,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "5-HT4受体神经保护外周应用需排除中枢效应。"
+        },
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "5-HT4 neuroprotection in enteric neurons is plausible."
+        },
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "5-HT4受体神经保护在IBD中未知"
+        }
+      ]
+    },
+    {
+      "a": "Levodopa",
+      "b": "Converts peripherally to dopamine, activating D1 receptors on intestinal dendritic cells to suppress IL-12/23 release",
+      "c": "Reduces intestinal inflammation",
+      "statement": "Levodopa alleviates IBD through peripheral dopaminergic inhibition of the IL-12/23 axis.",
+      "rationale": "Dopamine modulates immune responses; levodopa, a Parkinson's drug, may dampen pathogenic dendritic cell cytokine production in the gut.",
+      "self_novelty": "completely_novel",
+      "elo": 1119.5000774539826,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "多巴胺能调节DC细胞因子可行，外周转化效率存疑。"
+        },
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Dopamine-D1 on DCs needs IBD-specific validation."
+        },
+        {
+          "index": 14,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "外周多巴胺抑制IL-12/23证据极少"
+        }
+      ]
+    }
+  ]
+}

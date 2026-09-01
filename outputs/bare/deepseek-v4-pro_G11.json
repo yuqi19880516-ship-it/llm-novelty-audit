@@ -1,0 +1,152 @@
+[
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "Disulfiram",
+"B": "通过抑制FROUNT蛋白阻断CCR2-CCL2趋化轴，减少炎性单核细胞向肠黏膜浸润",
+"C": "减轻炎症性肠病的肠道炎症和纤维化",
+"statement": "Disulfiram可通过抑制FROUNT-CCR2信号通路，重定位为IBD的抗炎和抗纤维化药物。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "Penfluridol",
+"B": "通过激活PP2A磷酸酶并抑制STAT3/NF-κB通路，诱导肠黏膜Treg分化并抑制Th17应答",
+"C": "恢复IBD中的肠道免疫耐受",
+"statement": "Penfluridol可通过PP2A介导的STAT3去磷酸化，重塑IBD的Treg/Th17平衡。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "Niclosamide",
+"B": "通过诱导线粒体自噬清除受损线粒体并抑制NLRP3炎症小体组装，阻断肠上皮细胞焦亡",
+"C": "保护IBD肠黏膜屏障完整性",
+"statement": "Niclosamide可通过激活PINK1/Parkin介导的线粒体自噬抑制NLRP3，治疗IBD上皮损伤。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "Dapsone",
+"B": "通过抑制髓过氧化物酶依赖的中性粒细胞胞外陷阱形成，减少肠黏膜中性粒细胞活化和氧化损伤",
+"C": "缓解IBD的急性炎症反应和组织破坏",
+"statement": "Dapsone可通过靶向中性粒细胞MPO-NETosis轴，作为IBD的辅助抗炎治疗。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "Miglustat",
+"B": "通过抑制葡糖神经酰胺合酶减少糖鞘脂合成，破坏肠黏膜中脂筏介导的TNF受体信号传导",
+"C": "抑制IBD中TNF驱动的炎症级联反应",
+"statement": "Miglustat可通过干扰脂筏-GSLs-TNFR1信号轴，模拟抗TNF生物制剂的效应治疗IBD。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "Zileuton",
+"B": "通过抑制5-脂氧合酶减少LTB4合成，同时上调促消退脂质介质Resolvin E1的产生",
+"C": "促进IBD肠道炎症的主动消退而非单纯抗炎",
+"statement": "Zileuton可通过重塑脂氧合酶代谢流从促炎Lt向促消退SPM转变，重置IBD的炎症稳态。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "Fluvoxamine",
+"B": "通过激活sigma-1受体增强肠上皮内质网应激下的未折叠蛋白反应适应性分支，减少IRE1α介导的促凋亡信号",
+"C": "维持IBD中肠上皮细胞内质网稳态和细胞存活",
+"statement": "Fluvoxamine可通过S1R伴侣功能选择性增强UPR适应性，治疗IBD的上皮ER应激相关损伤。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "Clopidogrel",
+"B": "通过拮抗P2Y12受体减少血小板释放5-HT和TGF-β1，阻断血小板-中性粒细胞聚集体对肠黏膜微循环的损伤",
+"C": "改善IBD的肠黏膜微血栓炎症和纤维化",
+"statement": "Clopidogrel可通过干预血小板免疫调节功能，靶向IBD的微血管炎症轴。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "Amisulpride",
+"B": "通过拮抗5-HT7受体抑制肠黏膜树突状细胞分泌IL-23，并增强CD103+DC的维甲酸合成促进Treg归巢",
+"C": "重建IBD的肠道耐受性DC表型",
+"statement": "Amisulpride可通过双重5-HT7/未知靶点效应，将IBD中致耐受性DC重新极化。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "Fexinidazole",
+"B": "通过其活性代谢物在低氧肠黏膜中生成活性氧，选择性诱导过度活化的CD4+效应T细胞铁死亡",
+"C": "消除IBD病灶中的致病性T细胞克隆",
+"statement": "Fexinidazole可利用低氧微环境选择性诱导铁死亡，作为IBD靶向免疫清除策略。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "Propylthiouracil",
+"B": "通过抑制肠上皮细胞顶端膜NHE3转运体，酸化肠腔微环境并促进短链脂肪酸非解离形式吸收，增强Treg功能",
+"C": "恢复IBD的肠腔酸碱平衡和免疫稳态",
+"statement": "Propylthiouracil可通过调节肠腔pH增强SCFA-Treg轴，非经典机制治疗IBD。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "Vorinostat",
+"B": "通过低剂量、间歇性抑制HDAC，增强肠上皮细胞中MUC2和TFF3基因表达而不诱导凋亡",
+"C": "加固IBD黏液屏障，预防复发",
+"statement": "Vorinostat可通过表观遗传重编程增强黏液糖蛋白表达，作为IBD黏膜屏障复原剂。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "Raloxifene",
+"B": "通过选择性激活肠黏膜巨噬细胞的雌激素受体β，促进IL-10产生并增强胞葬作用清除凋亡细胞",
+"C": "诱导IBD的巨噬细胞由促炎M1向修复M2转变",
+"statement": "Raloxifene可依托肠道ERβ高表达，将巨噬细胞重编程为消退型。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "Tranilast",
+"B": "通过阻断NLRP3炎性小体诱导的TGF-β1活化并直接抑制上皮-间质转化，双重靶向炎症与纤维化",
+"C": "阻止IBD的纤维狭窄进展",
+"statement": "Tranilast可通过抑制NLRP3-EMT轴，作为IBD的抗纤维化药物重定位。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G11",
+"disease": "Inflammatory bowel disease",
+"A": "Pranlukast",
+"B": "通过拮抗肠上皮细胞和黏膜肥大细胞的CysLT1受体，减少IL-9合成并阻断2型固有淋巴样细胞介导的屏障损伤反馈环",
+"C": "打断IBD中过敏性炎症成分与屏障缺损的恶性循环",
+"statement": "Pranlukast可通过阻断半胱氨酰白三烯-IL-9-ILC2环路，靶向IBD的混合性炎症表型。",
+"self_novelty": "completely_novel"
+}
+]

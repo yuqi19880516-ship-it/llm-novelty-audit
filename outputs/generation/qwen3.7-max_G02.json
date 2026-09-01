@@ -1,0 +1,593 @@
+{
+  "goal_id": "G02",
+  "disease_en": "Glioblastoma",
+  "goal": "为胶质母细胞瘤（Glioblastoma）寻找可重定位的已上市药物及其作用机制",
+  "overview": "老药新用为胶质母细胞瘤治疗提供新策略。酮康唑抑制CYP51A1减少脂筏，破坏EGFRvIII膜定位及致癌信号。氟哌啶醇拮抗Sigma-2受体干扰钙稳态，触发内质网应激凋亡。青蒿琥酯破坏铁硫簇蛋白诱导铁死亡，选择性杀伤间充质型肿瘤。伊维菌素抑制PAK1破坏微管动力学，诱导多倍体细胞有丝分裂灾难。柳氮磺吡啶抑制SLC7A11耗竭谷胱甘肽，诱导脂质过氧化并协同放疗杀伤干细胞。",
+  "hypotheses": [
+    {
+      "a": "酮康唑 (Ketoconazole)",
+      "b": "抑制 CYP51A1 阻断胆固醇合成并减少脂筏形成",
+      "c": "破坏 EGFRvIII 突变体的膜定位及下游致癌信号传导",
+      "statement": "酮康唑通过抑制 CYP51A1 减少脂筏形成，破坏 EGFRvIII 的膜定位及信号传导。",
+      "rationale": "EGFRvIII 的信号传导高度依赖富含胆固醇的脂筏微环境，酮康唑阻断胆固醇合成可能特异性削弱该突变体的致癌活性。",
+      "self_novelty": "moderate",
+      "elo": 1298.330910745682,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 5,
+          "critique": "脂筏调控机制巧妙，对突变体具特异性"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "酮康唑肝毒性大，且脑脊液浓度可能不足。"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "脂筏调控EGFRvIII机制逻辑通顺。"
+        }
+      ]
+    },
+    {
+      "a": "氟哌啶醇 (Haloperidol)",
+      "b": "拮抗 Sigma-2 受体 (TMEM97) 干扰内质网-溶酶体钙离子交换",
+      "c": "触发胶质母细胞瘤细胞内质网应激介导的凋亡",
+      "statement": "氟哌啶醇通过拮抗 Sigma-2 受体干扰钙稳态触发 GBM 内质网应激凋亡。",
+      "rationale": "TMEM97 在 GBM 中高表达并调节溶酶体钙释放，氟哌啶醇的强效拮抗作用可能破坏癌细胞特有的钙依赖性生存信号。",
+      "self_novelty": "completely_novel",
+      "elo": 1292.9545027867446,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶点明确，钙稳态失衡致凋亡逻辑通顺"
+        },
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "氟哌啶醇中枢副作用大，治疗窗口需评估。"
+        },
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶点明确，钙稳态机制合理。"
+        }
+      ]
+    },
+    {
+      "a": "青蒿琥酯 (Artesunate)",
+      "b": "产生自由基攻击铁硫簇蛋白导致铁死亡",
+      "c": "选择性杀伤具有高铁依赖性的间充质型胶质母细胞瘤",
+      "statement": "青蒿琥酯通过破坏铁硫簇蛋白诱导铁死亡，选择性杀伤间充质型 GBM。",
+      "rationale": "间充质型 GBM 表现出高铁代谢特征，青蒿琥酯的自由基机制特异性靶向铁硫簇，可能引发强烈的脂质过氧化和铁死亡。",
+      "self_novelty": "moderate",
+      "elo": 1292.0298208783302,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁死亡机制合理，亚型选择性具转化潜力"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁硫簇蛋白作为主靶点需蛋白质组学验证。"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "铁硫簇特异性攻击证据尚不充分。"
+        }
+      ]
+    },
+    {
+      "a": "伊维菌素 (Ivermectin)",
+      "b": "结合并抑制 PAK1 激酶活性从而破坏微管动力学",
+      "c": "诱导多倍体胶质母细胞瘤细胞发生有丝分裂灾难",
+      "statement": "伊维菌素通过抑制 PAK1 破坏微管动力学诱导多倍体 GBM 细胞发生有丝分裂灾难。",
+      "rationale": "PAK1 调节微管稳定性，伊维菌素作为 PAK1 抑制剂可能在具有中心体扩增的多倍体 GBM 细胞中特异性诱发有丝分裂灾难。",
+      "self_novelty": "completely_novel",
+      "elo": 1291.705346930092,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向激酶合理，但微管动力学直接证据偏弱"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PAK1对微管的直接调控需更多证据。"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PAK1与微管灾难直接联系偏弱。"
+        }
+      ]
+    },
+    {
+      "a": "柳氮磺吡啶 (Sulfasalazine)",
+      "b": "抑制系统 xc- (SLC7A11) 耗竭胞内谷胱甘肽",
+      "c": "诱导脂质过氧化并协同放疗杀伤胶质母细胞瘤干细胞",
+      "statement": "柳氮磺吡啶通过抑制 SLC7A11 耗竭谷胱甘肽，诱导脂质过氧化并协同放疗杀伤 GSC。",
+      "rationale": "GSC 高度依赖 SLC7A11 维持抗氧化能力，柳氮磺吡啶作为已批准的 SLC7A11 抑制剂，可有效增敏放疗引发的氧化损伤。",
+      "self_novelty": "known",
+      "elo": 1246.8914399585362,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "靶点与机制非常经典，缺乏足够的新颖性"
+        },
+        {
+          "index": 9,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制成熟，但血脑屏障穿透和毒性是限制。"
+        },
+        {
+          "index": 9,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "经典xCT抑制剂，机制非常确凿。"
+        }
+      ]
+    },
+    {
+      "a": "阿托伐他汀 (Atorvastatin)",
+      "b": "下调甲羟戊酸途径减少 YAP/TAZ 的香叶基香叶基化修饰",
+      "c": "逆转胶质母细胞瘤干细胞 (GSC) 的间充质转化",
+      "statement": "阿托伐他汀通过阻断 YAP/TAZ 的香叶基香叶基化逆转 GSC 的间充质转化。",
+      "rationale": "YAP/TAZ 的核定位和功能依赖于香叶基香叶基化，而他汀类药物特异性阻断该途径，可能有效靶向间充质型 GSC。",
+      "self_novelty": "moderate",
+      "elo": 1240.1582366178638,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，蛋白修饰与间充质转化联系紧密"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制明确，但血脑屏障穿透率是瓶颈。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制经典，YAP修饰联系紧密。"
+        }
+      ]
+    },
+    {
+      "a": "螺内酯 (Spironolactone)",
+      "b": "拮抗盐皮质激素受体 (MR) 抑制 NF-κB 依赖的炎症基因转录",
+      "c": "减少胶质母细胞瘤相关巨噬细胞 (TAM) 的 M2 型极化",
+      "statement": "螺内酯通过拮抗 MR 抑制 NF-κB 转录，减少 GBM 中 TAM 的 M2 型极化。",
+      "rationale": "MR 信号在巨噬细胞极化中起作用，螺内酯可能通过阻断该途径逆转 GBM 微环境中促肿瘤的 M2 型 TAM 表型。",
+      "self_novelty": "completely_novel",
+      "elo": 1229.3416846899083,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，但血脑屏障穿透率是主要限制"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "盐皮质激素受体在TAM中表达丰度需确认。"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "盐皮质激素受体调控TAM机制合理。"
+        }
+      ]
+    },
+    {
+      "a": "氯硝柳胺 (Niclosamide)",
+      "b": "促进 STAT3 与 LAMP2 结合并诱导其溶酶体降解",
+      "c": "克服胶质母细胞瘤对替莫唑胺 (TMZ) 的耐药性",
+      "statement": "氯硝柳胺通过诱导 STAT3 溶酶体降解克服 GBM 对 TMZ 的耐药性。",
+      "rationale": "STAT3 降解通常依赖泛素-蛋白酶体途径，氯硝柳胺介导的溶酶体自噬降解途径为克服 STAT3 驱动的 TMZ 耐药提供了新机制。",
+      "self_novelty": "completely_novel",
+      "elo": 1225.316459383261,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "靶蛋白溶酶体降解途径非主流，需实验验证"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "溶酶体降解STAT3的证据需进一步夯实。"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "溶酶体降解STAT3机制待验证。"
+        }
+      ]
+    },
+    {
+      "a": "双硫仑 (Disulfiram)",
+      "b": "抑制 ALDH2 导致线粒体 ROS 积累并激活 cGAS-STING 通路",
+      "c": "诱导胶质母细胞瘤细胞发生免疫原性细胞死亡 (ICD)",
+      "statement": "双硫仑通过抑制 ALDH2 激活 cGAS-STING 通路诱导 GBM 免疫原性细胞死亡。",
+      "rationale": "ALDH2 抑制已知会增加 ROS，而 ROS 可触发线粒体 DNA 释放激活 cGAS-STING，这在 GBM 中尚未被充分探索用于 ICD 诱导。",
+      "self_novelty": "moderate",
+      "elo": 1223.7484321262161,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制新颖，但相关通路激活证据需补充"
+        },
+        {
+          "index": 0,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制链条较长，需体内验证cGAS激活。"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，cGAS-STING联系较新。"
+        }
+      ]
+    },
+    {
+      "a": "地高辛 (Digoxin)",
+      "b": "抑制 Na+/K+-ATPase 导致胞内钙超载并激活钙蛋白酶",
+      "c": "诱导胶质母细胞瘤细胞发生非凋亡性程序性死亡 (坏死性凋亡)",
+      "statement": "地高辛通过抑制 Na+/K+-ATPase 引发钙超载，诱导 GBM 细胞坏死性凋亡。",
+      "rationale": "GBM 细胞对胞内钙稳态失衡极度敏感，地高辛引发的持续钙内流可能绕过凋亡抗性机制，触发坏死性凋亡途径。",
+      "self_novelty": "moderate",
+      "elo": 1215.0340115720044,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "钙超载多致坏死或凋亡，坏死性凋亡证据弱"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "钙超载多致凋亡，坏死性凋亡需RIPK证据。"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "钙超载致坏死性凋亡特异性不足。"
+        }
+      ]
+    },
+    {
+      "a": "丙戊酸 (Valproic acid)",
+      "b": "抑制组蛋白去乙酰化酶 (HDAC) 并上调 microRNA-129 表达",
+      "c": "下调 CDK6 阻滞胶质母细胞瘤细胞周期于 G1 期",
+      "statement": "丙戊酸通过 HDAC 抑制上调 miR-129 表达，下调 CDK6 阻滞 GBM 细胞周期。",
+      "rationale": "丙戊酸的表观遗传调节作用可能特异性解除对 miR-129 的抑制，进而通过靶向 CDK6 发挥抗增殖作用。",
+      "self_novelty": "moderate",
+      "elo": 1200.0238395763747,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "表观调控逻辑通顺，但下游靶点具脱靶风险"
+        },
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "丙戊酸作为HDACi的靶向特异性较弱。"
+        },
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "表观调控miRNA机制有文献支持。"
+        }
+      ]
+    },
+    {
+      "a": "二甲双胍 (Metformin)",
+      "b": "抑制线粒体复合物 I 导致 ATP 耗竭并激活 AMPK 抑制 mTORC1",
+      "c": "下调 MGMT 表达增强胶质母细胞瘤对烷化剂的敏感性",
+      "statement": "二甲双胍通过 AMPK/mTORC1 轴下调 MGMT 表达增强 GBM 对烷化剂的敏感性。",
+      "rationale": "mTORC1 信号已知可促进 MGMT 翻译，二甲双胍强效抑制该通路可能直接降低 MGMT 蛋白水平，从而增敏 TMZ。",
+      "self_novelty": "moderate",
+      "elo": 1196.7019570891164,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制经典且证据充分，但整体新颖性不足"
+        },
+        {
+          "index": 4,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 5,
+          "critique": "机制经典但缺新意，临床转化浓度要求高。"
+        },
+        {
+          "index": 4,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制较成熟，新颖性略显不足。"
+        }
+      ]
+    },
+    {
+      "a": "别嘌醇 (Allopurinol)",
+      "b": "抑制黄嘌呤氧化酶 (XO) 减少尿酸及 ROS 生成",
+      "c": "降低 HIF-1α 稳定性并抑制胶质母细胞瘤血管生成拟态",
+      "statement": "别嘌醇通过抑制 XO 减少 ROS 生成，降低 HIF-1α 稳定性并抑制 GBM 血管生成拟态。",
+      "rationale": "XO 衍生的 ROS 可稳定 HIF-1α，别嘌醇阻断该途径可能在缺氧微环境中特异性破坏 GBM 的血管生成拟态网络。",
+      "self_novelty": "completely_novel",
+      "elo": 1188.8637864975262,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，但活性氧对靶蛋白调控具双面性"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "别嘌醇降ROS对HIF-1a的影响可能有限。"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "氧化应激调控HIF机制合理。"
+        }
+      ]
+    },
+    {
+      "a": "酮康唑",
+      "b": "氟哌啶醇",
+      "c": "伊维菌素",
+      "statement": "酮康唑介导的脂筏耗竭可增强氟哌啶醇对Sigma-2受体的膜靶向效率并协同伊维菌素阻断EGFRvIII-PAK1促存活轴。",
+      "rationale": "脂筏破坏不仅剥夺了EGFRvIII的信号平台，还迫使Sigma-2受体暴露于水相环境，从而提高氟哌啶醇结合亲和力并放大伊维菌素的微管破坏效应。",
+      "self_novelty": "构建了以膜微区（脂筏）重塑为核心的三联药物增敏网络，揭示脂质代谢干预在受体药理学中的变构调控价值。",
+      "elo": 1188.1217843311522,
+      "review_score": 2.3333333333333335,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "多药协同轴过于臆想缺乏证据。"
+        }
+      ]
+    },
+    {
+      "a": "氟哌啶醇",
+      "b": "伊维菌素",
+      "c": "酮康唑",
+      "statement": "氟哌啶醇与伊维菌素联用通过协同破坏钙稳态与微管动力学诱导胶质母细胞瘤发生灾难性内质网-有丝分裂双重应激。",
+      "rationale": "Sigma-2受体拮抗引发的钙超载可削弱细胞对PAK1抑制导致的纺锤体异常的耐受性，从而突破单一疗法的凋亡阈值。",
+      "self_novelty": "首次提出抗精神病药与抗寄生虫药通过跨细胞器应激串扰（ER-mitotic crosstalk）实现GBM合成致死。",
+      "elo": 1185.0,
+      "review_score": 2.0,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 2,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "假设重复且药物联用逻辑混乱。"
+        }
+      ]
+    },
+    {
+      "a": "氨甲环酸 (Tranexamic acid)",
+      "b": "竞争性抑制纤溶酶原激活并减少纤溶酶生成",
+      "c": "阻断基质金属蛋白酶 (MMP) 激活从而抑制胶质母细胞瘤侵袭",
+      "statement": "氨甲环酸通过抑制纤溶酶生成阻断 MMP 激活，抑制 GBM 侵袭。",
+      "rationale": "纤溶酶是多种 MMP 的上游激活剂，氨甲环酸作为抗纤溶药物，可能通过切断该级联反应有效限制 GBM 的弥漫性浸润。",
+      "self_novelty": "completely_novel",
+      "elo": 1180.177649245486,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制明确且经典，但临床转化价值较有限"
+        },
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "纤溶酶在GBM侵袭中的核心地位尚存争议。"
+        },
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "经典抗纤溶机制，新颖性一般。"
+        }
+      ]
+    },
+    {
+      "a": "氟哌啶醇",
+      "b": "伊维菌素",
+      "c": "酮康唑",
+      "statement": "氟哌啶醇与伊维菌素联用通过协同破坏钙稳态与微管动力学诱导胶质母细胞瘤发生灾难性内质网-有丝分裂双重应激。",
+      "rationale": "Sigma-2受体拮抗引发的钙超载可削弱细胞对PAK1抑制导致的纺锤体异常的耐受性，从而突破单一疗法的凋亡阈值。",
+      "self_novelty": "首次提出神经安定药与抗寄生虫药通过跨系统应激通路协同杀伤GBM的新机制。",
+      "elo": 1162.2262738980962,
+      "review_score": 2.0,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "两药联用的药代动力学及毒性叠加需评估。"
+        },
+        {
+          "index": 15,
+          "novelty": 2,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "联用逻辑与标题药物对应混乱。"
+        }
+      ]
+    },
+    {
+      "a": "酮康唑",
+      "b": "氟哌啶醇",
+      "c": "伊维菌素",
+      "statement": "酮康唑通过重塑脂筏微环境增强氟哌啶醇对Sigma-2受体的靶向效率并放大伊维菌素介导的有丝分裂灾难。",
+      "rationale": "CYP51A1抑制导致的膜胆固醇耗竭可同时促进氟哌啶醇在脂筏区的富集及伊维菌素对微管相关蛋白的异常调控。",
+      "self_novelty": "揭示抗真菌药作为膜微环境调节剂对两类不同机制药物的增效作用，开辟GBM三联疗法新策略。",
+      "elo": 1140.3176199741047,
+      "review_score": 2.3333333333333335,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "机制串联过于复杂，缺乏直接实验证据。"
+        },
+        {
+          "index": 16,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "三药协同机制过于复杂且牵强。"
+        }
+      ]
+    },
+    {
+      "a": "双嘧达莫 (Dipyridamole)",
+      "b": "抑制平衡型核苷转运体 (ENT1) 阻断腺苷摄取",
+      "c": "重塑肿瘤微环境并增强抗 PD-1 免疫治疗在胶质母细胞瘤中的疗效",
+      "statement": "双嘧达莫通过抑制 ENT1 阻断腺苷摄取，重塑 TME 并增强 GBM 抗 PD-1 疗效。",
+      "rationale": "GBM 微环境中高浓度的腺苷具有免疫抑制作用，阻断 ENT1 介导的腺苷清除可能通过 A2A 受体途径逆转 T 细胞耗竭。",
+      "self_novelty": "moderate",
+      "elo": 1128.056243699505,
+      "review_score": 2.3333333333333335,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "抑制该转运体或致腺苷积累，反促免疫抑制"
+        },
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "抑制ENT1增加胞外腺苷，反促免疫逃逸。"
+        },
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "抑制ENT1致腺苷升高反促免疫逃逸。"
+        }
+      ]
+    }
+  ]
+}

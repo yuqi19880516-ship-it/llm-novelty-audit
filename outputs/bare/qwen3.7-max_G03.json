@@ -1,0 +1,152 @@
+[
+{
+"model": "qwen3.7-max",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Metformin",
+"B": "Inhibition of mitochondrial complex I leading to reduced ATP and AMPK activation",
+"C": "Suppression of PDAC cell proliferation and enhanced sensitivity to gemcitabine",
+"statement": "Metformin inhibits mitochondrial complex I in PDAC cells, activating AMPK and suppressing proliferation while sensitizing tumors to gemcitabine.",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Atorvastatin",
+"B": "Inhibition of the mevalonate pathway reducing prenylation of RAS proteins",
+"C": "Decreased PDAC tumor growth and metastasis",
+"statement": "Atorvastatin inhibits the mevalonate pathway, reducing RAS prenylation and thereby decreasing PDAC tumor growth and metastasis.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Chloroquine",
+"B": "Inhibition of autophagy flux and lysosomal acidification",
+"C": "Enhanced efficacy of standard chemotherapy in PDAC",
+"statement": "Chloroquine blocks autophagy flux and lysosomal acidification, enhancing the efficacy of standard chemotherapy in PDAC.",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Losartan",
+"B": "Reduction of hyaluronan production and collagen cross-linking in the tumor microenvironment",
+"C": "Improved vascular perfusion and delivery of nanotherapeutics in PDAC",
+"statement": "Losartan reduces hyaluronan production and collagen cross-linking in the TME, improving vascular perfusion and nanotherapeutic delivery in PDAC.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Ivermectin",
+"B": "Inhibition of PAK1 kinase and induction of immunogenic cell death",
+"C": "Suppression of PDAC tumor growth and enhanced anti-tumor immunity",
+"statement": "Ivermectin inhibits PAK1 kinase and induces immunogenic cell death, suppressing PDAC tumor growth and enhancing anti-tumor immunity.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Niclosamide",
+"B": "Inhibition of Wnt/β-catenin and STAT3 signaling pathways",
+"C": "Reversal of epithelial-mesenchymal transition and reduced PDAC metastasis",
+"statement": "Niclosamide inhibits Wnt/β-catenin and STAT3 signaling, reversing EMT and reducing PDAC metastasis.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Disulfiram",
+"B": "Chelation of intracellular copper and inhibition of ALDH activity",
+"C": "Elimination of PDAC cancer stem cells and tumor recurrence",
+"statement": "Disulfiram chelates intracellular copper and inhibits ALDH activity, eliminating PDAC cancer stem cells and preventing tumor recurrence.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Artemisinin",
+"B": "Generation of reactive oxygen species via iron-dependent endoperoxide bridge cleavage",
+"C": "Selective apoptosis of PDAC cells with high transferrin receptor expression",
+"statement": "Artemisinin generates ROS via iron-dependent cleavage, selectively inducing apoptosis in PDAC cells with high transferrin receptor expression.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Captopril",
+"B": "Inhibition of ACE leading to reduced angiotensin II and decreased VEGF expression",
+"C": "Normalization of tumor vasculature and reduced PDAC angiogenesis",
+"statement": "Captopril inhibits ACE, reducing angiotensin II and VEGF expression, which normalizes tumor vasculature and reduces PDAC angiogenesis.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Mebendazole",
+"B": "Disruption of microtubule polymerization and inhibition of Hedgehog signaling",
+"C": "Arrest of PDAC cell cycle and suppression of stromal desmoplasia",
+"statement": "Mebendazole disrupts microtubule polymerization and inhibits Hedgehog signaling, arresting the PDAC cell cycle and suppressing stromal desmoplasia.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Auranofin",
+"B": "Inhibition of thioredoxin reductase leading to severe oxidative stress",
+"C": "Overcoming of gemcitabine resistance in PDAC cells",
+"statement": "Auranofin inhibits thioredoxin reductase, inducing severe oxidative stress and overcoming gemcitabine resistance in PDAC cells.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Pimozide",
+"B": "Inhibition of STAT5 and blockade of cholesterol uptake via LDLR downregulation",
+"C": "Induction of apoptosis and metabolic starvation in PDAC cells",
+"statement": "Pimozide inhibits STAT5 and blocks cholesterol uptake via LDLR downregulation, inducing apoptosis and metabolic starvation in PDAC cells.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Itraconazole",
+"B": "Inhibition of the Hedgehog pathway and blockade of VDAC1-mediated angiogenesis",
+"C": "Reduction of PDAC tumor burden and stromal density",
+"statement": "Itraconazole inhibits the Hedgehog pathway and blocks VDAC1-mediated angiogenesis, reducing PDAC tumor burden and stromal density.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Penfluridol",
+"B": "Inhibition of T-type calcium channels and suppression of Akt/mTOR signaling",
+"C": "Inhibition of PDAC cell migration and induction of autophagic cell death",
+"statement": "Penfluridol inhibits T-type calcium channels and suppresses Akt/mTOR signaling, inhibiting PDAC cell migration and inducing autophagic cell death.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Sulfasalazine",
+"B": "Inhibition of the xCT cystine/glutamate antiporter (SLC7A11)",
+"C": "Induction of ferroptosis and enhanced radiosensitivity in PDAC",
+"statement": "Sulfasalazine inhibits the xCT cystine/glutamate antiporter, inducing ferroptosis and enhancing radiosensitivity in PDAC.",
+"self_novelty": "moderate"
+}
+]

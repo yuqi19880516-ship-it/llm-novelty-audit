@@ -1,0 +1,152 @@
+[
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "Fluvoxamine (SSRI, σ1R agonist)",
+"B": "σ1 receptor activation reduces ER stress and enhances autophagy in Mtb-infected macrophages",
+"C": "Enhanced intracellular killing of drug-resistant Mtb and reduced granuloma necrosis",
+"statement": "Fluvoxamine, via σ1R agonism, can reinvigorate autophagy in MDR-TB-infected macrophages, leading to bacterial clearance.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "Disulfiram (ALDH inhibitor)",
+"B": "Inhibition of ALDH leads to accumulation of toxic aldehydes and copper-dependent Fenton reaction in Mtb",
+"C": "Bactericidal activity against replicating and non-replicating drug-resistant Mtb",
+"statement": "Repurposed disulfiram, a safe, copper-chelating alcohol-aversion drug, kills drug-resistant Mtb by exacerbating oxidative stress through aldehyde accumulation and copper-mediated ROS generation.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "Metformin (AMPK activator)",
+"B": "AMPK activation inhibits mTORC1 and promotes mitochondrial ROS in Mtb-infected macrophages",
+"C": "Suppression of intracellular growth of drug-resistant Mtb and reduced inflammation",
+"statement": "Metformin, a diabetes drug, enhances host-mediated killing of drug-resistant Mtb by inducing mitochondrial ROS via AMPK-mTORC1 axis in macrophages.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "Ketorolac (COX inhibitor, Rac1 inhibitor)",
+"B": "Inhibition of Rac1 blocks Mtb-induced macropinocytosis and actin tail-driven intercellular spread",
+"C": "Reduced dissemination of drug-resistant Mtb and lower burden in extrapulmonary sites",
+"statement": "Ketorolac, an NSAID, can block cell-to-cell spread of drug-resistant Mtb by inhibiting the host Rac1-dependent actin reorganization required for macropinocytosis-mediated bacterial transfer.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "Imatinib (BCR-ABL/c-KIT/PDGFR inhibitor)",
+"B": "c-KIT inhibition depletes infected permissive monocytes and prevents myeloid progenitor expansion in bone marrow",
+"C": "Decreased recruitment of M.tb-permissive monocyte subsets to granulomas, enhancing bacterial control",
+"statement": "Imatinib, a tyrosine kinase inhibitor, can limit mycobacterial dissemination by blocking c-KIT-driven expansion of a permissive monocyte reservoir that drug-resistant Mtb exploits.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "Ursodeoxycholic acid (UDCA, bile acid)",
+"B": "UDCA inhibits FXR and modulates autophagy in macrophages exposed to cholesterol-rich environments",
+"C": "Enhanced phagolysosomal fusion and killing of cholesterol-accumulating drug-resistant Mtb in foamy macrophages",
+"statement": "The bile acid UDCA, by antagonizing FXR, can restore cholesterol-driven autophagic defects, enabling foamy macrophages to clear drug-resistant Mtb that persist in cholesterol-rich granulomas.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "Propranolol (β-blocker, non-selective)",
+"B": "Blockade of macrophage β2-adrenergic receptors reduces catecholamine-enhanced growth of Mtb via iron uptake",
+"C": "Reduced bacterial burden in iron-rich caseous granulomas of drug-resistant TB",
+"statement": "Propranolol can limit drug-resistant Mtb growth by inhibiting catecholamine-induced iron acquisition systems, essentially starving Mtb in granulomas.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "Carbamazepine (sodium channel blocker, autophagy inducer)",
+"B": "mTOR-independent autophagy induction via inositol depletion and AMPK activation",
+"C": "Clearance of intracellular rifampicin-resistant Mtb through enhanced autophagic degradation",
+"statement": "Carbamazepine, an anticonvulsant, induces robust autophagy through inositol starvation and AMPK, killing drug-resistant intracellular Mtb.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "Auranofin (gold salt, thioredoxin reductase inhibitor)",
+"B": "Inhibition of Mtb thioredoxin reductase (TrxR) causing thiol-redox imbalance and accumulation of oxidized intermediates",
+"C": "Bactericidal effect against drug-resistant Mtb, including persisters under hypoxia",
+"statement": "Auranofin, an antirheumatic gold compound, kills drug-resistant Mtb by targeting thioredoxin reductase, disrupting the essential thiol-redox homeostasis needed for surviving oxidative stress.",
+"self_novelty": "known"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "Sildenafil (PDE5 inhibitor, increases cGMP)",
+"B": "cGMP-dependent protein kinase G (PKG) activation in macrophages enhances lysosomal trafficking and fusion",
+"C": "Increased degradation of phagocytosed drug-resistant Mtb within acidified phagolysosomes",
+"statement": "Sildenafil, by elevating cGMP, can potentiate bactericidal activity of macrophages against drug-resistant Mtb through PKG-mediated phagosome maturation.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "Naltrexone (opioid antagonist, low-dose TLR4 antagonist)",
+"B": "Low-dose naltrexone (LDN) blocks TLR4, reducing necrotic and excessive inflammatory signaling in granulomas",
+"C": "Better containment of drug-resistant Mtb with less tissue destruction and cavity formation",
+"statement": "Low-dose naltrexone can limit immunopathology in MDR-TB granulomas by antagonizing TLR4-driven necrosis, thereby reducing bacterial dissemination and preserving lung function.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "Fenofibrate (PPARα agonist)",
+"B": "PPARα activation shifts macrophage metabolism from glycolysis to fatty acid oxidation, reducing availability of lactate and itaconate",
+"C": "Reduced intracellular growth of drug-resistant Mtb that relies on host glycolytic intermediates and lactate",
+"statement": "Fenofibrate, a lipid-lowering drug, can starve intracellular drug-resistant Mtb by metabolic reprogramming of macrophages away from glycolysis towards FAO.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "Acetazolamide (carbonic anhydrase inhibitor)",
+"B": "Inhibition of host carbonic anhydrases acidifies the granuloma microenvironment and compromises Mtb pH homeostasis",
+"C": "Growth inhibition of extracellular drug-resistant Mtb in caseous lesions",
+"statement": "Acetazolamide, a diuretic, can acidify the granuloma microenvironment and directly impede drug-resistant Mtb by disrupting its ability to maintain intracellular pH in the acidic caseum.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "Simvastatin (HMG-CoA reductase inhibitor)",
+"B": "Lowering cholesterol in phagosomal membranes enhances phagolysosome maturation and reduces Mtb access to cholesterol",
+"C": "Increased killing of intracellular MDR-TB and reduced granuloma cholesterol content",
+"statement": "Simvastatin, a statin, can improve macrophage killing of drug-resistant Mtb by reducing membrane cholesterol and promoting phagosome maturation.",
+"self_novelty": "known"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "Verapamil (calcium channel blocker, P-glycoprotein inhibitor)",
+"B": "Inhibition of macrophage efflux pumps increases intracellular retention of anti-TB drugs and host antimicrobial peptides",
+"C": "Potentiation of standard drugs against drug-resistant Mtb by achieving higher intracellular concentrations",
+"statement": "Verapamil can overcome drug-resistant Mtb tolerance by inhibiting macrophage drug efflux transporters that limit intraphagosomal antibiotic concentrations, acting as an adjuvant.",
+"self_novelty": "moderate"
+}
+]

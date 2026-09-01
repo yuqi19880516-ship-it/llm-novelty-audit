@@ -1,0 +1,78 @@
+shard 3: 待跑 76 条
+  [3] 1/76 Zafirlukast→Systemic lupus: 原=存疑 反=存疑
+  [3] 2/76 Probenecid→Alzheimer's di: 原=不可以 反=存疑
+  [3] 3/76 Ebselen→Acute myeloid : 原=存疑 反=存疑
+  [3] 4/76 Adalimumab→Pulmonary arte: 原=存疑 反=存疑
+  [3] 5/76 Sulfasalazine→Pancreatic duc: 原=可以 反=不可以
+  [3] 6/76 Atorvastatin→Acute myeloid : 原=存疑 反=存疑
+  [3] 7/76 Fingolimod→Pulmonary arte: 原=? 反=存疑
+  [3] 8/76 Rifampicin→Pulmonary arte: 原=不可以 反=不可以
+  [3] 9/76 Sertraline→Acute myeloid : 原=存疑 反=存疑
+  [3] 10/76 Fluoxetine→Inflammatory b: 原=存疑 反=存疑
+  [3] 11/76 Memantine→Non-alcoholic : 原=存疑 反=可以
+  [3] 12/76 Ebselen→Drug-resistant: 原=可以 反=?
+  [3] 13/76 Salbutamol→Pancreatic duc: 原=不可以 反=不可以
+  [3] 14/76 Fluoxetine→Alzheimer's di: 原=存疑 反=存疑
+  [3] 15/76 Canagliflozin→Systemic lupus: 原=存疑 反=存疑
+  [3] 16/76 Disulfiram→Acute myeloid : 原=存疑 反=存疑
+  [3] 17/76 Pizotifen→Amyotrophic la: 原=不可以 反=不可以
+  [3] 18/76 Rimegepant→Systemic lupus: 原=存疑 反=存疑
+  [3] 19/76 Fenofibrate→Systemic lupus: 原=存疑 反=存疑
+  [3] 20/76 Fingolimod→Drug-resistant: 原=不可以 反=存疑
+  [3] 21/76 Doxycycline→Drug-resistant: 原=存疑 反=可以
+  [3] 22/76 Pirfenidone→Acute myeloid : 原=存疑 反=可以
+  [3] 23/76 Febuxostat→Alzheimer's di: 原=存疑 反=存疑
+  [3] 24/76 Etanercept→Treatment-resi: 原=存疑 反=存疑
+  [3] 25/76 Alogliptin→Pulmonary arte: 原=存疑 反=存疑
+  [3] 26/76 Losartan→Systemic lupus: 原=不可以 反=存疑
+  [3] 27/76 Dapagliflozin→Idiopathic pul: 原=存疑 反=存疑
+  [3] 28/76 Allopurinol→Inflammatory b: 原=不可以 反=存疑
+  [3] 29/76 Omeprazole→Systemic lupus: 原=不可以 反=不可以
+  [3] 30/76 Chloroquine→Acute myeloid : 原=可以 反=存疑
+  [3] 31/76 Tiotropium→Inflammatory b: 原=不可以 反=不可以
+  [3] 32/76 Digoxin→Acute myeloid : 原=存疑 反=存疑
+  [3] 33/76 Ezetimibe→Non-alcoholic : 原=可以 反=存疑
+  [3] 34/76 Canagliflozin→Pulmonary arte: 原=存疑 反=不可以
+  [3] 35/76 Osilodrostat→Inflammatory b: 原=不可以 反=不可以
+  [3] 36/76 Metformin→Pancreatic duc: 原=存疑 反=可以
+  [3] 37/76 Thioridazine→Pancreatic duc: 原=可以 反=可以
+  [3] 38/76 Artesunate→Glioblastoma: 原=可以 反=可以
+  [3] 39/76 Spironolactone→Idiopathic pul: 原=存疑 反=不可以
+  [3] 40/76 Ibudilast→Amyotrophic la: 原=可以 反=可以
+  [3] 41/76 Empagliflozin→Non-alcoholic : 原=可以 反=存疑
+  [3] 42/76 Dapagliflozin→Pulmonary arte: 原=存疑 反=不可以
+  [3] 43/76 Metformin→Inflammatory b: 原=可以 反=存疑
+  [3] 44/76 Captopril→Acute myeloid : 原=不可以 反=存疑
+  [3] 45/76 Colchicine→Systemic lupus: 原=存疑 反=不可以
+  [3] 46/76 Fingolimod→Pulmonary arte: 原=可以 反=存疑
+  [3] 47/76 Spironolactone→Amyotrophic la: 原=不可以 反=不可以
+  [3] 48/76 Baricitinib→Idiopathic pul: 原=存疑 反=存疑
+  [3] 49/76 Spironolactone→Glioblastoma: 原=存疑 反=存疑
+  [3] 50/76 Atorvastatin→Idiopathic pul: 原=存疑 反=存疑
+  [3] 51/76 Ivermectin→Glioblastoma: 原=存疑 反=存疑
+  [3] 52/76 Fingolimod→Idiopathic pul: 原=存疑 反=可以
+  [3] 53/76 Metformin→Non-alcoholic : 原=存疑 反=可以
+  [3] 54/76 Propranolol→Pancreatic duc: 原=可以 反=不可以
+  [3] 55/76 Liraglutide→Pulmonary arte: 原=可以 反=存疑
+  [3] 56/76 Acarbose→Non-alcoholic : 原=存疑 反=不可以
+  [3] 57/76 Isotretinoin→Inflammatory b: 原=不可以 反=存疑
+  [3] 58/76 Mebendazole→Acute myeloid : 原=可以 反=可以
+  [3] 59/76 Ivacaftor→Inflammatory b: 原=存疑 反=不可以
+  [3] 60/76 Acamprosate→Amyotrophic la: 原=存疑 反=不可以
+  [3] 61/76 Atorvastatin→Acute myeloid : 原=存疑 反=存疑
+  [3] 62/76 Canagliflozin→Alzheimer's di: 原=? 反=存疑
+  [3] 63/76 Deferasirox→Inflammatory b: 原=不可以 反=可以
+  [3] 64/76 Telmisartan→Inflammatory b: 原=可以 反=可以
+  [3] 65/76 Metformin→Amyotrophic la: 原=存疑 反=可以
+  [3] 66/76 Dapagliflozin→Treatment-resi: 原=不可以 反=存疑
+  [3] 67/76 Mebendazole→Pancreatic duc: 原=存疑 反=存疑
+  [3] 68/76 Metformin→Drug-resistant: 原=存疑 反=存疑
+  [3] 69/76 Pioglitazone→Treatment-resi: 原=可以 反=可以
+  [3] 70/76 Teriflunomide→Systemic lupus: 原=? 反=?
+  [3] 71/76 Valproic acid→Glioblastoma: 原=可以 反=不可以
+  [3] 72/76 Tauroursodeoxy→Inflammatory b: 原=可以 反=可以
+  [3] 73/76 Bempedoic acid→Inflammatory b: 原=不可以 反=存疑
+  [3] 74/76 Trifluoperazin→Acute myeloid : 原=存疑 反=存疑
+  [3] 75/76 Dimethyl fumar→Systemic lupus: 原=存疑 反=存疑
+  [3] 76/76 Obeticholic ac→Non-alcoholic : 原=可以 反=存疑
+shard 3 完成,76 条

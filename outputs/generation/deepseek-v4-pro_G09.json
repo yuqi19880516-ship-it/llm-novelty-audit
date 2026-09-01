@@ -1,0 +1,593 @@
+{
+  "goal_id": "G09",
+  "disease_en": "Drug-resistant tuberculosis",
+  "goal": "为耐药结核（Drug-resistant tuberculosis）寻找可重定位的已上市药物及其作用机制",
+  "overview": "二甲双胍通过恢复感染巨噬细胞的自噬流，增强对耐药结核菌的胞内杀伤；齐留通则激活促消退脂质介质程序，减轻空洞性肺损伤而加速炎症缓解，且不削弱细菌遏制。达沙替尼借由抑制Src激酶将结核菌锁定在酸化自噬溶酶体内，限制其播散。在直接杀菌层面，双硫仑破坏甲萘醌合成并放大铜介导的活性氧，不仅直接灭杀耐药菌株，更恢复其对利福平的敏感性。维拉帕米则同时阻断宿主与病原体的钙通道，抑制药物外排，显著提升贝达喹啉的胞内滞留与疗效。上述老药新用从宿主定向疗法到直接抗菌及增敏增效，构成了多靶点协同对抗耐药结核的机制图谱。",
+  "hypotheses": [
+    {
+      "a": "Metformin",
+      "b": "AMPK-mediated induction of autophagy and phagosomal maturation in macrophages",
+      "c": "Enhanced intracellular killing of drug-resistant Mycobacterium tuberculosis",
+      "statement": "Metformin adjunctive therapy accelerates clearance of drug-resistant Mtb by restoring autophagic flux in infected macrophages.",
+      "rationale": "Metformin activates AMPK, which inhibits mTORC1 and promotes TFEB-driven lysosomal biogenesis, critical for mycobacterial killing.",
+      "self_novelty": "moderate",
+      "elo": 1304.3077904696088,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "需验证对耐药菌株自噬通量的恢复"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "Host AMPK-autophagy axis well-documented; clinical TB data limited."
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "AMPK-自噬通路研究较多，耐药菌效果需验证"
+        }
+      ]
+    },
+    {
+      "a": "Zileuton",
+      "b": "5-lipoxygenase inhibition skewing the lipid mediator balance from LTB4 toward LXA4",
+      "c": "Accelerated resolution of inflammation and reduced tissue destruction without compromising Mtb containment",
+      "statement": "Zileuton limits cavitary lung damage in drug-resistant TB by promoting pro-resolving lipid mediator programs.",
+      "rationale": "Overactive LTB4 drives necrosis; shifting to resolvins via zileuton promotes non-lytic bacterial clearance and lung healing.",
+      "self_novelty": "completely_novel",
+      "elo": 1284.5068485056777,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "5-LO阻断可能影响促消退介质平衡"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Pro-resolving lipid mediator shift is creative; TB cavity data lacking."
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "促脂质介质在结核保护中的作用待验证"
+        }
+      ]
+    },
+    {
+      "a": "Dasatinib",
+      "b": "Host ArfGAP and Src-family kinase inhibition impairing Mtb-containing vacuole escape and cell-to-cell spread",
+      "c": "Confinement of drug-resistant Mtb within autophagolysosomes and reduced bacterial dissemination",
+      "statement": "Dasatinib restricts drug-resistant Mtb spread by locking bacilli inside sealed, acidified compartments through Src kinase inhibition.",
+      "rationale": "Mtb exploits host tyrosine kinases to rupture phagosomes; dasatinib restores membrane integrity by blocking the phagosome-disrupting kinases.",
+      "self_novelty": "completely_novel",
+      "elo": 1276.6405635640715,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Src抑制剂安全性与脱靶效应存疑"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Src kinase blockade to stop Mtb spread is mechanistically sound, but host-toxic."
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Src激酶在Mtb逃逸中角色需确认"
+        }
+      ]
+    },
+    {
+      "a": "Disulfiram",
+      "b": "Inhibition of the bacterial MenE enzyme and simultaneous copper-dependent ROS generation within Mtb",
+      "c": "Direct killing of drug-resistant Mtb and re-sensitization to rifampicin",
+      "statement": "Disulfiram exhibits dual bactericidal activity against drug-resistant Mtb by disrupting menaquinone synthesis and amplifying copper-mediated ROS.",
+      "rationale": "Disulfiram metabolites target the menaquinone biosynthesis pathway and, in the presence of copper, generate lethal oxidative stress.",
+      "self_novelty": "moderate",
+      "elo": 1267.457684371412,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "体内铜浓度能否达有效杀菌待验证"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "MenE and Cu-ROS mechanisms known; rifampicin synergy underexplored."
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双硫仑抗结核双重机制已有文献支持"
+        }
+      ]
+    },
+    {
+      "a": "Verapamil",
+      "b": "Inhibition of macrophage-induced Mtb efflux pumps and membrane potential disruption via L-type calcium channel blockade",
+      "c": "Increased intracellular retention and efficacy of bedaquiline against drug-resistant Mtb",
+      "statement": "Verapamil potentiates bedaquiline efficacy by blocking both host and pathogen calcium channels that contribute to drug efflux in drug-resistant TB.",
+      "rationale": "Mtb exploits host calcium signaling to upregulate efflux; verapamil blocks this and also directly inhibits mycobacterial ATP-dependent transporters.",
+      "self_novelty": "moderate",
+      "elo": 1262.2526044878036,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "体外增效贝达喹啉明确，需临床转化"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "Efflux inhibition by verapamil established; bedaquiline synergy logical."
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "宿主钙通道与药物滞留关联需更多证据"
+        }
+      ]
+    },
+    {
+      "a": "Deferiprone",
+      "b": "Iron chelation-mediated deprivation of mycobacterial siderophore access and inhibition of aconitase in Mtb",
+      "c": "Bacteriostatic effect on drug-resistant Mtb and synergy with isoniazid despite katG mutations",
+      "statement": "Deferiprone starves drug-resistant Mtb of iron, resensitizing it to residual isoniazid activity through independent oxidative stress pathways.",
+      "rationale": "Mtb requires iron for respiration and persistence; deferiprone sequesters labile iron pools essential for mycobactin-dependent acquisition.",
+      "self_novelty": "moderate",
+      "elo": 1257.3616993258102,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁螯合同时伤害宿主巨噬细胞铁代谢"
+        },
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Iron starvation resensitizing INH via oxidative stress is attractive yet unproven."
+        },
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "katG突变致INH无法活化，铁剥夺难恢复"
+        }
+      ]
+    },
+    {
+      "a": "Ebselen",
+      "b": "Mimicking thioredoxin reductase activity and targeting Mtb TrxB2, alongside host GPX4-dependent ferroptosis inhibition",
+      "c": "Simultaneous direct killing of drug-resistant Mtb and protection of infected macrophages from ferroptotic death",
+      "statement": "Ebselen achieves dual action against drug-resistant TB by disrupting Mtb redox homeostasis and blocking ferroptosis in macrophages.",
+      "rationale": "Ebselen is a glutathione peroxidase mimic that hits Mtb's thioredoxin system while preventing host lipid peroxidation, preserving immune cells.",
+      "self_novelty": "moderate",
+      "elo": 1253.532935570498,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "保护感染细胞免于铁死亡或助长菌存活"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Dual host-pathogen redox action is clever; host ferroptosis protection may conflict."
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "对Mtb TrxB2和GPX4双重作用待验证"
+        }
+      ]
+    },
+    {
+      "a": "Fluvoxamine",
+      "b": "Sigma-1 receptor chaperone-mediated modulation of the host ER stress response",
+      "c": "Reduced pro-inflammatory necrosis and better containment of drug-resistant Mtb in granulomas",
+      "statement": "Fluvoxamine preserves granuloma integrity during drug-resistant TB by limiting macrophage necrosis via sigma-1 receptor engagement.",
+      "rationale": "Sigma-1 receptor agonists attenuate ER stress-induced cell death, preventing necrotic core expansion that benefits extracellular bacilli.",
+      "self_novelty": "completely_novel",
+      "elo": 1246.6584503923618,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "氟伏沙明抗坏死作用需肉芽肿模型验证"
+        },
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Sigma-1 chaperone modulation in TB granulomas is fresh but speculative."
+        },
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Sigma-1在结核坏死中的作用尚未明确"
+        }
+      ]
+    },
+    {
+      "a": "Ibuprofen",
+      "b": "COX-2-dependent prostaglandin E2 reduction leading to decreased IL-10 and PD-L1 expression on myeloid cells",
+      "c": "Reversal of T-cell exhaustion and improved host control of drug-resistant Mtb",
+      "statement": "Ibuprofen reverses T-cell exhaustion in drug-resistant TB by lowering PGE2-mediated PD-L1 and IL-10 expression.",
+      "rationale": "PGE2 drives immunosuppressive IL-10 and PD-L1 in TB granulomas; ibuprofen breaks this tolerogenic loop, reinvigorating T-cell responses.",
+      "self_novelty": "moderate",
+      "elo": 1233.744746337892,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "长期COX-2抑制或削弱杀菌免疫应答"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "COX-2/PGE2 axis in T-cell exhaustion is plausible, TB evidence thin."
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PGE2调控PD-L1在结核中证据有限"
+        }
+      ]
+    },
+    {
+      "a": "Dasatinib + Deferiprone",
+      "b": "Autophagic sequestration coupled with iron deprivation",
+      "c": "Drug-resistant Mtb sterilization",
+      "statement": "Co-administration of Dasatinib and Deferiprone achieves synergistic clearance of drug-resistant Mtb by locking bacilli inside autophagolysosomes while simultaneously starving them of iron.",
+      "rationale": "Dasatinib's Src inhibition forces Mtb into sealed, acidified compartments and Deferiprone's iron chelation deprives the trapped bacteria of essential metal cofactors, overwhelming their stress responses and preventing escape.",
+      "self_novelty": "0.8",
+      "elo": 1210.0,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "协同需体内验证，可能加重宿主毒性"
+        }
+      ]
+    },
+    {
+      "a": "Cimetidine",
+      "b": "Histamine H2 receptor blockade on myeloid-derived suppressor cells (MDSCs) reducing IL-12 suppression",
+      "c": "Restored Th1 polarization and IFN-γ production against extensively drug-resistant TB",
+      "statement": "Cimetidine re-establishes Th1 immunity in XDR-TB by depleting H2R-driven immunosuppressive MDSCs.",
+      "rationale": "Histamine drives MDSC expansion that dampens CTL and Th1 responses via IL-10; cimetidine depletes MDSCs, enabling IFN-γ-mediated killing.",
+      "self_novelty": "completely_novel",
+      "elo": 1204.4102279007998,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "H2R阻断可能打破免疫平衡致过激炎症"
+        },
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "H2R blockade to deplete MDSCs is innovative; human TB data absent."
+        },
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "MDSC上H2受体在TB中研究较少"
+        }
+      ]
+    },
+    {
+      "a": "Fluoxetine",
+      "b": "Cell envelope disruption enhances rifampicin activity",
+      "c": "Targets lipid metabolism, compromising mycobacterial cell wall integrity",
+      "statement": "Fluoxetine weakens the drug-resistant Mtb cell envelope by disrupting lipid metabolism, thereby enhancing rifampicin penetration and bactericidal action.",
+      "rationale": "Fluoxetine, an SSRI antidepressant, has membrane-perturbing and anti-biofilm properties that may interfere with mycolic acid and other lipid synthesis in Mtb, breaching the permeability barrier and enabling rifampicin to reach its RNA polymerase target more effectively.",
+      "self_novelty": "Repurposes a CNS drug to target mycobacterial lipid metabolism, offering a novel synergistic partner for rifampicin against drug-resistant TB beyond conventional ROS or autophagy mechanisms.",
+      "elo": 1196.095795538692,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Lipid metabolism disruption to weaken cell wall is plausible, data nascent."
+        },
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "氟西汀抗Mtb的具体脂质靶点不明确"
+        }
+      ]
+    },
+    {
+      "a": "N-acetylcysteine (NAC)",
+      "b": "Replenishment of intracellular glutathione and direct acetylation of the Mtb virulence protein ESAT-6",
+      "c": "Neutralization of drug-resistant Mtb virulence and attenuation of necrotic cell death",
+      "statement": "NAC disarms drug-resistant Mtb by acetylating its pore-forming toxin ESAT-6 while bolstering macrophage glutathione-dependent bactericidity.",
+      "rationale": "NAC not only restores host redox but chemically modifies ESAT-6, a key pH-dependent pore-forming toxin, reducing its lytic activity.",
+      "self_novelty": "completely_novel",
+      "elo": 1187.0316757447622,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "直接乙酰化ESAT-6体内证据不足"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "ESAT-6 acetylation by NAC is novel; needs in vivo validation."
+        },
+        {
+          "index": 12,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "NAC直接乙酰化ESAT-6缺乏直接证据"
+        }
+      ]
+    },
+    {
+      "a": "Fingolimod",
+      "b": "S1PR1 internalization preventing T-cell egress from lymph nodes and sequestering activated T-cells in granulomas",
+      "c": "Enhanced local adaptive immunity in pulmonary drug-resistant TB lesions",
+      "statement": "Fingolimod enforces lymphocyte retention in drug-resistant TB granulomas, boosting local IFN-γ-mediated control.",
+      "rationale": "Fingolimod traps effector lymphocytes at infection sites, counteracting the immune evasion that allows drug-resistant Mtb to thrive.",
+      "self_novelty": "completely_novel",
+      "elo": 1178.1788877470713,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "可致外周淋巴细胞减少，增加感染风险"
+        },
+        {
+          "index": 8,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "T cell sequestration may worsen inflammation; risky in TB."
+        },
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "强制淋巴细胞滞留可能加剧免疫病理"
+        }
+      ]
+    },
+    {
+      "a": "Doxycycline",
+      "b": "Inhibition of host matrix metalloproteinases (MMPs) and consequent suppression of granuloma collagen degradation",
+      "c": "Prevention of cavity formation and respiratory failure in multi-drug resistant TB",
+      "statement": "Doxycycline preserves lung architecture during drug-resistant TB by blocking MMP-mediated collagenolysis in granulomas.",
+      "rationale": "Doxycycline, at sub-antimicrobial doses, chelates zinc in MMPs, preventing the matrix destruction that leads to cavitary disease.",
+      "self_novelty": "moderate",
+      "elo": 1171.5855758811363,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "抗MMP与抗菌双重获益，警惕菌群耐药"
+        },
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "MMP inhibition prevents collagenolysis, but clinical cavity data minimal."
+        },
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "多西环素抗MMP保护肺结构已有证据"
+        }
+      ]
+    },
+    {
+      "a": "Simvastatin",
+      "b": "Inhibition of host HMG-CoA reductase and consequent depletion of plasma membrane cholesterol required for Mtb lipid raft entry",
+      "c": "Reduced phagocytosis of drug-resistant Mtb by alveolar macrophages and lower intracellular bacterial burden",
+      "statement": "Simvastatin starves drug-resistant Mtb of its preferred substrates by depleting host cholesterol and activating autophagic clearance.",
+      "rationale": "Mtb uses cholesterol-rich lipid rafts to invade macrophages; statins reduce this portal of entry and also induce autophagy.",
+      "self_novelty": "known",
+      "elo": 1167.9233330256702,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "减少吞噬或削弱早期肺部结核控制"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "Cholesterol depletion and autophagy well-studied; statins promising."
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "他汀类抗菌及自噬机制已较多报道"
+        }
+      ]
+    },
+    {
+      "a": "Dimethyl fumarate",
+      "b": "Nrf2-dependent host defense boost and direct envelope synthesis blockade",
+      "c": "Drug-resistant Mtb dual-target therapy",
+      "statement": "Dimethyl fumarate exerts combined bactericidal and host-directed activity against drug-resistant Mtb by activating the Nrf2 antioxidant program and directly blocking mycolic acid biosynthesis.",
+      "rationale": "DMF electrophilically modifies Keap1 to unleash Nrf2, enhancing phagosomal oxidative burst and autophagy, while simultaneously inhibiting Mtb enoyl-ACP reductase to weaken the bacterial cell wall, creating a synthetic lethal vulnerability.",
+      "self_novelty": "0.9",
+      "elo": 1167.299543526825,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "同时激活Nrf2与阻断霉菌酸合成证据不足"
+        }
+      ]
+    },
+    {
+      "a": "Verapamil",
+      "b": "Efflux pump inhibition restores isoniazid sensitivity",
+      "c": "Blocks Mtb efflux pumps, increasing intracellular INH concentration",
+      "statement": "Verapamil overcomes isoniazid resistance in drug-resistant Mtb by inhibiting bacterial efflux pumps and increasing intracellular isoniazid accumulation.",
+      "rationale": "Verapamil, a calcium channel blocker, inhibits mycobacterial efflux pumps that expel isoniazid, allowing residual activation even in katG mutants to reach bactericidal levels through elevated intracellular drug retention.",
+      "self_novelty": "Introduces efflux pump inhibition as a re-sensitization strategy for INH-resistant TB, distinct from iron starvation or independent oxidative stress pathways.",
+      "elo": 1163.9772479987466,
+      "review_score": 2.0,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "Verapamil-INH synergy via efflux pumps well-established; low novelty."
+        },
+        {
+          "index": 15,
+          "novelty": 2,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "INH耐药主因非外排泵，维拉帕米作用有限"
+        }
+      ]
+    },
+    {
+      "a": "Pioglitazone",
+      "b": "PPARγ-mediated reprogramming of macrophage metabolism toward anti-inflammatory fatty acid oxidation and increased CD36 surface expression",
+      "c": "Reduced tissue-damaging inflammation and improved drug penetration into granulomas",
+      "statement": "Pioglitazone normalizes granuloma architecture in drug-resistant TB, improving drug diffusion by reducing excessive lipid inflammation.",
+      "rationale": "PPARγ agonism decreases inflammatory monocyte influx and lipid body formation, allowing better distribution of second-line drugs into dense lesions.",
+      "self_novelty": "moderate",
+      "elo": 1122.0343896111615,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PPARγ激动促M2极化或抑制杀菌功能"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PPARγ reduces lipid inflammation; drug diffusion impact speculative."
+        },
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PPARγ激动可能过度抗炎削弱杀菌力"
+        }
+      ]
+    }
+  ]
+}

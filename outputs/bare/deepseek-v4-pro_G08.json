@@ -1,0 +1,152 @@
+[
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "丙泊酚 (Propofol)",
+"B": "GABA_A受体介导的肝星状细胞（HSC）活化抑制",
+"C": "NASH相关肝纤维化减轻",
+"statement": "丙泊酚通过直接激活肝星状细胞表面GABA_A受体，抑制其向肌成纤维细胞转化，从而在不依赖镇静剂量的条件下发挥抗纤维化作用。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "特立帕肽 (Teriparatide)",
+"B": "甲状旁腺激素1型受体（PTH1R）介导的肝脏SREBP-1c转录抑制",
+"C": "肝脏脂肪变性减少与脂毒性改善",
+"statement": "间歇性低剂量特立帕肽通过激活肝细胞上PTH1R，经cAMP/PKA通路直接抑制转录因子SREBP-1c的表达，从而减少肝脏新生脂肪生成。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "帕罗西汀 (Paroxetine)",
+"B": "Sigma-1受体伴侣蛋白介导的内质网应激缓解",
+"C": "肝细胞凋亡与NASH炎症减轻",
+"statement": "帕罗西汀作为高亲和力Sigma-1受体激动剂，通过稳定内质网应激传感器IRE1α，减少肝细胞在脂毒性下的凋亡。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "阿瑞匹坦 (Aprepitant)",
+"B": "神经激肽1受体（NK1R）阻断抑制肝脏神经源性炎症",
+"C": "NASH炎症分级与早期纤维化逆转",
+"statement": "阿瑞匹坦阻断肝脏感觉神经末梢释放的P物质与NK1R结合，减少肥大细胞活化和促炎细胞因子级联，从而抑制神经源性炎症驱动的NASH进展。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "多潘立酮 (Domperidone)",
+"B": "外周多巴胺D2受体拮抗促进肠道L细胞GLP-1分泌",
+"C": "肝脏脂肪含量下降与胰岛素抵抗改善",
+"statement": "多潘立酮通过阻断肠道L细胞上多巴胺D2受体的自分泌抑制作用，增强餐后GLP-1反应，进而通过肠-肝轴减少肝脏甘油三酯累积。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "卡麦角林 (Cabergoline)",
+"B": "垂体TSH分泌抑制导致肝脏TSH受体（TSHR）信号减弱",
+"C": "肝脏SREBP-1c活性降低与脂肪变性缓解",
+"statement": "卡麦角林通过选择性激动垂体多巴胺D2受体降低血清TSH水平，从而解除TSH对肝细胞TSHR的慢性刺激，下调SREBP-1c介导的脂肪生成。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "布美他尼 (Bumetanide)",
+"B": "Na-K-2Cl共转运体1（NKCC1）抑制阻断肝星状细胞体积敏感活化",
+"C": "NASH肝纤维化进程减缓",
+"statement": "布美他尼通过抑制肝星状细胞上NKCC1介导的离子内流和细胞肿胀，阻断体积敏感激酶信号，阻止力学信号驱动的HSC活化。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "塞来昔布 (Celecoxib)",
+"B": "COX-2依赖性PGE2信号减弱与肝脏Th17/Treg平衡重塑",
+"C": "NASH小叶炎症消退",
+"statement": "塞来昔布通过降低肝脏驻留巨噬细胞来源的PGE2，抑制Th17细胞分化和IL-17产生，恢复具有抗炎表型的Treg细胞功能。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "地高辛 (Digoxin)",
+"B": "Na/K-ATPase抑制介导的AMPK激活与自噬流增强",
+"C": "肝脏脂质清除增加与线粒体质量控制改善",
+"statement": "治疗浓度的地高辛通过与Na/K-ATPase结合启动Src依赖的AMPK磷酸化级联，恢复NASH中受阻的自噬流，促进脂滴降解和受损线粒体清除。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "芬戈莫德 (Fingolimod)",
+"B": "鞘氨醇-1-磷酸受体1（S1P1）功能性拮抗与肝脏致病性T细胞驻留阻断",
+"C": "NASH中淋巴细胞介导的炎症缓解",
+"statement": "芬戈莫德磷酸酯通过持久内化和降解S1P1，阻断CD8+组织驻留记忆T细胞在肝脏的保留，从而减轻自身免疫样炎症对NASH的驱动。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "秋水仙碱 (Colchicine)",
+"B": "微管解聚抑制NLRP3炎症小体组装",
+"C": "肝细胞焦亡与巨噬细胞IL-1β释放减少",
+"statement": "秋水仙碱在低于经典抗炎剂量下通过破坏微管介导的ASC斑形成，特异性阻断肝脏NLRP3炎症小体的慢性激活。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "氯硝柳胺 (Niclosamide)",
+"B": "温和线粒体解偶联联合Wnt/β-catenin信号抑制",
+"C": "肝脏能量消耗增加伴纤维化基质沉积减少",
+"statement": "氯硝柳胺通过温和解偶联氧化磷酸化增加肝脏能量支出以消耗脂质，同时通过抑制Wnt/β-catenin共受体Frizzled1减少促纤维化基因转录。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "异维A酸 (Isotretinoin)",
+"B": "视黄酸受体（RAR）介导的肝星状细胞成脂分化恢复",
+"C": "静止型HSC表型维持与纤维化逆转",
+"statement": "异维A酸通过激活RARβ，恢复活化HSC中丢失的胞质脂滴和PPARγ表达，将其重新编程为无纤维生成活性的静止样表型。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "依折麦布 (Ezetimibe)",
+"B": "NPC1L1抑制阻断肠道胆固醇吸收与肝X受体（LXR）间接抑制",
+"C": "肝脏游离胆固醇池缩小与脂肪毒性Kupffer细胞活化减轻",
+"statement": "依折麦布通过限制膳食和胆汁胆固醇进入肠上皮细胞，减少乳糜微粒来源的胆固醇向肝脏输送，从而降低激活LXR的氧固醇配体水平，间接抑制SREBP-1c和炎症。",
+"self_novelty": "known"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "甲氨蝶呤 (Methotrexate)",
+"B": "腺苷A2A受体活化介导的肝脏促炎巨噬细胞表型转换",
+"C": "NASH坏死炎症灶的消散",
+"statement": "低剂量甲氨蝶呤在肝脏微环境中升高胞外腺苷水平，持续激活巨噬细胞A2A受体，促使其从促炎M1转变为修复性M2样表型。",
+"self_novelty": "completely_novel"
+}
+]

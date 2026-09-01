@@ -1,0 +1,10 @@
+样本 336 条，已审计 283 条，续跑剩余…
+
+  ✗ deepseek-v4-pro_G02_Fluoxetine: RuntimeError
+  ✗ deepseek-v4-pro_G09_Ibuprofen: URLError
+  ✗ deepseek-v4-pro_G12_Miglustat: URLError
+  ✗ deepseek-v4-pro_G10_Duloxetine: RuntimeError
+  ✗ deepseek-v4-pro_G12_Tadalafil: RuntimeError
+  ✗ deepseek-v4-pro_G05_Teriparatide: RuntimeError
+
+完成 → outputs/coded_sample.jsonl（累计已编码 306 条，本轮失败 6 条，可再跑补齐）

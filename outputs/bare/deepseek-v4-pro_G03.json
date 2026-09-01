@@ -1,0 +1,152 @@
+[
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Disulfiram",
+"B": "Disulfiram chelates copper to inhibit NF-κB and ALDH+ cancer stem cells, reducing SOX2 and stemness",
+"C": "Impaired tumor initiation and chemoresistance in pancreatic ductal adenocarcinoma",
+"statement": "Disulfiram, an anti-alcoholism drug, suppresses PDAC stemness via copper-dependent NF-κB blockade.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Mebendazole",
+"B": "Mebendazole blocks microtubule polymerization and downregulates the Hedgehog pathway through inhibition of SMO trafficking",
+"C": "Reduced desmoplasia and Hedgehog-driven proliferation in PDAC",
+"statement": "Mebendazole, an anthelmintic, attenuates PDAC by disrupting Hedgehog signaling and stromal desmoplasia.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Propranolol",
+"B": "Propranolol blocks beta-2 adrenergic receptors on PDAC cells and macrophages, reducing ADRB2-mediated CREB/STAT3 activation and M2 polarization",
+"C": "Suppressed tumor innervation, catecholamine-driven proliferation, and immune evasion in PDAC",
+"statement": "The beta-blocker propranolol inhibits ADRB2 signaling to limit neural-tumor crosstalk and M2 macrophage polarization in PDAC.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Loperamide",
+"B": "Loperamide activates the mitochondrial protease OMA1, leading to OPA1 cleavage, mitochondrial fragmentation, and apoptosis in KRAS-mutant PDAC cells",
+"C": "Synthetic lethality in KRAS-driven PDAC through mitochondrial catastrophe",
+"statement": "Loperamide, an opioid receptor agonist, exploits mitochondrial vulnerability in KRAS-mutant PDAC through OMA1-OPA1 axis disruption.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Itraconazole",
+"B": "Itraconazole inhibits Smoothened and also targets mTORC1 via cholesterol trafficking disruption and AMPK activation",
+"C": "Dual inhibition of Hedgehog and mTOR signaling, leading to autophagy and growth arrest in PDAC",
+"statement": "The antifungal itraconazole suppresses PDAC growth by concurrently blocking Hedgehog and mTOR pathways through cholesterol handling interference.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Diclofenac",
+"B": "Diclofenac inhibits lactate transporter MCT4 and COX-2, reducing lactate-driven immunosuppression and PGE2 synthesis in the PDAC microenvironment",
+"C": "Repolarization of tumor-associated macrophages and enhanced CD8+ T cell infiltration in PDAC",
+"statement": "Diclofenac, an NSAID, reverses immune evasion in PDAC by blocking MCT4-mediated lactate export and COX-2 activity.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Fluvastatin",
+"B": "Fluvastatin blocks HMG-CoA reductase, depleting farnesyl pyrophosphate and geranylgeranyl pyrophosphate, leading to impaired KRAS membrane anchoring and YAP/TAZ nuclear exclusion",
+"C": "KRAS delocalization and mechanotransduction shutdown in PDAC cells",
+"statement": "Fluvastatin disrupts KRAS membrane localization and YAP/TAZ signaling in PDAC by inhibiting protein prenylation.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Bromocriptine",
+"B": "Bromocriptine, a dopamine D2 receptor agonist, inhibits dopamine-mediated cAMP/PKA/CREB signaling in PDAC cells and stellate cells",
+"C": "Reduced fibrosis and dopamine-driven proliferation in PDAC",
+"statement": "Bromocriptine, used in prolactinoma, suppresses PDAC growth and fibrosis by antagonizing dopamine-D2 receptor signaling in tumor and stroma.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Minocycline",
+"B": "Minocycline inhibits PARP-1 and NF-κB, and blocks IL-6/STAT3 signaling in pancreatic stellate cells, reducing senescence-associated secretory phenotype (SASP) and fibrosis",
+"C": "Attenuated stromal activation and tumor-promoting inflammation in PDAC",
+"statement": "Minocycline, a tetracycline antibiotic, mitigates PDAC stromal desmoplasia by suppressing PARP-1/STAT3-driven SASP in stellate cells.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Ezetimibe",
+"B": "Ezetimibe blocks NPC1L1-mediated cholesterol uptake in PDAC cells, leading to endoplasmic reticulum stress and ferroptosis due to lipid peroxidation",
+"C": "Induction of ferroptotic cell death in PDAC cells",
+"statement": "The cholesterol absorption inhibitor ezetimibe induces ferroptosis in PDAC by disrupting cholesterol homeostasis and increasing lipid peroxidation.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Zinc gluconate (high-dose oral zinc)",
+"B": "High-dose zinc ionophores into PDAC cells, inhibiting the NF-κB pathway and reactivating mutant p53 (R175H) zinc-binding defect",
+"C": "Restoration of p53 tumor suppressor function and apoptosis in p53-mutant PDAC",
+"statement": "High-dose zinc reactivates zinc-binding-deficient mutant p53 in PDAC, leading to apoptosis.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Dipyridamole",
+"B": "Dipyridamole inhibits equilibrative nucleoside transporter 1 (ENT1), blocking adenosine salvage and causing pyrimidine starvation, while also suppressing STAT3 and NF-κB",
+"C": "Imposed nucleotide stress and anti-inflammatory effects in PDAC",
+"statement": "Dipyridamole, an antiplatelet drug, induces nucleotide starvation and suppresses STAT3-driven inflammation in PDAC.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Ritonavir",
+"B": "Ritonavir inhibits glucose transporter GLUT4 and fatty acid synthase, and blocks proteasome, leading to ER stress and downregulation of HIF-1α in hypoxic PDAC regions",
+"C": "Metabolic crisis and apoptosis in hypoxic PDAC cells",
+"statement": "The HIV protease inhibitor ritonavir starves PDAC cells by blocking GLUT4 and fatty acid synthase, inducing ER stress.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Tranylcypromine",
+"B": "Tranylcypromine inhibits lysine-specific demethylase 1 (LSD1), leading to derepression of epithelial genes (e.g., E-cadherin) and inhibition of the mesenchymal program driven by ZEB1 in PDAC",
+"C": "Reversal of epithelial-mesenchymal transition and reduced metastasis",
+"statement": "The MAO inhibitor tranylcypromine suppresses LSD1 to reverse EMT and inhibit PDAC metastasis.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G03",
+"disease": "Pancreatic ductal adenocarcinoma",
+"A": "Amlexanox",
+"B": "Amlexanox inhibits TBK1 and IKK-ε, blocking IRF3-driven CCL5 secretion and STAT3 signaling, thereby disrupting the immunosuppressive TGF-β/CCL5 loop in PDAC",
+"C": "Reduced regulatory T cell recruitment and enhanced anti-tumor immunity",
+"statement": "Amlexanox, an anti-aphthous ulcer drug, relieves immunosuppression in PDAC by targeting TBK1/IKK-ε to block CCL5 secretion.",
+"self_novelty": "completely_novel"
+}
+]

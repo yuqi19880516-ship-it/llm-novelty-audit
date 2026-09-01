@@ -1,0 +1,12 @@
+样本 334 条，已审计 282 条，续跑剩余…
+
+  …40/334  已编码，最近 Dimethyl fumarate→Systemic lupus erythematosus = L1_既知重组
+  ✗ deepseek-v4-pro_G09_Dimethyl fumarate: RuntimeError
+  ✗ deepseek-v4-pro_G06_Paroxetine: RuntimeError
+  ✗ deepseek-v4-pro_G06_Tolvaptan: RuntimeError
+  ✗ deepseek-v4-pro_G05_Pomalidomide: RuntimeError
+  ✗ deepseek-v4-pro_G08_Probenecid: RuntimeError
+  ✗ qwen3.7-max_G04_ALS: OverflowError
+  ✗ deepseek-v4-pro_G03_Isoniazid: RuntimeError
+
+完成 → outputs/coded_sample.jsonl（累计已编码 298 条，本轮失败 7 条，可再跑补齐）

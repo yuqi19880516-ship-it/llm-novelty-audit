@@ -1,0 +1,593 @@
+{
+  "goal_id": "G03",
+  "disease_en": "Pancreatic ductal adenocarcinoma",
+  "goal": "为胰腺导管腺癌（Pancreatic ductal adenocarcinoma）寻找可重定位的已上市药物及其作用机制",
+  "overview": "药物重定位研究为胰腺导管腺癌（PDAC）提供了多个极具转化潜力的候选药物。抗抑郁药氟伏沙明通过sigma-1受体介导的内质网应激致敏，将免疫学“冷”肿瘤转化为“热”肿瘤，显著增敏免疫检查点抑制剂。抗真菌药特",
+  "hypotheses": [
+    {
+      "a": "氟伏沙明（Fluvoxamine）",
+      "b": "激活sigma-1受体，加剧内质网应激反应并驱动未折叠蛋白反应(UPR)过载，诱导免疫原性细胞死亡",
+      "c": "增强PDAC对免疫检查点抑制剂的敏感性",
+      "statement": "氟伏沙明通过sigma-1受体介导的ER应激致敏化，可将免疫学“冷”肿瘤转化为“热”肿瘤。",
+      "rationale": "sigma-1受体在PDAC中高表达且伴侣蛋白BiP与免疫原性细胞死亡相关，此举可能释放损伤相关分子模式。",
+      "self_novelty": "completely_novel",
+      "elo": 1301.7383612766082,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "sigma-1激动通常缓解而非加剧ER应激。"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Sigma-1激动致冷热转化缺乏PDAC直接证据"
+        },
+        {
+          "index": 0,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "sigma-1激动致ER应激证据不足"
+        }
+      ]
+    },
+    {
+      "a": "特比萘芬（Terbinafine）",
+      "b": "抑制角鲨烯环氧酶导致角鲨烯积累，该代谢物通过结合及抑制p53泛素化强化p53稳定性，从而协同诱导凋亡与铁死亡",
+      "c": "选择性清除具有野生型p53的PDAC亚克隆并阻止耐药",
+      "statement": "抗真菌药特比萘芬通过角鲨烯-p53轴重激活和铁死亡的双重机制，提供p53野生型PDAC的靶向方案。",
+      "rationale": "约25% PDAC保留野生型p53，角鲨烯积累可重新激活其肿瘤抑制功能并触发非凋亡死亡。",
+      "self_novelty": "moderate",
+      "elo": 1289.9887926469958,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "角鲨烯积累稳定p53证据尚不充分。"
+        },
+        {
+          "index": 5,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "角鲨烯-p53直接结合待核实，铁死亡靶点泛"
+        },
+        {
+          "index": 5,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "角鲨烯直接稳定p53证据缺失"
+        }
+      ]
+    },
+    {
+      "a": "沙丁胺醇（Salbutamol）",
+      "b": "选择性激动β2-肾上腺素受体，通过cAMP/Epac/Rap1通路导致YAP/TAZ磷酸化并滞留在胞质，解除基质刚度信号对癌相关成纤维细胞(CAF)的激活",
+      "c": "减少基质纤维化、降低间质液压力并改善药物递送",
+      "statement": "吸入型平喘药沙丁胺醇通过YAP/TAZ解活诱导CAF静息，为基质重塑提供可转化策略。",
+      "rationale": "CAF的持续激活依赖机械信号诱导的YAP核定位，β2激动剂可药理学模拟软基质环境。",
+      "self_novelty": "completely_novel",
+      "elo": 1263.2431243095039,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "吸入给药对胰腺肿瘤递送效率存疑。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "β2/cAMP/YAP轴合理但全身递送受限"
+        },
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "吸入给药对胰腺局部浓度不足"
+        }
+      ]
+    },
+    {
+      "a": "氯膦酸脂质体（Liposomal clodronate）",
+      "b": "选择性吞噬并耗竭表达唾液酸黏附素的肿瘤相关巨噬细胞(TAM)，消除其分泌的CCL2/TGF-β等免疫抑制信号",
+      "c": "重编程肿瘤微环境以恢复CD8+ T细胞浸润和杀伤功能",
+      "statement": "使用氯膦酸脂质体精确清除免疫抑制性巨噬细胞可瞬时解除PDAC的免疫封锁，增敏免疫治疗。",
+      "rationale": "PDAC中TAM是免疫屏障的核心，物理清除可暂时打破免疫豁免，与抗PD-1协同。",
+      "self_novelty": "moderate",
+      "elo": 1259.641394220788,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "巨噬细胞耗竭策略非新机制。"
+        },
+        {
+          "index": 6,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "巨噬细胞耗竭已成熟，PDAC渗透仍存挑战"
+        },
+        {
+          "index": 6,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "瞬时清除巨噬细胞易反弹"
+        }
+      ]
+    },
+    {
+      "a": "孟鲁司特（Montelukast）",
+      "b": "拮抗半胱氨酰白三烯受体1(CysLT1)，阻断白三烯D4诱导的成纤维细胞活化、胶原收缩及PGE2/IL-6旁分泌环路",
+      "c": "中断CAF介导的肿瘤细胞存活信号并减轻促结缔组织增生性基质",
+      "statement": "哮喘药物孟鲁司特通过靶向星状细胞白三烯信号，从源头抑制PDAC促纤维增生微环境。",
+      "rationale": "CysLT1在活化的胰腺星状细胞上高表达，孟鲁司特可下调纤维化相关基因表达并改善血管化。",
+      "self_novelty": "completely_novel",
+      "elo": 1257.7261060606315,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "白三烯促纤维化已有临床前证据支持。"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "白三烯-CAF轴有依据，口服生物利用度高"
+        },
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "需更多体内CAF模型验证"
+        }
+      ]
+    },
+    {
+      "a": "异烟肼（Isoniazid）",
+      "b": "竞争性抑制吡哆醇激酶导致维生素B6缺乏，削弱cystathionine β-synthase依赖的转硫途径及谷胱甘肽合成",
+      "c": "显著增敏顺铂引起的氧化性DNA损伤和细胞凋亡",
+      "statement": "异烟肼通过靶向维生素B6代谢，可选择性地耗竭PDAC细胞的抗氧化盾牌以增敏化疗。",
+      "rationale": "PDAC高度依赖半胱氨酸和抗氧化防御维持KRAS信号，B6剥夺可打破氧化还原平衡。",
+      "self_novelty": "completely_novel",
+      "elo": 1233.0927193402358,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "需长期用药才显著耗竭VB6及GSH。"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "B6耗竭削弱转硫通路的机制明确合理"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "体内VB6耗竭选择性成疑"
+        }
+      ]
+    },
+    {
+      "a": "维生素K2（甲萘醌-4，Menadione）",
+      "b": "通过NQO1还原循环产生持续的ROS导致膜脂质过氧化，并特异抑制IKKβ/NF-κB，进而切割Gasdermin E(GSDME)引发焦亡",
+      "c": "将耐受凋亡的PDAC细胞转向免疫原性焦亡，激发抗肿瘤免疫",
+      "statement": "老药维生素K2利用氧化猝灭和焦亡诱导，将非免疫原性死亡转化为疫苗样抗肿瘤效应。",
+      "rationale": "PDAC细胞NF-κB高活性且常发生凋亡逃逸，GSDME焦亡可有效释放促炎因子激活免疫。",
+      "self_novelty": "moderate",
+      "elo": 1229.1047618217383,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 1,
+          "plausibility": 3,
+          "critique": "甲萘醌（Menadione）是维生素K3，非K2。"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "Menadione是K3非K2；GSDME切割路径待确证"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "甲萘醌治疗窗窄毒性大"
+        }
+      ]
+    },
+    {
+      "a": "甲苯达唑（Mebendazole）",
+      "b": "抑制微管聚合的同时，通过靶向激酶MYB并破坏β-catenin/TCF转录复合体，引发有丝分裂灾难和Wnt通路双重阻断",
+      "c": "导致癌症干细胞凋亡并抑制肿瘤再增殖",
+      "statement": "广谱驱虫药甲苯达唑通过微管和Wnt通路双重抑制，有望根除PDAC的干细胞驱动复发。",
+      "rationale": "PDAC干细胞亚群维持依赖Wnt/MYB，甲苯达唑已显示抗肿瘤活性且安全谱良好。",
+      "self_novelty": "moderate",
+      "elo": 1228.1131039321265,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "MYB抑制及微管双靶点需更多验证。"
+        },
+        {
+          "index": 7,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "微管与Wnt双重抑制有文献支撑"
+        },
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "甲苯达唑口服生物利用度低"
+        }
+      ]
+    },
+    {
+      "a": "达格列净（Dapagliflozin）",
+      "b": "抑制SGLT2介导的葡萄糖摄取，迫使KRAS突变PDAC细胞依赖线粒体氧化磷酸化，从而累积活性氧并触发营养应激性凋亡",
+      "c": "选择性抑制PDAC细胞增殖并增敏吉西他滨",
+      "statement": "SGLT2抑制剂达格列净通过代谢重编程造成合成致死效应，可选择性清除糖酵解依赖的胰腺癌细胞。",
+      "rationale": "PDAC细胞异位表达SGLT2以维持糖酵解通量，抑制该通路可扰乱其代谢适应并放大氧化损伤。",
+      "self_novelty": "moderate",
+      "elo": 1218.2423527414433,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "PDAC细胞主要依赖GLUT1，SGLT2表达低。"
+        },
+        {
+          "index": 1,
+          "novelty": 2,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "SGLT2在胰腺癌表达不确定，代谢逃逸可代偿"
+        },
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "SGLT2在PDAC表达异质性待证实"
+        }
+      ]
+    },
+    {
+      "a": "非诺贝特（Fenofibrate）",
+      "b": "PPARα激活迫使脂肪酸β-氧化亢进，耗竭膜磷脂多不饱和脂肪酸池并阻断GPX4合成，诱发铁死亡",
+      "c": "导致间质型PDAC癌细胞死亡并减少远处转移",
+      "statement": "非诺贝特通过PPARα重编程脂代谢，特异性诱导间质型胰腺癌细胞铁死亡，抑制转移。",
+      "rationale": "间质型PDAC细胞依赖脂质过氧化物清除机制存活，非诺贝特可同时诱导脂毒性和铁死亡脆弱性。",
+      "self_novelty": "completely_novel",
+      "elo": 1212.9132563479557,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "PPARα激动可能同时上调抗氧化防御。"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "PPARα促氧化则PUFAs耗竭反抑制铁死亡"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PPARα耗竭PUFA致铁死亡证据链弱"
+        }
+      ]
+    },
+    {
+      "a": "Sulfasalazine",
+      "b": "xCT inhibition-induced ferroptosis and immunogenic cell death",
+      "c": "p53-mutant PDAC subtype",
+      "statement": "柳氮磺吡啶通过抑制xCT耗尽谷胱甘肽，选择性触发p53突变型PDAC铁死亡并释放损伤相关分子模式，将免疫“冷”肿瘤转化为“热”肿瘤。",
+      "rationale": "p53突变使PDAC细胞丧失对胱氨酸饥饿的适应能力，柳氮磺吡啶阻断xCT可加剧氧化损伤并触发铁死亡，同时释放HMGB1/ATP等危险信号激活树突状细胞，重编程免疫抑制微环境。",
+      "self_novelty": "高",
+      "elo": 1210.0,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "突变p53与xCT依赖性需验证"
+        }
+      ]
+    },
+    {
+      "a": "Disulfiram",
+      "b": "Cuproptosis via FDX1 and copper chelation",
+      "c": "Selective killing of KRAS-driven PDAC cells exploiting copper addiction",
+      "statement": "Disulfiram, by chelating copper and inducing cuproptosis, selectively eliminates pancreatic ductal adenocarcinoma cells addicted to copper homeostasis under oncogenic KRAS.",
+      "rationale": "The alcohol-aversion drug disulfiram targets the heightened copper dependency of KRAS-mutant PDAC, triggering FDX1-mediated lipoylated protein aggregation and proteotoxic stress, a metabolic vulnerability unexploited in this cancer.",
+      "self_novelty": "High novelty: introduces cuproptosis as a KRAS-vulnerability-based strategy for PDAC, repositioning disulfiram beyond its known ALDH inhibition.",
+      "elo": 1201.7286398796828,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "铜死亡与双硫仑重利用热度高，机制清晰"
+        },
+        {
+          "index": 15,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铜螯合至铜死亡量化路径待明"
+        }
+      ]
+    },
+    {
+      "a": "Fluvoxamine + Terbinafine combination",
+      "b": "Synergistic sigma-1/ER stress and squalene-p53-ferroptosis axis",
+      "c": "Conversion of cold PDAC to immunologically hot via immunogenic ferroptosis",
+      "statement": "The combination of fluvoxamine and terbinafine drives immunogenic ferroptosis in PDAC, turning cold tumors hot without checkpoint inhibitors.",
+      "rationale": "Fluvoxamine-induced sigma-1 receptor antagonism amplifies ER stress, sensitizing PDAC cells to terbinafine's squalene-dependent p53 reactivation and ferroptosis, which releases DAMPs to activate innate anti-tumor immunity.",
+      "self_novelty": "Highly novel: integrates two existing repurposed hypotheses into a synergistic, immune-activating ferroptosis induction strategy.",
+      "elo": 1194.2856548790817,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "双靶协同免疫原性铁死亡缺少体内证据"
+        },
+        {
+          "index": 16,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "双药协同免疫原性铁死亡待证"
+        }
+      ]
+    },
+    {
+      "a": "地尔硫卓（Diltiazem）",
+      "b": "抑制Cav3.2 T型钙通道，阻断钙调磷酸酶/NFATc1信号轴，从而逆转NFAT驱动的SOX2和MYC转录",
+      "c": "诱导多能性转录因子下调及细胞周期停滞，抑制肿瘤复发",
+      "statement": "降压药地尔硫卓的T型钙通道阻断效应可重新编程PDAC的干性转录网络，减少复发。",
+      "rationale": "PDAC细胞获得干性特征依赖NFAT，地尔硫卓可通过钙信号干预扰乱干性网络。",
+      "self_novelty": "moderate",
+      "elo": 1182.4591274530944,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "Cav3.2亚型选择性在体内不确定。"
+        },
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Cav3.2在PDAC干性中角色尚待明确"
+        },
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "T型钙通道选择性不足"
+        }
+      ]
+    },
+    {
+      "a": "美沙拉嗪（Mesalazine）",
+      "b": "通过激活PPARγ和抑制EGFR信号，促使β-catenin磷酸化降解并直接结合Axin支架蛋白，关闭Wnt/TCF转录",
+      "c": "消减PDAC干细胞自我更新和成球能力",
+      "statement": "溃疡性结肠炎药物美沙拉嗪通过PPARγ介导的β-catenin消散，靶向胰腺癌干细胞池。",
+      "rationale": "Wnt通路异常激活在PDAC干细胞中普遍，美沙拉嗪作为PPARγ激动剂可提供低毒长期干预。",
+      "self_novelty": "moderate",
+      "elo": 1174.6158017048297,
+      "review_score": 2.3333333333333335,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PPARγ激动作用较弱，特异性待确证。"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PPARγ/β-catenin机制在PDAC中证据薄弱"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "胰腺靶向暴露不足且机制牵强"
+        }
+      ]
+    },
+    {
+      "a": "Colchicine",
+      "b": "NLRP3 inflammasome inhibition in tumor-associated macrophages",
+      "c": "IL-1β-driven immunosuppressive PDAC microenvironment",
+      "statement": "秋水仙碱通过阻断肿瘤相关巨噬细胞中NLRP3炎性小体介导的IL-1β分泌，解除PDAC微环境的免疫抑制屏障，协同增强吉西他滨化疗效果。",
+      "rationale": "PDAC中活化巨噬细胞持续释放IL-1β驱动Th17/IL-17促癌轴并抑制CD8+ T细胞功能，秋水仙碱通过抑制微管聚合特异性干扰炎性小体装配，安全且低成本地重编程TME以增敏化疗。",
+      "self_novelty": "高",
+      "elo": 1174.296835623628,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "系统性NLRP3抑制安全窗窄"
+        }
+      ]
+    },
+    {
+      "a": "丙磺舒（Probenecid）",
+      "b": "阻断单羧酸转运蛋白(MCT1/4)介导的乳酸外排，导致细胞内酸化并反馈抑制糖酵解关键酶PFK1，加剧能量危机",
+      "c": "选择性杀伤依赖于高糖酵解通量的KRAS突变细胞并抑制侵袭性伪足形成",
+      "statement": "降尿酸药丙磺舒通过阻断乳酸转运造成合成致死，精准打击高糖酵解表型的胰腺癌细胞。",
+      "rationale": "PDAC的代谢共生模型依赖乳酸穿梭，丙磺舒可酸化细胞质并同时饿死高度糖酵解的癌细胞。",
+      "self_novelty": "completely_novel",
+      "elo": 1167.4903623061848,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "丙磺舒非强效MCT1/4抑制剂。"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "MCT1/4抑制选择性不足，酸化可损害正常细胞"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "系统性酸中毒风险与安全窗窄"
+        }
+      ]
+    },
+    {
+      "a": "尼替西农（Nitisinone）",
+      "b": "抑制4-羟苯丙酮酸双加氧酶导致酪氨酸分解代谢中间体积累，阻断自噬降解必需的黑斑效应并激活抗氧化反应耗竭NADPH",
+      "c": "引发富含自噬活性的低氧PDAC区域坏死和代谢崩溃",
+      "statement": "治疗酪氨酸血症的尼替西农通过强制代谢旁路途径，诱导PANIC死亡模式以清除耐低氧的PDAC细胞。",
+      "rationale": "PDAC的低氧区细胞高度依赖自噬和NADPH再生，尼替西农可制造非可解性的蛋白毒性和氧化还原崩溃。",
+      "self_novelty": "completely_novel",
+      "elo": 1153.9845872814662,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PDAC低氧区酪氨酸代谢依赖性未知。"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "HPPD抑制引代谢堆积方向存疑，PANIC不清楚"
+        },
+        {
+          "index": 12,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "代谢物阻断自噬缺乏直接证据"
+        }
+      ]
+    },
+    {
+      "a": "匹莫范色林（Pimavanserin）",
+      "b": "作为5-HT2A受体的反向激动剂，抑制5-羟色胺诱发的Wnt/β-catenin和AKT/mTOR致癌信号，并降低Rac1活性以阻断板状伪足形成",
+      "c": "减弱PDAC细胞的转移侵袭能力并促进分化",
+      "statement": "抗精神病新药匹莫范色林通过阻断5-HT2A受体对血清素信号的促癌劫持，抑制胰腺癌侵袭。",
+      "rationale": "PDAC微环境富含血小板释放的5-羟色胺，5-HT2A在胰腺肿瘤中异常过表达并驱动恶性行为。",
+      "self_novelty": "completely_novel",
+      "elo": 1132.3350181740052,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "5-HT2A促癌需更多PDAC模型验证。"
+        },
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "5-HT2A促癌证据渐增，脑渗透未必必要"
+        },
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "5-HT2A促癌信号需明确"
+        }
+      ]
+    }
+  ]
+}

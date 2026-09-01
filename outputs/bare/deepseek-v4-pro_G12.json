@@ -1,0 +1,152 @@
+[
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "氯硝柳胺",
+"B": "通过抑制mTORC1/STAT3通路激活自噬，清除受损线粒体并阻断NLRP3炎症小体组装",
+"C": "改善难治性抑郁的神经炎症及突触可塑性缺陷",
+"statement": "抗蠕虫药物氯硝柳胺重定位为难治性抑郁治疗药物，其所介导的自噬激活可减轻小胶质细胞驱动的神经炎症。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "双硫仑",
+"B": "通过抑制p97/VCP泛素化系统，缓解内质网应激并减少NF-κB介导的神经炎症",
+"C": "恢复前额叶皮层突触长时程增强，逆转标准抗抑郁药抵抗",
+"statement": "双硫仑通过阻断p97/VCP减轻未折叠蛋白反应相关的神经毒性，为TRD提供新型抗炎机制。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "替米沙坦",
+"B": "通过部分激活PPAR-γ并阻断AT1受体，将小胶质细胞由M1促炎表型转向M2修复表型并增强线粒体生物发生",
+"C": "改善难治性抑郁伴发的代谢炎症及精力缺乏",
+"statement": "替米沙坦的双重机制可同时纠正脑内代谢紊乱和神经炎症，针对TRD患者常见的低动力症状。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "芬戈莫德",
+"B": "通过功能性拮抗S1P1受体，扣押自身反应性淋巴细胞于淋巴结，减少其向CNS浸润和前额叶皮质IL-17的释放",
+"C": "缓解自身免疫性内表型驱动的难治性抑郁",
+"statement": "将芬戈莫德的免疫隔离作用应用于外周免疫激活所致的TRD亚群，可阻断Th17细胞对脑实质的攻击。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "奥利司他",
+"B": "通过抑制肠道脂肪吸收降低血浆游离脂肪酸，进而减轻下丘脑脂毒性及CRH神经元过度驱动",
+"C": "恢复HPA轴负反馈，改善难治性抑郁的应激高反应",
+"statement": "奥利司他通过减少循环中的脂质信使，从外周代谢端纠正HPA轴亢进这一TRD核心病理。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "丙磺舒",
+"B": "通过阻断Panx1半通道，减少ATP外流引起的P2X7受体过度激活和NLRP3依赖性IL-1β成熟",
+"C": "阻断炎症级联放大，恢复单胺类抗抑郁药敏感性",
+"statement": "丙磺舒可通过关闭神经胶质细胞的Panx1通道阻止炎症信号传播，破解TRD的炎症抵抗。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "去铁胺",
+"B": "通过螯合脑内过量非转铁蛋白结合铁，抑制铁死亡相关的脂质过氧化，保护腹侧被盖区多巴胺神经元",
+"C": "选择性恢复难治性抑郁的快感缺乏症状",
+"statement": "去铁胺通过靶向中脑边缘多巴胺系统的铁稳态，挽救奖赏环路的功能。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "沙利度胺",
+"B": "通过降解TNF-α mRNA并抑制COX-2，迅速减少小胶质细胞源性神经营养抑制，促进BDNF表达",
+"C": "在数天内快速改善有慢性低度炎症标志物的TRD核心情绪症状",
+"statement": "沙利度胺强效抑制TRD病理中的两大炎症枢纽TNF-α和COX-2，实现快速抗抑郁。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "伊马替尼",
+"B": "通过抑制c-Abl激酶减少tau蛋白的病理磷酸化及随之而来的突触毒性，同时下调LPS诱导的神经炎症",
+"C": "阻止难治性抑郁向神经退行性转化的进程并改善药物应答",
+"statement": "伊马替尼通过覆盖tau蛋白病理性磷酸化和神经炎症两个通路，延缓TRD的认知衰退。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "吡非尼酮",
+"B": "通过抑制TGF-β/Smad信号，恢复脑膜淋巴管引流通畅，加速大脑内神经毒性代谢物（如谷氨酸和蛋白聚糖）清除",
+"C": "改善因淋巴流出障碍加重的难治性抑郁",
+"statement": "吡非尼酮抗纤维化作用可解除脑膜淋巴引流障碍这一新发现的TRD结构病理。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "罗氟司特",
+"B": "通过强效抑制磷酸二酯酶4 (PDE4)，提高前额叶皮层cAMP水平，增强NMDA受体介导的突触可塑性和工作记忆",
+"C": "靶向改善难治性抑郁的执行功能障碍和认知僵化",
+"statement": "罗氟司特利用炎症依赖的PDE4上调来增强前额叶网络的认知控制能力。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "吡仑帕奈",
+"B": "作为非竞争性AMPA受体负向变构调节剂，降低伏隔核中棘投射神经元的过度兴奋，抑制病理性负性奖励信号",
+"C": "快速缓解重度难治性抑郁的情绪低落和快感缺失核心症状",
+"statement": "吡仑帕奈通过减少边缘系统AMPA受体张力，非典型地调控兴奋/抑制平衡。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "阿卡波糖",
+"B": "通过抑制上部肠道α-葡萄糖苷酶，增加抗炎菌属（如双歧杆菌）的丰度和短链脂肪酸丁酸盐的合成，降低肠道通透性及循环内毒素水平",
+"C": "借由肠-脑轴减轻系统性炎症驱动的难治性抑郁",
+"statement": "阿卡波糖可作为精准作用于肠脑轴的代谢调节剂，纠正TRD的肠道生态失调。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "利奥西呱",
+"B": "通过激活可溶性鸟苷酸环化酶（sGC）直接提高脑内cGMP浓度，增强脑源性神经营养因子（BDNF）翻译和突触发生",
+"C": "克服标准治疗后依然存在的海马萎缩和神经新生障碍",
+"statement": "NO-sGC-cGMP通路激活剂利奥西呱为恢复TRD患者海马可塑性提供了血管和神经双效机制。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G12",
+"disease": "Treatment-resistant depression",
+"A": "右美托咪定",
+"B": "通过超选择性激动蓝斑核突触前α2A肾上腺素受体，抑制过度活跃的应激相关去甲肾上腺素释放，重塑清醒状态下默认网络功能连接",
+"C": "快速消解难治性抑郁伴发的焦虑性沉思和高警觉状态",
+"statement": "右美托咪定利用精细的α2A受体激动提供可控的去甲肾上腺素能微调，瞬态打破TRD的负性认知循环。",
+"self_novelty": "completely_novel"
+}
+]

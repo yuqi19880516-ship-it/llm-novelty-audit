@@ -1,0 +1,32 @@
+裸基座去重后 120 条
+  bare_deepseek-v4-pro_G01_Disulfiram: cooc=13 z=3.58 L1
+  bare_deepseek-v4-pro_G01_Itraconazole: cooc=73 z=15.85 L1
+  bare_deepseek-v4-pro_G01_Sulfasalazine: cooc=7 z=0.81 L1
+  bare_deepseek-v4-pro_G01_Escitalopram: cooc=0 z=-2.16 L2
+  bare_deepseek-v4-pro_G02_Mefloquine: cooc=12 z=3.30 L1
+  bare_deepseek-v4-pro_G02_Zileuton: cooc=2 z=0.90 L2
+  bare_deepseek-v4-pro_G02_Metformin: cooc=128 z=10.58 L1
+  bare_deepseek-v4-pro_G02_Ribavirin: cooc=9 z=-3.01 L2
+  bare_deepseek-v4-pro_G03_Propranolol: cooc=4 z=-3.25 L2
+  bare_deepseek-v4-pro_G03_Fluvastatin: cooc=1 z=-0.07 L2
+  bare_deepseek-v4-pro_G03_Zinc gluconate: cooc=0 z=-0.44 L2
+  bare_deepseek-v4-pro_G03_Amlexanox: cooc=1 z=2.60 L2
+  bare_deepseek-v4-pro_G04_Esomeprazole: cooc=1 z=-0.73 L2
+  bare_deepseek-v4-pro_G04_Telmisartan: cooc=3 z=0.22 L1
+  bare_deepseek-v4-pro_G04_Teriflunomide: cooc=3 z=2.09 L1
+  bare_deepseek-v4-pro_G05_Canagliflozin: cooc=14 z=1.04 L1
+  bare_deepseek-v4-pro_G05_Baclofen: cooc=27 z=-2.09 L2
+  bare_deepseek-v4-pro_G05_Allopurinol: cooc=12 z=-4.63 L2
+  bare_deepseek-v4-pro_G05_Mifepristone: cooc=18 z=-1.06 L2
+  bare_deepseek-v4-pro_G06_Canagliflozin: cooc=4 z=2.93 L1
+  bare_deepseek-v4-pro_G06_Mifepristone: cooc=0 z=-1.49 L2
+  bare_deepseek-v4-pro_G06_Linagliptin: cooc=0 z=-0.76 L2
+  bare_deepseek-v4-pro_G06_Tofacitinib: cooc=2 z=-0.02 L2
+  bare_deepseek-v4-pro_G07_Zileuton: cooc=3 z=5.14 L1
+  bare_deepseek-v4-pro_G07_Thalidomide: cooc=21 z=9.06 L1
+  bare_deepseek-v4-pro_G07_Sildenafil: cooc=42 z=21.71 L1
+  bare_deepseek-v4-pro_G07_Colchicine: cooc=29 z=7.74 L1
+  bare_deepseek-v4-pro_G08_Aprepitant: cooc=0 z=-0.50 L2
+  bare_deepseek-v4-pro_G08_Celecoxib: cooc=5 z=2.79 L1
+  bare_deepseek-v4-pro_G08_Niclosamide: cooc=0 z=-0.50 L2
+shard 0 done, fail=0

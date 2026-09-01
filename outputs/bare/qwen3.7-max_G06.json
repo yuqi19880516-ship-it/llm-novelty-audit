@@ -1,0 +1,152 @@
+[
+{
+"model": "qwen3.7-max",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "Metformin",
+"B": "Activation of AMPK leading to inhibition of mTOR and HIF-1α signaling",
+"C": "Reversal of pulmonary vascular remodeling and right ventricular hypertrophy",
+"statement": "Metformin reverses pulmonary arterial hypertension by activating AMPK, which inhibits mTOR and HIF-1α signaling, thereby reducing pulmonary vascular remodeling.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "Empagliflozin",
+"B": "Inhibition of NHE1 (Na+/H+ exchanger 1) reducing intracellular sodium and calcium overload",
+"C": "Attenuation of right ventricular failure and pulmonary vascular resistance",
+"statement": "Empagliflozin attenuates right ventricular failure and pulmonary vascular resistance in PAH by inhibiting NHE1, reducing intracellular sodium and calcium overload.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "Semaglutide",
+"B": "GLP-1 receptor activation reducing systemic inflammation and oxidative stress via Nrf2 pathway",
+"C": "Improvement of endothelial function and reduction of pulmonary artery pressure",
+"statement": "Semaglutide improves endothelial function and reduces pulmonary artery pressure in PAH by activating GLP-1 receptors, which reduces systemic inflammation and oxidative stress via the Nrf2 pathway.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "Baricitinib",
+"B": "Inhibition of JAK1/2 signaling reducing STAT3-mediated proliferation of pulmonary artery smooth muscle cells",
+"C": "Reversal of pulmonary vascular remodeling",
+"statement": "Baricitinib reverses pulmonary vascular remodeling in PAH by inhibiting JAK1/2 signaling, which reduces STAT3-mediated proliferation of pulmonary artery smooth muscle cells.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "Dimethyl fumarate",
+"B": "Activation of Nrf2 and inhibition of NF-κB reducing oxidative stress and inflammation",
+"C": "Protection against pulmonary endothelial cell apoptosis and vascular remodeling",
+"statement": "Dimethyl fumarate protects against pulmonary endothelial cell apoptosis and vascular remodeling in PAH by activating Nrf2 and inhibiting NF-κB, reducing oxidative stress and inflammation.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "Spironolactone",
+"B": "Antagonism of mineralocorticoid receptors reducing endothelin-1 production and fibrosis",
+"C": "Decreased pulmonary vascular resistance and right ventricular fibrosis",
+"statement": "Spironolactone decreases pulmonary vascular resistance and right ventricular fibrosis in PAH by antagonizing mineralocorticoid receptors, which reduces endothelin-1 production and fibrosis.",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "Ticagrelor",
+"B": "Inhibition of ENT1 (equilibrative nucleoside transporter 1) increasing extracellular adenosine",
+"C": "Vasodilation and inhibition of pulmonary artery smooth muscle cell proliferation",
+"statement": "Ticagrelor induces vasodilation and inhibits pulmonary artery smooth muscle cell proliferation in PAH by inhibiting ENT1, which increases extracellular adenosine levels.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "Fingolimod",
+"B": "Modulation of S1P receptors reducing lymphocyte trafficking and pulmonary inflammation",
+"C": "Attenuation of perivascular inflammation and pulmonary vascular remodeling",
+"statement": "Fingolimod attenuates perivascular inflammation and pulmonary vascular remodeling in PAH by modulating S1P receptors, which reduces lymphocyte trafficking and pulmonary inflammation.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "Dapagliflozin",
+"B": "Reduction of ketone body utilization shifting myocardial metabolism to glucose oxidation",
+"C": "Improvement of right ventricular energetic efficiency and function",
+"statement": "Dapagliflozin improves right ventricular energetic efficiency and function in PAH by reducing ketone body utilization, shifting myocardial metabolism to glucose oxidation.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "Pirfenidone",
+"B": "Inhibition of TGF-β signaling reducing extracellular matrix deposition",
+"C": "Reversal of pulmonary vascular and right ventricular fibrosis",
+"statement": "Pirfenidone reverses pulmonary vascular and right ventricular fibrosis in PAH by inhibiting TGF-β signaling, which reduces extracellular matrix deposition.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "Colchicine",
+"B": "Inhibition of microtubule polymerization reducing NLRP3 inflammasome activation",
+"C": "Decreased pulmonary vascular inflammation and remodeling",
+"statement": "Colchicine decreases pulmonary vascular inflammation and remodeling in PAH by inhibiting microtubule polymerization, which reduces NLRP3 inflammasome activation.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "Liraglutide",
+"B": "GLP-1 receptor activation increasing eNOS phosphorylation and nitric oxide bioavailability",
+"C": "Pulmonary vasodilation and improvement of endothelial function",
+"statement": "Liraglutide induces pulmonary vasodilation and improves endothelial function in PAH by activating GLP-1 receptors, which increases eNOS phosphorylation and nitric oxide bioavailability.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "Atorvastatin",
+"B": "Inhibition of RhoA/Rho-kinase pathway reducing smooth muscle cell contraction and proliferation",
+"C": "Reduction of pulmonary vascular resistance and remodeling",
+"statement": "Atorvastatin reduces pulmonary vascular resistance and remodeling in PAH by inhibiting the RhoA/Rho-kinase pathway, which reduces smooth muscle cell contraction and proliferation.",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "Canagliflozin",
+"B": "Inhibition of SGLT2 reducing systemic volume overload and ventricular wall stress",
+"C": "Improvement of right ventricular function and reduction of pulmonary artery pressure",
+"statement": "Canagliflozin improves right ventricular function and reduces pulmonary artery pressure in PAH by inhibiting SGLT2, which reduces systemic volume overload and ventricular wall stress.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G06",
+"disease": "Pulmonary arterial hypertension",
+"A": "Methotrexate",
+"B": "Inhibition of dihydrofolate reductase reducing purine synthesis and immune cell proliferation",
+"C": "Attenuation of pulmonary perivascular inflammation and vascular remodeling",
+"statement": "Methotrexate attenuates pulmonary perivascular inflammation and vascular remodeling in PAH by inhibiting dihydrofolate reductase, which reduces purine synthesis and immune cell proliferation.",
+"self_novelty": "completely_novel"
+}
+]

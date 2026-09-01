@@ -1,0 +1,593 @@
+{
+  "goal_id": "G03",
+  "disease_en": "Pancreatic ductal adenocarcinoma",
+  "goal": "为胰腺导管腺癌（Pancreatic ductal adenocarcinoma）寻找可重定位的已上市药物及其作用机制",
+  "overview": "胰腺导管腺癌药物重定位研究揭示了多种上市药物的抗肿瘤机制。破坏氧化还原稳态是核心策略：柳氮磺吡啶抑制xCT耗竭谷胱甘肽，金诺芬靶向硫氧还蛋白还原酶，均诱发致死性氧化应激。双硫仑除增加氧化应激外，还通过抑制ALDH1A1与NPL4-p97通路清除肿瘤干细胞并逆转吉西他滨耐药。此外，伊维菌素抑制PAK1激酶以削弱细胞增殖与迁移。上述多靶点机制为胰腺癌治疗提供了新策略。",
+  "hypotheses": [
+    {
+      "a": "Sulfasalazine",
+      "b": "Inhibition of the cystine/glutamate antiporter (xCT) leading to reduced glutathione synthesis",
+      "c": "Increased oxidative stress and PDAC cell death",
+      "statement": "Sulfasalazine induces PDAC cell death by inhibiting the xCT antiporter and depleting glutathione.",
+      "rationale": "PDAC cells rely on xCT for redox balance, and sulfasalazine's known anti-inflammatory mechanism can be repurposed to target this vulnerability.",
+      "self_novelty": "moderate",
+      "elo": 1310.680918410419,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "靶向铁死亡通路，契合胰腺癌代谢特征。"
+        },
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向转运体诱导铁死亡具潜力。"
+        },
+        {
+          "index": 12,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向xCT机制明确且合理。"
+        }
+      ]
+    },
+    {
+      "a": "Ivermectin",
+      "b": "Inhibition of PAK1 kinase activity leading to disrupted cytoskeletal dynamics",
+      "c": "Reduced PDAC cell proliferation and migration",
+      "statement": "Ivermectin suppresses PDAC growth by inhibiting PAK1 kinase activity.",
+      "rationale": "PAK1 is overexpressed in PDAC and promotes tumor progression, making it a viable target for repurposed drugs like ivermectin.",
+      "self_novelty": "completely_novel",
+      "elo": 1265.8005661765797,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制新颖，但体内有效浓度难以实现。"
+        },
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "激酶抑制证据弱且特异性存疑。"
+        },
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "靶点明确但体内药效需验证。"
+        }
+      ]
+    },
+    {
+      "a": "Disulfiram",
+      "b": "PDAC cancer stem cell elimination and chemosensitization",
+      "c": "NPL4-p97 segregase inhibition and ALDH1A1 suppression",
+      "statement": "Disulfiram eliminates PDAC cancer stem cells and reverses gemcitabine resistance by targeting the NPL4-p97 segregase pathway and ALDH1A1 activity.",
+      "rationale": "The disulfiram-copper metabolite CuET binds NPL4 and disrupts p97 segregase function, causing lethal proteotoxic stress in ALDH1A1-high cancer stem cells that drive PDAC recurrence and chemoresistance.",
+      "self_novelty": "Combines the copper-dependent proteotoxic mechanism of CuET with ALDH1A1 inhibition to specifically target the therapy-resistant stem-like PDAC subpopulation, a dimension not addressed by the existing hypotheses.",
+      "elo": 1263.079221967665,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 4,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "新靶点机制新颖且实验证据确凿。"
+        },
+        {
+          "index": 15,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "揭示新靶点，新颖性较高。"
+        }
+      ]
+    },
+    {
+      "a": "Disulfiram",
+      "b": "Inhibition of aldehyde dehydrogenase (ALDH) and induction of oxidative stress",
+      "c": "Selective targeting of PDAC cancer stem cells",
+      "statement": "Disulfiram targets PDAC stem cells by inhibiting ALDH and increasing oxidative stress.",
+      "rationale": "ALDH is a marker for cancer stem cells, and disulfiram's ability to inhibit this enzyme can selectively eliminate these cells.",
+      "self_novelty": "moderate",
+      "elo": 1250.9928275932866,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "靶向干细胞有潜力，需考虑铜离子毒性。"
+        },
+        {
+          "index": 5,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向干细胞合理但脱靶毒性大。"
+        },
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向干细胞机制经典且合理。"
+        }
+      ]
+    },
+    {
+      "a": "Auranofin",
+      "b": "Lethal ROS accumulation and PDAC cell death",
+      "c": "Inhibition of thioredoxin reductase disrupting redox homeostasis",
+      "statement": "Auranofin induces lethal oxidative stress in PDAC by inhibiting thioredoxin reductase, an antioxidant enzyme overexpressed to sustain PDAC survival under high intrinsic ROS.",
+      "rationale": "This FDA-approved anti-rheumatic gold compound exploits PDAC's vulnerability to redox disruption by blocking the thioredoxin system, a parallel but non-redundant antioxidant pathway distinct from the glutathione/xCT axis.",
+      "self_novelty": "0.74",
+      "elo": 1241.9739864433514,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶向硫氧还蛋白还原酶很经典。"
+        }
+      ]
+    },
+    {
+      "a": "Thioridazine",
+      "b": "Inhibition of dopamine D2 receptors leading to reduced PI3K/AKT signaling",
+      "c": "Induction of apoptosis and reduced PDAC cell survival",
+      "statement": "Thioridazine induces apoptosis in PDAC by inhibiting dopamine D2 receptor signaling.",
+      "rationale": "Dopamine receptor signaling is implicated in cancer cell survival, and thioridazine's antipsychotic mechanism can be repurposed for oncology.",
+      "self_novelty": "completely_novel",
+      "elo": 1231.019095267063,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "机制可行但毒副作用大，限制临床应用。"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "多巴胺受体靶向胰腺癌证据不足。"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "精神类药物脱靶毒性需关注。"
+        }
+      ]
+    },
+    {
+      "a": "Niclosamide",
+      "b": "Inhibition of Wnt/beta-catenin signaling through disruption of Dishevelled proteins",
+      "c": "Suppression of PDAC cell proliferation and stemness",
+      "statement": "Niclosamide inhibits PDAC growth by targeting Wnt/beta-catenin signaling.",
+      "rationale": "Wnt signaling is crucial for PDAC stemness and proliferation, and niclosamide's known antihelminthic mechanism can be repurposed for this pathway.",
+      "self_novelty": "moderate",
+      "elo": 1226.759138387135,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "靶点明确，但药物生物利用度是主要瓶颈。"
+        },
+        {
+          "index": 7,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "通路抑制明确但生物利用度低。"
+        },
+        {
+          "index": 7,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "经典通路，新颖性略显不足。"
+        }
+      ]
+    },
+    {
+      "a": "Pimozide",
+      "b": "Inhibition of STAT3 signaling through disruption of JAK2 activity",
+      "c": "Suppression of PDAC cell proliferation and induction of apoptosis",
+      "statement": "Pimozide inhibits PDAC growth by targeting STAT3 signaling via JAK2 inhibition.",
+      "rationale": "STAT3 is a key driver of PDAC progression, and pimozide's antipsychotic mechanism can be repurposed to block this oncogenic pathway.",
+      "self_novelty": "completely_novel",
+      "elo": 1223.331892589684,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 2,
+          "critique": "脱靶和心脏毒性严重阻碍其临床重定位。"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "靶点抑制特异性差且副作用大。"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "机制合理，但特异性有待验证。"
+        }
+      ]
+    },
+    {
+      "a": "Digoxin",
+      "b": "Inhibition of Na+/K+-ATPase leading to disrupted calcium homeostasis and HIF-1alpha degradation",
+      "c": "Reduced PDAC cell survival and angiogenesis",
+      "statement": "Digoxin suppresses PDAC growth by inhibiting Na+/K+-ATPase and targeting HIF-1alpha.",
+      "rationale": "HIF-1alpha is critical for PDAC survival under hypoxia, and digoxin's cardiac mechanism can be repurposed to disrupt this pathway.",
+      "self_novelty": "completely_novel",
+      "elo": 1216.1473924374368,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 2,
+          "critique": "治疗窗极窄且心脏毒性大，临床风险高。"
+        },
+        {
+          "index": 13,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "治疗窗窄限制其在肿瘤中应用。"
+        },
+        {
+          "index": 13,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "经典机制，心脏毒性限制应用。"
+        }
+      ]
+    },
+    {
+      "a": "Niclosamide",
+      "b": "Reduced PDAC stemness and impaired tumor growth",
+      "c": "Dual inhibition of Wnt/β-catenin signaling and mitochondrial oxidative phosphorylation",
+      "statement": "Niclosamide suppresses PDAC tumor maintenance by simultaneously targeting Wnt/β-catenin-dependent cancer stem cells and disrupting mitochondrial respiration.",
+      "rationale": "As an FDA-approved anthelmintic, niclosamide uniquely combines Wnt pathway inhibition—critical for PDAC stemness and chemoresistance—with mitochondrial uncoupling that exploits PDAC's metabolic dependencies.",
+      "self_novelty": "0.78",
+      "elo": 1210.0,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双重机制提升了治疗潜力。"
+        }
+      ]
+    },
+    {
+      "a": "Statins (e.g., Atorvastatin)",
+      "b": "Inhibition of the mevalonate pathway leading to reduced prenylation of RAS proteins",
+      "c": "Impaired KRAS signaling and reduced PDAC cell survival",
+      "statement": "Statins inhibit PDAC growth by blocking the mevalonate pathway and disrupting KRAS prenylation.",
+      "rationale": "KRAS mutations are prevalent in PDAC, and statins' ability to interfere with protein prenylation offers a potential therapeutic avenue.",
+      "self_novelty": "moderate",
+      "elo": 1204.8459493662122,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "理论合理但临床转化失败，需新策略。"
+        },
+        {
+          "index": 2,
+          "novelty": 1,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制经典但临床转化效果有限。"
+        },
+        {
+          "index": 2,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制经典，临床疗效存争议。"
+        }
+      ]
+    },
+    {
+      "a": "Chloroquine",
+      "b": "Inhibition of autophagy by preventing lysosomal acidification",
+      "c": "Increased sensitivity of PDAC cells to chemotherapy",
+      "statement": "Chloroquine enhances chemosensitivity in PDAC by inhibiting autophagy.",
+      "rationale": "Autophagy is a survival mechanism in PDAC, and its inhibition can sensitize tumors to standard treatments.",
+      "self_novelty": "known",
+      "elo": 1204.0956791693898,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "自噬抑制机制明确，但临床获益有限。"
+        },
+        {
+          "index": 3,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "自噬抑制机制明确但临床疗效差。"
+        },
+        {
+          "index": 3,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制明确，已有大量临床试验。"
+        }
+      ]
+    },
+    {
+      "a": "Propranolol",
+      "b": "Blockade of beta-adrenergic receptors leading to reduced cAMP and PKA signaling",
+      "c": "Decreased PDAC cell migration and invasion",
+      "statement": "Propranolol reduces PDAC invasiveness by blocking beta-adrenergic receptor signaling.",
+      "rationale": "Stress-induced beta-adrenergic signaling promotes cancer progression, and beta-blockers can mitigate this effect.",
+      "self_novelty": "moderate",
+      "elo": 1188.0117171191234,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "神经肿瘤学新视角，临床证据尚不充分。"
+        },
+        {
+          "index": 4,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "神经肿瘤学视角有一定新意。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，临床证据尚不充分。"
+        }
+      ]
+    },
+    {
+      "a": "Atorvastatin",
+      "b": "KRAS signaling disruption and PDAC growth suppression",
+      "c": "HMG-CoA reductase inhibition and impaired KRAS prenylation",
+      "statement": "Atorvastatin suppresses PDAC growth by disrupting oncogenic KRAS membrane localization through inhibition of mevalonate-dependent prenylation.",
+      "rationale": "Atorvastatin blocks HMG-CoA reductase and depletes farnesyl and geranylgeranyl pyrophosphates, preventing the post-translational prenylation required for mutant KRAS membrane anchoring and downstream MAPK/PI3K signaling in PDAC.",
+      "self_novelty": "Directly targets the >90% KRAS-mutant PDAC population via lipid metabolism interference rather than direct kinase inhibition, offering a mechanistically distinct approach from the existing hypotheses.",
+      "elo": 1186.974402696262,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 1,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "与假设二重复且缺乏额外新机制。"
+        },
+        {
+          "index": 16,
+          "novelty": 1,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "与假设2重复，缺乏新颖性。"
+        }
+      ]
+    },
+    {
+      "a": "Aspirin",
+      "b": "Inhibition of COX-2 and subsequent reduction in prostaglandin E2 (PGE2) signaling",
+      "c": "Decreased angiogenesis and tumor growth in PDAC",
+      "statement": "Aspirin reduces PDAC progression by inhibiting COX-2 mediated PGE2 signaling.",
+      "rationale": "COX-2 overexpression is linked to PDAC progression, and aspirin's anti-inflammatory properties can target this pathway.",
+      "self_novelty": "moderate",
+      "elo": 1179.8392777901724,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "经典老药老机制，缺乏创新性与突破。"
+        },
+        {
+          "index": 1,
+          "novelty": 1,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "流行病学证据多但临床争议大。"
+        },
+        {
+          "index": 1,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制明确但临床转化受限。"
+        }
+      ]
+    },
+    {
+      "a": "Artemisinin",
+      "b": "Generation of reactive oxygen species (ROS) via iron-mediated cleavage of the endoperoxide bridge",
+      "c": "Induction of apoptosis in PDAC cells",
+      "statement": "Artemisinin induces apoptosis in PDAC by generating ROS through iron-dependent mechanisms.",
+      "rationale": "PDAC cells often have elevated iron levels, making them susceptible to artemisinin's ROS-generating properties.",
+      "self_novelty": "moderate",
+      "elo": 1174.4846216989938,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "铁依赖机制合理，单药抗肿瘤效力偏弱。"
+        },
+        {
+          "index": 8,
+          "novelty": 2,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "铁依赖氧化应激在体内难验证。"
+        },
+        {
+          "index": 8,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁依赖机制经典，新颖性低。"
+        }
+      ]
+    },
+    {
+      "a": "Mebendazole",
+      "b": "Inhibition of tubulin polymerization leading to mitotic arrest",
+      "c": "Suppression of PDAC cell proliferation and tumor growth",
+      "statement": "Mebendazole inhibits PDAC growth by disrupting tubulin polymerization.",
+      "rationale": "Mebendazole's antiparasitic mechanism involves tubulin inhibition, which can be repurposed to target rapidly dividing cancer cells.",
+      "self_novelty": "moderate",
+      "elo": 1167.1613378247166,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 3,
+          "critique": "机制经典但吸收差，限制实体瘤疗效。"
+        },
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "微管抑制机制明确但穿透性待考。"
+        },
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "经典微管抑制剂，新颖性低。"
+        }
+      ]
+    },
+    {
+      "a": "Cimetidine",
+      "b": "Blockade of histamine H2 receptors leading to reduced cAMP and PKA signaling",
+      "c": "Inhibition of PDAC cell proliferation and angiogenesis",
+      "statement": "Cimetidine suppresses PDAC growth by blocking histamine H2 receptor signaling.",
+      "rationale": "Histamine signaling promotes tumor growth, and H2 receptor antagonists like cimetidine can inhibit this pathway.",
+      "self_novelty": "moderate",
+      "elo": 1152.8140556537887,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 2,
+          "critique": "H2受体在胰腺癌的表达及临床意义不明。"
+        },
+        {
+          "index": 9,
+          "novelty": 1,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "组胺受体在胰腺癌中作用存疑。"
+        },
+        {
+          "index": 9,
+          "novelty": 2,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "老药机制，临床相关性较弱。"
+        }
+      ]
+    },
+    {
+      "a": "Metformin",
+      "b": "Inhibition of mitochondrial complex I leading to reduced ATP and AMPK activation",
+      "c": "Suppression of PDAC cell proliferation and induction of apoptosis",
+      "statement": "Metformin inhibits PDAC growth by targeting mitochondrial complex I and activating AMPK.",
+      "rationale": "Metformin's known mechanism in diabetes involves AMPK activation, which has been shown to suppress cancer cell metabolism and proliferation.",
+      "self_novelty": "known",
+      "elo": 1131.9879194087205,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "机制正确但缺乏新意，临床疗效存疑。"
+        },
+        {
+          "index": 0,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制明确但缺乏创新性。"
+        },
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制经典但缺乏新颖性。"
+        }
+      ]
+    }
+  ]
+}

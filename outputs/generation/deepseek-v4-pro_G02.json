@@ -1,0 +1,593 @@
+{
+  "goal_id": "G02",
+  "disease_en": "Glioblastoma",
+  "goal": "为胶质母细胞瘤（Glioblastoma）寻找可重定位的已上市药物及其作用机制",
+  "overview": "胶质母细胞瘤的高度异质性与治疗耐受亟需突破性策略，已上市药物的重定位为此开辟了快速转化路径。双硫仑通过积累",
+  "hypotheses": [
+    {
+      "a": "双硫仑",
+      "b": "抑制乙醛脱氢酶（ALDH）活性，导致细胞乙醛蓄积并引发未折叠蛋白反应（UPR）持续激活",
+      "c": "选择性杀伤胶质母细胞瘤干细胞（GSC），抑制肿瘤复发",
+      "statement": "双硫仑通过积累乙醛引发内质网应激，可选择性地清除对ALDH高度依赖的胶质母细胞瘤干细胞。",
+      "rationale": "胶质母细胞瘤干细胞高表达ALDH以维持干性，而双硫仑抑制ALDH后乙醛积累导致蛋白质错误折叠和UPR过度激活，触发凋亡。",
+      "self_novelty": "moderate",
+      "elo": 1322.1398392492333,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "已知机制，但ALDH依赖GSC模型较明确"
+        },
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双硫仑靶向ALDH已有临床试验支持"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 5,
+          "critique": "已知ALDH靶点，临床前证据充分"
+        }
+      ]
+    },
+    {
+      "a": "氯硝柳胺",
+      "b": "促进溶酶体酸化障碍并阻断Wnt信号中DVL2与AXIN的相互作用，同时引发TFEB核转位异常导致自噬体蓄积",
+      "c": "阻断Wnt/β-catenin干性维持通路并诱发自噬障碍性死亡",
+      "statement": "氯硝柳胺通过双重破坏溶酶体功能和Wnt信号体组装，使胶质瘤干细胞丧失干性并死于自噬流阻滞。",
+      "rationale": "氯硝柳胺作为质子载体破坏溶酶体pH梯度，同时阻碍DVL2聚合，这两个机制协同导致Wnt信号中断和自噬底物累积毒性。",
+      "self_novelty": "moderate",
+      "elo": 1293.6131752338877,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "双重破坏干细胞干性，体内验证不足"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "Wnt与溶酶体双重靶向具有合成致死潜力"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "溶酶体与Wnt双重破坏策略较新颖"
+        }
+      ]
+    },
+    {
+      "a": "青蒿琥酯",
+      "b": "利用GBM细胞内升高的游离铁催化其过氧桥断裂，产生大量碳中心自由基并直接损伤线粒体心磷脂",
+      "c": "触发铁死亡并释放线粒体DNA激活cGAS-STING通路，重塑免疫微环境",
+      "statement": "青蒿琥酯通过铁依赖的线粒体靶向氧化损伤，既直接诱导铁死亡又通过STING激活启动先天免疫应答。",
+      "rationale": "GBM细胞铁含量高且依赖线粒体代谢，青蒿琥酯被铁活化后特异性攻击线粒体膜，导致mtDNA泄漏而激活STING，将细胞死亡与免疫识别耦合。",
+      "self_novelty": "completely_novel",
+      "elo": 1277.6347189509438,
+      "review_score": 4.333333333333333,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "铁死亡-STING连接新颖，体内证据缺"
+        },
+        {
+          "index": 4,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁死亡耦合STING激活重塑免疫微环境思路新颖"
+        },
+        {
+          "index": 4,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁死亡偶联cGAS-STING免疫激活新颖"
+        }
+      ]
+    },
+    {
+      "a": "地高辛",
+      "b": "抑制Na⁺/K⁺-ATP酶后激发钙调神经磷酸酶（calcineurin）持续活化，使NFAT转录因子去磷酸化入核并诱导RIPK3表达",
+      "c": "启动坏死性凋亡途径，绕开凋亡抵抗",
+      "statement": "强心苷地高辛通过激活Ca²⁺/钙调神经磷酸酶/NFAT通路，在凋亡抵抗的GBM中诱导坏死性凋亡。",
+      "rationale": "凋亡通路在GBM中常被BCL-2家族蛋白阻断，地高辛升高胞内Na⁺和Ca²⁺可经NFAT上调坏死性凋亡关键激酶RIPK3，提供绕过凋亡的死亡模式。",
+      "self_novelty": "completely_novel",
+      "elo": 1274.4415399254374,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "坏死性凋亡通路合理，GBM数据稀缺"
+        },
+        {
+          "index": 7,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "地高辛诱导坏死性凋亡的NFAT-RIPK3轴少见但可行"
+        },
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "地高辛诱导necroptosis文献支持"
+        }
+      ]
+    },
+    {
+      "a": "伊曲康唑",
+      "b": "抑制胆固醇重头合成酶CYP51，导致细胞内固醇类中间物缺乏，从而阻断SMO蛋白的固醇感测及下游GLI活化",
+      "c": "破坏Hedgehog驱动的胶质母细胞瘤增殖与自我更新",
+      "statement": "抗真菌药伊曲康唑通过剥夺SMO必需的固醇配体，非经典地抑制Hedgehog通路，遏制胶质母细胞瘤细胞的增殖。",
+      "rationale": "伊曲康唑除直接抑制CYP51外，其固醇剥夺效应可阻断SMO的胆固醇结合位点，从而关闭GLI转录，对PTCH1突变或配体依赖的GBM均有效。",
+      "self_novelty": "moderate",
+      "elo": 1266.4652258668998,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "固醇剥夺抑制SMO证据充分"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "伊曲康唑抑制Hedgehog机制明确，具药理学基础"
+        },
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "固醇配体剥夺抑制SMO机制较新"
+        }
+      ]
+    },
+    {
+      "a": "普萘洛尔",
+      "b": "阻断β2-肾上腺素受体，抑制cAMP-PKA信号轴，阻止PKA介导的stathmin-1磷酸化",
+      "c": "稳定微管网络，抑制GBM细胞间充质迁移及侵袭",
+      "statement": "β受体阻滞剂普萘洛尔通过抑制PKA对stathmin-1的磷酸化，增强微管稳定性，从而特异性地限制GBM细胞的侵袭。",
+      "rationale": "GBM侵袭前沿的细胞常利用儿茶酚胺信号通过β2-AR活化PKA使stathmin失活以促进微管动态解聚，普萘洛尔可逆转这一过程并固定细胞形态。",
+      "self_novelty": "moderate",
+      "elo": 1253.9199667648636,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "β-AR下游控微管动态，特异性待证实"
+        },
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "普萘洛尔靶向β-AR抑制侵袭已有流行病学和机制研究"
+        },
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "已有β阻滞剂抗侵袭研究，细化机制"
+        }
+      ]
+    },
+    {
+      "a": "米非司酮",
+      "b": "阻断糖皮质激素受体（GR）核转位，下调GR靶基因SGK1，解除SGK1对FOXO3a的磷酸化抑制",
+      "c": "激活FOXO3a介导的自噬性死亡通路，抑制GBM细胞存活",
+      "statement": "米非司酮通过拮抗GR，恢复FOXO3a的活性，进而诱导剧烈的自噬依赖性细胞死亡。",
+      "rationale": "GBM常利用内源性皮质醇通过GR诱导SGK1表达来抑制FOXO3a，米非司酮解除此抑制后FOXO3a直接转录促自噬基因，引发自噬性死亡而非保护性自噬。",
+      "self_novelty": "completely_novel",
+      "elo": 1244.8084628297083,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "GR-FOXO3a自噬死亡通路合理"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "米非司酮通过GR/FOXO3a诱导自噬有文献支持"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "GR-SGK1-FOXO3a轴文献支持"
+        }
+      ]
+    },
+    {
+      "a": "西咪替丁",
+      "b": "阻断组胺H2受体，降低cAMP水平并抑制PKA对LKB1的磷酸化失活",
+      "c": "激活LKB1-AMPK能量传感通路，抑制GBM细胞在营养匮乏条件下的存活",
+      "statement": "H2受体拮抗剂西咪替丁能通过解除PKA对LKB1的抑制，重启AMPK介导的代谢检查点，使GBM细胞在缺氧缺糖时经历代谢危机。",
+      "rationale": "GBM微环境中组胺浓度上升，通过H2受体激活cAMP/PKA，磷酸化LKB1并使其滞留于胞质无法激活AMPK，西咪替丁恢复LKB1极性可令GBM能量应激反应重新敏化。",
+      "self_novelty": "completely_novel",
+      "elo": 1237.0456634734405,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "LKB1-AMPK激活诱人，体内代谢复杂"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "西咪替丁重激活LKB1-AMPK应对代谢应激机制清楚"
+        },
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "H2受体拮抗激活AMPK证据有限"
+        }
+      ]
+    },
+    {
+      "a": "氟哌啶醇",
+      "b": "同时拮抗多巴胺D2受体与Sigma-1受体，阻遏Sigma-1介导的IRE1α稳定化，瓦解GBM细胞的内质网应激适应能力",
+      "c": "增敏替莫唑胺化疗并诱导凋亡",
+      "statement": "氟哌啶醇通过双重阻断D2和Sigma-1受体，解除GBM对内质网应激的保护性适应，从而与替莫唑胺产生协同致死效应。",
+      "rationale": "Sigma-1受体在GBM中高表达并稳定IRE1α以维持蛋白质稳态，氟哌啶醇干扰该过程可加剧内质网应激，导致未折叠蛋白反应从促生存转向促凋亡。",
+      "self_novelty": "completely_novel",
+      "elo": 1224.8756471191034,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Sigma-1增敏化疗有据，GBM协同待验"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "双重拮抗协同增敏较新颖，但IRE1α环节需更多验证"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "双受体拮抗协同增敏需更多验证"
+        }
+      ]
+    },
+    {
+      "a": "Mebendazole",
+      "b": "Microtubule disruption & asymmetric division failure",
+      "c": "Glioblastoma",
+      "statement": "Mebendazole depolymerizes microtubules to disrupt asymmetric division and intracellular trafficking in glioma stem cells, forcing their exit from stemness and triggering mitotic catastrophe.",
+      "rationale": "Mebendazole crosses the blood-brain barrier and binds tubulin; we propose it selectively depletes glioblastoma stem cells by collapsing the polarized cell fate determinant distribution, distinct from its conventional anti-helminthic action.",
+      "self_novelty": "Combines microtubule-targeted stemness collapse with non-apoptotic mitotic catastrophe, offering a new mechanism unlinked to Wnt/ALDH/necroptosis pathways.",
+      "elo": 1215.0,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "微管破坏扰乱干细胞分裂合理"
+        }
+      ]
+    },
+    {
+      "a": "Fluoxetine",
+      "b": "ASM inhibition & lysosomal lipidosis + necroptosis",
+      "c": "Glioblastoma",
+      "statement": "Fluoxetine inhibits acid sphingomyelinase causing lysosomal sphingolipid accumulation and membrane permeabilization, which simultaneously blocks autophagic flux and triggers RIPK3-dependent necroptosis in apoptosis-resistant glioblastoma cells.",
+      "rationale": "Fluoxetine achieves brain-relevant concentrations and has shown off-target anti-glioma activity; we hypothesize a dual lysosomal/necroptotic crisis that converges lysosomal dysfunction with calcium-driven necroptotic execution, bypassing classical apoptosis deficits.",
+      "self_novelty": "Integrates lysosomal lipid stress and synchronized necroptotic activation in a single repurposed CNS drug, distinct from the given chloroquine-like autophagy block or digoxin-mediated Ca²⁺/calcineurin necroptosis.",
+      "elo": 1211.8399456560387,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "ASM抑制致溶酶体脂毒与necroptosis新"
+        }
+      ]
+    },
+    {
+      "a": "雷洛昔芬",
+      "b": "作为选择性雌激素受体β（ERβ）激动剂，激活ERβ后募集NCoR/HDAC3共抑制复合体至IL-6启动子区",
+      "c": "转录抑制IL-6，减少STAT3信号依赖的GBM增殖与免疫逃逸",
+      "statement": "雷洛昔芬通过激活ERβ在表观层面沉默IL-6基因，从而切断自分泌/旁分泌的STAT3致癌信号。",
+      "rationale": "GBM细胞主要表达ERβ而非ERα，雷洛昔芬结合ERβ后选择性地招募HDAC3去乙酰化组蛋白H3K27于IL-6启动子，显著下调IL-6及下游JAK2/STAT3活性。",
+      "self_novelty": "completely_novel",
+      "elo": 1204.9156489338463,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "ERβ表观沉默IL-6可行，证据待积累"
+        },
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "ERβ表观沉默IL-6抑制STAT3有合理依据"
+        },
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "ERβ表观沉默IL-6机制新"
+        }
+      ]
+    },
+    {
+      "a": "嗅隐亭",
+      "b": "多巴胺D2受体激动剂，激活肿瘤浸润CD8+ T细胞上的D2受体后抑制其Akt-mTOR通路，降低PD-1转录水平",
+      "c": "以非抗体方式抑制PD-1表达，重振T细胞杀伤功能",
+      "statement": "溴隐亭通过直接控制T细胞的内在PD-1转录，为胶质母细胞瘤提供一种非检查点阻断的免疫再激活策略。",
+      "rationale": "活化T细胞也表达D2受体，溴隐亭结合后通过cAMP信号关闭mTORC1活性，而mTORC1是PD-1转录的关键驱动者，由此降低T细胞耗竭标志物表达。",
+      "self_novelty": "completely_novel",
+      "elo": 1201.79872892158,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "T细胞内在PD-1调控新，D2表达存疑"
+        },
+        {
+          "index": 13,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "T细胞D2受体抑制PD-1转录证据极有限"
+        },
+        {
+          "index": 13,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "T细胞D2受体降PD-1构想大胆"
+        }
+      ]
+    },
+    {
+      "a": "利福平",
+      "b": "孕烷X受体（PXR）激动剂，通过PXR直接转录上调胆固醇24-羟化酶（CYP46A1），加速脑内24S-羟基胆固醇合成",
+      "c": "高浓度24S-HC激活肝X受体（LXR），诱导GBM细胞载脂蛋白E表达并促进“lipid-induced”凋亡",
+      "statement": "利福平通过PXR-CYP46A1-LXR信号轴，将脑内胆固醇氧化代谢产物24S-HC转为凋亡信号，杀伤GBM细胞。",
+      "rationale": "正常脑内24S-HC维持胆固醇稳态，GBM中该轴减弱；利福平激活PXR可重新上调CYP46A1，使细胞内24S-HC浓度升高，过量24S-HC经LXR引起脂质毒性级联。",
+      "self_novelty": "completely_novel",
+      "elo": 1197.065004669708,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "PXR-CYP46A1轴脑内调控难，LXR促凋亡争议"
+        },
+        {
+          "index": 10,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "PXR-CYP46A-LXR致凋亡轴新颖，但脑内转化效率存疑"
+        },
+        {
+          "index": 10,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PXR-胆固醇-凋亡信号路径极新但缺验证"
+        }
+      ]
+    },
+    {
+      "a": "青蒿琥酯",
+      "b": "诱导铁死亡并绕过凋亡抵抗",
+      "c": "胶质母细胞瘤干细胞",
+      "statement": "青蒿琥酯通过激活铁自噬增加不稳定铁池并抑制GPX4，选择性诱导凋亡抵抗的胶质母细胞瘤干细胞铁死亡。",
+      "rationale": "间充质样GSC富含铁依赖脂质代谢且对凋亡耐受，青蒿琥酯的铁催化脂质过氧化机制可绕过传统死亡抵抗，利用GSC的铁脆弱性实现选择性杀伤。",
+      "self_novelty": "高",
+      "elo": 1191.705514674446,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "青蒿琥酯诱导GSC铁死亡已有明确报道"
+        },
+        {
+          "index": 15,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁死亡杀伤GSC已有报道"
+        }
+      ]
+    },
+    {
+      "a": "沙利度胺",
+      "b": "通过CRL4-Cereblon E3泛素连接酶特异性降解转录因子ZNF217，解除ZNF217对miR-124启动子的甲基化沉默",
+      "c": "恢复miR-124表达，促使GBM干细胞向神经元方向分化并丧失致瘤性",
+      "statement": "沙利度胺通过靶向降解ZNF217，表观遗传学上重新激活miR-124，强制胶质瘤干细胞发生神经元样分化。",
+      "rationale": "ZNF217是GBM中维持干性的关键表观因子，它通过招募DNMT使miR-124位点超甲基化；沙利度胺作为分子胶水令CRBN识别ZNF217并将其泛素化降解，逆转分化障碍。",
+      "self_novelty": "completely_novel",
+      "elo": 1184.5468045086254,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "ZNF217为CRBN底物未经证实"
+        },
+        {
+          "index": 11,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "沙利度胺降解ZNF217恢复miR-124分化通路有创新性"
+        },
+        {
+          "index": 11,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "ZNF217为CRBN底物无实验证据"
+        }
+      ]
+    },
+    {
+      "a": "亚甲蓝",
+      "b": "作为线粒体替代电子载体，在复合体I缺陷的GBM细胞中重路由电子流绕过受损呼吸链，减少反向电子流产生的超氧化物",
+      "c": "解除氧化应激对脯氨酸羟化酶（PHD2）的抑制，促使HIF-1α降解，削弱假性缺氧驱动的代谢重编程",
+      "statement": "亚甲蓝通过优化线粒体电子传递，消除GBM细胞中因呼吸链缺陷产生的促瘤性活性氧，从而抑制HIF-1α稳定性。",
+      "rationale": "多数GBM存在复合体I功能异常并依赖HIF-1α进行糖酵解，亚甲蓝将电子直接传递给细胞色素c，降低膜电位极化产生的ROS，恢复PHD2活性促HIF-1α羟基化降解。",
+      "self_novelty": "completely_novel",
+      "elo": 1179.330507552321,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "线粒体电子优化抑制HIF-1α合理，待验证"
+        },
+        {
+          "index": 12,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "亚甲蓝纠正假性缺氧抑制HIF-1α思路巧妙"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "替代电子传递抑制伪缺氧有理据"
+        }
+      ]
+    },
+    {
+      "a": "伊曲康唑",
+      "b": "双重阻断Hedgehog与mTORC2/AKT干性轴",
+      "c": "胶质母细胞瘤干细胞",
+      "statement": "伊曲康唑同时抑制SMO驱动的Hedgehog信号和mTORC2介导的AKT磷酸化，瓦解胶质母细胞瘤干细胞的干性维持与代谢可塑性。",
+      "rationale": "GBM干细胞同时依赖Hedgehog和PI3K/AKT通路协同抵御分化，伊曲康唑作为已知可穿透血脑屏障的双靶点抑制剂，能从源头消除干性。",
+      "self_novelty": "高",
+      "elo": 1177.3964756203925,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "伊曲康唑同时抑制Hedgehog与mTORC2有实验支持"
+        },
+        {
+          "index": 16,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双重阻断干性信号文献支撑"
+        }
+      ]
+    },
+    {
+      "a": "乙酰半胱氨酸",
+      "b": "断裂胶质瘤微环境中黏蛋白（mucin）的二硫键，液化凝胶状细胞外基质并解除其对CXCL10的物理螯合",
+      "c": "促进CXCL10释放形成趋化梯度，引导CXCR3+效应T细胞浸润肿瘤实质",
+      "statement": "化痰药N-乙酰半胱氨酸通过破坏GBM胞外基质的二硫键交联结构，从物理上解除细胞因子束缚，允许T细胞向瘤内迁移。",
+      "rationale": "GBM基质富含硫化物交联的黏蛋白网络，能结合并固住带正电的CXCL10；NAC还原二硫键可瞬间释放CXCL10，重建已丢失的淋巴细胞归巢信号。",
+      "self_novelty": "completely_novel",
+      "elo": 1141.457130049524,
+      "review_score": 4.333333333333333,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "ECM二硫键液化新颖，GBM微环境不明"
+        },
+        {
+          "index": 14,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "裂解黏蛋白二硫键释放趋化因子的物理机制新颖"
+        },
+        {
+          "index": 14,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "裂解ECM二硫键释放趋化因子独特"
+        }
+      ]
+    }
+  ]
+}

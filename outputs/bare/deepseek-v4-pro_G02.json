@@ -1,0 +1,152 @@
+[
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Disulfiram",
+"B": "抑制ALDH2并激活ROS-JNK通路，诱导FTH1介导的铁自噬（ferritinophagy）",
+"C": "胶质母细胞瘤干细胞铁死亡",
+"statement": "戒酒硫通过阻断乙醛脱氢酶2造成乙醛蓄积并激活JNK，促使铁蛋白在自噬体中降解而释放游离铁，选择性杀死胶质母细胞瘤干细胞。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Mefloquine",
+"B": "抑制巨胞饮作用（macropinocytosis）关键调节因子Pak1，阻断GBM细胞对细胞外白蛋白的摄取与谷氨酰胺代偿",
+"C": "GBM细胞在谷氨酰胺缺乏下的代谢危机与凋亡",
+"statement": "甲氟喹通过抑制Pak1破坏胶质母细胞瘤细胞依赖巨胞饮摄取白蛋白来补充谷氨酰胺的能力，导致代谢崩溃。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Propranolol",
+"B": "阻断β2-AR信号导致cAMP下降，抑制SOX2转录并通过去稳定OCT4 mRNA阻断干性维持",
+"C": "GBM干细胞自我更新能力丧失",
+"statement": "普萘洛尔通过β2肾上腺素受体-cAMP-PKA轴同时下调SOX2和OCT4，瓦解胶质母细胞瘤干细胞的干性网络。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Niclosamide",
+"B": "诱导线粒体自噬受体BNIP3的过度表达，使得线粒体被大量降解后触发ATP耗竭和mTORC1失活",
+"C": "GBM细胞自噬性死亡与侵袭阻滞",
+"statement": "氯硝柳胺促使BNIP3介导的线粒体自噬过度激活，耗尽GBM细胞能量并抑制侵袭所需的mTORC1活性。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Itraconazole",
+"B": "抑制smoothened（SMO）非经典信号介导的GLI1核定位，同时阻断胆固醇酯化酶SOAT1使质膜脂筏崩解",
+"C": "GBM干细胞Hedgehog信号及EGFR内吞循环失能",
+"statement": "伊曲康唑双重打击SMO-GLI1轴与胆固醇酯化，剥夺GBM干细胞赖以生存的Hedgehog信号与EGFR循环。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Zileuton",
+"B": "抑制5-脂氧合酶（5-LOX）从而阻断LTB4-BLT2自分泌环，解除其对NF-κB下游的抗凋亡蛋白c-FLIP的转录维持",
+"C": "GBM细胞对TRAIL诱导凋亡致敏",
+"statement": "齐留通通过截断LTB4信号使c-FLIP表达下降，从而恢复胶质母细胞瘤细胞对TRAIL的凋亡敏感性。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Auranofin",
+"B": "抑制硫氧还蛋白还原酶（TXNRD1）导致PRDX3氧化失活，线粒体H2O2累积并选择性损伤GBM干细胞低储备的过氧化氢酶系统",
+"C": "GBM干细胞氧化还原崩溃",
+"statement": "金诺芬靶向线粒体硫氧还蛋白系统，使GBM干细胞因过氧化氢酶储备不足而发生选择性氧化损伤。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Secukinumab",
+"B": "中和IL-17A，破坏GBM微环境中中性粒细胞胞外陷阱(NET)形成的正反馈，减少NET释放的HMGB1所介导的TLR4-RAGE干性激活",
+"C": "GBM微环境炎症驱动的干细胞扩增终止",
+"statement": "司库奇尤单抗阻断IL-17A以瓦解中性粒细胞胞外陷阱-IL-17环路，阻止HMGB1重新激活肿瘤干细胞。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Verapamil",
+"B": "抑制P-糖蛋白外排的同时，通过L型钙通道-CaMKIIγ信号抑制自噬流衔接蛋白p62的磷酸化，导致泛素化蛋白毒性应激",
+"C": "替莫唑胺耐药GBM细胞蛋白稳态崩溃",
+"statement": "维拉帕米除抑制多药耐药外，通过CaMKIIγ-p62轴阻断保护性自噬，使耐药GBM细胞被泛素化蛋白负荷压垮。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Metformin",
+"B": "激活AMPK同时通过PP2A-B55α去磷酸化并抑制RNA解旋酶DDX3X，阻断其促进的IRES介导的c-Myc翻译",
+"C": "GBM细胞MYC驱动的代谢重编程停滞",
+"statement": "二甲双胍激活的PP2A特异性靶向DDX3X，中断c-Myc的IRES依赖性翻译，瓦解MYC转录输出。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Leflunomide",
+"B": "抑制二氢乳清酸脱氢酶(DHODH)，耗尽嘧啶池进而引发复制应激，同时由于NEDD8通路受损下调CUL1连接酶导致S-期激酶蛋白(Cyclin A, CDK2)异常累积",
+"C": "GBM细胞复制灾难(replicative catastrophe)",
+"statement": "来氟米特除阻断嘧啶合成外还破坏NEDD8-CRL泛素化，使S期激酶累积引发灾难性复制叉坍塌。",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Fluvoxamine",
+"B": "作为σ1受体激动剂，启动IRE1α-XBP1分支的未折叠蛋白反应(UPR)，同时抑制酸性鞘磷脂酶(ASM)减少溶酶体膜通透化修复，造成ER-溶酶体双重应激致死",
+"C": "GBM细胞内质网-溶酶体协同致死",
+"statement": "氟伏沙明通过σ1R启动未折叠蛋白反应并阻断ASM修复机制，同时打击内质网和溶酶体以诱导GBM细胞死亡。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Clemastine",
+"B": "拮抗组胺H1受体从而降低mTORC1活性，恢复转录因子EB(TFEB)核转位并促进对异常线粒体的自噬清除(mitophagy)",
+"C": "逆转GBM细胞Warburg效应并诱导分化",
+"statement": "氯马斯汀通过H1受体-mTOR-TFEB轴增强线粒体自噬，促使GBM细胞从糖酵解转向氧化磷酸化并丧失未分化状态。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Ribavirin",
+"B": "抑制真核翻译起始因子eIF4E，优先降低抗凋亡蛋白MCL-1和BCL-xL的帽依赖性翻译，同时增强PD-L1内部核糖体进入位点(IRES)翻译导致免疫检查点上升的矛盾表面，可联合免疫治疗",
+"C": "GBM细胞凋亡启动与免疫逃逸标记暴露",
+"statement": "利巴韦林靶向eIF4E减少MCL-1/BCL-xL使GBM细胞凋亡，同时IRES驱动的PD-L1上调成为免疫治疗新抗原暴露窗口。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G02",
+"disease": "Glioblastoma",
+"A": "Paroxetine",
+"B": "抑制G蛋白偶联受体GRK2，升高CXCR4稳定性并改变其从促存活信号向促死亡信号的偏向，通过β-arrestin-Erk1/2过度活化和线粒体Bax转位",
+"C": "GBM细胞CXCR4信号转变引发的凋亡",
+"statement": "帕罗西汀抑制GRK2导致CXCR4持续激活，使β-arrestin偏向的Erk1/2信号过度并引起线粒体Bax依赖性凋亡。",
+"self_novelty": "completely_novel"
+}
+]

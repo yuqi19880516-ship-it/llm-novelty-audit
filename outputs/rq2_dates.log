@@ -1,0 +1,21 @@
+唯一(药,病)对 287
+  20/287 Sulfasalazine→Pancreatic ducta pre2024=2 now=2
+  40/287 Fluoxetine→Inflammatory bow pre2024=9 now=11
+  60/287 Canagliflozin→Systemic lupus e pre2024=0 now=1
+  80/287 Fingolimod→Drug-resistant t pre2024=0 now=0
+  100/287 Alogliptin→Pulmonary arteri pre2024=0 now=0
+  120/287 Chloroquine→Acute myeloid le pre2024=34 now=44
+  140/287 Sitagliptin→Non-alcoholic st pre2024=10 now=10
+  160/287 Sparsentan→Pulmonary arteri pre2024=1 now=2
+  180/287 Semaglutide→Non-alcoholic st pre2024=30 now=40
+  200/287 Empagliflozin→Treatment-resist pre2024=0 now=0
+  220/287 Artemisinin→Acute myeloid le pre2024=13 now=15
+  240/287 Auranofin→Drug-resistant t pre2024=0 now=0
+  260/287 Dextromethorphan→Treatment-resist pre2024=19 now=38
+  280/287 Mometasone furoate→Acute myeloid le pre2024=0 now=0
+
+=== 分布 ===
+  pre-cutoff(2024前已共现, V3 可能知道): 202
+  post-cutoff(2024前零共现, 2024后才现): 84
+  其中 post 且现在 cooc>0 的(真·新出现): 15
+  完成 → RQ2 可行性视 post 样本量而定

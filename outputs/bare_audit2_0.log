@@ -1,0 +1,40 @@
+裸基座去重后 269 条
+  bare_deepseek-v4-pro_G09_Fluvoxamine: cooc=0 z=-0.66 L2
+  ✗ bare_deepseek-v4-pro_G09_Imatinib: HTTPError
+  bare_deepseek-v4-pro_G09_Auranofin: cooc=0 z=-0.46 L2
+  bare_deepseek-v4-pro_G09_Acetazolamide: cooc=0 z=-1.08 L2
+  bare_deepseek-v4-pro_G10_Pirfenidone: cooc=9 z=2.33 L1
+  bare_deepseek-v4-pro_G10_Dimethyl fumarate: cooc=5 z=0.79 L1
+  bare_deepseek-v4-pro_G10_Metoprolol: cooc=5 z=-2.44 L2
+  bare_deepseek-v4-pro_G10_Sildenafil: cooc=24 z=2.66 L1
+  bare_deepseek-v4-pro_G11_Niclosamide: cooc=2 z=-0.26 L2
+  bare_deepseek-v4-pro_G11_Fluvoxamine: cooc=3 z=-1.19 L2
+  bare_deepseek-v4-pro_G11_Propylthiouracil: cooc=1 z=-2.45 L2
+  bare_deepseek-v4-pro_G11_Pranlukast: cooc=2 z=1.50 L2
+  bare_qwen3.7-max_G02_Ivermectin: cooc=5 z=-2.23 L2
+  bare_qwen3.7-max_G02_Chloroquine: cooc=132 z=16.71 L1
+  bare_qwen3.7-max_G02_Thioridazine: cooc=8 z=2.34 L1
+  bare_qwen3.7-max_G03_Metformin: cooc=84 z=15.90 L1
+  bare_qwen3.7-max_G03_Ivermectin: cooc=1 z=-1.62 L2
+  bare_qwen3.7-max_G03_Captopril: cooc=1 z=-2.06 L2
+  bare_qwen3.7-max_G03_Itraconazole: cooc=1 z=-2.01 L2
+  bare_qwen3.7-max_G06_Empagliflozin: cooc=5 z=2.09 L1
+  bare_qwen3.7-max_G06_Spironolactone: cooc=20 z=8.53 L1
+  bare_qwen3.7-max_G06_Pirfenidone: cooc=13 z=10.87 L1
+  bare_qwen3.7-max_G06_Canagliflozin: cooc=4 z=2.93 L1
+  bare_qwen3.7-max_G07_Losartan: cooc=6 z=1.07 L1
+  bare_qwen3.7-max_G07_Baricitinib: cooc=6 z=5.40 L1
+  bare_qwen3.7-max_G07_Fingolimod: cooc=1 z=-0.24 L2
+  bare_qwen3.7-max_G07_Empagliflozin: cooc=2 z=0.28 L2
+  bare_qwen3.7-max_G08_Empagliflozin: cooc=13 z=13.71 L1
+  bare_qwen3.7-max_G08_Sitagliptin: cooc=10 z=11.86 L1
+  bare_qwen3.7-max_G08_Losartan: cooc=12 z=7.39 L1
+  bare_qwen3.7-max_G09_Niclosamide: cooc=0 z=-0.42 L2
+  bare_qwen3.7-max_G09_Metronidazole: cooc=3 z=0.14 L1
+  bare_qwen3.7-max_G09_Nifurtimox: cooc=0 z=-0.38 L2
+  bare_qwen3.7-max_G09_Celecoxib: cooc=1 z=-0.12 L2
+  bare_qwen3.7-max_G10_Dimethyl fumarate: cooc=5 z=0.79 L1
+  bare_qwen3.7-max_G10_Liraglutide: cooc=1 z=-2.70 L2
+  bare_qwen3.7-max_G10_Fingolimod: cooc=5 z=-0.25 L1
+  bare_qwen3.7-max_G10_Niclosamide: cooc=2 z=-0.16 L2
+shard 0 done, fail=1

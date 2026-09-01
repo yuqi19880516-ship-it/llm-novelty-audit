@@ -1,0 +1,593 @@
+{
+  "goal_id": "G12",
+  "disease_en": "Treatment-resistant depression",
+  "goal": "为难治性抑郁（Treatment-resistant depression）寻找可重定位的已上市药物及其作用机制",
+  "overview": "针对难治性抑郁，多种上市药物展现重定位潜力。米诺环素抑制MMP-9防止前额叶神经元周围网降解，改善认知与情绪；伊伐布雷定抑制HCN通道，减少外侧缰核异常放电以快速抗抑郁。替米沙坦透过血脑屏障阻断AT1受体并激活PPAR-γ，上调海马BDNF。达格列净诱导轻度酮症提升脑GABA水平以稳定神经；二甲双胍经AMPK通路抑制小胶质细胞NLRP3炎症小体。这些多靶点机制为TRD提供新策略。",
+  "hypotheses": [
+    {
+      "a": "Minocycline",
+      "b": "Inhibition of matrix metalloproteinase-9 preserving perineuronal nets in the prefrontal cortex",
+      "c": "Treatment-resistant depression",
+      "statement": "Minocycline restores cognitive and mood deficits in TRD by inhibiting MMP-9, thereby preventing the degradation of prefrontal cortex perineuronal nets.",
+      "rationale": "Shifting the focus of minocycline in TRD from general anti-inflammation to specific extracellular matrix preservation offers a novel structural plasticity hypothesis.",
+      "self_novelty": "completely_novel",
+      "elo": 1281.604532179766,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制新颖，但多项临床试验结果呈阴性。"
+        },
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "机制较新，但非特异性抗炎为主。"
+        },
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "机制视角新颖，但临床疗效存在争议。"
+        }
+      ]
+    },
+    {
+      "a": "Ivabradine",
+      "b": "HCN channel blockade in the lateral habenula reducing burst firing",
+      "c": "Treatment-resistant depression",
+      "statement": "Ivabradine exerts rapid antidepressant effects in TRD by suppressing hyperactive burst firing in the lateral habenula via HCN channel inhibition.",
+      "rationale": "Targeting the lateral habenula's anti-reward burst firing with a specific cardiac HCN blocker offers a highly specific and novel circuit-level hypothesis for TRD.",
+      "self_novelty": "completely_novel",
+      "elo": 1270.2488977981477,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "靶点新颖，但药物血脑屏障穿透性差。"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "靶点明确，但药物难穿透血脑屏障。"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "靶点新颖，但药物血脑屏障穿透力差。"
+        }
+      ]
+    },
+    {
+      "a": "Telmisartan",
+      "b": "Brain-penetrant AT1 receptor blockade and partial PPAR-gamma agonism enhancing BDNF expression",
+      "c": "Treatment-resistant depression",
+      "statement": "Telmisartan reverses TRD by crossing the blood-brain barrier to block AT1 receptors and activate PPAR-gamma, synergistically upregulating hippocampal BDNF.",
+      "rationale": "Leveraging the unique dual AT1/PPAR-gamma activity and high brain penetrance of telmisartan for neuroplasticity in TRD is a specific and testable repurposing idea.",
+      "self_novelty": "moderate",
+      "elo": 1267.523716574887,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "双重机制协同，血脑屏障穿透性良好。"
+        },
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "双靶点机制明确，入脑能力已证实。"
+        },
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "脑渗透性好，多靶点协同机制合理。"
+        }
+      ]
+    },
+    {
+      "a": "Dapagliflozin",
+      "b": "SGLT2 inhibition inducing mild ketosis and enhancing cerebral GABA synthesis",
+      "c": "Treatment-resistant depression",
+      "statement": "Dapagliflozin improves TRD symptoms by inducing a state of mild systemic ketosis, which increases cerebral GABA levels and stabilizes neural excitability.",
+      "rationale": "Linking SGLT2 inhibitor-induced ketosis to GABAergic modulation in the brain provides a novel metabolic mechanism for treating TRD without strict ketogenic diets.",
+      "self_novelty": "completely_novel",
+      "elo": 1263.1060450993245,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "假设新颖，但缺乏直接中枢机制证据。"
+        },
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "酮体假说新颖，直接抗抑郁证据少。"
+        },
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "酮体机制有潜力，需更多临床验证。"
+        }
+      ]
+    },
+    {
+      "a": "Metformin",
+      "b": "AMPK activation reducing neuroinflammation via NLRP3 inflammasome inhibition",
+      "c": "Treatment-resistant depression",
+      "statement": "Metformin adjunct therapy reverses TRD by inhibiting microglial NLRP3 inflammasome activation through AMPK pathway upregulation.",
+      "rationale": "Linking metabolic regulation of neuroinflammation specifically to TRD via the AMPK-NLRP3 axis provides a testable metabolic-psychiatric bridge.",
+      "self_novelty": "moderate",
+      "elo": 1262.7366273549007,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，但临床难治性抑郁证据不足。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，临床辅助治疗有潜力。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，临床辅助治疗有潜力。"
+        }
+      ]
+    },
+    {
+      "a": "Allopurinol",
+      "b": "Xanthine oxidase inhibition lowering uric acid and reducing purinergic P2X7 receptor activation",
+      "c": "Treatment-resistant depression",
+      "statement": "Allopurinol adjunct therapy resolves TRD by decreasing systemic uric acid levels, subsequently dampening microglial P2X7 receptor-mediated neuroinflammation.",
+      "rationale": "Connecting purine metabolism to P2X7-mediated neuroinflammation in TRD via an old gout drug is a novel metabolic-inflammatory hypothesis.",
+      "self_novelty": "completely_novel",
+      "elo": 1258.693783015888,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，已有初步临床辅助治疗证据。"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "尿酸假说有据，辅助治疗证据较好。"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "有临床试验支持，机制逻辑链条完整。"
+        }
+      ]
+    },
+    {
+      "a": "Spironolactone",
+      "b": "Mineralocorticoid receptor antagonism normalizing HPA axis hyperactivity and neurogenesis",
+      "c": "Treatment-resistant depression",
+      "statement": "Spironolactone adjunct therapy breaks SSRI resistance in TRD by blocking central mineralocorticoid receptors, thereby normalizing HPA axis feedback and restoring hippocampal neurogenesis.",
+      "rationale": "While MR antagonists are studied for depression, specifically positioning spironolactone as an adjunct to overcome SSRI resistance via HPA axis normalization in TRD is a precise clinical hypothesis.",
+      "self_novelty": "moderate",
+      "elo": 1243.458723723902,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制合理，但外周副作用及选择性受限。"
+        },
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "神经内分泌机制经典，临床证据足。"
+        },
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "内分泌机制经典，但临床结果不一致。"
+        }
+      ]
+    },
+    {
+      "a": "Pioglitazone",
+      "b": "PPAR-gamma agonism shifting microglial polarization from M1 to M2 phenotype",
+      "c": "Treatment-resistant depression",
+      "statement": "Pioglitazone overcomes SSRI resistance in TRD by driving microglial polarization towards a neuroprotective M2 phenotype via PPAR-gamma activation.",
+      "rationale": "While PPAR-gamma's role in depression is studied, specifically linking pioglitazone-induced M2 polarization to overcoming SSRI resistance in TRD is a targeted, testable hypothesis.",
+      "self_novelty": "moderate",
+      "elo": 1237.3534281294153,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "已有临床试验支持，机制与证据吻合。"
+        },
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "代谢免疫轴机制合理，有临床支持。"
+        },
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制明确，已有部分临床数据支持。"
+        }
+      ]
+    },
+    {
+      "a": "Sildenafil",
+      "b": "PDE5 inhibition enhancing cGMP-mediated hippocampal angiogenesis and neurogenesis",
+      "c": "Treatment-resistant depression",
+      "statement": "Sildenafil rescues TRD phenotypes by promoting hippocampal neurogenesis and angiogenesis via the cGMP-PKG signaling pathway.",
+      "rationale": "Repurposing a well-known vasodilator for neurovascular coupling and neurogenesis in the depressed brain is an unconventional and testable approach.",
+      "self_novelty": "completely_novel",
+      "elo": 1227.839144446813,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "临床抗抑郁疗效存在争议，证据较弱。"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "临床证据薄弱，且存在血管副作用。"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "临床证据薄弱，副作用可能限制应用。"
+        }
+      ]
+    },
+    {
+      "a": "Ozanimod",
+      "b": "S1P1 and S1P5 receptor agonism promoting oligodendrocyte precursor cell differentiation and remyelination",
+      "c": "Treatment-resistant depression",
+      "statement": "Ozanimod alleviates TRD by stimulating S1P5 receptors on oligodendrocyte precursor cells, enhancing white matter integrity and neural network connectivity.",
+      "rationale": "Targeting white matter microstructural deficits in TRD via S1P5-mediated remyelination with a newly approved S1P modulator is a cutting-edge and testable hypothesis.",
+      "self_novelty": "completely_novel",
+      "elo": 1225.0245410412263,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "靶点明确，但脱髓鞘与抑郁关联待证实。"
+        },
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "髓鞘修复视角新颖，缺乏直接证据。"
+        },
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "髓鞘机制新颖，但缺乏直接临床证据。"
+        }
+      ]
+    },
+    {
+      "a": "Dimethyl fumarate",
+      "b": "Nrf2 pathway activation mitigating oxidative stress-induced synaptic pruning",
+      "c": "Treatment-resistant depression",
+      "statement": "Dimethyl fumarate alleviates TRD by activating the Nrf2 antioxidant response, preventing oxidative stress-mediated synaptic loss in the prefrontal cortex.",
+      "rationale": "Using an approved MS drug to target the specific oxidative stress-synaptic pruning mechanism in TRD represents a novel neuroimmunological hypothesis.",
+      "self_novelty": "completely_novel",
+      "elo": 1211.6854966020746,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制明确，但血脑屏障穿透率需考量。"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制新颖，但副作用限制其应用。"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "机制新颖，但中枢渗透和疗效需验证。"
+        }
+      ]
+    },
+    {
+      "a": "Riluzole",
+      "b": "Enhancement of astrocytic glutamate uptake via EAAT2 upregulation",
+      "c": "Treatment-resistant depression",
+      "statement": "Riluzole mitigates excitotoxicity in TRD by upregulating astrocytic EAAT2 transporters, thereby clearing excess synaptic glutamate in the prefrontal cortex.",
+      "rationale": "Repurposing an ALS drug to specifically target astrocytic glutamate clearance mechanisms in the glutamatergic hypothesis of TRD is a focused and testable approach.",
+      "self_novelty": "moderate",
+      "elo": 1178.30288598403,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制明确，但临床抗抑郁疗效证据不足。"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "谷氨酸清除机制明确，有临床支持。"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制明确，但临床疗效和耐受性一般。"
+        }
+      ]
+    },
+    {
+      "a": "Ivabradine",
+      "b": "Minocycline",
+      "c": "Metformin",
+      "statement": "Metformin repurposed for TRD enhances synaptic plasticity by activating AMPK-dependent autophagy, clearing accumulated p62/SQSTM1 aggregates in hippocampal neurons.",
+      "rationale": "Beyond NLRP3 inflammasome inhibition, AMPK-induced autophagy resolves proteostatic stress implicated in chronic stress-induced dendritic spine loss in TRD.",
+      "self_novelty": "High",
+      "elo": 1171.272049349409,
+      "review_score": 1.0,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 1,
+          "correctness": 1,
+          "plausibility": 1,
+          "critique": "标题重复且错乱，描述与标题不匹配。"
+        }
+      ]
+    },
+    {
+      "a": "Ivabradine",
+      "b": "Minocycline",
+      "c": "Metformin",
+      "statement": "Ivabradine and Minocycline combination therapy synergistically alleviates TRD by simultaneously normalizing lateral habenula burst firing and preserving prefrontal cortex perineuronal nets.",
+      "rationale": "Dual targeting of HCN-mediated neuronal hyperactivity and MMP-9-driven extracellular matrix degradation addresses both circuit-level and structural deficits in TRD.",
+      "self_novelty": "High",
+      "elo": 1170.0,
+      "review_score": 1.0,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 1,
+          "correctness": 1,
+          "plausibility": 1,
+          "critique": "标题格式错误，组合机制缺乏合理性。"
+        }
+      ]
+    },
+    {
+      "a": "Acamprosate",
+      "b": "mGluR5 modulation restoring excitatory/inhibitory balance in the amygdala",
+      "c": "Treatment-resistant depression",
+      "statement": "Acamprosate reduces TRD symptom severity by normalizing amygdala hyperactivity through metabotropic glutamate receptor 5 positive allosteric modulation.",
+      "rationale": "Repurposing an alcohol dependence drug to target glutamatergic dysregulation specifically in the amygdala for TRD is a fresh perspective.",
+      "self_novelty": "completely_novel",
+      "elo": 1168.762990078781,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "机制描述有误，并非正向变构调节剂。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "靶点机制存在争议，临床证据不足。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "靶点相关，但临床抗抑郁证据有限。"
+        }
+      ]
+    },
+    {
+      "a": "Ivabradine",
+      "b": "Dapagliflozin",
+      "c": "Metformin",
+      "statement": "Combining Ivabradine and Metformin synergistically treats TRD by simultaneously dampening lateral habenula hyperactivity and suppressing microglial neuroinflammation via dual HCN/AMPK modulation.",
+      "rationale": "This combination targets both the neuronal circuit dysfunction and inflammatory components of TRD, addressing two distinct pathological mechanisms that often coexist in treatment-resistant patients.",
+      "self_novelty": "Novel combination of HCN inhibition and AMPK activation for synergistic TRD treatment targeting both neural and inflammatory pathways.",
+      "elo": 1157.6717565454596,
+      "review_score": 1.0,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 2,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "标题逻辑错乱，联合用药缺乏依据。"
+        },
+        {
+          "index": 15,
+          "novelty": 1,
+          "correctness": 1,
+          "plausibility": 1,
+          "critique": "标题逻辑混乱，药物组合缺乏依据。"
+        }
+      ]
+    },
+    {
+      "a": "Fingolimod",
+      "b": "S1P receptor modulation preventing peripheral immune cell infiltration into the CNS",
+      "c": "Treatment-resistant depression",
+      "statement": "Fingolimod improves TRD outcomes by sequestering lymphocytes in lymph nodes, thereby reducing CNS-specific autoimmune-mediated neuroinflammation.",
+      "rationale": "Applying an MS drug's peripheral immune-sequestering mechanism to the neuroinflammatory hypothesis of TRD provides a unique systemic-to-central testable pathway.",
+      "self_novelty": "completely_novel",
+      "elo": 1147.3702750360796,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "免疫抑制副作用限制其在精神科应用。"
+        },
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "机制合理，但免疫抑制限制其应用。"
+        },
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "机制合理，但免疫抑制风险限制应用。"
+        }
+      ]
+    },
+    {
+      "a": "Dextromethorphan",
+      "b": "Sigma-1 receptor agonism and NMDA antagonism modulating neuroplasticity",
+      "c": "Treatment-resistant depression",
+      "statement": "Dextromethorphan combined with bupropion can rapidly alleviate TRD symptoms via Sigma-1 and NMDA receptor modulation.",
+      "rationale": "While dextromethorphan-bupropion is approved, exploring its specific synergistic epigenetic effects on BDNF methylation in TRD subpopulations offers a novel mechanistic angle.",
+      "self_novelty": "moderate",
+      "elo": 1139.1938849768171,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "已获批抑郁症，重定位新颖性较低。"
+        },
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "已获批药物，机制明确但缺乏新意。"
+        },
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "已获批药物，机制明确但缺乏新意。"
+        }
+      ]
+    },
+    {
+      "a": "Dapagliflozin",
+      "b": "Ivabradine",
+      "c": "Metformin",
+      "statement": "Dapagliflozin repurposed for TRD enhances synaptic plasticity by promoting ketone body utilization in astrocytes, which subsequently reduces glutamate excitotoxicity and restores prefrontal cortex network stability.",
+      "rationale": "This mechanism shifts focus from neuronal GABAergic effects to astrocyte-mediated metabolic support, offering a novel cellular target for reversing TRD-associated synaptic deficits.",
+      "self_novelty": "Novel astrocyte-centric metabolic mechanism for TRD via ketone body utilization and glutamate homeostasis restoration.",
+      "elo": 1118.1512220630786,
+      "review_score": 1.0,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 2,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "标题关系错乱，单药机制描述尚可。"
+        },
+        {
+          "index": 16,
+          "novelty": 1,
+          "correctness": 1,
+          "plausibility": 1,
+          "critique": "标题与描述不符，存在明显生成错误。"
+        }
+      ]
+    }
+  ]
+}

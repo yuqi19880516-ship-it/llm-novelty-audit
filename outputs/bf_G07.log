@@ -1,0 +1,8 @@
+  ✓ deepseek-v4-pro G07 Idiopathic pulmonary fibrosis: 19 条  (累计 calls=44, in=10540, out=35662)
+[deepseek-v4-pro] 本次新跑 1 目标  calls=44  in=10540 out=35662  ≈ $0.08
+
+  跳过 qwen3.7-max G07（已存在）
+[qwen3.7-max] 本次新跑 0 目标  calls=0  in=0 out=0  ≈ $0.00
+
+=== 本次新增成本 ≈ $0.08 ===
+=== outputs/generation: 23/24 格已完成，假设总数 = 420 ===

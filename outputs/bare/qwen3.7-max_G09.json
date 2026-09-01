@@ -1,0 +1,152 @@
+[
+{
+"model": "qwen3.7-max",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "氯硝柳胺 (Niclosamide)",
+"B": "抑制分枝杆菌氧化磷酸化及ATP合成",
+"C": "增强贝达喹啉 (Bedaquiline) 对耐多药结核的杀菌效果",
+"statement": "氯硝柳胺通过耗竭ATP储备使耐药结核菌对贝达喹啉增敏。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "阿托伐醌 (Atovaquone)",
+"B": "靶向细胞色素bc1复合物并诱导氧化应激",
+"C": "逆转结核分枝杆菌对异烟肼的耐药性",
+"statement": "阿托伐醌引发的内源性ROS积累可克服异烟肼耐药菌株的抗氧化防御。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "双硫仑 (Disulfiram)",
+"B": "螯合铜离子并抑制分枝杆菌超氧化物歧化酶(SOD)",
+"C": "提高巨噬细胞内耐药结核菌的清除率",
+"statement": "双硫仑通过破坏结核菌的铜稳态和抗氧化酶系统促进胞内杀菌。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "伊维菌素 (Ivermectin)",
+"B": "结合并抑制分枝杆菌膜蛋白MmpL3",
+"C": "恢复耐药结核菌对传统抗结核药物的膜通透性",
+"statement": "伊维菌素通过阻断MmpL3介导的外排泵功能逆转多重耐药表型。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "甲硝唑 (Metronidazole) 联合 维生素C (Ascorbic acid)",
+"B": "维生素C促进甲硝唑在微需氧环境下的还原活化",
+"C": "根除处于持留态(persister)的耐药结核菌",
+"statement": "高剂量维生素C可增强甲硝唑对缺氧肉芽肿内持留菌的杀灭作用。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "氯法齐明 (Clofazimine)",
+"B": "作为电子受体干扰NADH脱氢酶(NDH-2)并产生活性氧",
+"C": "协同利奈唑胺 (Linezolid) 抑制耐药菌蛋白质合成",
+"statement": "氯法齐明引发的氧化应激可削弱核糖体功能，从而增强利奈唑胺的抑菌效果。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "地昔帕明 (Desipramine)",
+"B": "诱导巨噬细胞溶酶体酸化及自噬通量增加",
+"C": "清除胞内耐多药结核分枝杆菌",
+"statement": "三环类抗抑郁药地昔帕明通过宿主导向疗法(HDT)增强胞内杀菌。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "柳氮磺吡啶 (Sulfasalazine)",
+"B": "抑制分枝杆菌铁载体(mycobactin)合成及铁摄取",
+"C": "限制耐药结核菌在肉芽肿内的增殖",
+"statement": "柳氮磺吡啶通过剥夺铁元素抑制耐药结核菌的生长。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "硝呋莫司 (Nifurtimox)",
+"B": "被分枝杆菌硝基还原酶(Ddn)活化产生一氧化氮(NO)",
+"C": "杀灭对普托马尼 (Pretomanid) 耐药的结核菌株",
+"statement": "硝呋莫司可作为替代前药，绕过Ddn突变导致的普托马尼耐药机制。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "青蒿琥酯 (Artesunate)",
+"B": "通过铁依赖的自由基反应破坏分枝杆菌细胞膜完整性",
+"C": "增强多粘菌素类或膜活性肽对耐药菌的穿透性",
+"statement": "青蒿琥酯介导的膜损伤可使耐药结核菌对膜靶向药物增敏。",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "二甲双胍 (Metformin)",
+"B": "激活AMPK通路并抑制线粒体复合物I，降低胞内氧张力",
+"C": "诱导耐药结核菌进入对特定代谢抑制剂敏感的休眠状态",
+"statement": "二甲双胍通过宿主代谢重编程改变结核菌的微环境，使其对持留期药物敏感。",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "阿奇霉素 (Azithromycin)",
+"B": "结合分枝杆菌核糖体并抑制大环内酯外排泵",
+"C": "恢复广泛耐药结核(XDR-TB)对氨基糖苷类的敏感性",
+"statement": "阿奇霉素通过竞争性抑制外排泵，增加氨基糖苷类在耐药菌内的蓄积。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "塞来昔布 (Celecoxib)",
+"B": "抑制宿主COX-2并减少前列腺素E2(PGE2)介导的免疫抑制",
+"C": "促进Th1型免疫反应以控制耐多药结核感染",
+"statement": "塞来昔布通过调节宿主花生四烯酸代谢途径，逆转结核菌诱导的免疫逃逸。",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "氯喹 (Chloroquine)",
+"B": "中和吞噬体pH并干扰分枝杆菌ESX-1分泌系统",
+"C": "阻止耐药结核菌从吞噬体逃逸至细胞质",
+"statement": "氯喹通过阻断ESX-1介导的膜破坏，将耐药菌限制在吞噬溶酶体内。",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G09",
+"disease": "Drug-resistant tuberculosis",
+"A": "硼替佐米 (Bortezomib)",
+"B": "抑制分枝杆菌蛋白酶体(Mpa)及宿主NF-κB通路",
+"C": "诱导耐药结核菌蛋白质毒性应激并减轻组织损伤",
+"statement": "蛋白酶体抑制剂硼替佐米具有双重抗结核和抗炎作用，可治疗难治性耐药结核。",
+"self_novelty": "completely_novel"
+}
+]

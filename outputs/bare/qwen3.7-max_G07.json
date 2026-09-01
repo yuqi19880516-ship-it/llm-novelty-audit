@@ -1,0 +1,152 @@
+[
+{
+"model": "qwen3.7-max",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Metformin",
+"B": "Activation of AMPK and inhibition of mTOR signaling",
+"C": "Reduction of fibroblast proliferation and collagen deposition in IPF",
+"statement": "Metformin reduces pulmonary fibrosis by activating AMPK and inhibiting mTOR signaling.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Atorvastatin",
+"B": "Inhibition of the mevalonate pathway and RhoA/ROCK signaling",
+"C": "Attenuation of epithelial-mesenchymal transition (EMT) in IPF",
+"statement": "Atorvastatin attenuates EMT in IPF by inhibiting the mevalonate pathway and downstream RhoA/ROCK signaling.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Losartan",
+"B": "Blockade of AT1R and reduction of TGF-β1 activation",
+"C": "Decreased myofibroblast differentiation in IPF",
+"statement": "Losartan decreases myofibroblast differentiation in IPF by blocking AT1R and reducing latent TGF-β1 activation.",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Pioglitazone",
+"B": "Activation of PPARγ and suppression of Wnt/β-catenin signaling",
+"C": "Inhibition of fibroblast activation in IPF",
+"statement": "Pioglitazone inhibits fibroblast activation in IPF by activating PPARγ, which suppresses Wnt/β-catenin signaling.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Sildenafil",
+"B": "Inhibition of PDE5 and elevation of cGMP levels",
+"C": "Reduction of pulmonary vascular remodeling and fibrosis in IPF",
+"statement": "Sildenafil reduces pulmonary vascular remodeling and fibrosis in IPF by inhibiting PDE5 and elevating cGMP levels.",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Dimethyl fumarate",
+"B": "Activation of Nrf2 and enhancement of antioxidant defenses",
+"C": "Protection against oxidative stress-induced alveolar epithelial cell apoptosis in IPF",
+"statement": "Dimethyl fumarate protects against oxidative stress-induced alveolar epithelial cell apoptosis in IPF by activating Nrf2.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Baricitinib",
+"B": "Inhibition of JAK1/2 and STAT3 signaling",
+"C": "Suppression of inflammatory and fibrotic cytokine production in IPF",
+"statement": "Baricitinib suppresses inflammatory and fibrotic cytokine production in IPF by inhibiting JAK1/2 and STAT3 signaling.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Dapagliflozin",
+"B": "Inhibition of SGLT2 and reduction of systemic inflammation",
+"C": "Mitigation of lung fibrosis progression in IPF",
+"statement": "Dapagliflozin mitigates lung fibrosis progression in IPF by inhibiting SGLT2 and reducing systemic inflammation.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Spironolactone",
+"B": "Antagonism of mineralocorticoid receptors and reduction of oxidative stress",
+"C": "Attenuation of pulmonary fibrosis in IPF",
+"statement": "Spironolactone attenuates pulmonary fibrosis in IPF by antagonizing mineralocorticoid receptors and reducing oxidative stress.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Colchicine",
+"B": "Inhibition of microtubule polymerization and NLRP3 inflammasome activation",
+"C": "Reduction of neutrophil infiltration and fibrotic progression in IPF",
+"statement": "Colchicine reduces neutrophil infiltration and fibrotic progression in IPF by inhibiting microtubule polymerization and NLRP3 inflammasome activation.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Fingolimod",
+"B": "Modulation of S1P receptors and inhibition of lymphocyte egress",
+"C": "Reduction of lymphocyte-mediated lung injury and fibrosis in IPF",
+"statement": "Fingolimod reduces lymphocyte-mediated lung injury and fibrosis in IPF by modulating S1P receptors and inhibiting lymphocyte egress.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Acarbose",
+"B": "Inhibition of alpha-glucosidase and reduction of postprandial hyperglycemia",
+"C": "Decreased formation of advanced glycation end-products (AGEs) and lung fibrosis in IPF",
+"statement": "Acarbose decreases lung fibrosis in IPF by inhibiting alpha-glucosidase, reducing postprandial hyperglycemia and AGE formation.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Telmisartan",
+"B": "Dual blockade of AT1R and activation of PPARγ",
+"C": "Synergistic inhibition of fibroblast activation and inflammation in IPF",
+"statement": "Telmisartan synergistically inhibits fibroblast activation and inflammation in IPF by dually blocking AT1R and activating PPARγ.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Ruxolitinib",
+"B": "Inhibition of JAK1/2 and suppression of interferon signaling",
+"C": "Reduction of interferon-driven fibrotic responses in IPF",
+"statement": "Ruxolitinib reduces interferon-driven fibrotic responses in IPF by inhibiting JAK1/2 and suppressing interferon signaling.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G07",
+"disease": "Idiopathic pulmonary fibrosis",
+"A": "Empagliflozin",
+"B": "Inhibition of SGLT2 and activation of AMPK signaling",
+"C": "Attenuation of fibroblast metabolic reprogramming and fibrosis in IPF",
+"statement": "Empagliflozin attenuates fibroblast metabolic reprogramming and fibrosis in IPF by inhibiting SGLT2 and activating AMPK signaling.",
+"self_novelty": "completely_novel"
+}
+]

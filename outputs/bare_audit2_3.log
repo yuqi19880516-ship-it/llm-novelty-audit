@@ -1,0 +1,39 @@
+裸基座去重后 269 条
+  bare_deepseek-v4-pro_G09_Ketorolac: cooc=0 z=-0.72 L2
+  bare_deepseek-v4-pro_G09_Carbamazepine: cooc=0 z=-1.58 L2
+  bare_deepseek-v4-pro_G09_Fenofibrate: cooc=0 z=-0.76 L2
+  bare_deepseek-v4-pro_G10_Memantine: cooc=3 z=-1.78 L2
+  bare_deepseek-v4-pro_G10_Rifaximin: cooc=1 z=-1.28 L2
+  bare_deepseek-v4-pro_G10_Tofacitinib: cooc=74 z=24.87 L1
+  bare_deepseek-v4-pro_G10_Eplerenone: cooc=0 z=-1.72 L2
+  bare_deepseek-v4-pro_G11_Penfluridol: cooc=0 z=-0.71 L2
+  bare_deepseek-v4-pro_G11_Zileuton: cooc=19 z=15.36 L1
+  bare_deepseek-v4-pro_G11_Fexinidazole: cooc=0 z=-0.49 L2
+  bare_deepseek-v4-pro_G11_Tranilast: cooc=3 z=1.35 L1
+  bare_qwen3.7-max_G02_Disulfiram: cooc=60 z=21.52 L1
+  bare_qwen3.7-max_G02_Cannabidiol: cooc=73 z=17.49 L1
+  bare_qwen3.7-max_G02_Sildenafil: cooc=2 z=-2.92 L2
+  bare_qwen3.7-max_G02_Penfluridol: cooc=8 z=11.98 L1
+  bare_qwen3.7-max_G03_Losartan: cooc=12 z=3.12 L1
+  bare_qwen3.7-max_G03_Artemisinin: cooc=1 z=-1.62 L2
+  bare_qwen3.7-max_G03_Pimozide: cooc=2 z=0.85 L2
+  bare_qwen3.7-max_G06_Metformin: cooc=23 z=1.53 L1
+  bare_qwen3.7-max_G06_Dimethyl fumarate: cooc=4 z=3.04 L1
+  bare_qwen3.7-max_G06_Dapagliflozin: cooc=11 z=6.29 L1
+  bare_qwen3.7-max_G06_Atorvastatin: cooc=16 z=4.43 L1
+  bare_qwen3.7-max_G07_Atorvastatin: cooc=2 z=-1.18 L2
+  bare_qwen3.7-max_G07_Dimethyl fumarate: cooc=2 z=1.34 L2
+  bare_qwen3.7-max_G07_Colchicine: cooc=29 z=7.74 L1
+  bare_qwen3.7-max_G07_Ruxolitinib: cooc=6 z=3.68 L1
+  bare_qwen3.7-max_G08_Pioglitazone: cooc=132 z=115.32 L1
+  bare_qwen3.7-max_G08_Atorvastatin: cooc=29 z=18.19 L1
+  bare_qwen3.7-max_G08_Spironolactone: cooc=1 z=-0.36 L2
+  bare_qwen3.7-max_G08_Tirzepatide: cooc=9 z=13.82 L1
+  bare_qwen3.7-max_G09_Ivermectin: cooc=1 z=-0.18 L2
+  bare_qwen3.7-max_G09_Sulfasalazine: cooc=2 z=1.82 L2
+  bare_qwen3.7-max_G09_Azithromycin: cooc=3 z=0.76 L1
+  bare_qwen3.7-max_G10_Metformin: cooc=44 z=-2.04 L2
+  bare_qwen3.7-max_G10_Simvastatin: cooc=15 z=-1.10 L2
+  bare_qwen3.7-max_G10_Telmisartan: cooc=0 z=-2.24 L2
+  bare_qwen3.7-max_G10_Allopurinol: cooc=10 z=-1.17 L2
+shard 3 done, fail=0

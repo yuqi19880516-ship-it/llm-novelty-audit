@@ -1,0 +1,593 @@
+{
+  "goal_id": "G08",
+  "disease_en": "Non-alcoholic steatohepatitis",
+  "goal": "为非酒精性脂肪性肝炎（Non-alcoholic steatohepatitis）寻找可重定位的已上市药物及其作用机制",
+  "overview": "针对非酒精性脂肪性肝炎，多种上市药物展现重定位潜力。依折麦布抑制胆固醇吸收，降低受体介导的脂质生成与炎症；瑞舒伐他汀抑制甲羟戊酸途径，阻断肝星状细胞激活以抗纤维化；利拉鲁肽调节肠道菌群，改善肠通透性并减轻肝内毒素血症；阿卡波糖延缓碳水吸收，抑制餐后胰岛素峰值及从头脂质生成；西地那非抑制磷酸二酯酶，减轻库普弗细胞炎症与氧化应激。多靶点机制为治疗提供新策略。",
+  "hypotheses": [
+    {
+      "a": "Ezetimibe",
+      "b": "Inhibition of NPC1L1 reducing hepatic cholesterol uptake and oxysterol production",
+      "c": "Decrease in LXR-mediated lipogenesis and inflammation in NASH",
+      "statement": "Ezetimibe ameliorates NASH by inhibiting NPC1L1, reducing hepatic cholesterol and oxysterols, thereby decreasing LXR-mediated lipogenesis and inflammation.",
+      "rationale": "Ezetimibe lowers hepatic cholesterol, but its specific downstream effect on oxysterol-driven LXR activation and subsequent NASH pathology is a refined hypothesis.",
+      "self_novelty": "moderate",
+      "elo": 1303.6705805631325,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，但单药对NASH组织学改善弱。"
+        },
+        {
+          "index": 7,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制经典正确，符合胆固醇代谢。"
+        },
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，但主要靶点在肠道而非肝脏。"
+        }
+      ]
+    },
+    {
+      "a": "Rosuvastatin",
+      "b": "Inhibition of the mevalonate pathway reducing hepatic isoprenoid synthesis and Rho GTPase activity",
+      "c": "Suppression of hepatic stellate cell activation and fibrosis in NASH",
+      "statement": "Rosuvastatin suppresses NASH fibrosis by inhibiting the mevalonate pathway, reducing isoprenoid synthesis and Rho GTPase activity in hepatic stellate cells.",
+      "rationale": "Statins have pleiotropic anti-fibrotic effects, and targeting Rho GTPase via mevalonate pathway inhibition in HSCs is a specific, testable mechanism.",
+      "self_novelty": "moderate",
+      "elo": 1291.2336765192297,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制经典正确，但临床抗纤维化证据有限。"
+        },
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制明确，抗纤维化潜力受认可。"
+        },
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制经典且合理，临床回顾性证据支持。"
+        }
+      ]
+    },
+    {
+      "a": "Liraglutide",
+      "b": "Modulation of gut microbiota composition increasing short-chain fatty acid production",
+      "c": "Reduction of gut permeability and hepatic endotoxemia in NASH",
+      "statement": "Liraglutide mitigates NASH by modulating gut microbiota to increase SCFA production, reducing gut permeability and hepatic endotoxemia.",
+      "rationale": "The gut-liver axis is crucial in NASH, and GLP-1RAs' impact on microbiome-derived SCFAs and endotoxemia is a novel therapeutic hypothesis.",
+      "self_novelty": "completely_novel",
+      "elo": 1276.7522413523436,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，但非核心抗NASH机制。"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，符合肠肝轴进展。"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "肠道菌群调节为次要机制，非核心靶点。"
+        }
+      ]
+    },
+    {
+      "a": "Acarbose",
+      "b": "Delaying carbohydrate absorption reducing postprandial hepatic insulin spikes",
+      "c": "Prevention of de novo lipogenesis in NASH",
+      "statement": "Acarbose prevents NASH progression by delaying carbohydrate absorption, thus blunting postprandial hepatic insulin spikes and de novo lipogenesis.",
+      "rationale": "Alpha-glucosidase inhibitors reduce postprandial glucose/insulin, but their direct impact on hepatic de novo lipogenesis in NASH via this specific kinetic mechanism is underexplored.",
+      "self_novelty": "moderate",
+      "elo": 1271.9901441460581,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制正确，但缺NASH组织学改善证据。"
+        },
+        {
+          "index": 5,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，但组织学获益有限。"
+        },
+        {
+          "index": 5,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制合理，但缺乏NASH临床强证据。"
+        }
+      ]
+    },
+    {
+      "a": "Sildenafil",
+      "b": "PDE5 inhibition increasing cGMP activating PKG-mediated anti-inflammatory signaling in Kupffer cells",
+      "c": "Reduction of hepatic inflammation and oxidative stress in NASH",
+      "statement": "Sildenafil reduces NASH inflammation by inhibiting PDE5, increasing cGMP, and activating PKG-mediated anti-inflammatory signaling in Kupffer cells.",
+      "rationale": "PDE5 inhibitors have systemic anti-inflammatory effects, and targeting Kupffer cell cGMP/PKG signaling in NASH is a novel repurposing hypothesis.",
+      "self_novelty": "completely_novel",
+      "elo": 1260.1985202604415,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "动物模型有支持，缺临床证据及主流机制。"
+        },
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "缺乏相关证据，重定位过于牵强。"
+        },
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "机制多见于动物实验，缺乏临床转化证据。"
+        }
+      ]
+    },
+    {
+      "a": "Colchicine",
+      "b": "NLRP3 inflammasome",
+      "c": "NASH",
+      "statement": "Colchicine attenuates NASH inflammation by disrupting microtubule-dependent NLRP3 inflammasome assembly, thereby reducing caspase-1-mediated IL-1β and IL-18 release from Kupffer cells.",
+      "rationale": "As an approved anti-gout drug with proven cardiovascular benefit via NLRP3 inhibition, colchicine directly targets the lipotoxicity-triggered inflammasome pathway central to NASH progression.",
+      "self_novelty": "High—colchicine's NLRP3-targeting mechanism in NASH is distinct from the cholesterol, mevalonate, and carbohydrate pathways addressed by existing hypotheses.",
+      "elo": 1239.6880055052627,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 18,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制明确，老药新用，需更多临床验证。"
+        }
+      ]
+    },
+    {
+      "a": "Sitagliptin",
+      "b": "Inhibition of DPP-4 reducing hepatic macrophage infiltration via CXCL10 suppression",
+      "c": "Attenuation of hepatic inflammation in NASH",
+      "statement": "Sitagliptin attenuates NASH inflammation by inhibiting DPP-4, which suppresses CXCL10-mediated hepatic macrophage infiltration.",
+      "rationale": "DPP-4 inhibitors have anti-inflammatory properties, and their specific role in modulating chemokine-driven macrophage recruitment in NASH is a novel concept.",
+      "self_novelty": "completely_novel",
+      "elo": 1230.5023441778928,
+      "review_score": 2.3333333333333335,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "临床疗效不佳，DPP-4直接抗炎证据弱。"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "临床疗效有限，趋化机制存疑。"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "抑制DPP4反增CXCL10活性，逻辑矛盾。"
+        }
+      ]
+    },
+    {
+      "a": "Dimethyl fumarate",
+      "b": "Nrf2-ARE pathway",
+      "c": "NASH",
+      "statement": "Dimethyl fumarate ameliorates NASH by activating the Nrf2-ARE pathway, enhancing antioxidant defenses and suppressing NF-κB-driven hepatic inflammation.",
+      "rationale": "As an approved Nrf2 activator for multiple sclerosis, dimethyl fumarate counteracts the oxidative stress and lipid peroxidation that drive hepatocyte ballooning and inflammatory cascades in NASH.",
+      "self_novelty": "High—DMF is an approved Nrf2 activator not yet explored for NASH repositioning, targeting a distinct oxidative stress mechanism beyond the lipid and fibrosis pathways of existing hypotheses.",
+      "elo": 1215.0,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制正确，老药新用具潜力但缺临床数据。"
+        }
+      ]
+    },
+    {
+      "a": "Ursodeoxycholic acid",
+      "b": "Stabilization of mitochondrial membranes preventing cytochrome c release and apoptosis",
+      "c": "Protection of hepatocytes from lipotoxicity in NASH",
+      "statement": "Ursodeoxycholic acid protects NASH hepatocytes from lipotoxicity by stabilizing mitochondrial membranes and preventing cytochrome c release.",
+      "rationale": "UDCA's anti-apoptotic effects via mitochondrial stabilization are known in cholestasis, but its specific efficacy and mechanism in NASH lipotoxicity remain controversial and testable.",
+      "self_novelty": "moderate",
+      "elo": 1193.5596848603711,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制正确，但UDCA治NASH临床无效。"
+        },
+        {
+          "index": 9,
+          "novelty": 1,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "体外机制存在，但临床证实无效。"
+        },
+        {
+          "index": 9,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制正确，但NASH大型临床试验已失败。"
+        }
+      ]
+    },
+    {
+      "a": "Empagliflozin",
+      "b": "Reduction of oxidative stress via Nrf2 pathway activation in hepatocytes",
+      "c": "Protection against hepatocyte apoptosis in NASH",
+      "statement": "Empagliflozin protects against NASH-induced hepatocyte apoptosis by activating the Nrf2 antioxidant pathway.",
+      "rationale": "SGLT2 inhibitors have shown pleiotropic effects, and Nrf2 activation by empagliflozin in the liver is an emerging area of investigation.",
+      "self_novelty": "moderate",
+      "elo": 1193.3888902096085,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "Nrf2激活为次，核心仍是全身代谢改善。"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "抗氧化多为间接效应，非直接靶点。"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Nrf2激活多为间接效应，非核心机制。"
+        }
+      ]
+    },
+    {
+      "a": "Semaglutide",
+      "b": "GLP-1 receptor agonism suppressing hepatic stellate cell activation via cAMP signaling",
+      "c": "Reversal of liver fibrosis in NASH",
+      "statement": "Semaglutide reverses NASH-associated fibrosis by directly suppressing hepatic stellate cell activation through GLP-1R-mediated cAMP signaling.",
+      "rationale": "GLP-1RAs are known to reduce steatosis via weight loss, but direct anti-fibrotic effects on hepatic stellate cells via cAMP represent a novel mechanistic angle.",
+      "self_novelty": "moderate",
+      "elo": 1187.2991037497943,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "星状细胞GLP-1R表达存疑，多间接作用。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "靶点在肝星状细胞表达存疑。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "临床未证实逆转纤维化，直接靶点存疑。"
+        }
+      ]
+    },
+    {
+      "a": "Ezetimibe",
+      "b": "Rosuvastatin",
+      "c": "Pioglitazone",
+      "statement": "Ezetimibe and Rosuvastatin combination therapy synergistically reduces NASH progression by dual inhibition of cholesterol absorption and mevalonate pathway, suppressing both LXR-mediated lipogenesis and hepatic stellate cell activation.",
+      "rationale": "Combining NPC1L1 inhibition with HMG-CoA reductase blockade targets complementary pathways in hepatic lipid metabolism and fibrogenesis, offering enhanced therapeutic efficacy over monotherapy.",
+      "self_novelty": "High",
+      "elo": 1180.3909471626082,
+      "review_score": 2.3333333333333335,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 2,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "标题与内容药物不匹配，逻辑混乱。"
+        },
+        {
+          "index": 15,
+          "novelty": 2,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "标题药物与描述不符，联用机制本身合理。"
+        }
+      ]
+    },
+    {
+      "a": "Fenofibrate",
+      "b": "PPAR-alpha activation enhancing peroxisomal beta-oxidation of very-long-chain fatty acids",
+      "c": "Reduction of lipotoxicity and hepatocyte injury in NASH",
+      "statement": "Fenofibrate reduces NASH lipotoxicity by activating PPAR-alpha to enhance peroxisomal beta-oxidation of very-long-chain fatty acids.",
+      "rationale": "While mitochondrial beta-oxidation is well-known, the specific role of peroxisomal beta-oxidation of VLCFAs in mitigating NASH lipotoxicity via fenofibrate is less emphasized.",
+      "self_novelty": "moderate",
+      "elo": 1178.7071023449423,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制正确，但非诺贝特NASH临床已失败。"
+        },
+        {
+          "index": 8,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "机制正确，但临床疗效不显著。"
+        },
+        {
+          "index": 8,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制正确，但临床改善NASH疗效欠佳。"
+        }
+      ]
+    },
+    {
+      "a": "Pioglitazone",
+      "b": "PPAR-gamma activation promoting adiponectin secretion from adipose tissue",
+      "c": "Improvement of insulin sensitivity and reduction of hepatic inflammation in NASH",
+      "statement": "Pioglitazone improves NASH by activating PPAR-gamma to increase adiponectin, thereby reducing hepatic inflammation.",
+      "rationale": "The adiponectin-mediated anti-inflammatory effect of pioglitazone in NASH is a well-established mechanism.",
+      "self_novelty": "known",
+      "elo": 1161.3841884555638,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制与临床确凿，但属已知老药老机制。"
+        },
+        {
+          "index": 12,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制与临床证据确凿，指南推荐。"
+        },
+        {
+          "index": 12,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制明确且获指南推荐，但缺乏新颖性。"
+        }
+      ]
+    },
+    {
+      "a": "Pioglitazone",
+      "b": "Ezetimibe",
+      "c": "Rosuvastatin",
+      "statement": "Pioglitazone enhances the lipid-lowering effects of Ezetimibe and Rosuvastatin in NASH by upregulating LDL receptor expression via PPAR-gamma activation, improving hepatic lipid clearance.",
+      "rationale": "PPAR-gamma agonism increases LDLR transcription, which synergizes with statin and ezetimibe mechanisms to accelerate hepatic cholesterol uptake and reduce steatosis.",
+      "self_novelty": "Medium",
+      "elo": 1161.0070294105783,
+      "review_score": 2.0,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 2,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "上调受体证据弱，且前后逻辑不符。"
+        },
+        {
+          "index": 16,
+          "novelty": 2,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "标题混乱，PPARg上调LDLR证据不足。"
+        }
+      ]
+    },
+    {
+      "a": "Obeticholic acid",
+      "b": "FXR agonism inducing FGF19 secretion from enterocytes inhibiting hepatic CYP7A1",
+      "c": "Reduction of bile acid synthesis and hepatic inflammation in NASH",
+      "statement": "Obeticholic acid reduces NASH inflammation by activating FXR to induce FGF19, which inhibits hepatic CYP7A1 and bile acid synthesis.",
+      "rationale": "This is the primary known mechanism of action for obeticholic acid in NASH and cholestatic liver diseases.",
+      "self_novelty": "known",
+      "elo": 1157.7454882803006,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制正确，但OCA因副作用未获批NASH。"
+        },
+        {
+          "index": 14,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "机制经典正确，通路研究透彻。"
+        },
+        {
+          "index": 14,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "机制准确，但因安全性未获FDA批准。"
+        }
+      ]
+    },
+    {
+      "a": "Dapagliflozin",
+      "b": "Inhibition of SGLT2-mediated hepatic glucose uptake reducing de novo lipogenesis",
+      "c": "Attenuation of hepatic steatosis and inflammation in NASH",
+      "statement": "Dapagliflozin reduces NASH progression by inhibiting SGLT2-mediated hepatic glucose uptake and subsequent de novo lipogenesis.",
+      "rationale": "SGLT2 inhibitors lower systemic glucose, but emerging evidence suggests direct hepatic SGLT2 modulation impacts lipid metabolism independently of weight loss.",
+      "self_novelty": "moderate",
+      "elo": 1114.1311812154602,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "肝不表达SGLT2，该机制错误。"
+        },
+        {
+          "index": 0,
+          "novelty": 2,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "肝脏不表达该靶点，机制错误。"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 3,
+          "critique": "肝脏几乎不表达SGLT2，直接机制错误。"
+        }
+      ]
+    },
+    {
+      "a": "Canagliflozin",
+      "b": "Inhibition of hepatic glucagon signaling reducing glycogenolysis and lipogenesis",
+      "c": "Decrease in hepatic steatosis in NASH",
+      "statement": "Canagliflozin decreases NASH steatosis by inhibiting hepatic glucagon signaling, thereby reducing glycogenolysis and lipogenesis.",
+      "rationale": "SGLT2 inhibitors increase glucagon, but canagliflozin's specific SGLT1 inhibition in the gut/liver might modulate glucagon action differently, offering a novel mechanism.",
+      "self_novelty": "completely_novel",
+      "elo": 1111.529874525677,
+      "review_score": 1.6666666666666667,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 2,
+          "correctness": 1,
+          "plausibility": 2,
+          "critique": "SGLT2i增加胰高血糖素，机制完全相反。"
+        },
+        {
+          "index": 4,
+          "novelty": 2,
+          "correctness": 1,
+          "plausibility": 2,
+          "critique": "该药增加胰高血糖素，机制相反。"
+        },
+        {
+          "index": 4,
+          "novelty": 2,
+          "correctness": 1,
+          "plausibility": 2,
+          "critique": "SGLT2i增加而非抑制胰高血糖素分泌。"
+        }
+      ]
+    },
+    {
+      "a": "Metformin",
+      "b": "Activation of AMPK leading to enhanced mitochondrial beta-oxidation",
+      "c": "Reduction of hepatic lipid accumulation in NASH",
+      "statement": "Metformin ameliorates NASH by activating AMPK to enhance mitochondrial beta-oxidation.",
+      "rationale": "While metformin's AMPK activation is known, its specific role in reversing established NASH via direct mitochondrial beta-oxidation enhancement remains debated and context-dependent.",
+      "self_novelty": "known",
+      "elo": 1091.8209972607347,
+      "review_score": 2.0,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 1,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "机制经典，但二甲双胍未改善NASH组织。"
+        },
+        {
+          "index": 11,
+          "novelty": 1,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "机制部分正确，临床未改善病理。"
+        },
+        {
+          "index": 11,
+          "novelty": 1,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "机制经典，但临床未能改善NASH组织学。"
+        }
+      ]
+    }
+  ]
+}

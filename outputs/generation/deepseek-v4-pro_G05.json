@@ -1,0 +1,555 @@
+{
+  "goal_id": "G05",
+  "disease_en": "Alzheimer's disease",
+  "goal": "为阿尔茨海默病（Alzheimer's disease）寻找可重定位的已上市药物及其作用机制",
+  "overview": "在阿尔茨海默病药物重定位研究中，多种已上市药物展现出干预核心病理的新机制。针对Aβ代谢，泊马度胺通过靶向降解IKZF1/3，从转录水平阻断BACE1表达，从源头减少Aβ生成；罗格列酮则通过PPARγ介导的LRP1上调，增强Aβ跨血脑屏障清除而非减少其产生。达格列净在纠正脑胰岛素抵抗的同时，恢复线粒体功能与自噬，兼具减少Aβ生成和改善能量代谢的双重作用。特立帕肽利用低剂量间断给药，协同骨源性与中枢Wnt信号清除Aβ并修复突触损伤，从而减缓认知衰退。在tau病理方面，沙芬酰胺通过稳定神经元电活动并促进受损线粒体清除，抑制CDK5异常活化，阻断tau过度磷酸化与神经元凋亡。这些药物从Aβ产生、清除及tau毒性等多维度切入，为阿尔茨海默病的治疗开辟了老药新用的新途径。",
+  "hypotheses": [
+    {
+      "a": "沙芬酰胺（Safinamide）",
+      "b": "抑制MAO-B，同时阻断电压门控钠通道，降低神经元的过度兴奋性，并激活线粒体自噬",
+      "c": "减少tau激酶CDK5的异常活化和神经元丢失",
+      "statement": "沙芬酰胺通过稳定神经元电活动和促进受损线粒体清除，双重遏制tau过度磷酸化和细胞凋亡。",
+      "rationale": "AD早期即出现海马过度兴奋和线粒体功能障碍，沙芬酰胺的双重机制同时针对这两个病理上游信号。",
+      "self_novelty": "completely_novel",
+      "elo": 1289.0245656161746,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "钠通道和线粒体自噬双重机制有潜力但证据弱"
+        },
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "CDK5调节机制间接，神经保护证据欠佳"
+        },
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "MAO-B/钠通道与CDK5关联机制链路过长，需更直接证据。"
+        }
+      ]
+    },
+    {
+      "a": "罗格列酮（Rosiglitazone）",
+      "b": "激动PPARγ，促进脑内皮细胞LRP1表达，加速Aβ通过血脑屏障排出",
+      "c": "降低脑脊液中Aβ42水平",
+      "statement": "罗格列酮通过PPARγ介导的LRP1上调，增强Aβ的跨血脑屏障清除，而非减少其产生。",
+      "rationale": "AD患者脑毛细血管LRP1表达下降，PPARγ激动剂可恢复LRP1，既往试验未评估Aβ清除率这一药效终点。",
+      "self_novelty": "moderate",
+      "elo": 1280.0183151150693,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 2,
+          "critique": "LRP1上调促进清除，但罗格列酮临床试验已失败"
+        },
+        {
+          "index": 6,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 2,
+          "critique": "已有临床试验未达终点，心血管风险高"
+        },
+        {
+          "index": 6,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PPARγ-LRP1通路较熟知，但临床中Aβ42降低效果存在争议。"
+        }
+      ]
+    },
+    {
+      "a": "达格列净（Dapagliflozin）",
+      "b": "抑制SGLT2，降低脑内局部胰岛素抵抗，同时增强酮体供能并抑制mTORC1过度活化",
+      "c": "恢复神经元能量代谢并减少Aβ生成",
+      "statement": "达格列净通过纠正脑胰岛素抵抗和代谢开关，重建神经元线粒体功能与自噬，从而减少Aβ产生。",
+      "rationale": "SGLT2在脑内功能损伤与AD风险相关，该药可透过血脑屏障，其增强酮体利用和抑制mTORC1的作用正好针对AD的代谢缺陷。",
+      "self_novelty": "completely_novel",
+      "elo": 1274.354467207026,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "SGLT2在中枢表达低，但代谢开关机制较合理"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "脑内SGLT2分布和胰岛素抵抗贡献存疑"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "脑胰岛素抵抗假说合理，SGLT2脑内分布和效力待确认。"
+        }
+      ]
+    },
+    {
+      "a": "特立帕肽（Teriparatide）",
+      "b": "激活PTH1R受体，上调脑内Wnt信号通路，减少β-淀粉样蛋白沉积并促进突触可塑性",
+      "c": "减缓认知衰退",
+      "statement": "间断性低剂量特立帕肽通过促进骨源性和中枢Wnt信号协同作用，清除Aβ并修复突触损伤，从而改善阿尔茨海默病认知功能。",
+      "rationale": "PTH1R在脑内表达，Wnt通路在AD中受抑，特立帕肽已知可激活该通路且能穿过血脑屏障，其骨形成作用提示可能间接调节全身与脑代谢。",
+      "self_novelty": "completely_novel",
+      "elo": 1259.4293862186748,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "骨源性Wnt如何入脑尚存疑，低剂量间歇给药证据不足"
+        },
+        {
+          "index": 0,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "中枢Wnt激活与Aβ清除的证据链不充分"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "PTH1R-Wnt协同假说新颖，但中枢Wnt上调证据仍间接。"
+        }
+      ]
+    },
+    {
+      "a": "泊马度胺（Pomalidomide）",
+      "b": "作为CRBN泛素连接酶调节剂，降解转录因子IKZF1/3，从而抑制BACE1基因转录",
+      "c": "减少Aβ产生",
+      "statement": "泊马度胺通过靶向降解IKZF1/3，从转录水平阻断BACE1表达，从源头减少Aβ生成。",
+      "rationale": "IKZF1/3是BACE1启动子的正调控因子，在AD脑中上调；泊马度胺具有良好脑渗透性，利用PROTAC机制降解转录因子可精准抑制BACE1。",
+      "self_novelty": "completely_novel",
+      "elo": 1247.9880353090477,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "CRBN配体降解IKZF1/3影响BACE1的直接证据少"
+        },
+        {
+          "index": 5,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "IKZF1/3调控BACE1转录的文献支持匮乏"
+        },
+        {
+          "index": 5,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "IKZF1/3降解调控BACE1创意极强，但缺少神经元CRBN表达验证。"
+        }
+      ]
+    },
+    {
+      "a": "氯硝柳胺（Niclosamide）",
+      "b": "抑制S100A8/A9-TLR4轴，解除其对神经突生长的排斥效应并促进微管稳定性",
+      "c": "防止tau蛋白聚集和轴突运输障碍",
+      "statement": "氯硝柳胺通过阻断S100A8/A9与TLR4的结合，清除tau相关神经毒性微环境，保护微管完整性。",
+      "rationale": "S100A8/A9在AD脑中显著升高且与tau病理正相关，氯硝柳胺已作为该轴的抑制剂用于肿瘤，可进入脑内并调节神经免疫。",
+      "self_novelty": "moderate",
+      "elo": 1245.539610106688,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "S100A8/A9-TLR4在AD中证据有限，靶向新颖"
+        },
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "S100A8/A9-TLR4在tau病变中人体验证不足"
+        },
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "S100A8/A9-TLR4在tau病中角色新颖，但药物脑内暴露量未知。"
+        }
+      ]
+    },
+    {
+      "a": "非布司他（Febuxostat）",
+      "b": "抑制黄嘌呤氧化酶，降低脑内尿酸池的氧化应激并拮抗NLRP3炎性小体组装",
+      "c": "减轻神经炎症和tau蛋白过度磷酸化",
+      "statement": "非布司他通过双重抑制氧化应激和NLRP3炎性小体，阻断tau病理性磷酸化的正反馈炎症环路。",
+      "rationale": "黄嘌呤氧化酶在AD患者脑内高表达，尿酸可激活NLRP3，非布司他作为强效XO抑制剂已显示在血管性认知损害中的抗炎效应。",
+      "self_novelty": "completely_novel",
+      "elo": 1235.6522018340788,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "尿酸有抗氧化性，降低尿酸或加重氧化损伤"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "抑制XO可减少ROS，但尿酸降低可能不利"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "NLRP3-氧化应激双重靶向逻辑扎实，但血脑屏障穿透性需明确。"
+        }
+      ]
+    },
+    {
+      "a": "塞来昔布（Celecoxib）",
+      "b": "选择性抑制COX-2，降低PGE2水平，从而去阻遏微胶质细胞的TREM2介导的Aβ吞噬作用",
+      "c": "降低脑内不可溶性Aβ斑块负荷",
+      "statement": "塞来昔布通过抑制PGE2-EP2信号，解除对TREM2通路的负调控，恢复微胶质细胞清除Aβ的能力。",
+      "rationale": "AD中PGE2升高通过EP2受体抑制TREM2表达，COX-2抑制剂可逆转此效应；既往试验失败源于未筛选早期患者且未以TREM2状态分层。",
+      "self_novelty": "moderate",
+      "elo": 1224.9676815000585,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "COX-2抑制临床失败，TREM2负调控机制不明确"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 2,
+          "critique": "临床失败，COX-2抑制脑内免疫环境复杂"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "COX-2与TREM2的互作机制较新，但体内微胶质细胞验证不足。"
+        }
+      ]
+    },
+    {
+      "a": "西地那非（Sildenafil）",
+      "b": "抑制PDE5，升高cGMP，激活PKG，从而磷酸化Peroxiredoxin-6并增强其修复过氧化脂质的能力",
+      "c": "减轻铁死亡介导的神经元损伤",
+      "statement": "西地那非通过PKG依赖性激活Prdx6，消除脂质过氧化物，阻断铁死亡执行阶段。",
+      "rationale": "AD脑内铁沉积和脂质过氧化显著，铁死亡是其步骤；Prdx6是cGMP/PKG靶点，具有独特PLA2活性修复膜磷脂。",
+      "self_novelty": "completely_novel",
+      "elo": 1203.519628267848,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "铁死亡在AD中贡献未定，Prdx6激活机制存疑"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "Prdx6磷酸化介导铁死亡抵抗待体内验证"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Prdx6修复脂质过氧化物通路可信，但PDE5神经保护证据有限。"
+        }
+      ]
+    },
+    {
+      "a": "特比萘芬（Terbinafine）",
+      "b": "抑制角鲨烯环氧化酶，积累角鲨烯激活转录因子EB（TFEB），增强神经元自噬-溶酶体途径清除磷酸化tau",
+      "c": "减少NFT形成和传播",
+      "statement": "特比萘芬通过角鲨烯累积模拟溶酶体应激信号，诱导TFEB核转位，增强对病理性tau的自噬清除。",
+      "rationale": "角鲨烯可激活TFEB，而特比萘芬强效升高胞内角鲨烯水平，且能跨过血脑屏障，有望选择性促进tau降解。",
+      "self_novelty": "completely_novel",
+      "elo": 1198.9976541734222,
+      "review_score": 4.333333333333333,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "角鲨烯激活TFEB自噬清除tau，思路新颖证据初现"
+        },
+        {
+          "index": 14,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "角鲨烯激活TFEB的神经元特异性机制不明"
+        },
+        {
+          "index": 14,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "角鲨烯累积激活TFEB创意性高，符合溶酶体应激新概念。"
+        }
+      ]
+    },
+    {
+      "a": "米诺环素 (Minocycline)",
+      "b": "阻断TLR4炎症通路并诱导线粒体自噬以保护神经元",
+      "c": "阿尔茨海默病",
+      "statement": "米诺环素通过抑制小胶质细胞TLR4介导的神经炎症并促进受损线粒体自噬清除，双重阻断tau蛋白的神经毒性微环境和神经元能量衰竭。",
+      "rationale": "米诺环素可拮抗TLR4下游信号和NLRP3炎症小体，同时激活PINK1/Parkin介导的线粒体自噬，组合了氯硝柳胺的抗神经炎症和沙芬酰胺的线粒体保护机制。",
+      "self_novelty": "high",
+      "elo": 1189.654186933953,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "TLR4/线粒体自噬机制已知，老药新用有前景"
+        },
+        {
+          "index": 16,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "TLR4/线粒体自噬双重路径经典，临床转化受限于长期安全性。"
+        }
+      ]
+    },
+    {
+      "a": "坎格列净（Canagliflozin）",
+      "b": "抑制乙酰胆碱酯酶和丁酰胆碱酯酶的淀粉样蛋白聚集伴侣活性，而非单纯提升ACh水平",
+      "c": "抑制Aβ42原纤维的形成",
+      "statement": "坎格列净直接与胆碱酯酶的外周阴离子位点结合，阻止其加速Aβ聚集，发挥抗淀粉样蛋白分子伴侣活性。",
+      "rationale": "SGLT2抑制剂结构可模拟胆碱酯酶抑制剂，且已报道能与AChE的PAS结合，该结合可阻断Aβ成核。",
+      "self_novelty": "completely_novel",
+      "elo": 1185.6897843066283,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "胆碱酯酶外周位点聚集伴侣活性新发现，待验证"
+        },
+        {
+          "index": 8,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "ChE外周阴离子位点结合直接抑制聚集证据少"
+        },
+        {
+          "index": 8,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "胆碱酯酶伴侣活性假说新颖，但坎格列净脑浓度可能不足。"
+        }
+      ]
+    },
+    {
+      "a": "氟西汀 (Fluoxetine)",
+      "b": "激活Wnt/β-catenin并增强自噬以清除Aβ和tau",
+      "c": "阿尔茨海默病",
+      "statement": "氟西汀通过同时激活Wnt/β-catenin信号通路和增强神经元自噬流，协同促进β-淀粉样蛋白的清除并减少tau过度磷酸化，从而减缓阿尔茨海默病进展。",
+      "rationale": "氟西汀已知可上调Wnt通路的活性以促进突触修复，并能通过自噬-溶酶体途径增强蛋白质聚集体降解，其双重作用可靶向阿尔茨海默病的两大病理标志。",
+      "self_novelty": "high",
+      "elo": 1184.7468870787661,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "已有充分研究，非新假说，但较可靠"
+        },
+        {
+          "index": 15,
+          "novelty": 1,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "Wnt/自噬协同机制已知，氟西汀抗Aβ作用多效但不特异。"
+        }
+      ]
+    },
+    {
+      "a": "哌米膦酸（Zoledronic acid）",
+      "b": "抑制FPP合成酶，减少小G蛋白异戊二烯化，抑制RhoA-ROCK介导的星形胶质细胞A1型反应性转化",
+      "c": "保护突触免受反应性星形胶质细胞损伤",
+      "statement": "哌米膦酸通过阻断小G蛋白的焦磷酸法尼酯修饰，阻止星形胶质细胞向神经毒性表型转化。",
+      "rationale": "反应性星形胶质细胞A1型转化依赖RhoA-ROCK，氨基双膦酸盐可抑制该通路的异戊二烯化修饰，且能缓慢入脑。",
+      "self_novelty": "completely_novel",
+      "elo": 1183.1455353691513,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "星形胶质A1表型转化假说新颖，但二磷酸盐CNS渗透差"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 1,
+          "critique": "双膦酸盐入脑极微量，中枢作用难以实现"
+        },
+        {
+          "index": 12,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "星形胶质A1表型转化靶点独特，但双膦酸盐脑渗透性极差。"
+        }
+      ]
+    },
+    {
+      "a": "二甲双胍（Metformin）",
+      "b": "抑制线粒体复合体I，触发AMPK非依赖性的ATG5赖氨酸乙酰化，增强小胶质细胞选择性自噬降解NLRP3",
+      "c": "抑制慢性神经炎症",
+      "statement": "二甲双胍通过乙酰化ATG5，精准驱动NLRP3炎性小体的自噬降解，不干扰整体免疫监视。",
+      "rationale": "慢性低度神经炎症需要选择性降解NLRP3，二甲双胍已知可影响乙酰化修饰，且能在脑内累积。",
+      "self_novelty": "moderate",
+      "elo": 1170.5706137813252,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "二甲双胍抗炎自噬降解NLRP3证据充分，但AD转化难"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "AMPK非依赖路径的作用剂量及时程不明"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "ATG5乙酰化选择性自噬机制精巧，但AD模型验证仍初步。"
+        }
+      ]
+    },
+    {
+      "a": "丙磺舒（Probenecid）",
+      "b": "抑制Pannexin-1通道释放的ATP，减少P2X7受体过度激活导致的IL-1β成熟",
+      "c": "降低海马体IL-1β含量并改善长时程增强",
+      "statement": "丙磺舒通过阻断Pannexin-1介导的ATP释放，消除NLRP3炎性小体的P2X7依赖性激活。",
+      "rationale": "AD脑中Pannexin-1上调且与突触缺失关系明确，丙磺舒已知可抑制该通道并具有脑内分布。",
+      "self_novelty": "moderate",
+      "elo": 1163.8816432319857,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "Pannexin-1/P2X7/IL-1β轴机制明确，但丙磺舒选择性低"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "Pannexin-1抑制的脱靶效应与慢性用药受限"
+        },
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Pannexin-1/P2X7/NLRP3轴逻辑清楚，但丙磺舒中枢分布有限。"
+        }
+      ]
+    },
+    {
+      "a": "熊去氧胆酸（Ursodeoxycholic acid）",
+      "b": "激活TGR5受体，提高cAMP，抑制胆固醇酰基转移酶ACAT1，减少Aβ生成的脂筏聚集",
+      "c": "降低神经元Aβ产量",
+      "statement": "UDCA通过TGR5-cAMP通路，重塑脂筏胆固醇微环境，使BACE1与APP隔离。",
+      "rationale": "ACAT1是胆固醇酯化并进入脂筏的关键酶，抑制其可减少Aβ产生；UDCA作为TGR5激动剂已进入脑并调节脂代谢。",
+      "self_novelty": "completely_novel",
+      "elo": 1157.8198039501024,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "TGR5-cAMP-ACAT1通路合理，脂筏假说待体内验证"
+        },
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "TGR5激动剂的脑内效应与药代参数未知"
+        },
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "脂筏胆固醇隔离BACE1思路新颖，但TGR5脑内作用需证实。"
+        }
+      ]
+    }
+  ]
+}

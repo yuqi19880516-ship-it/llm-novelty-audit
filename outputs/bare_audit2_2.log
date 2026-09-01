@@ -1,0 +1,39 @@
+裸基座去重后 269 条
+  bare_deepseek-v4-pro_G09_Metformin: cooc=4 z=-0.36 L1
+  bare_deepseek-v4-pro_G09_Propranolol: cooc=3 z=-0.83 L1
+  bare_deepseek-v4-pro_G09_Naltrexone: cooc=0 z=-1.09 L2
+  bare_deepseek-v4-pro_G09_Verapamil: cooc=11 z=4.32 L1
+  bare_deepseek-v4-pro_G10_Denosumab: cooc=13 z=1.06 L1
+  bare_deepseek-v4-pro_G10_Bromocriptine: cooc=41 z=8.13 L1
+  bare_deepseek-v4-pro_G10_Metformin: cooc=44 z=-2.04 L2
+  bare_deepseek-v4-pro_G11_Disulfiram: cooc=5 z=-0.99 L1
+  bare_deepseek-v4-pro_G11_Miglustat: cooc=0 z=-0.92 L2
+  bare_deepseek-v4-pro_G11_Amisulpride: cooc=2 z=-0.40 L2
+  bare_deepseek-v4-pro_G11_Raloxifene: cooc=4 z=-1.15 L2
+  bare_qwen3.7-max_G02_Atorvastatin: cooc=27 z=2.36 L1
+  bare_qwen3.7-max_G02_Artemisinin: cooc=10 z=-0.84 L1
+  bare_qwen3.7-max_G02_Valproic Acid: cooc=137 z=29.24 L1
+  bare_qwen3.7-max_G02_Pimozide: cooc=24 z=11.44 L1
+  bare_qwen3.7-max_G03_Chloroquine: cooc=56 z=13.07 L1
+  bare_qwen3.7-max_G03_Disulfiram: cooc=6 z=2.68 L1
+  bare_qwen3.7-max_G03_Auranofin: cooc=8 z=8.19 L1
+  bare_qwen3.7-max_G03_Sulfasalazine: cooc=2 z=-0.12 L2
+  bare_qwen3.7-max_G06_Baricitinib: cooc=0 z=-1.05 L2
+  bare_qwen3.7-max_G06_Fingolimod: cooc=2 z=0.35 L2
+  bare_qwen3.7-max_G06_Liraglutide: cooc=3 z=0.27 L1
+  bare_qwen3.7-max_G07_Metformin: cooc=29 z=4.18 L1
+  bare_qwen3.7-max_G07_Sildenafil: cooc=42 z=21.71 L1
+  bare_qwen3.7-max_G07_Spironolactone: cooc=1 z=-1.15 L2
+  bare_qwen3.7-max_G07_Telmisartan: cooc=0 z=-1.07 L2
+  bare_qwen3.7-max_G08_Semaglutide: cooc=40 z=41.57 L1
+  bare_qwen3.7-max_G08_Metformin: cooc=88 z=31.84 L1
+  bare_qwen3.7-max_G08_Canagliflozin: cooc=7 z=10.40 L1
+  bare_qwen3.7-max_G08_Obeticholic acid: cooc=101 z=250.28 L1
+  bare_qwen3.7-max_G09_Disulfiram: cooc=1 z=0.56 L2
+  bare_qwen3.7-max_G09_Desipramine: cooc=1 z=0.25 L2
+  bare_qwen3.7-max_G09_Metformin: cooc=4 z=-0.36 L1
+  bare_qwen3.7-max_G09_Bortezomib: cooc=0 z=-1.25 L2
+  bare_qwen3.7-max_G10_Empagliflozin: cooc=3 z=-1.58 L2
+  bare_qwen3.7-max_G10_Acamprosate: cooc=0 z=-1.29 L2
+  bare_qwen3.7-max_G10_Riluzole: cooc=0 z=-1.87 L2
+shard 2 done, fail=0

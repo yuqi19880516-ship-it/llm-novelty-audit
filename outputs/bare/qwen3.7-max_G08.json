@@ -1,0 +1,152 @@
+[
+{
+"model": "qwen3.7-max",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "Dapagliflozin (SGLT2 inhibitor)",
+"B": "Reduces hepatic de novo lipogenesis via AMPK activation and SREBP-1c suppression",
+"C": "Ameliorates steatosis and inflammation in NASH",
+"statement": "Dapagliflozin repurposing for NASH works by inhibiting SREBP-1c-mediated lipogenesis through AMPK activation.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "Semaglutide (GLP-1 RA)",
+"B": "Enhances hepatic autophagy via TFEB nuclear translocation",
+"C": "Clears lipid droplets and reduces hepatocyte ballooning in NASH",
+"statement": "Semaglutide reduces NASH severity by promoting TFEB-mediated hepatic autophagy and lipid droplet clearance.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "Pioglitazone (PPARγ agonist)",
+"B": "Shifts Kupffer cell polarization from M1 to M2 via adiponectin upregulation",
+"C": "Resolves hepatic inflammation and fibrosis in NASH",
+"statement": "Pioglitazone resolves NASH inflammation by driving M2 Kupffer cell polarization through adiponectin elevation.",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "Empagliflozin (SGLT2 inhibitor)",
+"B": "Decreases hepatic oxidative stress by upregulating Nrf2/HO-1 pathway",
+"C": "Prevents hepatocyte apoptosis and NASH progression",
+"statement": "Empagliflozin prevents NASH progression by activating the Nrf2/HO-1 antioxidant pathway in hepatocytes.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "Liraglutide (GLP-1 RA)",
+"B": "Inhibits hepatic stellate cell (HSC) activation via TGF-β/Smad3 signaling blockade",
+"C": "Attenuates liver fibrosis in NASH",
+"statement": "Liraglutide attenuates NASH fibrosis by directly blocking TGF-β/Smad3 signaling in hepatic stellate cells.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "Metformin (Biguanide)",
+"B": "Modulates gut microbiota to increase secondary bile acids, activating hepatic FXR",
+"C": "Improves hepatic lipid metabolism and reduces NASH steatosis",
+"statement": "Metformin improves NASH by altering gut microbiota to produce FXR-activating secondary bile acids.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "Atorvastatin (Statin)",
+"B": "Inhibits the mevalonate pathway, reducing RhoA/ROCK-mediated HSC contraction and activation",
+"C": "Reduces portal hypertension and liver fibrosis in NASH",
+"statement": "Atorvastatin reduces NASH fibrosis and portal pressure by inhibiting RhoA/ROCK signaling in hepatic stellate cells.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "Sitagliptin (DPP-4 inhibitor)",
+"B": "Enhances GLP-1 and GIP signaling to suppress hepatic NF-κB inflammatory pathway",
+"C": "Reduces lobular inflammation and hepatocyte ballooning in NASH",
+"statement": "Sitagliptin reduces NASH inflammation by amplifying incretin signaling to suppress hepatic NF-κB activation.",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "Fenofibrate (PPARα agonist)",
+"B": "Promotes mitochondrial β-oxidation and reduces lipotoxic ceramide accumulation",
+"C": "Alleviates lipotoxicity-induced ER stress and NASH progression",
+"statement": "Fenofibrate alleviates NASH by enhancing mitochondrial β-oxidation to clear lipotoxic ceramides.",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "Canagliflozin (SGLT2 inhibitor)",
+"B": "Induces FGF21 secretion from the liver via mild ketogenesis",
+"C": "Improves hepatic steatosis and systemic insulin resistance in NASH",
+"statement": "Canagliflozin improves NASH by inducing hepatic FGF21 production through mild ketosis.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "Spironolactone (Mineralocorticoid receptor antagonist)",
+"B": "Blocks aldosterone-induced macrophage infiltration and hepatic oxidative stress",
+"C": "Reduces hepatic inflammation and fibrosis in NASH",
+"statement": "Spironolactone reduces NASH severity by blocking mineralocorticoid receptor-mediated macrophage infiltration and oxidative stress.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "Losartan (ARB)",
+"B": "Inhibits angiotensin II-induced TGF-β1 release from HSCs",
+"C": "Attenuates liver fibrosis progression in NASH",
+"statement": "Losartan attenuates NASH fibrosis by blocking angiotensin II-mediated TGF-β1 production in hepatic stellate cells.",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "Acarbose (Alpha-glucosidase inhibitor)",
+"B": "Delays carbohydrate absorption, reducing postprandial GLP-1 degradation and hepatic lipogenesis",
+"C": "Decreases hepatic steatosis and NASH risk",
+"statement": "Acarbose decreases NASH steatosis by blunting postprandial glucose spikes and subsequent hepatic de novo lipogenesis.",
+"self_novelty": "moderate"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "Obeticholic acid (FXR agonist)",
+"B": "Inhibits CYP7A1 to reduce bile acid synthesis and alters bile acid pool composition",
+"C": "Reduces hepatic inflammation and fibrosis in NASH",
+"statement": "Obeticholic acid treats NASH by modulating bile acid synthesis and pool composition via FXR-mediated CYP7A1 inhibition.",
+"self_novelty": "known"
+},
+{
+"model": "qwen3.7-max",
+"goal_id": "G08",
+"disease": "Non-alcoholic steatohepatitis",
+"A": "Tirzepatide (Dual GIP/GLP-1 RA)",
+"B": "Synergistically enhances hepatic insulin sensitivity and reduces ER stress via dual incretin receptor activation",
+"C": "Rapidly resolves steatohepatitis and improves fibrosis markers in NASH",
+"statement": "Tirzepatide rapidly resolves NASH by synergistically reducing hepatic ER stress and improving insulin sensitivity via dual GIP/GLP-1 receptor activation.",
+"self_novelty": "moderate"
+}
+]

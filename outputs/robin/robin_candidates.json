@@ -1,0 +1,190 @@
+[
+  {
+    "drug": "Avacincaptad pegol",
+    "strength": 0.6644788531002918
+  },
+  {
+    "drug": "Risuteganib",
+    "strength": 0.5758458469573289
+  },
+  {
+    "drug": "Elamipretide",
+    "strength": 0.5408110654732619
+  },
+  {
+    "drug": "Pegcetacoplan",
+    "strength": 0.521351138463146
+  },
+  {
+    "drug": "MCC950",
+    "strength": 0.49167799799536227
+  },
+  {
+    "drug": "Metformin",
+    "strength": 0.4448874205138246
+  },
+  {
+    "drug": "Lutein",
+    "strength": 0.3768280925137623
+  },
+  {
+    "drug": "Nicotinamide Mononucleotide",
+    "strength": 0.3457746578354038
+  },
+  {
+    "drug": "Metformin hydrochloride",
+    "strength": 0.33648067531217174
+  },
+  {
+    "drug": "Fenofibrate",
+    "strength": 0.3225603620984135
+  },
+  {
+    "drug": "Alda-1",
+    "strength": 0.2688866261848557
+  },
+  {
+    "drug": "Recombinant human Gas6",
+    "strength": 0.26649506286284447
+  },
+  {
+    "drug": "SkQ1",
+    "strength": 0.2547069806330599
+  },
+  {
+    "drug": "Tauroursodeoxycholic acid",
+    "strength": 0.2482005722985146
+  },
+  {
+    "drug": "Dimethyl fumarate",
+    "strength": 0.22896189688484336
+  },
+  {
+    "drug": "Docosahexaenoic acid",
+    "strength": 0.2164729381216809
+  },
+  {
+    "drug": "Sulforaphane",
+    "strength": 0.20147763408707392
+  },
+  {
+    "drug": "Fenretinide",
+    "strength": 0.17884792404602878
+  },
+  {
+    "drug": "Omaveloxolone",
+    "strength": 0.1515714555308712
+  },
+  {
+    "drug": "Ataluren",
+    "strength": 0.10182353865764751
+  },
+  {
+    "drug": "MitoQ",
+    "strength": 0.09947050695005621
+  },
+  {
+    "drug": "Everolimus",
+    "strength": 0.08745701545631744
+  },
+  {
+    "drug": "AICAR",
+    "strength": 0.04407906422381501
+  },
+  {
+    "drug": "Recombinant human MFG-E8",
+    "strength": 0.0385838001856804
+  },
+  {
+    "drug": "VX-765",
+    "strength": 0.026975953849076237
+  },
+  {
+    "drug": "Trehalose",
+    "strength": 0.01805224765600181
+  },
+  {
+    "drug": "Anakinra",
+    "strength": -0.020075466632930153
+  },
+  {
+    "drug": "Dapansutrile",
+    "strength": -0.025710960687565648
+  },
+  {
+    "drug": "Bardoxolone methyl",
+    "strength": -0.07173212353129048
+  },
+  {
+    "drug": "Humanin",
+    "strength": -0.11315747653577941
+  },
+  {
+    "drug": "SR9009",
+    "strength": -0.13234213030762887
+  },
+  {
+    "drug": "Rapamycin",
+    "strength": -0.1534180480794387
+  },
+  {
+    "drug": "Eculizumab",
+    "strength": -0.15393272041683964
+  },
+  {
+    "drug": "BGP-15",
+    "strength": -0.17527520619396275
+  },
+  {
+    "drug": "Canakinumab",
+    "strength": -0.19938586077415354
+  },
+  {
+    "drug": "Trodusquemine",
+    "strength": -0.21889498678826436
+  },
+  {
+    "drug": "AZ10606120",
+    "strength": -0.32873546641933654
+  },
+  {
+    "drug": "Emixustat hydrochloride",
+    "strength": -0.3374391897024439
+  },
+  {
+    "drug": "Resveratrol",
+    "strength": -0.3898659696017865
+  },
+  {
+    "drug": "Carvedilol",
+    "strength": -0.4013838104487757
+  },
+  {
+    "drug": "SR9011",
+    "strength": -0.40982310515055353
+  },
+  {
+    "drug": "Naringenin",
+    "strength": -0.5164576731569713
+  },
+  {
+    "drug": "SRT1720",
+    "strength": -0.5302589213627635
+  },
+  {
+    "drug": "ZLN005",
+    "strength": -0.5362710622668089
+  },
+  {
+    "drug": "T0901317",
+    "strength": -0.6075727068881721
+  },
+  {
+    "drug": "Apocynin",
+    "strength": -0.630871703134248
+  },
+  {
+    "drug": "β-Lapachone",
+    "strength": -0.8368900849594859
+  }
+]

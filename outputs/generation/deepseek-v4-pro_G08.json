@@ -1,0 +1,541 @@
+{
+  "goal_id": "G08",
+  "disease_en": "Non-alcoholic steatohepatitis",
+  "goal": "为非酒精性脂肪性肝炎（Non-alcoholic steatohepatitis）寻找可重定位的已上市药物及其作用机制",
+  "overview": "Top hypotheses: Fluvoxamine→Non-alcoholic steatohepatitis (NASH); Dipyridamole→Non-alcoholic steatohepatitis (NASH); Low-dose naltrexone→Non-alcoholic steatohepatitis (NASH); Ketotifen→Non-alcoholic steatohepatitis (NASH); Montelukast→Non-alcoholic steatohepatitis (NASH)",
+  "hypotheses": [
+    {
+      "a": "Fluvoxamine",
+      "b": "Sigma-1 receptor agonism reducing endoplasmic reticulum stress and hepatocyte apoptosis",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Fluvoxamine ameliorates NASH by mitigating ER stress via sigma-1 receptor activation in hepatocytes.",
+      "rationale": "ER stress drives lipotoxicity and inflammation in NASH; fluvoxamine is a potent sigma-1 agonist with liver bioavailability.",
+      "self_novelty": "completely_novel",
+      "elo": 1288.7181016570094,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "新颖但NASH证据不足"
+        },
+        {
+          "index": 0,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "sigma-1激动已证缓解ER应激，肝保护证据充分。"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "已有动物数据支持，但临床转化待验证。"
+        }
+      ]
+    },
+    {
+      "a": "Dipyridamole",
+      "b": "Inhibition of equilibrative nucleoside transporters increasing extracellular adenosine and activating A2A receptors on hepatic stellate cells",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Dipyridamole attenuates hepatic fibrosis in NASH through adenosine-mediated suppression of stellate cell activation.",
+      "rationale": "Adenosine A2A receptor activation reduces collagen production; dipyridamole blocks adenosine uptake, and its anti-fibrotic effect in liver is untested.",
+      "self_novelty": "completely_novel",
+      "elo": 1281.8671588039017,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "腺苷通路已知，重定位可行"
+        },
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "腺苷A2A激动抗纤维化明确，全身效应需考量。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "腺苷A2A激活抑HSC有据，需注意免疫调节。"
+        }
+      ]
+    },
+    {
+      "a": "Low-dose naltrexone",
+      "b": "Toll-like receptor 4 antagonism decreasing endotoxin-mediated Kupffer cell activation and pro-inflammatory cytokines",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Low-dose naltrexone ameliorates NASH by blocking TLR4 signaling in response to gut-derived endotoxins.",
+      "rationale": "TLR4 activation by LPS is central to NASH pathogenesis; naltrexone at low doses acts as a TLR4 antagonist, and its anti-inflammatory effect in NASH is unexplored.",
+      "self_novelty": "completely_novel",
+      "elo": 1281.6517171011717,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "TLR4机制待确证，临床前数据少"
+        },
+        {
+          "index": 7,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "LDN靶向TLR4存争议，肠-肝轴理论合理。"
+        },
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "TLR4拮抗机制待确认，肝保护证据弱。"
+        }
+      ]
+    },
+    {
+      "a": "Ketotifen",
+      "b": "Mast cell stabilization preventing release of pro-fibrotic and pro-inflammatory mediators (histamine, tryptase) in the liver",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Ketotifen improves NASH by inhibiting hepatic mast cell degranulation, thereby reducing inflammation and fibrosis.",
+      "rationale": "Mast cell infiltration and activation correlate with NASH severity; ketotifen is an oral mast cell stabilizer approved for asthma.",
+      "self_novelty": "completely_novel",
+      "elo": 1275.4305925588544,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "肥大细胞机制有良好证据"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "肥大细胞参与NASH已证实，临床数据尚欠缺。"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "肥大细胞在NASH中作用确切，值得探索。"
+        }
+      ]
+    },
+    {
+      "a": "Montelukast",
+      "b": "Cysteinyl leukotriene receptor 1 antagonism reducing leukotriene-driven neutrophil infiltration and insulin resistance",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Montelukast attenuates NASH by blocking CysLT1-mediated inflammatory cascades and hepatic insulin resistance.",
+      "rationale": "Leukotrienes are elevated in NASH and promote inflammation; montelukast improved steatohepatitis in preclinical models, but human data are sparse.",
+      "self_novelty": "moderate",
+      "elo": 1245.5326736517716,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "白三烯通路在NASH被支持"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "白三烯与NASH相关，孟鲁司特证据有限。"
+        },
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "白三烯通路明确，动物研究有效。"
+        }
+      ]
+    },
+    {
+      "a": "Trimetazidine",
+      "b": "Partial inhibition of long-chain 3-ketoacyl-CoA thiolase shifting metabolism from fatty acid oxidation to glucose oxidation, reducing lipotoxicity",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Trimetazidine improves NASH by reducing lipotoxic lipid intermediates through metabolic substrate shift.",
+      "rationale": "Incomplete fatty acid oxidation generates toxic lipids; trimetazidine, used for angina, reduces fatty acid oxidation and has shown benefit in NAFLD models.",
+      "self_novelty": "moderate",
+      "elo": 1244.3849615836061,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "代谢底物转变利弊难料，证据少"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "代谢转换减脂毒性有理，曲美他嗪已有探索。"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "代谢转换策略合理，在NASH中已获初步验证。"
+        }
+      ]
+    },
+    {
+      "a": "Cimetidine",
+      "b": "Histamine H2 receptor blockade on hepatocytes and stellate cells decreasing oxidative stress and fibrogenesis",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Cimetidine alleviates NASH by antagonizing H2 receptors, thereby reducing reactive oxygen species and collagen deposition.",
+      "rationale": "Histamine exacerbates liver injury via H2R; cimetidine reversed fibrosis in animal models of cirrhosis; human translation for NASH is untapped.",
+      "self_novelty": "moderate",
+      "elo": 1243.9137602368883,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "H2受体在肝作用缺乏证据"
+        },
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "H2阻断抗纤维化证据弱，缺乏特异肝效应。"
+        },
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "H2R拮抗在肝纤维化中初步证据，需更多验证。"
+        }
+      ]
+    },
+    {
+      "a": "Minocycline",
+      "b": "Inhibition of poly(ADP-ribose) polymerase-1 (PARP-1) reducing hepatocyte necrosis and inflammatory cytokine production",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Minocycline protects against NASH progression by blocking PARP-1-mediated cell death and inflammation.",
+      "rationale": "PARP-1 overactivation contributes to steatohepatitis; minocycline is a known PARP-1 inhibitor with hepatoprotective properties in preclinical models.",
+      "self_novelty": "moderate",
+      "elo": 1238.265207970673,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PARP-1靶点已知，药物新颖"
+        },
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PARP-1抑制在模型有效，副作用值得警惕。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PARP-1靶点明确，但米诺环素肝安全性需考虑。"
+        }
+      ]
+    },
+    {
+      "a": "Ezetimibe",
+      "b": "Inhibition of NPC1L1 reducing intestinal cholesterol absorption and hepatic free cholesterol accumulation",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Ezetimibe improves NASH by lowering hepatic cholesterol overload, which otherwise drives stellate cell activation and inflammation.",
+      "rationale": "Free cholesterol in hepatocytes sensitizes to NASH; ezetimibe reduces dietary cholesterol flux to liver, and clinical pilot data suggest benefit.",
+      "self_novelty": "known",
+      "elo": 1231.0877644155898,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 5,
+          "critique": "直接机制，已进入临床试验"
+        },
+        {
+          "index": 9,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "依折麦布NASH研究多，临床证据仍需加强。"
+        },
+        {
+          "index": 9,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "广泛证据支持，几乎成为标准辅助疗法。"
+        }
+      ]
+    },
+    {
+      "a": "Deferiprone",
+      "b": "Iron chelation reducing hepatic iron overload and consequent oxidative stress and ferroptosis",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Deferiprone treats NASH by chelating excess hepatic iron, thereby inhibiting oxidative damage and ferroptotic cell death.",
+      "rationale": "Hepatic iron deposition is common in dysmetabolic states and amplifies NASH; deferiprone, an oral iron chelator, could mitigate iron-catalyzed ROS.",
+      "self_novelty": "moderate",
+      "elo": 1228.3980395430174,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁螯合逻辑强，已有相关研究"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "去铁对铁过载亚型有效，代谢影响未明。"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁螯合逻辑强，已有临床研究支持。"
+        }
+      ]
+    },
+    {
+      "a": "Probenecid",
+      "b": "Inhibition of urate reabsorption reducing serum uric acid and hepatic oxidative stress",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Probenecid reduces NASH severity by lowering hyperuricemia-induced oxidative stress in the liver.",
+      "rationale": "Hyperuricemia is independently associated with NASH; probenecid, a uricosuric agent, may diminish uric acid-mediated inflammasome activation.",
+      "self_novelty": "moderate",
+      "elo": 1214.4936004715285,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "尿酸与NASH因果存疑"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "降尿酸有益NASH，丙磺舒靶向性稍弱。"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "尿酸降低假设合理，但缺乏直接肝保护证据。"
+        }
+      ]
+    },
+    {
+      "a": "Allopurinol",
+      "b": "Xanthine oxidase inhibition reducing uric acid production and reactive oxygen species, thereby decreasing NLRP3 inflammasome activation",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Allopurinol ameliorates NASH by lowering uric acid-mediated inflammasome activation and oxidative stress.",
+      "rationale": "Xanthine oxidase-derived ROS contributes to NASH; allopurinol reduced liver enzymes and steatosis in hyperuricemic patients.",
+      "self_novelty": "moderate",
+      "elo": 1204.5755582369711,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "尿酸/NLRP3假说合理，已研究"
+        },
+        {
+          "index": 14,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "别嘌醇抑XO降ROS，NASH证据中等。"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "XO抑制降低氧化应激，临床前证据充分。"
+        }
+      ]
+    },
+    {
+      "a": "Mesalazine",
+      "b": "Intestinal PPAR-γ activation and gut barrier reinforcement",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Mesalazine ameliorates NASH by activating PPAR-γ in the intestinal epithelium to reinforce gut barrier function, thereby reducing portal endotoxin influx and hepatic TLR4-driven inflammation.",
+      "rationale": "As a topically active aminosalicylate, mesalazine upregulates tight junction proteins via colonocyte PPAR-γ, diminishing translocation of gut-derived lipopolysaccharides that fuel NASH, thus interrupting the gut–liver axis at its source.",
+      "self_novelty": "High – repurposes a colon-targeted drug to break the gut–liver axis by enhancing barrier integrity rather than blocking the TLR4 receptor directly.",
+      "elo": 1199.0465779404678,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "肠道-肝脏轴策略合理，临床转化待证实。"
+        }
+      ]
+    },
+    {
+      "a": "Memantine",
+      "b": "Hepatic stellate cell NMDA receptor antagonism",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Memantine alleviates NASH by blocking NMDA receptors on hepatic stellate cells to inhibit their transformation into fibrogenic myofibroblasts.",
+      "rationale": "Extracellular glutamate drives stellate cell activation via calcium-permeable NMDA receptors, and memantine—an approved NMDA antagonist for dementia—can intercept this fibrotic pathway, reducing collagen deposition in the liver.",
+      "self_novelty": "High – first proposal to reposition a CNS NMDA antagonist for hepatic anti-fibrotic therapy by directly targeting stellate cell activation.",
+      "elo": 1181.1249654929006,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "NMDA受体在HSC中非经典靶点，证据初步。"
+        }
+      ]
+    },
+    {
+      "a": "Losartan",
+      "b": "Angiotensin II type 1 receptor blockade inhibiting hepatic stellate cell activation and reducing TGF-β1 expression",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Losartan ameliorates NASH fibrosis by attenuating angiotensin II-induced stellate cell contraction and collagen production.",
+      "rationale": "RAS activation is implicated in liver fibrosis; losartan is known to reduce fibrosis in experimental NASH, with small clinical trials supporting benefit.",
+      "self_novelty": "moderate",
+      "elo": 1157.4926203945702,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "证据丰富，高可行性重定位"
+        },
+        {
+          "index": 11,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "经典抗纤维化，临床已有数据，新意不足。"
+        },
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "AT1阻断抗纤维化证据充分，已成标准方案。"
+        }
+      ]
+    },
+    {
+      "a": "Ranolazine",
+      "b": "Inhibition of the late sodium current reducing hepatic steatosis-related oxidative stress and calcium overload",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Ranolazine alleviates NASH by reducing hepatic oxidative stress and mitochondrial dysfunction via late sodium current blockade.",
+      "rationale": "Ranolazine, used for angina, improves metabolic parameters and reduced liver fat in small studies; its mechanism in hepatocytes involves decreased oxidative damage.",
+      "self_novelty": "moderate",
+      "elo": 1151.5454702439024,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "肝细胞钠电流证据极弱"
+        },
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "肝晚期钠流作用弱，氧化应激机制可通。"
+        },
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "肝脏晚期钠电流作用罕见，新靶点需验证。"
+        }
+      ]
+    },
+    {
+      "a": "Pentoxifylline",
+      "b": "Phosphodiesterase inhibition increasing intracellular cAMP and suppressing TNF-α production in Kupffer cells",
+      "c": "Non-alcoholic steatohepatitis (NASH)",
+      "statement": "Pentoxifylline improves NASH by inhibiting TNF-α-driven inflammation via cAMP elevation.",
+      "rationale": "Pentoxifylline has shown benefit in randomized trials for NASH; its PDE inhibition mechanism reduces inflammatory cytokines.",
+      "self_novelty": "known",
+      "elo": 1132.471229697176,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 1,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "经典假说，已有阳性临床数据"
+        },
+        {
+          "index": 12,
+          "novelty": 1,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "己酮可可碱NASH试验多，效果较温和。"
+        },
+        {
+          "index": 12,
+          "novelty": 1,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "临床证据存在但效力有限，原理明确。"
+        }
+      ]
+    }
+  ]
+}

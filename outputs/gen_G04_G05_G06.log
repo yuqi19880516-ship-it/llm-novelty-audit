@@ -1,0 +1,12 @@
+  ✓ deepseek-v4-pro G04 Amyotrophic lateral sclerosis: 17 条  (累计 calls=45, in=11141, out=32422)
+  跳过 deepseek-v4-pro G05（已存在）
+  跳过 deepseek-v4-pro G06（已存在）
+[deepseek-v4-pro] 本次新跑 1 目标  calls=45  in=11141 out=32422  ≈ $0.08
+
+  跳过 qwen3.7-max G04（已存在）
+  ✓ qwen3.7-max G05 Alzheimer's disease: 19 条  (累计 calls=43, in=9303, out=70782)
+  ✓ qwen3.7-max G06 Pulmonary arterial hypertension: 19 条  (累计 calls=86, in=20256, out=154688)
+[qwen3.7-max] 本次新跑 2 目标  calls=86  in=20256 out=154688  ≈ $0.39
+
+=== 本次新增成本 ≈ $0.46 ===
+=== outputs/generation: 22/24 格已完成，假设总数 = 401 ===

@@ -1,0 +1,503 @@
+{
+  "goal_id": "G12",
+  "disease_en": "Treatment-resistant depression",
+  "goal": "为难治性抑郁（Treatment-resistant depression）寻找可重定位的已上市药物及其作用机制",
+  "overview": "难治性抑郁的病理机制涉及神经元应激、能量代谢异常及神经炎症等多重通路，为已上市药物的重定位提供了新靶点。熊去氧胆酸通过激活胆汁酸受体信号，维护神经元线粒体与内质网稳态，对抗应激诱导的凋亡。芬戈莫德作为S1PR1调节剂，可增强神经营养支持并抑制星形胶质细胞炎症，改善快感缺失。恩格列净通过诱发轻度高酮血症及增强脑内自噬，纠正脑能量代谢障碍。纳布啡凭借平衡的κ/μ阿片信号，特异性地缓解情绪性疼痛与低落心境。米格鲁特则通过抑制糖鞘脂合成，减少神经酰胺蓄积所致的海马神经元凋亡，从而防止海马萎缩。上述药物从不同机制切入，为难治性抑郁的治疗提供了潜在的精准干预策略。",
+  "hypotheses": [
+    {
+      "a": "Ursodeoxycholic acid",
+      "b": "TGR5 and FXR receptor modulation stabilizing mitochondrial membranes and reducing neuronal endoplasmic reticulum stress",
+      "c": "Alleviation of neuron stress and apoptosis in treatment-resistant depression",
+      "statement": "熊去氧胆酸通过胆汁酸受体信号保护神经元线粒体和内质网稳态以治疗难治性抑郁。",
+      "rationale": "细胞内质网应激和线粒体功能障碍驱动难治性抑郁的神经退行性改变，UDCA能穿透血脑屏障发挥保护作用。",
+      "self_novelty": "completely_novel",
+      "elo": 1297.2734736042867,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "胆汁酸受体在脑内的保护作用有支撑，需更多体内验证。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "神经保护已知但脑穿透和抗抑郁证据少"
+        },
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "UDCA神经保护已知，血脑屏障穿透性待明确。"
+        }
+      ]
+    },
+    {
+      "a": "Fingolimod",
+      "b": "S1P receptor 1 modulation increasing BDNF expression and attenuating astroglial neuroinflammation",
+      "c": "Improvement of mood and anhedonia in treatment-resistant depression",
+      "statement": "芬戈莫德通过S1PR1调控增强神经营养支持并抑制星形胶质细胞炎症以治疗难治性抑郁。",
+      "rationale": "鞘氨醇-1-磷酸信号在情绪调节脑区失衡，芬戈莫德可恢复神经可塑性并减轻慢性神经炎症。",
+      "self_novelty": "moderate",
+      "elo": 1279.3669859608024,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "S1PR1调控有文献基础，对情感改善预期合理。"
+        },
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "S1P调节已知但免疫抑制风险中等"
+        },
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "已有抗抑郁潜力研究，安全性需考量。"
+        }
+      ]
+    },
+    {
+      "a": "Empagliflozin",
+      "b": "SGLT2 inhibition inducing mild hyperketonemia and mTORC1 suppression to enhance cerebral autophagy and mitochondrial biogenesis",
+      "c": "Correction of brain energy metabolism deficits in treatment-resistant depression",
+      "statement": "恩格列净通过诱发轻度高酮血状态并增强脑内自噬改善难治性抑郁的能量代谢障碍。",
+      "rationale": "难治性抑郁与脑能量衰竭及突触可塑性下降相关，恩格列净可系统性地重编程代谢以提供替代燃料并恢复线粒体功能。",
+      "self_novelty": "completely_novel",
+      "elo": 1277.8899140150245,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "外周机制向中枢转化的证据链较弱，安全性尚可。"
+        },
+        {
+          "index": 0,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "新型代谢机制但临床证据匮乏"
+        },
+        {
+          "index": 0,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "高酮血对脑能量有益但证据需验证。"
+        }
+      ]
+    },
+    {
+      "a": "Nalbuphine",
+      "b": "Balanced κ-opioid receptor antagonist and μ-opioid receptor partial agonist action modulating negative emotional processing circuits",
+      "c": "Relief of psychic pain and low mood in treatment-resistant depression",
+      "statement": "纳布啡通过平衡κ/μ阿片信号缓解难治性抑郁中的情绪性疼痛和低落。",
+      "rationale": "强啡肽/KOR系统过度激活引起快感缺失和厌恶状态，纳布啡独特的混合阿片作用可能在不引起明显欣快感的情况下改善核心情绪。",
+      "self_novelty": "completely_novel",
+      "elo": 1259.6127699482558,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "κ/μ双调机制成立，但需防滥用与耐受性问题。"
+        },
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "κ/μ平衡机制引人但成瘾风险仍存"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "κ拮抗抗抑郁有希望，滥用风险需注意。"
+        }
+      ]
+    },
+    {
+      "a": "Miglustat",
+      "b": "Inhibition of glucosylceramide synthase to reduce glycosphingolipid accumulation and ceramide-mediated neuronal apoptosis signaling",
+      "c": "Prevention of hippocampal atrophy in treatment-resistant depression",
+      "statement": "米格鲁特通过抑制糖鞘脂合成减轻神经酰胺诱导的神经元凋亡以保护难治性抑郁的海马体积。",
+      "rationale": "神经酰胺在慢性应激抑郁模型中汇聚TNF-α等信号促进神经元凋亡和突触丢失，米格鲁特可阻断关键脂质毒性通路。",
+      "self_novelty": "completely_novel",
+      "elo": 1258.8816578086526,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "神经酰胺与海马萎缩关联证据不足，中枢渗透存疑。"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "鞘脂通路新颖但海马萎缩证据尚少"
+        },
+        {
+          "index": 5,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "神经酰胺假说合理，副作用需解决。"
+        }
+      ]
+    },
+    {
+      "a": "Dasatinib",
+      "b": "Inhibition of c-Abl/Src family kinases to enhance autophagic clearance and synaptic proteostasis",
+      "c": "Improvement of anhedonia and cognitive deficits in treatment-resistant depression",
+      "statement": "达沙替尼通过抑制c-Abl/Src激酶促进突触蛋白自噬稳态治疗难治性抑郁的快感与认知症状。",
+      "rationale": "突触毒性蛋白堆积和自噬障碍与慢性难治性抑郁的突触功能崩溃有关，达沙替尼已在衰老模型中显示神经保护。",
+      "self_novelty": "completely_novel",
+      "elo": 1256.8804293451278,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "激酶抑制促自噬理论坚实，但全身毒性风险大。"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "自噬增强有前景但长期副作用显著"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "突触自噬增强证据初步。"
+        }
+      ]
+    },
+    {
+      "a": "Colchicine",
+      "b": "Inhibition of NLRP3 inflammasome assembly and reduction of IL-1β-mediated neuroinflammation",
+      "c": "Attenuation of inflammatory anhedonia in treatment-resistant depression",
+      "statement": "秋水仙碱通过阻断NLRP3/IL-1β炎症通路缓解难治性抑郁的炎症性快感缺失。",
+      "rationale": "慢性社会心理应激通过NLRP3炎性小体驱动抑郁样行为，秋水仙碱是高效的NLRP3抑制剂，可靶向炎症亚型TRD。",
+      "self_novelty": "completely_novel",
+      "elo": 1233.5063551314151,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "NLRP3抑制机制明确，但全身毒性限制精神科应用。"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 2,
+          "critique": "靶向炎症新颖但毒性限制长期应用"
+        },
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "低剂量抗炎可行，安全性需谨慎。"
+        }
+      ]
+    },
+    {
+      "a": "Cladribine",
+      "b": "Selective depletion of peripheral T and B lymphocytes to reset adaptive immune abnormalities in the brain",
+      "c": "Remission of autoimmune-associated treatment-resistant depression subtype",
+      "statement": "克拉屈滨通过短暂免疫重建消除致病性淋巴细胞以缓解自身免疫相关的难治性抑郁。",
+      "rationale": "一部分TRD患者存在抗脑抗体或T细胞介导的神经炎症，克拉屈滨的免疫重置作用可根除该致病机制。",
+      "self_novelty": "completely_novel",
+      "elo": 1229.044031522376,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "免疫重置概念新颖，但严重不良反应风险较高。"
+        },
+        {
+          "index": 3,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 2,
+          "critique": "免疫重置风险高需严格亚型界定"
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "高风险，需生物标志物筛选亚型。"
+        }
+      ]
+    },
+    {
+      "a": "Bumetanide",
+      "b": "NKCC1 inhibition lowering intracellular chloride and restoring GABAergic excitation-inhibition balance",
+      "c": "Improvement of emotional dysregulation and anxiety in treatment-resistant depression",
+      "statement": "布美他尼通过恢复氯离子稳态重建GABA能抑制以缓解难治性抑郁的情绪失调。",
+      "rationale": "TRD中NKCC1上调导致氯离子积聚和GABA去极化，布美他尼可恢复抑制性突触功能并稳定情绪环路。",
+      "self_novelty": "moderate",
+      "elo": 1228.4058845608279,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "E/I平衡重建策略非首创，但在TRD亚型中有价值。"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "氯离子假说有趣但电解质影响需监测"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "E/I平衡假说合理，超大剂量穿透BBB。"
+        }
+      ]
+    },
+    {
+      "a": "Fenofibrate",
+      "b": "PPARα activation inhibiting NF-κB-driven neuroinflammation and promoting cerebral β-oxidation for alternative energy",
+      "c": "Resolution of energy failure and neuroinflammation in treatment-resistant depression",
+      "statement": "非诺贝特通过PPARα受体同时提供脑替代能源并抑制神经炎症以治疗难治性抑郁。",
+      "rationale": "脑糖代谢减退是TRD特征，非诺贝特可激活PPARα诱导酮体利用并下调促炎因子，动物模型中已见抗抑郁效果。",
+      "self_novelty": "moderate",
+      "elo": 1222.993303016309,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PPARα多效机制有理，对脑能量衰竭亚型适用。"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 2,
+          "critique": "BBB穿透差使中枢能量效应存疑"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "脑渗透性存疑，代谢改善或间接作用。"
+        }
+      ]
+    },
+    {
+      "a": "Probenecid",
+      "b": "Inhibition of Pannexin-1 channels and organic anion transporters reducing ATP release, P2X7 activation, and glutamate spillover",
+      "c": "Attenuation of neuroinflammation and glutamate excitotoxicity in treatment-resistant depression",
+      "statement": "丙磺舒通过抑制Pannexin-1通道减少嘌呤能炎症和谷氨酸过度释放保护难治性抑郁的突触。",
+      "rationale": "慢性应激引起的ATP泄漏经Pannexin-1激活小胶质细胞并引发毒性谷氨酸循环，丙磺舒可阻断此恶性通路。",
+      "self_novelty": "moderate",
+      "elo": 1218.3550387856717,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "Pannexin-1靶点新颖，但脑内药效和安全性未知。"
+        },
+        {
+          "index": 12,
+          "novelty": 5,
+          "correctness": 4,
+          "plausibility": 2,
+          "critique": "新机制十分创新但转化证据极少"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "Pannexin-1抑制新靶点，临床证据缺乏。"
+        }
+      ]
+    },
+    {
+      "a": "Celecoxib",
+      "b": "COX-2 inhibition reducing IL-1β, IL-6, and prostaglandin E2 to break peripheral-to-central inflammatory feedforward loop",
+      "c": "Remission of inflammation-driven treatment-resistant depression",
+      "statement": "塞来昔布通过抑制COX-2切断外周-中枢炎症正反馈以缓解炎症驱动型难治性抑郁。",
+      "rationale": "相当比例TRD患者C反应蛋白升高，且促炎因子经转运进入脑内，COX-2抑制已在早期试验中显示增强抗抑郁反应。",
+      "self_novelty": "known",
+      "elo": 1165.113056941127,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "COX-2抑制抗炎增效抑郁已是成熟概念。"
+        },
+        {
+          "index": 13,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 3,
+          "critique": "抗炎抗抑郁明确但心血管风险显著"
+        },
+        {
+          "index": 13,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "已证实辅助疗效，但效应量有限。"
+        }
+      ]
+    },
+    {
+      "a": "Tadalafil",
+      "b": "PDE5 inhibition elevating cGMP to promote hippocampal neurogenesis and cerebral vasodilation",
+      "c": "Improvement of cognitive and mood symptoms in treatment-resistant depression",
+      "statement": "他达拉非通过cGMP信号增强海马神经发生改善难治性抑郁的认知和情绪。",
+      "rationale": "磷酸二酯酶5在情绪调节区域表达，cGMP升高可增强突触可塑性和脑灌注，可能逆转TRD相关海马萎缩。",
+      "self_novelty": "moderate",
+      "elo": 1164.5269532613022,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "cGMP通路对认知和情绪的作用已有实质证据。"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 2,
+          "critique": "脑穿透弱且支持临床证据不足"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "神经发生有支持，需RCT验证。"
+        }
+      ]
+    },
+    {
+      "a": "Etanercept",
+      "b": "Peripheral TNF-α blockade reducing soluble TNF-α influx into the brain and downstream microglial activation",
+      "c": "Improvement of fatigue and cognitive symptoms in treatment-resistant depression with elevated biomarkers",
+      "statement": "依那西普通过外周清除TNF-α减轻血脑屏障渗漏的脑内炎症以改善生物标志物升高的难治性抑郁。",
+      "rationale": "TNF-α拮抗剂在类风湿关节炎共病抑郁中观察到独立的心境改善，部分TRD患者的TNF-α经受损血脑屏障进入脑实质。",
+      "self_novelty": "known",
+      "elo": 1161.9029138752644,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "外周TNF-α阻断入脑合理，适合生物标志物升高者。"
+        },
+        {
+          "index": 14,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "外周靶点适合炎症亚组但需注射"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "需生物标志物筛选，已有试验支持。"
+        }
+      ]
+    },
+    {
+      "a": "Pioglitazone",
+      "b": "PPARγ agonism improving insulin sensitivity, mitochondrial biogenesis, and suppressing neuroinflammation",
+      "c": "Reversal of metabolic-inflammatory neuropathology in treatment-resistant depression",
+      "statement": "吡格列酮通过PPARγ激动统一整合代谢、抗炎和线粒体改善作用治疗难治性抑郁。",
+      "rationale": "胰岛素抵抗和神经炎症是TRD的重要病理生理组分，吡格列酮的多效性可同时针对这些通路。",
+      "self_novelty": "moderate",
+      "elo": 1121.247232223557,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PPARγ激动剂已有辅助抗抑郁证据，新颖度不高。"
+        },
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "综合机制研究较多但副作用需权衡"
+        },
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "已有临床证据，胰岛素抵抗亚型受益。"
+        }
+      ]
+    }
+  ]
+}

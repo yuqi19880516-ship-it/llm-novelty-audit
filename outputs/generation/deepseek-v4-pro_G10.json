@@ -1,0 +1,560 @@
+{
+  "goal_id": "G10",
+  "disease_en": "Systemic lupus erythematosus",
+  "goal": "为系统性红斑狼疮（Systemic lupus erythematosus）寻找可重定位的已上市药物及其作用机制",
+  "overview": "Top hypotheses: Canagliflozin (SGLT2 inhibitor for diabetes)→Selective suppression of autoreactive T-follicular helper cell expansion and germinal center formation in SLE; Duloxetine (SNRI for neuropathic pain)→Inhibition of TLR7/9-driven type I interferon production and SLE cutaneous lesion severity; Zileuton (5-lipoxygenase inhibitor for asthma)→Reduced NET-associated autoantigen exposure and anti-dsDNA antibody levels in SLE; Fenofibrate (PPAR-α agonist for dyslipidemia)→Decreased IL-17A production and double-negative T cell-driven vascular inflammation in SLE; Selegiline (MAO-B inhibitor for Parkinson's disease)→Attenuation of chronic tubulointerstitial fibrosis in lupus nephritis",
+  "hypotheses": [
+    {
+      "a": "Canagliflozin (SGLT2 inhibitor for diabetes)",
+      "b": "SGLT2 inhibition in CD4+ T cells reducing intracellular glucose, blunting the pentose phosphate pathway and subsequent de novo nucleotide synthesis required for T-cell proliferation",
+      "c": "Selective suppression of autoreactive T-follicular helper cell expansion and germinal center formation in SLE",
+      "statement": "Canagliflozin targets the metabolic vulnerability of proliferating Tfh cells by limiting glucose-derived nucleotide synthesis, thereby reducing autoantibody production in SLE.",
+      "rationale": "Activated T cells rely on glucose-driven PPP for ribose-5-phosphate, and SGLT2 is functionally expressed in T cells; pharmacological inhibition with canagliflozin can be tested in the bm12-induced lupus model for Tfh-dependent germinal center responses.",
+      "self_novelty": "moderate",
+      "elo": 1328.5067086363247,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "Tfh metabolic reliance on PPP makes sense, needs direct evidence."
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "T细胞功能性SGLT2表达存在争议"
+        },
+        {
+          "index": 2,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Tfh glucose restriction via SGLT2 is innovative, but T-cell SGLT2 role uncertain."
+        }
+      ]
+    },
+    {
+      "a": "Duloxetine (SNRI for neuropathic pain)",
+      "b": "Norepinephrine-mediated upregulation of SHP-1 phosphatase via α2-adrenergic receptor signaling in plasmacytoid dendritic cells",
+      "c": "Inhibition of TLR7/9-driven type I interferon production and SLE cutaneous lesion severity",
+      "statement": "Duloxetine restrains pDC-derived IFN-α by enhancing SHP-1 activity through norepinephrine signaling, providing a repurposed brake on the type I interferon signature in SLE.",
+      "rationale": "α2-AR agonists increase SHP-1 expression, and SHP-1 directly inhibits TLR-mediated IRF7 activation; pDCs are exquisitely sensitive to this feedback, and duloxetine's norepinephrine reuptake inhibition can be readily tested in imiquimod-induced lupus skin models.",
+      "self_novelty": "completely_novel",
+      "elo": 1298.804633475339,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "α2-AR on pDC and SHP-1 upregulation unclear."
+        },
+        {
+          "index": 3,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "pDC上α2-AR-SHP-1通路证据不足"
+        },
+        {
+          "index": 3,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "pDC α2-SHP-1 pathway is unconfirmed; norepinephrine effect on IFN-I is speculative."
+        }
+      ]
+    },
+    {
+      "a": "Zileuton (5-lipoxygenase inhibitor for asthma)",
+      "b": "Blockade of leukotriene B4 synthesis, disrupting neutrophil extracellular trap (NET) formation via BLT1 receptor auto-amplification loop",
+      "c": "Reduced NET-associated autoantigen exposure and anti-dsDNA antibody levels in SLE",
+      "statement": "Zileuton inhibits NET formation by preventing LTB4-driven BLT1-mediated autocrine neutrophil activation, thereby limiting a key source of autoantigenic chromatin in SLE.",
+      "rationale": "LTB4 is a potent inducer of NETosis through BLT1 on neutrophils, and 5-LO inhibitors block LTB4 synthesis; the impact on NET formation can be directly visualized in SLE patient neutrophils ex vivo, establishing a rapid path to validation.",
+      "self_novelty": "moderate",
+      "elo": 1277.3435532897488,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "LTB4-BLT1 loop in NETosis known, Zileuton is plausible."
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "LTB4-BLT1环路驱动NETosis证据较充分"
+        },
+        {
+          "index": 5,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "LTB4-BLT1 NET loop known; zileuton reducing autoantigens is sound."
+        }
+      ]
+    },
+    {
+      "a": "Fenofibrate (PPAR-α agonist for dyslipidemia)",
+      "b": "PPAR-α-mediated suppression of ATP citrate lyase, reducing histone acetylation at the IL-17A locus in Th17 cells",
+      "c": "Decreased IL-17A production and double-negative T cell-driven vascular inflammation in SLE",
+      "statement": "Fenofibrate reprograms Th17 cell epigenetics by lowering acetyl-CoA levels, specifically curtailing IL-17A expression and attenuating SLE-associated vasculopathy.",
+      "rationale": "PPAR-α activation downregulates ACLY expression, limiting acetyl-CoA pools required for histone acetylation; the IL-17A promoter is acetylation-sensitive, and Th17/IL-17 is central to SLE vascular inflammation, which can be tested in RORγt-reporter mice.",
+      "self_novelty": "completely_novel",
+      "elo": 1274.459697745404,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "ACLY-histone acetylation pathway in Th17 is speculative."
+        },
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PPAR-α直接调控Th17组蛋白乙酰化证据有限"
+        },
+        {
+          "index": 1,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "PPAR-α-ACLY-acetyl-CoA-IL17A epigenetic link is highly novel but needs validation."
+        }
+      ]
+    },
+    {
+      "a": "Selegiline (MAO-B inhibitor for Parkinson's disease)",
+      "b": "MAO-B-mediated reduction of H2O2 production in proximal tubular epithelial cells, preserving pyruvate kinase M2 activity and preventing tubular senescence",
+      "c": "Attenuation of chronic tubulointerstitial fibrosis in lupus nephritis",
+      "statement": "Selegiline suppresses MAO-B-dependent oxidative stress in kidney tubules, maintaining PKM2 enzymatic function and blocking senescence-associated secretory phenotype-mediated fibrosis in lupus nephritis.",
+      "rationale": "MAO-B is upregulated in tubular epithelial cells under inflammatory conditions and its activity generates H2O2 that oxidizes PKM2; this can be tested in NZB/W F1 mice treated with selegiline, monitoring PKM2 activity and fibrosis markers.",
+      "self_novelty": "completely_novel",
+      "elo": 1248.0729153876098,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "MAO-B in kidney tubules and PKM2 senescence link uncertain."
+        },
+        {
+          "index": 6,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "MAO-B在肾小管衰老中直接证据缺乏"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "MAO-B in kidney tubules and PKM2 senescence axis lack strong evidence."
+        }
+      ]
+    },
+    {
+      "a": "Teriflunomide",
+      "b": "DHODH inhibitor for multiple sclerosis",
+      "c": "Pyrimidine starvation in autoreactive Tfh cells",
+      "statement": "Teriflunomide suppresses autoreactive T-follicular helper cell expansion and autoantibody production in SLE by directly inhibiting de novo pyrimidine synthesis, thereby metabolically starving proliferating Tfh cells.",
+      "rationale": "By blocking dihydroorotate dehydrogenase, teriflunomide cuts off the supply of pyrimidine nucleotides essential for the rapid clonal expansion and effector function of autoreactive Tfh cells, limiting germinal center formation without broad immunosuppression.",
+      "self_novelty": "high",
+      "elo": 1211.4847348148207,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "DHODH抑制剂已在SLE临床试验中"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "DHODH inhibition starves proliferating Tfh; teriflunomide mechanism is established."
+        }
+      ]
+    },
+    {
+      "a": "Apremilast",
+      "b": "PDE4 inhibitor for psoriasis and psoriatic arthritis",
+      "c": "PKA-mediated SHP-1 activation and NETosis inhibition",
+      "statement": "Apremilast simultaneously attenuates TLR7/9-driven type I interferon production by pDCs and neutrophil NET release in SLE through cAMP/PKA-mediated SHP-1 enhancement and blunted LTB4-BLT1 autocrine signaling.",
+      "rationale": "Apremilast elevates intracellular cAMP, activating PKA to upregulate SHP-1 that inhibits IRF7-mediated IFN-α while also suppressing LTB4-induced BLT1 signaling crucial for NET formation, thereby providing a dual checkpoint on autoimmune amplification.",
+      "self_novelty": "high",
+      "elo": 1207.4016956753505,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PDE4双重抑制机制合理且有临床数据"
+        },
+        {
+          "index": 15,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "PDE4 inhibition raises cAMP, enhancing SHP-1; dual pDC/NET effect is logical."
+        }
+      ]
+    },
+    {
+      "a": "Bempedoic acid (ATP-citrate lyase inhibitor for hypercholesterolemia)",
+      "b": "Hepatic ACLY inhibition reducing circulating acetyl-CoA, limiting histone acetylation at interferon-stimulated gene loci in monocytes",
+      "c": "Dampened systemic IFN-I response and monocyte-driven endothelial damage in SLE",
+      "statement": "Bempedoic acid reduces systemic acetyl-CoA availability, epigenetically silencing ISGs in monocytes and protecting against interferon-mediated vascular injury in SLE.",
+      "rationale": "Monocyte acetyl-CoA levels from circulating citrate directly influence H3K27 acetylation at ISG loci; bempedoic acid, as a liver-specific ACLY inhibitor, may lower circulating acetyl-CoA precursors, a mechanism testable via chromatin immunoprecipitation in SLE patient monocytes cultured with bempedoic acid.",
+      "self_novelty": "completely_novel",
+      "elo": 1203.8658147245733,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 1,
+          "critique": "Circulating acetyl-CoA unlikely to alter monocyte epigenetics."
+        },
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "全身乙酰辅酶A影响单核细胞表观遗传存疑"
+        },
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "Systemic acetyl-CoA altering monocyte epigenetics remotely is unlikely; liver-restricted prodrug."
+        }
+      ]
+    },
+    {
+      "a": "Zileuton + Hydroxychloroquine",
+      "b": "5-LOX inhibitor + TLR7/9 blocker",
+      "c": "SLE",
+      "statement": "Combining zileuton's blockade of LTB4-driven NET release with hydroxychloroquine's endosomal TLR7/9 inhibition creates a synthetic 'NET-TLR axis break' that prevents both autoantigen generation and subsequent immune complex-driven interferon production in SLE.",
+      "rationale": "Jumping out of single-agent reasoning, this pairing simultaneously removes the NET-derived chromatin autoantigen source (via zileuton) and the co-stimulatory TLR-mediated response to immune complexes containing those autoantigens (via HCQ), intercepting two sequential but mechanistically distinct steps in the pathogenic cycle without overlapping toxicity.",
+      "self_novelty": "A rationally designed drug–disease mechanistic pair that sequentially neutralizes autoantigen supply and interferon amplification, going beyond either monotherapy's original repurposing rationale.",
+      "elo": 1200.09797964174,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 17,
+          "novelty": 3,
+          "correctness": 5,
+          "plausibility": 4,
+          "critique": "Combined NET-TLR blockade is synergistic in theory; both drugs clinically available."
+        }
+      ]
+    },
+    {
+      "a": "Dimethyl fumarate (approved for multiple sclerosis)",
+      "b": "Nrf2 activation enhancing glutathione synthesis and inhibiting ferroptosis in renal tubular epithelial cells",
+      "c": "Reduction in lupus nephritis proteinuria and progression to end-stage renal disease",
+      "statement": "Dimethyl fumarate, by activating Nrf2, suppresses ferroptosis-driven tubular injury in lupus nephritis, thereby preserving kidney function.",
+      "rationale": "Ferroptosis is implicated in lupus nephritis tubular damage, and Nrf2 is a master regulator of anti-ferroptotic genes; dimethyl fumarate is a clinical-grade Nrf2 activator, making this pathway directly testable in murine models.",
+      "self_novelty": "completely_novel",
+      "elo": 1199.1855875318936,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "Nrf2-ferroptosis link in LN is plausible but not unique."
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铁死亡在LN中角色尚需临床验证"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "Nrf2-ferroptosis axis in LN is plausible, DMF data support renal protection."
+        }
+      ]
+    },
+    {
+      "a": "Zafirlukast (CysLT1 receptor antagonist for asthma)",
+      "b": "Blockade of CysLT1 receptor-mediated internalization of efferocytosis receptors MerTK and Axl on macrophages",
+      "c": "Enhanced clearance of apoptotic debris and reduced anti-dsDNA antibody titers in SLE",
+      "statement": "Zafirlukast maintains surface MerTK expression on macrophages by blocking CysLT1-driven receptor internalization, improving apoptotic cell clearance and reducing autoantibody generation in SLE.",
+      "rationale": "Cysteinyl leukotrienes drive CysLT1-dependent lysosomal degradation of efferocytosis receptors; zafirlukast can be evaluated in an Ldlr-/- mouse lupus hybrid model for macrophage MerTK expression and subsequent anti-dsDNA levels.",
+      "self_novelty": "completely_novel",
+      "elo": 1197.7244676917974,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "CysLT1-MerTK internalization pathway needs validation."
+        },
+        {
+          "index": 8,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "CysLT1调控MerTK内化无已知证据"
+        },
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "CysLT1-MerTK internalization link needs confirmation; efferocytosis boost plausible."
+        }
+      ]
+    },
+    {
+      "a": "Alogliptin (DPP-4 inhibitor for diabetes)",
+      "b": "Inhibition of DPP-4 enzymatic cleavage of CXCL10, preserving full-length chemokine that paradoxically desensitizes CXCR3 on Th1 cells",
+      "c": "Reduced Th1 cell infiltration into skin and kidney in SLE flares",
+      "statement": "Alogliptin increases uncleaved CXCL10 levels, which functions as a partial CXCR3 antagonist and dampens Th1 cell recruitment to inflamed tissues in SLE.",
+      "rationale": "DPP-4 truncates CXCL10 into a potent antagonist form; preventing this cleavage yields full-length CXCL10 that could desensitize CXCR3 through prolonged receptor engagement, which can be assessed in DPP-4 inhibitor-treated MRL/lpr mice by tracking Th1 tissue migration.",
+      "self_novelty": "completely_novel",
+      "elo": 1195.050354037558,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 3,
+          "correctness": 1,
+          "plausibility": 1,
+          "critique": "Uncleaved CXCL10 is agonist, not antagonist; mechanism flawed."
+        },
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "全长CXCL10作为CXCR3拮抗剂存在争议"
+        },
+        {
+          "index": 7,
+          "novelty": 5,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Full-length CXCL10 as CXCR3 antagonist is debated; DPP-4i effect uncertain."
+        }
+      ]
+    },
+    {
+      "a": "Canagliflozin",
+      "b": "SGLT2 inhibitor",
+      "c": "SLE",
+      "statement": "Canagliflozin simultaneously depletes autoreactive Tfh cell metabolic fitness via SGLT2-mediated glucose restriction and potentiates regulatory B cell IL-10 production through ketone body-driven mTORC1 attenuation, synergistically restoring autoimmune tolerance in SLE.",
+      "rationale": "Combining the Tfh metabolic vulnerability from the original hypothesis with a metabolic switch in Bregs reveals a dual immunoregulatory node: SGLT2 blockade not only starves Tfh of nucleotide synthesis precursors but also shifts systemic metabolism toward β-hydroxybutyrate, which suppresses mTORC1 in B cells to enhance IL-10 secretion and blunt germinal center output.",
+      "self_novelty": "This expands the original canagliflozin hypothesis beyond Tfh-selective suppression to a combined Tfh/Breg metabolic reprogramming strategy, which has not been proposed for SLE.",
+      "elo": 1187.3795056392644,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "SGLT2i dual mechanism via Tfh and Breg is attractive; ketone-mTORC1 link plausible."
+        }
+      ]
+    },
+    {
+      "a": "Pentoxifylline (methylxanthine for peripheral vascular disease)",
+      "b": "Restoration of endothelial glycocalyx thickness via inhibition of hyaluronidase-2 transcriptional upregulation",
+      "c": "Reversal of endothelial dysfunction and microvascular damage in SLE patients",
+      "statement": "Pentoxifylline prevents glycocalyx shedding in endothelial cells by suppressing hyaluronidase-2 expression, repairing the vascular barrier in SLE.",
+      "rationale": "SLE serum induces hyaluronidase-2 in endothelial cells leading to glycocalyx loss; pentoxifylline's phosphodiesterase inhibition properties can block this induction, which is measurable ex vivo using SLE serum-stimulated endothelial cell cultures.",
+      "self_novelty": "completely_novel",
+      "elo": 1184.3737263910443,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Glycocalyx protection via hyaluronidase-2 inhibition is underserved."
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "己酮可可碱抑制HYAL2转录证据薄弱"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "Glycocalyx repair via hyaluronidase-2 is novel; pentoxifylline mechanism not fully proven."
+        }
+      ]
+    },
+    {
+      "a": "Febuxostat (xanthine oxidase inhibitor for gout)",
+      "b": "Reduction of uric acid-mediated activation of the NLRP3 inflammasome in kidney-resident macrophages",
+      "c": "Prevention of intrarenal inflammasome amplification loop and lupus nephritis flare",
+      "statement": "Febuxostat lowers local uric acid accumulation in nephritic kidneys, removing a critical NLRP3 trigger and suppressing macrophage-derived IL-1β that drives lupus nephritis flares.",
+      "rationale": "Soluble uric acid is elevated in lupus and directly activates NLRP3 in macrophages; febuxostat blocks uric acid production and can be tested in the pristane-induced lupus nephritis model for NLRP3/IL-1β axis attenuation.",
+      "self_novelty": "moderate",
+      "elo": 1184.3027867859485,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 5,
+          "critique": "Urate-lowering to suppress NLRP3 in LN is well-supported."
+        },
+        {
+          "index": 11,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "尿酸-NLRP3轴在LN中已较多报道"
+        },
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 5,
+          "critique": "Uric acid/NLRP3 in LN well-documented; febuxostat is a logical intervention."
+        }
+      ]
+    },
+    {
+      "a": "Agomelatine (melatonin receptor agonist for depression)",
+      "b": "MT1 receptor signaling in B cells enhancing BLIMP1 expression and promoting plasma cell unfolded protein response resolution",
+      "c": "Selective reduction of long-lived plasma cells and sustained anti-dsDNA antibody production in SLE",
+      "statement": "Agomelatine forces terminal plasma cell differentiation with a robust UPR that resolves without apoptosis, paradoxically depleting the niche-sustained long-lived plasma cell pool in SLE.",
+      "rationale": "Melatonin signaling via MT1 drives BLIMP1 and XBP-1, and agomelatine is a potent MT1 agonist; the hypothesis that accelerated UPR resolution leads to plasma cell death instead of survival can be tested using bone marrow plasma cell cultures from NZB/W mice.",
+      "self_novelty": "completely_novel",
+      "elo": 1162.12714777418,
+      "review_score": 2.6666666666666665,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 1,
+          "critique": "Paradoxical plasma cell depletion by UPR resolution improbable."
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "促进分化却耗尽长效浆细胞池机制矛盾"
+        },
+        {
+          "index": 9,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 1,
+          "critique": "Melatonin-induced UPR resolution depleting plasma cells is counterintuitive and minimally supported."
+        }
+      ]
+    },
+    {
+      "a": "Trimetazidine (anti-anginal 3-KAT inhibitor)",
+      "b": "Metabolic shift from fatty acid oxidation to glycolysis in T-follicular helper cells, decreasing their mitochondrial ROS and reducing BCL6 protein stability",
+      "c": "Impaired Tfh cell maintenance and germinal center output in SLE",
+      "statement": "Trimetazidine destabilizes BCL6 in Tfh cells by limiting fatty acid oxidation-dependent mitochondrial ROS signaling, collapsing the germinal center response in SLE.",
+      "rationale": "Tfh cells rely on FAO for mitochondrial ROS that stabilizes BCL6; trimetazidine inhibits long-chain 3-ketoacyl-CoA thiolase, forcing glycolysis, which can be tested in the SWR x NZB F1 model by quantifying GC B cells and BCL6+ Tfh cells.",
+      "self_novelty": "completely_novel",
+      "elo": 1144.8080989508378,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "mtROS stabilizing BCL6 in Tfh lacks strong evidence."
+        },
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "FAO来源ROS稳定BCL6的证据薄弱"
+        },
+        {
+          "index": 10,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "FAO-ROS-BCL6 stability in Tfh is emerging concept; trimetazidine effect testable."
+        }
+      ]
+    },
+    {
+      "a": "Rimegepant (CGRP receptor antagonist for migraine)",
+      "b": "CGRP receptor blockade on plasmacytoid dendritic cells preventing CGRP-mediated augmentation of TLR7 endosomal trafficking and IFN-α secretion",
+      "c": "Attenuation of the pDC-derived type I interferon signature in SLE",
+      "statement": "Rimegepant interrupts a neuro-immune axis in SLE by blocking CGRP-dependent enhancement of TLR7 trafficking in pDCs, reducing systemic IFN-α.",
+      "rationale": "CGRP is elevated in SLE, pDCs express functional CGRP receptors, and CGRP can modulate endosomal TLR responses; rimegepant's effect can be directly assayed on pDCs from SLE patients stimulated with R848 ex vivo.",
+      "self_novelty": "completely_novel",
+      "elo": 1120.0105918065653,
+      "review_score": 3.0,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 1,
+          "critique": "CGRP-mediated TLR7 trafficking in pDC is unsupported."
+        },
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "CGRP对pDC内TLR7运输的影响未知"
+        },
+        {
+          "index": 13,
+          "novelty": 5,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "CGRP-pDC-TLR7 axis is speculative; neuro-immune link lacks robust evidence."
+        }
+      ]
+    }
+  ]
+}

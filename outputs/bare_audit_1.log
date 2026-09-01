@@ -1,0 +1,32 @@
+裸基座去重后 120 条
+  bare_deepseek-v4-pro_G01_Auranofin: cooc=5 z=2.32 L1
+  bare_deepseek-v4-pro_G01_Mebendazole: cooc=10 z=4.49 L1
+  bare_deepseek-v4-pro_G01_Tolcapone: cooc=0 z=-0.77 L2
+  bare_deepseek-v4-pro_G01_Candesartan: cooc=0 z=-1.92 L2
+  bare_deepseek-v4-pro_G02_Propranolol: cooc=10 z=-5.85 L2
+  bare_deepseek-v4-pro_G02_Auranofin: cooc=20 z=11.66 L1
+  bare_deepseek-v4-pro_G02_Leflunomide: cooc=5 z=0.32 L1
+  bare_deepseek-v4-pro_G02_Paroxetine: cooc=9 z=-0.20 L1
+  bare_deepseek-v4-pro_G03_Loperamide: cooc=0 z=-1.13 L2
+  bare_deepseek-v4-pro_G03_Bromocriptine: cooc=0 z=-1.91 L2
+  bare_deepseek-v4-pro_G03_Dipyridamole: cooc=0 z=-2.04 L2
+  bare_deepseek-v4-pro_G04_Bumetanide: cooc=0 z=-1.74 L2
+  bare_deepseek-v4-pro_G04_Rifaximin: cooc=0 z=-1.33 L2
+  bare_deepseek-v4-pro_G04_Digoxin: cooc=5 z=-1.94 L2
+  bare_deepseek-v4-pro_G04_Carvedilol: cooc=1 z=-1.41 L2
+  bare_deepseek-v4-pro_G05_Valacyclovir: cooc=17 z=4.01 L1
+  bare_deepseek-v4-pro_G05_Disulfiram: cooc=5 z=-3.48 L2
+  bare_deepseek-v4-pro_G05_Acetazolamide: cooc=36 z=-0.96 L1
+  bare_deepseek-v4-pro_G05_Celecoxib: cooc=81 z=6.33 L1
+  bare_deepseek-v4-pro_G06_Aprepitant: cooc=0 z=-0.80 L2
+  bare_deepseek-v4-pro_G06_Eltrombopag: cooc=0 z=-0.84 L2
+  bare_deepseek-v4-pro_G06_Celecoxib: cooc=1 z=-1.48 L2
+  bare_deepseek-v4-pro_G06_Chloroquine: cooc=11 z=-0.02 L1
+  bare_deepseek-v4-pro_G07_Pentoxifylline: cooc=4 z=1.45 L1
+  bare_deepseek-v4-pro_G07_Metformin: cooc=29 z=4.18 L1
+  ✗ bare_deepseek-v4-pro_G07_Nintedanib: OverflowError
+  bare_deepseek-v4-pro_G08_Propofol: cooc=2 z=-1.38 L2
+  bare_deepseek-v4-pro_G08_Domperidone: cooc=0 z=-0.70 L2
+  bare_deepseek-v4-pro_G08_Digoxin: cooc=1 z=-0.91 L2
+  bare_deepseek-v4-pro_G08_Isotretinoin: cooc=0 z=-0.91 L2
+shard 1 done, fail=1

@@ -1,0 +1,27 @@
+  skip outputs/bare/deepseek-v4-pro_G01.json
+  skip outputs/bare/deepseek-v4-pro_G02.json
+  skip outputs/bare/deepseek-v4-pro_G03.json
+  skip outputs/bare/deepseek-v4-pro_G04.json
+  skip outputs/bare/deepseek-v4-pro_G05.json
+  skip outputs/bare/deepseek-v4-pro_G06.json
+  skip outputs/bare/deepseek-v4-pro_G07.json
+  skip outputs/bare/deepseek-v4-pro_G08.json
+  skip outputs/bare/deepseek-v4-pro_G09.json
+  deepseek-v4-pro G10 (Systemic lupus erythematosus): 15 条 → outputs/bare/deepseek-v4-pro_G10.json
+  skip outputs/bare/deepseek-v4-pro_G11.json
+  skip outputs/bare/deepseek-v4-pro_G12.json
+== deepseek-v4-pro: 调用 1, tokens in/out 144/5249 ==
+  skip outputs/bare/qwen3.7-max_G01.json
+  skip outputs/bare/qwen3.7-max_G02.json
+  skip outputs/bare/qwen3.7-max_G03.json
+  skip outputs/bare/qwen3.7-max_G04.json
+  skip outputs/bare/qwen3.7-max_G05.json
+  skip outputs/bare/qwen3.7-max_G06.json
+  skip outputs/bare/qwen3.7-max_G07.json
+  skip outputs/bare/qwen3.7-max_G08.json
+  skip outputs/bare/qwen3.7-max_G09.json
+  skip outputs/bare/qwen3.7-max_G10.json
+  skip outputs/bare/qwen3.7-max_G11.json
+  skip outputs/bare/qwen3.7-max_G12.json
+== qwen3.7-max: 调用 0, tokens in/out 0/0 ==
+裸基座生成完成

@@ -1,0 +1,19 @@
+样本 321 条，已审计 109 条，续跑剩余…
+
+  …60/321  已编码，最近 Atorvastatin→Systemic lupus erythematosus = L1_既知重组
+  …120/321  已编码，最近 Osilodrostat→Inflammatory bowel disease = L2_跨文献新颖
+  …160/321  已编码，最近 Deferiprone→Amyotrophic lateral sclerosis = L1_既知重组
+  ✗ deepseek-v4-pro_G03_Terbinafine: RuntimeError
+  …240/321  已编码，最近 Spironolactone→Glioblastoma = L1_既知重组
+  ✗ deepseek-v4-pro_G03_Menadione: RuntimeError
+  ✗ deepseek-v4-pro_G09_Dimethyl: RuntimeError
+  ✗ deepseek-v4-pro_G09_Metformin: RuntimeError
+  ✗ qwen3.7-max_G04_ALS: OverflowError
+  ✗ deepseek-v4-pro_G08_Trimetazidine: RuntimeError
+  …280/321  已编码，最近 Ursodeoxycholic→Amyotrophic lateral sclerosis = L1_既知重组
+  …300/321  已编码，最近 Ibrutinib→Systemic lupus erythematosus = L1_既知重组
+  ✗ deepseek-v4-pro_G04_Disulfiram: RuntimeError
+  ✗ deepseek-v4-pro_G10_Teriflunomide: RuntimeError
+  ✗ deepseek-v4-pro_G03_Isoniazid: RuntimeError
+
+完成 → outputs/coded_sample.jsonl（累计已编码 258 条，本轮失败 9 条，可再跑补齐）

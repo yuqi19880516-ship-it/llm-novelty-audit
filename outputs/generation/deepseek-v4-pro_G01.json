@@ -1,0 +1,555 @@
+{
+  "goal_id": "G01",
+  "disease_en": "Acute myeloid leukemia",
+  "goal": "为急性髓系白血病（Acute myeloid leukemia）寻找可重定位的已上市药物及其作用机制",
+  "overview": "急性髓系白血病（AML）的重定位药物研究揭示了多种老药新用的潜力机制。普萘洛尔通过拮抗β2-肾上腺素受体，促进抗凋亡蛋白MCL-1降解，从而增敏AML细胞的内源性凋亡并诱导分化（Elo 1300）。依布硒啉则通过抑制肌醇单磷酸酶，降解β-连环蛋白，削弱白血病干细胞的自我更新能力（Elo 1293）。伊曲康唑靶向白血病干细胞的胆固醇转运，破坏其维持静息态所需的Hedgehog信号转导，抑制干性（Elo 1286）。氯硝柳胺直接干扰线粒体膜电位，同时阻断骨髓微环境提供的基质保护信号，有效清除依赖氧化呼吸的AML细胞（Elo 1275）。双硫仑与铜离子络合物能选择性诱导化疗耐药原始细胞发生铁死亡，其核心机制是驱动致死性脂质过氧化（Elo 1251）。这些药物从凋亡增敏、信号降解到铁死亡，为AML治疗提供了多靶点干预策略。",
+  "hypotheses": [
+    {
+      "a": "Propranolol",
+      "b": "β-adrenergic receptor blockade reducing cAMP/PKA-dependent stabilization of anti-apoptotic MCL-1",
+      "c": "Sensitization of AML cells to intrinsic apoptosis and differentiation",
+      "statement": "Propranolol promotes MCL-1 degradation via β2-adrenergic receptor antagonism in AML.",
+      "rationale": "AML cells frequently express functional β2-adrenergic receptors and rely on PKA-mediated phosphorylation to protect MCL-1 from degradation.",
+      "self_novelty": "completely_novel",
+      "elo": 1299.852149501121,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "β阻断降解MCL-1机制清楚，属于已知通路再应用"
+        },
+        {
+          "index": 6,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "β阻断降解MCL-1的机制在AML中直接证据少。"
+        },
+        {
+          "index": 6,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "β2-AR/MCL-1轴在AML需验证，非选择性效应复杂"
+        }
+      ]
+    },
+    {
+      "a": "Ebselen",
+      "b": "Mimicking glutathione peroxidase and inhibiting inositol monophosphatase leading to attenuation of Wnt/β-catenin signaling",
+      "c": "Impairment of leukemia stem cell function through β-catenin degradation",
+      "statement": "Ebselen suppresses β-catenin signaling in AML stem cells by inhibiting inositol monophosphatase.",
+      "rationale": "IMPase inhibition depletes inositol and reduces Wnt/β-catenin pathway activation, which is essential for AML stem cell self-renewal.",
+      "self_novelty": "completely_novel",
+      "elo": 1293.0431243680825,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "IMPase抑制降解β-catenin在AML干细胞中待验证，机制跨通路"
+        },
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "依布硒啉抑制IMPase减弱Wnt信号较新颖。"
+        },
+        {
+          "index": 7,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "IMPase抑制导致β-catenin降解明确，LSC需验证"
+        }
+      ]
+    },
+    {
+      "a": "Itraconazole",
+      "b": "Blockade of intracellular cholesterol trafficking inhibiting Hedgehog pathway and mTORC1 activation",
+      "c": "Suppression of leukemia stem cell self-renewal and quiescence",
+      "statement": "Itraconazole targets AML stem cells by disrupting cholesterol flux necessary for Hedgehog signal transduction.",
+      "rationale": "AML stem cells depend on Hedgehog signaling for maintenance, and itraconazole inhibits Smoothened through cholesterol modulation.",
+      "self_novelty": "moderate",
+      "elo": 1286.1851912857796,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "胆固醇转运阻断Hedgehog通路靶向干细胞，策略新颖且合理"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "胆固醇转运阻滞Hedgehog在AML干细胞的证据待加强。"
+        },
+        {
+          "index": 5,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "伊曲康唑抑制Hedgehog有依据，LSC特异性待确认"
+        }
+      ]
+    },
+    {
+      "a": "Niclosamide",
+      "b": "Uncoupling of mitochondrial oxidative phosphorylation and inhibition of STAT3/NF-κB survival signaling",
+      "c": "Elimination of AML cells dependent on mitochondrial respiration and stromal protection",
+      "statement": "Niclosamide disrupts mitochondrial membrane potential and blocks niche-derived survival signals in AML.",
+      "rationale": "AML cells are highly dependent on oxidative phosphorylation and bone marrow stromal cytokines, both targeted by niclosamide.",
+      "self_novelty": "moderate",
+      "elo": 1275.3294904068184,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "线粒体解耦联靶向氧化磷酸化依赖AML细胞可行，STAT3/NF-κB非独特"
+        },
+        {
+          "index": 1,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "线粒体解偶联与STAT3抑制证据有限。"
+        },
+        {
+          "index": 1,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "STAT3/NF-κB抑制已知，解偶联可能影响正常细胞"
+        }
+      ]
+    },
+    {
+      "a": "Disulfiram",
+      "b": "Inhibition of aldehyde dehydrogenase and copper-dependent reactive oxygen species generation triggering ferroptosis in AML cells with high intracellular copper",
+      "c": "Selective killing of chemotherapy-resistant AML blasts",
+      "statement": "Disulfiram-copper complex induces ferroptosis in AML via lipid peroxidation.",
+      "rationale": "AML cells often exhibit elevated copper levels and rely on ALDH for stemness, creating vulnerability to disulfiram-mediated oxidative stress.",
+      "self_novelty": "moderate",
+      "elo": 1251.197990454454,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 0,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铜依赖铁死亡机制较新，但需区分耐受细胞铜水平"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "已知铜复合物诱导铁死亡，新颖性中等。"
+        },
+        {
+          "index": 0,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "铜介导铁死亡已有研究，针对AML干性机制尚待验证"
+        }
+      ]
+    },
+    {
+      "a": "Atorvastatin",
+      "b": "Inhibition of HMG-CoA reductase reducing prenylation of small GTPases and disrupting lipid raft-mediated FLT3-ITD signaling",
+      "c": "Growth arrest and apoptosis in FLT3-mutated AML",
+      "statement": "Atorvastatin compromises FLT3-ITD oncogenic activity through cholesterol depletion in lipid rafts.",
+      "rationale": "FLT3-ITD requires lipid raft localization for dimerization and signaling, which is cholesterol-dependent.",
+      "self_novelty": "known",
+      "elo": 1246.5838491996283,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "脂筏干扰FLT3-ITD信号有充分支持，新颖性中等"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "他汀对FLT3-ITD脂筏信号影响有研究支持。"
+        },
+        {
+          "index": 3,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "他汀重定位AML已有临床前数据，机制合理"
+        }
+      ]
+    },
+    {
+      "a": "Auranofin",
+      "b": "Inhibition of thioredoxin reductase leading to lethal oxidative stress and ASK1-mediated apoptosis",
+      "c": "Eradication of AML blasts with high basal reactive oxygen species",
+      "statement": "Auranofin induces redox catastrophe by blocking the thioredoxin antioxidant system in AML.",
+      "rationale": "AML cells have elevated reactive oxygen species and rely on the thioredoxin system to prevent oxidative damage.",
+      "self_novelty": "moderate",
+      "elo": 1246.0,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "靶向TXNRD1诱导氧化灾难在AML中证据有限，需更多验证"
+        },
+        {
+          "index": 4,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "硫氧还蛋白还原酶抑制诱导氧化应激可行。"
+        },
+        {
+          "index": 4,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "硫氧还蛋白抑制报道较多，高ROS亚型有前景"
+        }
+      ]
+    },
+    {
+      "a": "Mebendazole",
+      "b": "Inhibition of tubulin polymerization leading to destabilization of MYC protein transport and degradation",
+      "c": "Cytotoxicity and differentiation of MYC-driven AML",
+      "statement": "Mebendazole destabilizes oncogenic MYC by disrupting microtubule-dependent trafficking.",
+      "rationale": "MYC is a key driver in AML and requires intact microtubules for its perinuclear localization and protein stability.",
+      "self_novelty": "completely_novel",
+      "elo": 1229.4733386561572,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 2,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "微管破坏降解MYC思路合理，但MYC转运机制证据尚间接"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "MYC蛋白运输机制需更明确证据。"
+        },
+        {
+          "index": 2,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "MYC蛋白依赖微管运输证据有限，需进一步确认"
+        }
+      ]
+    },
+    {
+      "a": "Sulfasalazine",
+      "b": "Inhibition of system xc- cystine/glutamate antiporter depleting glutathione and inducing ferroptosis",
+      "c": "Selective vulnerability of AML cells with low endogenous cysteine reserves or high iron load",
+      "statement": "Sulfasalazine triggers ferroptosis in AML by blocking cystine import and glutathione synthesis.",
+      "rationale": "AML cells are prone to oxidative stress and depend on system xc- to maintain glutathione levels; sulfasalazine disrupts this balance.",
+      "self_novelty": "moderate",
+      "elo": 1217.6544659531644,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 10,
+          "novelty": 2,
+          "correctness": 5,
+          "plausibility": 5,
+          "critique": "xc-抑制诱导铁死亡经典策略，新颖性低但确证性高"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "系统xc-抑制诱发铁死亡在AML中合理。"
+        },
+        {
+          "index": 10,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "system xc-抑制诱导铁死亡已有报道，依赖GSH水平"
+        }
+      ]
+    },
+    {
+      "a": "Disulfiram",
+      "b": "Copper-dependent induction of ferroptosis and MCL-1 degradation in AML",
+      "c": "Acute myeloid leukemia",
+      "statement": "Disulfiram selectively triggers ferroptosis and apoptosis in AML cells by increasing intracellular copper, leading to GPX4 inhibition and MCL-1 degradation.",
+      "rationale": "Disulfiram-copper complexes catalyze oxidative stress that inactivates GPX4 and promotes ubiquitination of MCL-1, simultaneously inducing ferroptosis and intrinsic apoptosis.",
+      "self_novelty": "Combining ferroptosis induction with MCL-1 targeted degradation via a single repurposed drug is unexplored in AML.",
+      "elo": 1200.3922809240225,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 15,
+          "novelty": 2,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "与索引0高度重叠，仅增加MCL-1降解细节。"
+        },
+        {
+          "index": 15,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "与条目0重叠，MCL-1降解机制为额外分"
+        }
+      ]
+    },
+    {
+      "a": "Mefloquine",
+      "b": "Inhibition of lysosomal acidification blocking mitophagy flux and causing accumulation of damaged mitochondria",
+      "c": "Targeting AML cells with high mitophagy addiction for survival",
+      "statement": "Mefloquine induces lysosome-dependent cell death in mitophagy-reliant AML.",
+      "rationale": "AML cells frequently depend on mitophagy to maintain mitochondrial quality control, which is disrupted by mefloquine-mediated lysosomal inhibition.",
+      "self_novelty": "completely_novel",
+      "elo": 1197.5087935585375,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "溶酶体酸化的有丝分裂依赖假说新颖，AML模型证据尚薄弱"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "靶向线粒体自噬成瘾的AML细胞概念有趣。"
+        },
+        {
+          "index": 9,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "线粒体自噬依赖性AML标志物需界定，选择性存疑"
+        }
+      ]
+    },
+    {
+      "a": "Trifluoperazine",
+      "b": "Inhibition of dopamine D2 receptor and calmodulin causing dysregulation of autophagic flux and endoplasmic reticulum stress",
+      "c": "Cytotoxicity in autophagy-dependent AML",
+      "statement": "Trifluoperazine triggers lethal autophagy blockade and ER stress in AML cells.",
+      "rationale": "AML cells often upregulate autophagy for metabolic stress survival, and dual D2R/calmodulin inhibition disrupts this protective mechanism.",
+      "self_novelty": "known",
+      "elo": 1176.2341122140272,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 3,
+          "critique": "自噬流阻断与ER应激诱导合理，但D2R/钙调素选择性存疑"
+        },
+        {
+          "index": 8,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "多巴胺受体与自噬阻断在AML中联系尚不明确。"
+        },
+        {
+          "index": 8,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "自噬依赖AML亚群需确定，D2受体在AML表达不明确"
+        }
+      ]
+    },
+    {
+      "a": "Prazosin",
+      "b": "α1-adrenergic receptor blockade inducing mitochondrial apoptosis and caspase-mediated PARP-1 cleavage",
+      "c": "Synthetic lethality in AML cells with homologous recombination deficiency",
+      "statement": "Prazosin triggers selective cytotoxicity in HR-deficient AML through degradation of PARP-1.",
+      "rationale": "AML frequently exhibits defective DNA repair, and prazosin exploits this vulnerability by eliminating PARP-1, which is critical for single-strand break repair.",
+      "self_novelty": "completely_novel",
+      "elo": 1174.7309392297734,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 2,
+          "plausibility": 2,
+          "critique": "PARP-1降解致HR缺陷合成致死缺乏直接证据，机制牵强"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "HR缺陷AML对PARP-1裂解的合成致死需验证。"
+        },
+        {
+          "index": 12,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "合成致死假设需验证HR缺陷与prazosin的协同"
+        }
+      ]
+    },
+    {
+      "a": "Sertraline",
+      "b": "Inhibition of acid sphingomyelinase altering ceramide metabolism and inducing lysosomal membrane permeabilization",
+      "c": "Cathepsin B/L-mediated apoptosis in AML",
+      "statement": "Sertraline disrupts sphingolipid homeostasis, causing lysosomal cell death in AML.",
+      "rationale": "AML cells have altered sphingolipid metabolism and lysosomal stability, making them susceptible to sertraline-induced lysosomal leakage.",
+      "self_novelty": "completely_novel",
+      "elo": 1174.1308857193183,
+      "review_score": 3.3333333333333335,
+      "reviews": [
+        {
+          "index": 11,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "酸性鞘磷脂酶/溶酶体死亡通路在AML中数据有限"
+        },
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "酸性鞘磷脂酶改变导致溶酶体死亡新颖但证据少。"
+        },
+        {
+          "index": 11,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "ASM抑制和溶酶体死亡在AML特异性有待证实"
+        }
+      ]
+    },
+    {
+      "a": "Mometasone furoate",
+      "b": "Glucocorticoid receptor activation inducing BIM-dependent apoptosis counteracted by simultaneous upregulation of protective autophagy",
+      "c": "Context-dependent AML cell death when combined with autophagy inhibitors",
+      "statement": "Mometasone primes AML cells for BIM-mediated apoptosis but requires autophagy blockade for full execution.",
+      "rationale": "AML cells circumvent glucocorticoid-induced apoptosis by upregulating autophagy, creating a combination hypersensitivity.",
+      "self_novelty": "moderate",
+      "elo": 1167.021155980849,
+      "review_score": 4.0,
+      "reviews": [
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "BIM/自噬双调控巧妙，但体内微环境转化存疑"
+        },
+        {
+          "index": 13,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "糖皮质激素诱导BIM与保护自噬矛盾需平衡。"
+        },
+        {
+          "index": 13,
+          "novelty": 4,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "糖皮质激素联合自噬抑制在髓系AML可探索"
+        }
+      ]
+    },
+    {
+      "a": "Artesunate",
+      "b": "Iron-driven ferroptosis coupled with β-catenin degradation in leukemia stem cells",
+      "c": "Acute myeloid leukemia",
+      "statement": "Artesunate eliminates leukemia stem cells by releasing labile iron to drive ferroptosis and degrading β-catenin through oxidative proteasomal activation.",
+      "rationale": "Artesunate's endoperoxide bridge interacts with heme iron, generating ROS that peroxidize lipids and activate proteasomal degradation of β-catenin, impairing stem cell self-renewal.",
+      "self_novelty": "Linking artesunate-induced ferroptosis to β-catenin degradation in AML stem cells represents a novel dual-targeting concept.",
+      "elo": 1164.7802763722252,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 16,
+          "novelty": 3,
+          "correctness": 3,
+          "plausibility": 3,
+          "critique": "青蒿琥酯铁死亡与β-catenin降解连接机制模糊。"
+        },
+        {
+          "index": 16,
+          "novelty": 4,
+          "correctness": 3,
+          "plausibility": 4,
+          "critique": "β-catenin降解与铁死亡协同，LSC证据梯度待建立"
+        }
+      ]
+    },
+    {
+      "a": "Pirfenidone",
+      "b": "Inhibition of TGF-β signaling disrupting leukemia-stroma crosstalk and reducing niche-mediated chemoprotection",
+      "c": "Sensitization of AML cells to chemotherapy by dismantling the protective bone marrow microenvironment",
+      "statement": "Pirfenidone remodels the AML niche by blocking TGF-β, diminishing chemoresistance.",
+      "rationale": "TGF-β derived from the bone marrow niche maintains AML dormancy and drug resistance, and pirfenidone can interrupt this protective interaction.",
+      "self_novelty": "moderate",
+      "elo": 1159.8819561760415,
+      "review_score": 3.6666666666666665,
+      "reviews": [
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "TGF-β阻断改善微环境有依据，但非AML选择性"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "TGF-β抑制破坏微环境化疗保护已有支持。"
+        },
+        {
+          "index": 14,
+          "novelty": 3,
+          "correctness": 4,
+          "plausibility": 4,
+          "critique": "TGF-β抑制削弱基质保护已有概念，需证明特异性"
+        }
+      ]
+    }
+  ]
+}

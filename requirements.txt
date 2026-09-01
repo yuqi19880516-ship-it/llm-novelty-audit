@@ -1,0 +1,7 @@
+# 骨架(Mock 端到端)零依赖，仅需 Python ≥3.10 标准库。
+# 以下为接入真实后端时按需安装：
+# openai>=1.0           # DeepSeek / Qwen / 兼容接口的 LLM 调用
+# numpy                 # 嵌入距离
+# sentence-transformers # 语义嵌入
+# networkx              # 知识图最短路径
+# biopython             # (可选) 更稳的 PubMed E-utilities 封装

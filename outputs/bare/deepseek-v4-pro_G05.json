@@ -1,0 +1,152 @@
+[
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "Canagliflozin",
+"B": "Inhibition of sodium-glucose cotransporter 2 in brain microvascular endothelial cells leading to reduced oxidative stress and improved neurovascular coupling",
+"C": "Preserved cerebral blood flow and delayed cognitive decline in Alzheimer's disease",
+"statement": "Canagliflozin, an SGLT2 inhibitor, mitigates Alzheimer's-related cerebrovascular dysfunction by reducing endothelial oxidative stress.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "Valacyclovir",
+"B": "Suppression of herpes simplex virus type 1 reactivation and subsequent reduction of amyloid-beta accumulation via decreased viral-mediated APP processing",
+"C": "Lower amyloid plaque burden and slower disease progression in APOE4 carriers with Alzheimer's disease",
+"statement": "Valacyclovir prevents herpesvirus-driven amyloid-beta aggregation in APOE4-positive Alzheimer's patients.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "Fenofibrate",
+"B": "Activation of PPARα inducing hepatic fibroblast growth factor 21 secretion, which crosses the blood-brain barrier and enhances hippocampal synaptic plasticity",
+"C": "Improved memory performance in prodromal Alzheimer's disease",
+"statement": "Fenofibrate's cognitive benefit in Alzheimer's is mediated by liver-brain FGF21 signaling that boosts synaptic function.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "Doxycycline",
+"B": "Inhibition of matrix metalloproteinase-9-mediated disruption of the blood-brain barrier and subsequent reduction of neurotoxic plasma protein extravasation",
+"C": "Reduced neuroinflammation and tau hyperphosphorylation in Alzheimer's disease",
+"statement": "Doxycycline protects the blood-brain barrier integrity in Alzheimer's disease by blocking MMP-9 activity.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "Baclofen",
+"B": "Activation of GABA-B receptors on microglia triggering a shift from a pro-inflammatory M1 to an anti-inflammatory M2 phenotype",
+"C": "Attenuated neuroinflammation and reduced tau spreading in Alzheimer's disease",
+"statement": "Baclofen polarizes microglia toward an anti-inflammatory state, limiting tau propagation in Alzheimer's.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "Disulfiram",
+"B": "Inhibition of FROUNT protein-mediated chemokine receptor signaling on peripheral monocytes, blocking their recruitment to the brain",
+"C": "Decreased neuroinflammatory infiltrates and slower cognitive deterioration in Alzheimer's disease",
+"statement": "Disulfiram hampers monocyte trafficking into the Alzheimer's brain by inhibiting the FROUNT-CCR2/CCR5 axis.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "Ivacaftor",
+"B": "Potentiation of CFTR chloride channel function leading to restoration of lysosomal acidification and enhanced autophagic clearance of amyloid-beta",
+"C": "Reduced intracellular amyloid-beta accumulation and improved neuronal survival in Alzheimer's disease",
+"statement": "Ivacaftor corrects lysosomal dysfunction in Alzheimer's neurons by improving CFTR-mediated chloride homeostasis.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "Sildenafil",
+"B": "Inhibition of phosphodiesterase-5 elevating cGMP levels and activating protein kinase G, which enhances the ubiquitin-proteasome system for tau degradation",
+"C": "Decreased phosphorylated tau aggregates and preserved cognitive function in Alzheimer's disease",
+"statement": "Sildenafil promotes tau clearance via cGMP-PKG-mediated proteasomal activation in Alzheimer's disease.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "Allopurinol",
+"B": "Xanthine oxidase inhibition reducing cerebral uric acid crystal-induced NLRP3 inflammasome activation and subsequent interleukin-1-beta release",
+"C": "Suppressed neuroinflammation and alleviated synaptic loss in Alzheimer's disease",
+"statement": "Allopurinol dampens inflammasome-driven neuroinflammation in Alzheimer's by cutting xanthine oxidase-dependent uric acid production.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "Acetazolamide",
+"B": "Carbonic anhydrase inhibition producing mild metabolic acidosis, which shifts amyloid precursor protein processing away from beta-secretase cleavage toward non-amyloidogenic alpha-secretase pathway",
+"C": "Diminished amyloid-beta generation and delayed appearance of senile plaques",
+"statement": "Acetazolamide reroutes APP processing to the non-amyloidogenic pathway through intracellular pH modulation.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "Zileuton",
+"B": "Inhibition of 5-lipoxygenase reducing leukotriene B4 synthesis, which activates the PPAR-gamma coactivator-1 alpha pathway to stimulate mitochondrial biogenesis",
+"C": "Improved neuronal energy metabolism and cognitive resilience in Alzheimer's disease",
+"statement": "Zileuton boosts mitochondrial biogenesis in Alzheimer's neurons by lowering LTB4-mediated PGC-1α suppression.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "Candesartan",
+"B": "Angiotensin II type 1 receptor blockade on astrocytes diminishing reactive oxygen species production and restoring astrocytic lactate shuttling to neurons",
+"C": "Enhanced neuronal viability and slower hippocampal atrophy in Alzheimer's disease",
+"statement": "Candesartan restores astrocyte-neuron metabolic coupling in Alzheimer's disease by blocking AT1R-mediated oxidative stress.",
+"self_novelty": "moderate"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "Mifepristone",
+"B": "Glucocorticoid receptor antagonism reducing FKBP51 expression, leading to disinhibition of Akt signaling and decreased tau phosphorylation by GSK-3beta",
+"C": "Reduced hyperphosphorylated tau and slowed neurofibrillary tangle formation in Alzheimer's disease",
+"statement": "Mifepristone lowers pathological tau by antagonizing glucocorticoid receptor-mediated upregulation of FKBP51.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "Celecoxib",
+"B": "Cyclooxygenase-2 inhibition specifically in the choroid plexus preventing prostaglandin E2-mediated disruption of the blood-cerebrospinal fluid barrier",
+"C": "Preserved cerebrospinal fluid homeostasis and reduced accumulation of neurotoxic proteins in the brain parenchyma",
+"statement": "Celecoxib maintains blood-CSF barrier integrity in Alzheimer's disease by blocking COX-2/PGE2 signaling in the choroid plexus.",
+"self_novelty": "completely_novel"
+},
+{
+"model": "deepseek-v4-pro",
+"goal_id": "G05",
+"disease": "Alzheimer's disease",
+"A": "Pyridostigmine",
+"B": "Peripheral acetylcholinesterase inhibition amplifying vagus nerve anti-inflammatory cholinergic reflex, suppressing systemic TNF-alpha release and central neuroinflammation",
+"C": "Attenuated hippocampal microgliosis and improved memory in early Alzheimer's disease",
+"statement": "Pyridostigmine harnesses the cholinergic anti-inflammatory pathway to reduce Alzheimer's neuroinflammation via the vagus nerve.",
+"self_novelty": "completely_novel"
+}
+]
