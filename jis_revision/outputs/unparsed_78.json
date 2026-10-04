@@ -1,0 +1,782 @@
+[
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 0,
+  "a": "双硫仑",
+  "b": "抑制乙醛脱氢酶（ALDH）活性，导致细胞乙醛蓄积并引发未折叠蛋白反应（UPR）持续激活",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 1,
+  "a": "氯硝柳胺",
+  "b": "促进溶酶体酸化障碍并阻断Wnt信号中DVL2与AXIN的相互作用，同时引发TFEB核转位异常导致自噬体蓄积",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 2,
+  "a": "青蒿琥酯",
+  "b": "利用GBM细胞内升高的游离铁催化其过氧桥断裂，产生大量碳中心自由基并直接损伤线粒体心磷脂",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 3,
+  "a": "地高辛",
+  "b": "抑制Na⁺/K⁺-ATP酶后激发钙调神经磷酸酶（calcineurin）持续活化，使NFAT转录因子去磷酸化入核并诱导RIPK3表达",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 4,
+  "a": "伊曲康唑",
+  "b": "抑制胆固醇重头合成酶CYP51，导致细胞内固醇类中间物缺乏，从而阻断SMO蛋白的固醇感测及下游GLI活化",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 5,
+  "a": "普萘洛尔",
+  "b": "阻断β2-肾上腺素受体，抑制cAMP-PKA信号轴，阻止PKA介导的stathmin-1磷酸化",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 6,
+  "a": "米非司酮",
+  "b": "阻断糖皮质激素受体（GR）核转位，下调GR靶基因SGK1，解除SGK1对FOXO3a的磷酸化抑制",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 7,
+  "a": "西咪替丁",
+  "b": "阻断组胺H2受体，降低cAMP水平并抑制PKA对LKB1的磷酸化失活",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 8,
+  "a": "氟哌啶醇",
+  "b": "同时拮抗多巴胺D2受体与Sigma-1受体，阻遏Sigma-1介导的IRE1α稳定化，瓦解GBM细胞的内质网应激适应能力",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 11,
+  "a": "雷洛昔芬",
+  "b": "作为选择性雌激素受体β（ERβ）激动剂，激活ERβ后募集NCoR/HDAC3共抑制复合体至IL-6启动子区",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 12,
+  "a": "嗅隐亭",
+  "b": "多巴胺D2受体激动剂，激活肿瘤浸润CD8+ T细胞上的D2受体后抑制其Akt-mTOR通路，降低PD-1转录水平",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 13,
+  "a": "利福平",
+  "b": "孕烷X受体（PXR）激动剂，通过PXR直接转录上调胆固醇24-羟化酶（CYP46A1），加速脑内24S-羟基胆固醇合成",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 14,
+  "a": "青蒿琥酯",
+  "b": "诱导铁死亡并绕过凋亡抵抗",
+  "self_novelty": "高",
+  "n_reviews": 2
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 15,
+  "a": "沙利度胺",
+  "b": "通过CRL4-Cereblon E3泛素连接酶特异性降解转录因子ZNF217，解除ZNF217对miR-124启动子的甲基化沉默",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 16,
+  "a": "亚甲蓝",
+  "b": "作为线粒体替代电子载体，在复合体I缺陷的GBM细胞中重路由电子流绕过受损呼吸链，减少反向电子流产生的超氧化物",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 17,
+  "a": "伊曲康唑",
+  "b": "双重阻断Hedgehog与mTORC2/AKT干性轴",
+  "self_novelty": "高",
+  "n_reviews": 2
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 18,
+  "a": "乙酰半胱氨酸",
+  "b": "断裂胶质瘤微环境中黏蛋白（mucin）的二硫键，液化凝胶状细胞外基质并解除其对CXCL10的物理螯合",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G03",
+  "disease": "Pancreatic ductal adenocarcinoma",
+  "rank": 6,
+  "a": "维生素K2（甲萘醌-4，Menadione）",
+  "b": "通过NQO1还原循环产生持续的ROS导致膜脂质过氧化，并特异抑制IKKβ/NF-κB，进而切割Gasdermin E(GSDME)引发焦亡",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G03",
+  "disease": "Pancreatic ductal adenocarcinoma",
+  "rank": 12,
+  "a": "Fluvoxamine + Terbinafine combination",
+  "b": "Synergistic sigma-1/ER stress and squalene-p53-ferroptosis axis",
+  "self_novelty": "Highly novel: integrates two existing repurposed hypotheses into a synergistic, immune-activating ferroptosis induction strategy.",
+  "n_reviews": 2
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 0,
+  "a": "青蒿琥酯",
+  "b": "通过铁离子依赖的脂质过氧化诱导肌成纤维细胞铁死亡",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 1,
+  "a": "丙戊酸",
+  "b": "抑制HDAC活性上调p53/p21信号，诱导肺成纤维细胞衰老和凋亡",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 2,
+  "a": "达格列净",
+  "b": "激活AMPK/SIRT1并抑制mTOR，减少衰老相关分泌表型并促进衰老细胞凋亡",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 3,
+  "a": "阿苯达唑",
+  "b": "抑制微管聚合导致HIF-1α降解，下调VEGF和成纤维细胞活化标志物",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 4,
+  "a": "特立帕肽",
+  "b": "激活PTHR1/cAMP轴，抑制TGF-β/Smad2/3核转位",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 5,
+  "a": "非布司他",
+  "b": "抑制黄嘌呤氧化酶降低ROS产生，阻断TGF-β1/Smad2/3信号传导",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 6,
+  "a": "替格瑞洛",
+  "b": "拮抗P2Y12受体并抑制腺苷再摄取，阻断血小板-成纤维细胞串扰和TGF-β活化",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 7,
+  "a": "氟西汀",
+  "b": "抑制5-HT转运体降低局部5-HT可用性，减少5-HT2B受体介导的成纤维细胞增殖",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 8,
+  "a": "氯氮平",
+  "b": "拮抗5-HT2A和多巴胺D4受体同时诱导自噬体形成，抑制肌成纤维细胞分化",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 9,
+  "a": "去铁胺",
+  "b": "螯合游离铁抑制脂质过氧化和肺泡上皮细胞铁死亡",
+  "self_novelty": "known",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 10,
+  "a": "褪黑素",
+  "b": "SIRT3激活与线粒体保护",
+  "self_novelty": "针对衰老的上皮细胞进行逆转而非清除，与达格列净清除衰老细胞机制互补；首次提出褪黑素-SIRT3-线粒体轴在IPF中的药物重定位。",
+  "n_reviews": 1
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 11,
+  "a": "辛伐他汀",
+  "b": "同时诱导肌成纤维细胞铁死亡并抑制异常血管新生",
+  "self_novelty": "巧妙融合了青蒿琥酯的铁死亡机制与阿苯达唑的HIF-1α抑制策略，提出他汀类药物针对IPF的‘铁死亡-抗血管生成’协同新机制。",
+  "n_reviews": 2
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 12,
+  "a": "伊维菌素",
+  "b": "抑制肌成纤维细胞活化和自噬通量",
+  "self_novelty": "首次将伊维菌素的PAK1抑制活性与IPF中肌成纤维细胞的自噬生存依赖相链接，提出非传统抗寄生虫药的抗纤维化新用途。",
+  "n_reviews": 2
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 13,
+  "a": "孟鲁司特",
+  "b": "阻断CysLT1受体抑制肥大细胞活化和成纤维细胞趋化",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 14,
+  "a": "阿司匹林",
+  "b": "乙酰化环氧合酶-1抑制血小板活化，减少PDGF和TGF-β从血小板释放",
+  "self_novelty": "known",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 15,
+  "a": "去铁酮",
+  "b": "铁螯合与铁死亡抑制",
+  "self_novelty": "与青蒿琥酯利用铁死亡杀伤肌成纤维细胞的策略相反，从保护上皮细胞铁死亡的角度提出重定位，开辟IPF中铁稳态调控新方向。",
+  "n_reviews": 1
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 16,
+  "a": "非诺贝特",
+  "b": "激活PPARα上调脂联素并抑制TGF-β/Smad3通路",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 17,
+  "a": "利培酮",
+  "b": "拮抗多巴胺D2和5-HT2A受体，下调P物质/NK1R神经源性炎症",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G07",
+  "disease": "Idiopathic pulmonary fibrosis",
+  "rank": 18,
+  "a": "吡格列酮",
+  "b": "激活PPARγ诱导肌成纤维细胞转分化为脂肪细胞样细胞并抑制TGF-β信号",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 9,
+  "a": "Dasatinib + Deferiprone",
+  "b": "Autophagic sequestration coupled with iron deprivation",
+  "self_novelty": "0.8",
+  "n_reviews": 1
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "goal_id": "G10",
+  "disease": "Systemic lupus erythematosus",
+  "rank": 8,
+  "a": "Zileuton + Hydroxychloroquine",
+  "b": "5-LOX inhibitor + TLR7/9 blocker",
+  "self_novelty": "A rationally designed drug–disease mechanistic pair that sequentially neutralizes autoantigen supply and interferon amplification, going beyond either monotherapy's original repurposing rationale.",
+  "n_reviews": 1
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 13,
+  "a": "酮康唑",
+  "b": "氟哌啶醇",
+  "self_novelty": "构建了以膜微区（脂筏）重塑为核心的三联药物增敏网络，揭示脂质代谢干预在受体药理学中的变构调控价值。",
+  "n_reviews": 1
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 14,
+  "a": "氟哌啶醇",
+  "b": "伊维菌素",
+  "self_novelty": "首次提出抗精神病药与抗寄生虫药通过跨细胞器应激串扰（ER-mitotic crosstalk）实现GBM合成致死。",
+  "n_reviews": 1
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 16,
+  "a": "氟哌啶醇",
+  "b": "伊维菌素",
+  "self_novelty": "首次提出神经安定药与抗寄生虫药通过跨系统应激通路协同杀伤GBM的新机制。",
+  "n_reviews": 2
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G02",
+  "disease": "Glioblastoma",
+  "rank": 17,
+  "a": "酮康唑",
+  "b": "氟哌啶醇",
+  "self_novelty": "揭示抗真菌药作为膜微环境调节剂对两类不同机制药物的增效作用，开辟GBM三联疗法新策略。",
+  "n_reviews": 2
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 0,
+  "a": "孟鲁司特",
+  "b": "阻断白三烯受体抑制神经血管单元炎症反应",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 1,
+  "a": "沙丁胺醇",
+  "b": "激活β2肾上腺素受体促进脑源性神经营养因子释放",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 2,
+  "a": "达格列净",
+  "b": "缓解AD神经退行性变和认知衰退",
+  "self_novelty": "首次将SGLT2抑制剂的酮体代谢重编程与表观遗传抗炎机制整合为AD双重干预策略，区别于AMPK/mTOR和肠-脑轴假说。",
+  "n_reviews": 2
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 3,
+  "a": "氯沙坦",
+  "b": "阻断AT1受体减少血管紧张素II诱导的tau蛋白磷酸化",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 4,
+  "a": "利拉鲁肽",
+  "b": "激活GLP-1受体增强脑内胰岛素信号传导",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 5,
+  "a": "二甲双胍",
+  "b": "激活AMPK通路抑制mTOR介导的神经炎症",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 6,
+  "a": "螺内酯",
+  "b": "拮抗醛固酮受体减轻氧化应激诱导的线粒体功能障碍",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 7,
+  "a": "卡马西平",
+  "b": "稳定神经元膜电位抑制异常网络同步化放电",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 8,
+  "a": "西格列汀",
+  "b": "抑制DPP-4增强内源性GLP-1对神经发生的促进作用",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 9,
+  "a": "西地那非",
+  "b": "挽救AD突触可塑性损伤和认知功能",
+  "self_novelty": "将PDE5抑制剂的血管效应拓展至突触tau病理双重调控，区别于现有神经血管炎症假说。",
+  "n_reviews": 2
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 10,
+  "a": "奥利司他",
+  "b": "抑制胃肠道脂肪酶调节肠-脑轴脂质信号",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 13,
+  "a": "雷帕霉素",
+  "b": "增强自噬清除异常聚集的tau蛋白",
+  "self_novelty": "known",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 14,
+  "a": "氨氯地平",
+  "b": "阻断L型钙通道减少钙超载诱导的神经元损伤",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 15,
+  "a": "普瑞巴林",
+  "b": "调节电压门控钙通道减少兴奋性神经毒性",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 16,
+  "a": "非布司他",
+  "b": "抑制黄嘌呤氧化酶减少尿酸介导的神经炎症",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 17,
+  "a": "阿托伐他汀",
+  "b": "调节胆固醇代谢影响Aβ前体蛋白的γ-分泌酶切割",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G05",
+  "disease": "Alzheimer's disease",
+  "rank": 18,
+  "a": "塞来昔布",
+  "b": "抑制COX-2/PGE2通路调节突触可塑性相关基因表达",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 0,
+  "a": "双硫仑",
+  "b": "螯合分枝杆菌内铜离子并抑制超氧化物歧化酶",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 1,
+  "a": "氯硝柳胺",
+  "b": "解偶联分枝杆菌氧化磷酸化并诱导致死性ROS爆发",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 2,
+  "a": "丙戊酸",
+  "b": "抑制宿主组蛋白去乙酰化酶并上调抗菌肽LL-37表达",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 3,
+  "a": "氯喹",
+  "b": "阻断宿主铁蛋白自噬限制胞内游离铁",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 4,
+  "a": "硝呋太尔",
+  "b": "被分枝杆菌硝基还原酶激活产生毒性中间体",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 5,
+  "a": "伊马替尼",
+  "b": "抑制c-Abl激酶介导的巨噬细胞肌动蛋白重塑",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 7,
+  "a": "塞来昔布",
+  "b": "抑制COX-2/PGE2轴并重塑肉芽肿微环境血管生成",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 8,
+  "a": "Drug Repurposing",
+  "b": "Mechanism of Action",
+  "self_novelty": "将抗疟药阿托伐醌的靶点从疟原虫线粒体重新定位到结核分枝杆菌持留态的呼吸链依赖性上。",
+  "n_reviews": 2
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 9,
+  "a": "Drug Repurposing",
+  "b": "Mechanism of Action",
+  "self_novelty": "利用精神类药物的非经典靶点效应，将外排泵抑制机制引入耐药结核的联合治疗策略中。",
+  "n_reviews": 2
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 11,
+  "a": "硫利达嗪",
+  "b": "抑制分枝杆菌外排泵并增加细胞膜通透性",
+  "self_novelty": "known",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 12,
+  "a": "氟西汀",
+  "b": "调节巨噬细胞自噬流并促进溶酶体酸化",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 13,
+  "a": "雷帕霉素",
+  "b": "抑制mTORC1并诱导异种自噬受体p62磷酸化",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 14,
+  "a": "没食子酸铋",
+  "b": "置换分枝杆菌金属酶中的锌离子并使其失活",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 15,
+  "a": "阿托伐他汀",
+  "b": "抑制宿主甲羟戊酸途径从而剥夺分枝杆菌细胞壁合成前体",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 16,
+  "a": "氨氯地平",
+  "b": "阻断分枝杆菌钙离子通道并干扰其胞内钙信号传导",
+  "self_novelty": "completely_novel",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 17,
+  "a": "二甲双胍",
+  "b": "诱导线粒体复合物I逆向电子传递产生超氧化物",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ },
+ {
+  "model": "qwen3.7-max",
+  "goal_id": "G09",
+  "disease": "Drug-resistant tuberculosis",
+  "rank": 18,
+  "a": "阿奇霉素",
+  "b": "结合分枝杆菌核糖体并干扰群体感应信号分子合成",
+  "self_novelty": "moderate",
+  "n_reviews": 3
+ }
+]

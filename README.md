@@ -2,6 +2,8 @@
 
 Replication package for a manuscript submitted to *Scientometrics*. Preregistration: OSF, DOI [10.17605/OSF.IO/C38BD](https://doi.org/10.17605/OSF.IO/C38BD).
 
+> **Update (October 2026):** materials for the revised version submitted to the *Journal of Information Science* (synonym-expanded retrieval, blinded reading of all co-occurring records, permutation baseline, probe and perturbation v2, human-validation protocol) are in [`jis_revision/`](jis_revision/). Scoring-plan addendum: [10.17605/OSF.IO/PAZC4](https://doi.org/10.17605/OSF.IO/PAZC4).
+
 ## Contents
 
 | Path | Contents |

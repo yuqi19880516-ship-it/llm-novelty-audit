@@ -1,0 +1,5576 @@
+{
+ "perm": [
+  {
+   "id": "deepseek-v4-pro_G09_Ibuprofen",
+   "drug": "Ibuprofen",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 7
+  },
+  {
+   "id": "qwen3.7-max_G12_Ivabradine",
+   "drug": "Ivabradine",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G05_Empagliflozin",
+   "drug": "Empagliflozin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Allopurinol",
+   "drug": "Allopurinol",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 156
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Verapamil",
+   "drug": "Verapamil",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G06_Ozanimod",
+   "drug": "Ozanimod",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Montelukast",
+   "drug": "Montelukast",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Ketotifen",
+   "drug": "Ketotifen",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G11_Tiotropium",
+   "drug": "Tiotropium",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G10_Alogliptin",
+   "drug": "Alogliptin",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "deepseek-v4-pro",
+   "ex": 8
+  },
+  {
+   "id": "deepseek-v4-pro_G09_Dasatinib",
+   "drug": "Dasatinib",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 4
+  },
+  {
+   "id": "deepseek-v4-pro_G09_Zileuton",
+   "drug": "Zileuton",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G12_Ozanimod",
+   "drug": "Ozanimod",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G01_Atorvastatin",
+   "drug": "Atorvastatin",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "qwen3.7-max",
+   "ex": 18
+  },
+  {
+   "id": "deepseek-v4-pro_G10_Rimegepant",
+   "drug": "Rimegepant",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G10_Pentoxifylline",
+   "drug": "Pentoxifylline",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G12_Dextromethorphan",
+   "drug": "Dextromethorphan",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "qwen3.7-max",
+   "ex": 73
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Safinamide",
+   "drug": "Safinamide",
+   "disease": "Glioblastoma",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G02_Allopurinol",
+   "drug": "Allopurinol",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Glioblastoma",
+   "model": "qwen3.7-max",
+   "ex": 3
+  },
+  {
+   "id": "qwen3.7-max_G12_Allopurinol",
+   "drug": "Allopurinol",
+   "disease": "Glioblastoma",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G12_Dasatinib",
+   "drug": "Dasatinib",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "deepseek-v4-pro",
+   "ex": 12
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Metformin",
+   "drug": "Metformin",
+   "disease": "Glioblastoma",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 136
+  },
+  {
+   "id": "qwen3.7-max_G03_Auranofin",
+   "drug": "Auranofin",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 5
+  },
+  {
+   "id": "deepseek-v4-pro_G09_Fluoxetine",
+   "drug": "Fluoxetine",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 9
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Ursodeoxycholic acid",
+   "drug": "Ursodeoxycholic acid",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G07_Rivaroxaban",
+   "drug": "Rivaroxaban",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Candesartan",
+   "drug": "Candesartan",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 26
+  },
+  {
+   "id": "deepseek-v4-pro_G01_Mefloquine",
+   "drug": "Mefloquine",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "deepseek-v4-pro",
+   "ex": 20
+  },
+  {
+   "id": "deepseek-v4-pro_G01_Ebselen",
+   "drug": "Ebselen",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G10_Selegiline",
+   "drug": "Selegiline",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G02_Metformin",
+   "drug": "Metformin",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Glioblastoma",
+   "model": "qwen3.7-max",
+   "ex": 23
+  },
+  {
+   "id": "qwen3.7-max_G06_Upadacitinib",
+   "drug": "Upadacitinib",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G03_Cimetidine",
+   "drug": "Cimetidine",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 13
+  },
+  {
+   "id": "qwen3.7-max_G03_Artemisinin",
+   "drug": "Artemisinin",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 32
+  },
+  {
+   "id": "qwen3.7-max_G02_Disulfiram",
+   "drug": "Disulfiram",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Glioblastoma",
+   "model": "qwen3.7-max",
+   "ex": 6
+  },
+  {
+   "id": "deepseek-v4-pro_G12_Cladribine",
+   "drug": "Cladribine",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "deepseek-v4-pro",
+   "ex": 4
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Minocycline",
+   "drug": "Minocycline",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 44
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Minocycline",
+   "drug": "Minocycline",
+   "disease": "Glioblastoma",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 15
+  },
+  {
+   "id": "qwen3.7-max_G06_Apremilast",
+   "drug": "Apremilast",
+   "disease": "Glioblastoma",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G10_Dimethyl fumarate",
+   "drug": "Dimethyl fumarate",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "qwen3.7-max",
+   "ex": 4
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Pirfenidone",
+   "drug": "Pirfenidone",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 14
+  },
+  {
+   "id": "qwen3.7-max_G11_Osilodrostat",
+   "drug": "Osilodrostat",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Ranolazine",
+   "drug": "Ranolazine",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 3
+  },
+  {
+   "id": "qwen3.7-max_G07_Telmisartan",
+   "drug": "Telmisartan",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 7
+  },
+  {
+   "id": "deepseek-v4-pro_G06_Selinexor",
+   "drug": "Selinexor",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G03_Niclosamide",
+   "drug": "Niclosamide",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 4
+  },
+  {
+   "id": "qwen3.7-max_G04_Semaglutide",
+   "drug": "Semaglutide",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G10_Atorvastatin",
+   "drug": "Atorvastatin",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "qwen3.7-max",
+   "ex": 9
+  },
+  {
+   "id": "deepseek-v4-pro_G06_Dapagliflozin",
+   "drug": "Dapagliflozin",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G04_Dapagliflozin",
+   "drug": "Dapagliflozin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G09_Pioglitazone",
+   "drug": "Pioglitazone",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 21
+  },
+  {
+   "id": "qwen3.7-max_G02_Artesunate",
+   "drug": "Artesunate",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Glioblastoma",
+   "model": "qwen3.7-max",
+   "ex": 14
+  },
+  {
+   "id": "deepseek-v4-pro_G06_Fingolimod",
+   "drug": "Fingolimod",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "deepseek-v4-pro",
+   "ex": 47
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Liposomal clodronate",
+   "drug": "Liposomal clodronate",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 4
+  },
+  {
+   "id": "qwen3.7-max_G10_Omeprazole",
+   "drug": "Omeprazole",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Mebendazole",
+   "drug": "Mebendazole",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Atorvastatin",
+   "drug": "Atorvastatin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 3
+  },
+  {
+   "id": "deepseek-v4-pro_G01_Atorvastatin",
+   "drug": "Atorvastatin",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G06_Vorinostat",
+   "drug": "Vorinostat",
+   "disease": "Glioblastoma",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 99
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Apremilast",
+   "drug": "Apremilast",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Montelukast",
+   "drug": "Montelukast",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 3
+  },
+  {
+   "id": "deepseek-v4-pro_G06_Rifampicin",
+   "drug": "Rifampicin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "deepseek-v4-pro",
+   "ex": 10
+  },
+  {
+   "id": "qwen3.7-max_G06_Liraglutide",
+   "drug": "Liraglutide",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G06_Tofacitinib",
+   "drug": "Tofacitinib",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G10_Ruxolitinib",
+   "drug": "Ruxolitinib",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "qwen3.7-max",
+   "ex": 196
+  },
+  {
+   "id": "qwen3.7-max_G11_Maraviroc",
+   "drug": "Maraviroc",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G12_Fenofibrate",
+   "drug": "Fenofibrate",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G10_Empagliflozin",
+   "drug": "Empagliflozin",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "qwen3.7-max",
+   "ex": 8
+  },
+  {
+   "id": "qwen3.7-max_G11_Bempedoic acid",
+   "drug": "Bempedoic acid",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G08_Semaglutide",
+   "drug": "Semaglutide",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G10_Trimetazidine",
+   "drug": "Trimetazidine",
+   "disease": "Glioblastoma",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Levodopa",
+   "drug": "Levodopa",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G01_Ivermectin",
+   "drug": "Ivermectin",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "qwen3.7-max",
+   "ex": 12
+  },
+  {
+   "id": "qwen3.7-max_G03_Propranolol",
+   "drug": "Propranolol",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 27
+  },
+  {
+   "id": "deepseek-v4-pro_G06_Adalimumab",
+   "drug": "Adalimumab",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "deepseek-v4-pro",
+   "ex": 3569
+  },
+  {
+   "id": "qwen3.7-max_G07_Dapagliflozin",
+   "drug": "Dapagliflozin",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G08_Liraglutide",
+   "drug": "Liraglutide",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 3
+  },
+  {
+   "id": "qwen3.7-max_G08_Pioglitazone",
+   "drug": "Pioglitazone",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 21
+  },
+  {
+   "id": "qwen3.7-max_G07_Fingolimod",
+   "drug": "Fingolimod",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 3
+  },
+  {
+   "id": "deepseek-v4-pro_G10_Febuxostat",
+   "drug": "Febuxostat",
+   "disease": "Glioblastoma",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Colchicine",
+   "drug": "Colchicine",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 6
+  },
+  {
+   "id": "qwen3.7-max_G07_Metformin",
+   "drug": "Metformin",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 23
+  },
+  {
+   "id": "deepseek-v4-pro_G10_Zafirlukast",
+   "drug": "Zafirlukast",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "deepseek-v4-pro",
+   "ex": 3
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Pentoxifylline",
+   "drug": "Pentoxifylline",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 5
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Mebendazole",
+   "drug": "Mebendazole",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G01_Pimozide",
+   "drug": "Pimozide",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "qwen3.7-max",
+   "ex": 14
+  },
+  {
+   "id": "qwen3.7-max_G08_Ezetimibe",
+   "drug": "Ezetimibe",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 4
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Indapamide",
+   "drug": "Indapamide",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G01_Mebendazole",
+   "drug": "Mebendazole",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G12_Fingolimod",
+   "drug": "Fingolimod",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "deepseek-v4-pro",
+   "ex": 13
+  },
+  {
+   "id": "qwen3.7-max_G06_Canagliflozin",
+   "drug": "Canagliflozin",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 5
+  },
+  {
+   "id": "qwen3.7-max_G09_Simvastatin",
+   "drug": "Simvastatin",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 60
+  },
+  {
+   "id": "qwen3.7-max_G08_Ursodeoxycholic acid",
+   "drug": "Ursodeoxycholic acid",
+   "disease": "Glioblastoma",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Niclosamide",
+   "drug": "Niclosamide",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G03_Metformin",
+   "drug": "Metformin",
+   "disease": "Glioblastoma",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 136
+  },
+  {
+   "id": "qwen3.7-max_G06_Semaglutide",
+   "drug": "Semaglutide",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Dipyridamole",
+   "drug": "Dipyridamole",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 34
+  },
+  {
+   "id": "qwen3.7-max_G01_Digoxin",
+   "drug": "Digoxin",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G08_Colchicine",
+   "drug": "Colchicine",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 11
+  },
+  {
+   "id": "qwen3.7-max_G03_Thioridazine",
+   "drug": "Thioridazine",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G09_N-acetylcysteine",
+   "drug": "N-acetylcysteine",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 44
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Mesalazine",
+   "drug": "Mesalazine",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 5
+  },
+  {
+   "id": "qwen3.7-max_G03_Sulfasalazine",
+   "drug": "Sulfasalazine",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G01_Disulfiram",
+   "drug": "Disulfiram",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "qwen3.7-max",
+   "ex": 5
+  },
+  {
+   "id": "qwen3.7-max_G01_Artemisinin",
+   "drug": "Artemisinin",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "qwen3.7-max",
+   "ex": 5
+  },
+  {
+   "id": "qwen3.7-max_G06_Baricitinib",
+   "drug": "Baricitinib",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G06_Colchicine",
+   "drug": "Colchicine",
+   "disease": "Glioblastoma",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 47
+  },
+  {
+   "id": "qwen3.7-max_G09_Auranofin",
+   "drug": "Auranofin",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 5
+  },
+  {
+   "id": "qwen3.7-max_G02_Haloperidol",
+   "drug": "Haloperidol",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Glioblastoma",
+   "model": "qwen3.7-max",
+   "ex": 6
+  },
+  {
+   "id": "deepseek-v4-pro_G01_Mebendazole",
+   "drug": "Mebendazole",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Dipyridamole",
+   "drug": "Dipyridamole",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G04_Fingolimod",
+   "drug": "Fingolimod",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "qwen3.7-max",
+   "ex": 3
+  },
+  {
+   "id": "deepseek-v4-pro_G10_Bempedoic acid",
+   "drug": "Bempedoic acid",
+   "disease": "Glioblastoma",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G06_Domperidone",
+   "drug": "Domperidone",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Fluoxetine",
+   "drug": "Fluoxetine",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Fluvoxamine",
+   "drug": "Fluvoxamine",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 43
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Nitisinone",
+   "drug": "Nitisinone",
+   "disease": "Glioblastoma",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G07_Spironolactone",
+   "drug": "Spironolactone",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 8
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Salbutamol",
+   "drug": "Salbutamol",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G04_Metformin",
+   "drug": "Metformin",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "qwen3.7-max",
+   "ex": 578
+  },
+  {
+   "id": "deepseek-v4-pro_G10_Apremilast",
+   "drug": "Apremilast",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G10_Pioglitazone",
+   "drug": "Pioglitazone",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "qwen3.7-max",
+   "ex": 21
+  },
+  {
+   "id": "qwen3.7-max_G11_Allopurinol",
+   "drug": "Allopurinol",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 3
+  },
+  {
+   "id": "qwen3.7-max_G03_Ivermectin",
+   "drug": "Ivermectin",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 3
+  },
+  {
+   "id": "qwen3.7-max_G04_Ibudilast",
+   "drug": "Ibudilast",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "qwen3.7-max",
+   "ex": 9
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Losartan",
+   "drug": "Losartan",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G10_Duloxetine",
+   "drug": "Duloxetine",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "deepseek-v4-pro",
+   "ex": 11
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Ursodeoxycholic acid",
+   "drug": "Ursodeoxycholic acid",
+   "disease": "Glioblastoma",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G12_Fingolimod",
+   "drug": "Fingolimod",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "qwen3.7-max",
+   "ex": 80
+  },
+  {
+   "id": "qwen3.7-max_G12_Spironolactone",
+   "drug": "Spironolactone",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Fluvoxamine",
+   "drug": "Fluvoxamine",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G12_Dapagliflozin",
+   "drug": "Dapagliflozin",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Terazosin",
+   "drug": "Terazosin",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Mesalazine",
+   "drug": "Mesalazine",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 3
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Colchicine",
+   "drug": "Colchicine",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G10_Ibrutinib",
+   "drug": "Ibrutinib",
+   "disease": "Glioblastoma",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "qwen3.7-max",
+   "ex": 21
+  },
+  {
+   "id": "qwen3.7-max_G04_Pioglitazone",
+   "drug": "Pioglitazone",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "qwen3.7-max",
+   "ex": 21
+  },
+  {
+   "id": "qwen3.7-max_G02_Valproic acid",
+   "drug": "Valproic acid",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Glioblastoma",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Probenecid",
+   "drug": "Probenecid",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G07_Losartan",
+   "drug": "Losartan",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 4
+  },
+  {
+   "id": "qwen3.7-max_G03_Chloroquine",
+   "drug": "Chloroquine",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 18
+  },
+  {
+   "id": "qwen3.7-max_G02_Atorvastatin",
+   "drug": "Atorvastatin",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Glioblastoma",
+   "model": "qwen3.7-max",
+   "ex": 9
+  },
+  {
+   "id": "deepseek-v4-pro_G10_Canagliflozin",
+   "drug": "Canagliflozin",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G12_Riluzole",
+   "drug": "Riluzole",
+   "disease": "Glioblastoma",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "qwen3.7-max",
+   "ex": 22
+  },
+  {
+   "id": "deepseek-v4-pro_G01_Trifluoperazine",
+   "drug": "Trifluoperazine",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "deepseek-v4-pro",
+   "ex": 5
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Cimetidine",
+   "drug": "Cimetidine",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 29
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Low-dose naltrexone",
+   "drug": "Low-dose naltrexone",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G09_Dimethyl fumarate",
+   "drug": "Dimethyl fumarate",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 15
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Trifluoperazine",
+   "drug": "Trifluoperazine",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 11
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Dapagliflozin",
+   "drug": "Dapagliflozin",
+   "disease": "Glioblastoma",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Dapagliflozin",
+   "drug": "Dapagliflozin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Rosiglitazone",
+   "drug": "Rosiglitazone",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 12
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Fenofibrate",
+   "drug": "Fenofibrate",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 23
+  },
+  {
+   "id": "deepseek-v4-pro_G12_Colchicine",
+   "drug": "Colchicine",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "deepseek-v4-pro",
+   "ex": 39
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Cloperastine",
+   "drug": "Cloperastine",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G01_Niclosamide",
+   "drug": "Niclosamide",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "qwen3.7-max",
+   "ex": 5
+  },
+  {
+   "id": "qwen3.7-max_G04_Baricitinib",
+   "drug": "Baricitinib",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "qwen3.7-max",
+   "ex": 13
+  },
+  {
+   "id": "qwen3.7-max_G10_Colchicine",
+   "drug": "Colchicine",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G01_Thioridazine",
+   "drug": "Thioridazine",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G01_Disulfiram",
+   "drug": "Disulfiram",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "deepseek-v4-pro",
+   "ex": 5
+  },
+  {
+   "id": "deepseek-v4-pro_G09_Fingolimod",
+   "drug": "Fingolimod",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 3
+  },
+  {
+   "id": "qwen3.7-max_G06_Tirzepatide",
+   "drug": "Tirzepatide",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G09_Fluvoxamine",
+   "drug": "Fluvoxamine",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G02_Spironolactone",
+   "drug": "Spironolactone",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Glioblastoma",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G06_Sparsentan",
+   "drug": "Sparsentan",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G08_Dapagliflozin",
+   "drug": "Dapagliflozin",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 6
+  },
+  {
+   "id": "deepseek-v4-pro_G09_Deferiprone",
+   "drug": "Deferiprone",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 48
+  },
+  {
+   "id": "qwen3.7-max_G08_Rosuvastatin",
+   "drug": "Rosuvastatin",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 37
+  },
+  {
+   "id": "qwen3.7-max_G08_Sitagliptin",
+   "drug": "Sitagliptin",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Verapamil",
+   "drug": "Verapamil",
+   "disease": "Glioblastoma",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 35
+  },
+  {
+   "id": "deepseek-v4-pro_G09_Cimetidine",
+   "drug": "Cimetidine",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G02_Dipyridamole",
+   "drug": "Dipyridamole",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Glioblastoma",
+   "model": "qwen3.7-max",
+   "ex": 23
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Fluoxetine",
+   "drug": "Fluoxetine",
+   "disease": "Glioblastoma",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 22
+  },
+  {
+   "id": "qwen3.7-max_G04_Deferiprone",
+   "drug": "Deferiprone",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "qwen3.7-max",
+   "ex": 5
+  },
+  {
+   "id": "qwen3.7-max_G07_Pioglitazone",
+   "drug": "Pioglitazone",
+   "disease": "Glioblastoma",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 14
+  },
+  {
+   "id": "deepseek-v4-pro_G06_Teriparatide",
+   "drug": "Teriparatide",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Pizotifen",
+   "drug": "Pizotifen",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G10_Fenofibrate",
+   "drug": "Fenofibrate",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "deepseek-v4-pro",
+   "ex": 7
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Diltiazem",
+   "drug": "Diltiazem",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 41
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Roflumilast",
+   "drug": "Roflumilast",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G01_Propranolol",
+   "drug": "Propranolol",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "deepseek-v4-pro",
+   "ex": 7
+  },
+  {
+   "id": "deepseek-v4-pro_G12_Probenecid",
+   "drug": "Probenecid",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "deepseek-v4-pro",
+   "ex": 4
+  },
+  {
+   "id": "qwen3.7-max_G07_Colchicine",
+   "drug": "Colchicine",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G08_Metformin",
+   "drug": "Metformin",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 91
+  },
+  {
+   "id": "qwen3.7-max_G04_Spironolactone",
+   "drug": "Spironolactone",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "qwen3.7-max",
+   "ex": 8
+  },
+  {
+   "id": "deepseek-v4-pro_G06_Minoxidil",
+   "drug": "Minoxidil",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "deepseek-v4-pro",
+   "ex": 6
+  },
+  {
+   "id": "deepseek-v4-pro_G09_Doxycycline",
+   "drug": "Doxycycline",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 130
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Ceftriaxone",
+   "drug": "Ceftriaxone",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Zoledronic acid",
+   "drug": "Zoledronic acid",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 23
+  },
+  {
+   "id": "qwen3.7-max_G11_TUDCA",
+   "drug": "TUDCA",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G08_Empagliflozin",
+   "drug": "Empagliflozin",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G06_Niclosamide",
+   "drug": "Niclosamide",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G03_Pimozide",
+   "drug": "Pimozide",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 4
+  },
+  {
+   "id": "qwen3.7-max_G07_Simvastatin",
+   "drug": "Simvastatin",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 5
+  },
+  {
+   "id": "deepseek-v4-pro_G01_Itraconazole",
+   "drug": "Itraconazole",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "deepseek-v4-pro",
+   "ex": 36
+  },
+  {
+   "id": "deepseek-v4-pro_G06_Paroxetine",
+   "drug": "Paroxetine",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G02_Ketoconazole",
+   "drug": "Ketoconazole",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Glioblastoma",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G02_Tranexamic acid",
+   "drug": "Tranexamic acid",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Glioblastoma",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Minocycline",
+   "drug": "Minocycline",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 92
+  },
+  {
+   "id": "qwen3.7-max_G07_Baricitinib",
+   "drug": "Baricitinib",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 3
+  },
+  {
+   "id": "qwen3.7-max_G08_Acarbose",
+   "drug": "Acarbose",
+   "disease": "Glioblastoma",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G12_Etanercept",
+   "drug": "Etanercept",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "deepseek-v4-pro",
+   "ex": 461
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Fluoxetine",
+   "drug": "Fluoxetine",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 27
+  },
+  {
+   "id": "deepseek-v4-pro_G09_Ebselen",
+   "drug": "Ebselen",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 34
+  },
+  {
+   "id": "qwen3.7-max_G11_Empagliflozin",
+   "drug": "Empagliflozin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G10_Losartan",
+   "drug": "Losartan",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "qwen3.7-max",
+   "ex": 4
+  },
+  {
+   "id": "qwen3.7-max_G06_Dimethyl fumarate",
+   "drug": "Dimethyl fumarate",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 16
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Paroxetine",
+   "drug": "Paroxetine",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G10_Dimethyl fumarate",
+   "drug": "Dimethyl fumarate",
+   "disease": "Glioblastoma",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "deepseek-v4-pro",
+   "ex": 11
+  },
+  {
+   "id": "deepseek-v4-pro_G09_Disulfiram",
+   "drug": "Disulfiram",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 6
+  },
+  {
+   "id": "deepseek-v4-pro_G06_Alogliptin",
+   "drug": "Alogliptin",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G12_Acamprosate",
+   "drug": "Acamprosate",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G01_Valproic acid",
+   "drug": "Valproic acid",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G07_Allopurinol",
+   "drug": "Allopurinol",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 17
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Sulfasalazine",
+   "drug": "Sulfasalazine",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 12
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Metformin",
+   "drug": "Metformin",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 91
+  },
+  {
+   "id": "qwen3.7-max_G08_Obeticholic acid",
+   "drug": "Obeticholic acid",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G12_Empagliflozin",
+   "drug": "Empagliflozin",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G07_Atorvastatin",
+   "drug": "Atorvastatin",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 24
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Metformin",
+   "drug": "Metformin",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 31
+  },
+  {
+   "id": "qwen3.7-max_G11_Spironolactone",
+   "drug": "Spironolactone",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 15
+  },
+  {
+   "id": "qwen3.7-max_G11_Tauroursodeoxycholic acid",
+   "drug": "Tauroursodeoxycholic acid",
+   "disease": "Glioblastoma",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Deferiprone",
+   "drug": "Deferiprone",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G04_Acamprosate",
+   "drug": "Acamprosate",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G12_Sildenafil",
+   "drug": "Sildenafil",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "qwen3.7-max",
+   "ex": 69
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Sildenafil",
+   "drug": "Sildenafil",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 29
+  },
+  {
+   "id": "deepseek-v4-pro_G06_Rosiglitazone",
+   "drug": "Rosiglitazone",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G04_Tauroursodeoxycholic acid",
+   "drug": "Tauroursodeoxycholic acid",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G07_Sildenafil",
+   "drug": "Sildenafil",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 1244
+  },
+  {
+   "id": "deepseek-v4-pro_G12_Tadalafil",
+   "drug": "Tadalafil",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G02_Ivermectin",
+   "drug": "Ivermectin",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Glioblastoma",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G09_Simvastatin",
+   "drug": "Simvastatin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 8
+  },
+  {
+   "id": "deepseek-v4-pro_G01_Auranofin",
+   "drug": "Auranofin",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "deepseek-v4-pro",
+   "ex": 9
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Losartan",
+   "drug": "Losartan",
+   "disease": "Glioblastoma",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 6
+  },
+  {
+   "id": "deepseek-v4-pro_G01_Mometasone furoate",
+   "drug": "Mometasone furoate",
+   "disease": "Glioblastoma",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G11_Acamprosate",
+   "drug": "Acamprosate",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 3
+  },
+  {
+   "id": "qwen3.7-max_G07_Omeprazole",
+   "drug": "Omeprazole",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 23
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Disulfiram",
+   "drug": "Disulfiram",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 7
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Fenofibrate",
+   "drug": "Fenofibrate",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Eprosartan",
+   "drug": "Eprosartan",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Probenecid",
+   "drug": "Probenecid",
+   "disease": "Glioblastoma",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 3
+  },
+  {
+   "id": "qwen3.7-max_G03_Aspirin",
+   "drug": "Aspirin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 12
+  },
+  {
+   "id": "qwen3.7-max_G11_Riociguat",
+   "drug": "Riociguat",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G06_Tolvaptan",
+   "drug": "Tolvaptan",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Pimavanserin",
+   "drug": "Pimavanserin",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G01_Sertraline",
+   "drug": "Sertraline",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "deepseek-v4-pro",
+   "ex": 6
+  },
+  {
+   "id": "deepseek-v4-pro_G12_Ursodeoxycholic acid",
+   "drug": "Ursodeoxycholic acid",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "deepseek-v4-pro",
+   "ex": 213
+  },
+  {
+   "id": "qwen3.7-max_G10_Acamprosate",
+   "drug": "Acamprosate",
+   "disease": "Glioblastoma",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G02_Sulfasalazine",
+   "drug": "Sulfasalazine",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Glioblastoma",
+   "model": "qwen3.7-max",
+   "ex": 10
+  },
+  {
+   "id": "qwen3.7-max_G10_Dapagliflozin",
+   "drug": "Dapagliflozin",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G04_Fasudil",
+   "drug": "Fasudil",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "qwen3.7-max",
+   "ex": 5
+  },
+  {
+   "id": "qwen3.7-max_G07_Empagliflozin",
+   "drug": "Empagliflozin",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Terbinafine",
+   "drug": "Terbinafine",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G08_Dimethyl fumarate",
+   "drug": "Dimethyl fumarate",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 7
+  },
+  {
+   "id": "deepseek-v4-pro_G12_Miglustat",
+   "drug": "Miglustat",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G06_Trimetazidine",
+   "drug": "Trimetazidine",
+   "disease": "Glioblastoma",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Probenecid",
+   "drug": "Probenecid",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 22
+  },
+  {
+   "id": "qwen3.7-max_G07_Dimethyl fumarate",
+   "drug": "Dimethyl fumarate",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Terbinafine",
+   "drug": "Terbinafine",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Riluzole",
+   "drug": "Riluzole",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 1086
+  },
+  {
+   "id": "deepseek-v4-pro_G01_Pirfenidone",
+   "drug": "Pirfenidone",
+   "disease": "Glioblastoma",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G10_Agomelatine",
+   "drug": "Agomelatine",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "deepseek-v4-pro",
+   "ex": 27
+  },
+  {
+   "id": "qwen3.7-max_G12_Dimethyl fumarate",
+   "drug": "Dimethyl fumarate",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "qwen3.7-max",
+   "ex": 4
+  },
+  {
+   "id": "qwen3.7-max_G06_Dapagliflozin",
+   "drug": "Dapagliflozin",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 79
+  },
+  {
+   "id": "deepseek-v4-pro_G09_Metformin",
+   "drug": "Metformin",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 27
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Celecoxib",
+   "drug": "Celecoxib",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 5
+  },
+  {
+   "id": "qwen3.7-max_G11_Ivacaftor",
+   "drug": "Ivacaftor",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G02_Niclosamide",
+   "drug": "Niclosamide",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Glioblastoma",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G03_Atorvastatin",
+   "drug": "Atorvastatin",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 11
+  },
+  {
+   "id": "qwen3.7-max_G06_Ruxolitinib",
+   "drug": "Ruxolitinib",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 9
+  },
+  {
+   "id": "qwen3.7-max_G03_Statins",
+   "drug": "Statins",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 70
+  },
+  {
+   "id": "deepseek-v4-pro_G01_Prazosin",
+   "drug": "Prazosin",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "deepseek-v4-pro",
+   "ex": 40
+  },
+  {
+   "id": "qwen3.7-max_G06_Metformin",
+   "drug": "Metformin",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 578
+  },
+  {
+   "id": "qwen3.7-max_G03_Mebendazole",
+   "drug": "Mebendazole",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 4
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Deferiprone",
+   "drug": "Deferiprone",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 5
+  },
+  {
+   "id": "qwen3.7-max_G08_Canagliflozin",
+   "drug": "Canagliflozin",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G01_Captopril",
+   "drug": "Captopril",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "qwen3.7-max",
+   "ex": 46
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Ezetimibe",
+   "drug": "Ezetimibe",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 4
+  },
+  {
+   "id": "qwen3.7-max_G12_Metformin",
+   "drug": "Metformin",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "qwen3.7-max",
+   "ex": 53
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Pomalidomide",
+   "drug": "Pomalidomide",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 4
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Trimetazidine",
+   "drug": "Trimetazidine",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 3
+  },
+  {
+   "id": "qwen3.7-max_G08_Sildenafil",
+   "drug": "Sildenafil",
+   "disease": "Glioblastoma",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 3
+  },
+  {
+   "id": "qwen3.7-max_G03_Digoxin",
+   "drug": "Digoxin",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 56
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Probenecid",
+   "drug": "Probenecid",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G12_Pioglitazone",
+   "drug": "Pioglitazone",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G09_Verapamil",
+   "drug": "Verapamil",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "deepseek-v4-pro",
+   "ex": 6
+  },
+  {
+   "id": "qwen3.7-max_G04_Dimethyl fumarate",
+   "drug": "Dimethyl fumarate",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "qwen3.7-max",
+   "ex": 16
+  },
+  {
+   "id": "qwen3.7-max_G01_Auranofin",
+   "drug": "Auranofin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Empagliflozin",
+   "drug": "Empagliflozin",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G01_Artesunate",
+   "drug": "Artesunate",
+   "disease": "Glioblastoma",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "deepseek-v4-pro",
+   "ex": 21
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Teriparatide",
+   "drug": "Teriparatide",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 4
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Febuxostat",
+   "drug": "Febuxostat",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G01_Sulfasalazine",
+   "drug": "Sulfasalazine",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "qwen3.7-max",
+   "ex": 5
+  },
+  {
+   "id": "qwen3.7-max_G02_Digoxin",
+   "drug": "Digoxin",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Glioblastoma",
+   "model": "qwen3.7-max",
+   "ex": 56
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Isotretinoin",
+   "drug": "Isotretinoin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G10_Spironolactone",
+   "drug": "Spironolactone",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "qwen3.7-max",
+   "ex": 38
+  },
+  {
+   "id": "qwen3.7-max_G11_Fingolimod",
+   "drug": "Fingolimod",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 3
+  },
+  {
+   "id": "deepseek-v4-pro_G12_Bumetanide",
+   "drug": "Bumetanide",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G11_Deferasirox",
+   "drug": "Deferasirox",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G04_Niclosamide",
+   "drug": "Niclosamide",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G06_Empagliflozin",
+   "drug": "Empagliflozin",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 29
+  },
+  {
+   "id": "qwen3.7-max_G01_Chloroquine",
+   "drug": "Chloroquine",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "qwen3.7-max",
+   "ex": 15
+  },
+  {
+   "id": "qwen3.7-max_G10_Baricitinib",
+   "drug": "Baricitinib",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G05_Dimethyl fumarate",
+   "drug": "Dimethyl fumarate",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 16
+  },
+  {
+   "id": "deepseek-v4-pro_G01_Niclosamide",
+   "drug": "Niclosamide",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "deepseek-v4-pro",
+   "ex": 3
+  },
+  {
+   "id": "deepseek-v4-pro_G06_Raloxifene",
+   "drug": "Raloxifene",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G04_Verapamil",
+   "drug": "Verapamil",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G12_Pioglitazone",
+   "drug": "Pioglitazone",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "qwen3.7-max",
+   "ex": 171
+  },
+  {
+   "id": "qwen3.7-max_G12_Minocycline",
+   "drug": "Minocycline",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G08_Fenofibrate",
+   "drug": "Fenofibrate",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "qwen3.7-max",
+   "ex": 23
+  },
+  {
+   "id": "qwen3.7-max_G11_Dimethyl fumarate",
+   "drug": "Dimethyl fumarate",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 5
+  },
+  {
+   "id": "qwen3.7-max_G10_Metformin",
+   "drug": "Metformin",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "qwen3.7-max",
+   "ex": 23
+  },
+  {
+   "id": "qwen3.7-max_G01_Metformin",
+   "drug": "Metformin",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "qwen3.7-max",
+   "ex": 53
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Disulfiram",
+   "drug": "Disulfiram",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 6
+  },
+  {
+   "id": "qwen3.7-max_G06_Fingolimod",
+   "drug": "Fingolimod",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Pulmonary arterial hypertension",
+   "model": "qwen3.7-max",
+   "ex": 4
+  },
+  {
+   "id": "deepseek-v4-pro_G08_Memantine",
+   "drug": "Memantine",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Non-alcoholic steatohepatitis",
+   "model": "deepseek-v4-pro",
+   "ex": 2332
+  },
+  {
+   "id": "deepseek-v4-pro_G01_Sulfasalazine",
+   "drug": "Sulfasalazine",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Acute myeloid leukemia",
+   "model": "deepseek-v4-pro",
+   "ex": 12
+  },
+  {
+   "id": "qwen3.7-max_G11_Telmisartan",
+   "drug": "Telmisartan",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 31
+  },
+  {
+   "id": "deepseek-v4-pro_G10_Teriflunomide",
+   "drug": "Teriflunomide",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Fingolimod",
+   "drug": "Fingolimod",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 13
+  },
+  {
+   "id": "deepseek-v4-pro_G04_Tranilast",
+   "drug": "Tranilast",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G10_Acarbose",
+   "drug": "Acarbose",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G04_Rapamycin",
+   "drug": "Rapamycin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Amyotrophic lateral sclerosis",
+   "model": "qwen3.7-max",
+   "ex": 103
+  },
+  {
+   "id": "deepseek-v4-pro_G10_Zileuton",
+   "drug": "Zileuton",
+   "disease": "Glioblastoma",
+   "orig_disease": "Systemic lupus erythematosus",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G12_Celecoxib",
+   "drug": "Celecoxib",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "deepseek-v4-pro",
+   "ex": 19
+  },
+  {
+   "id": "deepseek-v4-pro_G11_Montelukast",
+   "drug": "Montelukast",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "deepseek-v4-pro",
+   "ex": 4
+  },
+  {
+   "id": "qwen3.7-max_G03_Disulfiram",
+   "drug": "Disulfiram",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "qwen3.7-max",
+   "ex": 20
+  },
+  {
+   "id": "qwen3.7-max_G12_Telmisartan",
+   "drug": "Telmisartan",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Fenofibrate",
+   "drug": "Fenofibrate",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G05_Canagliflozin",
+   "drug": "Canagliflozin",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Alzheimer's disease",
+   "model": "deepseek-v4-pro",
+   "ex": 5
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Isoniazid",
+   "drug": "Isoniazid",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 22
+  },
+  {
+   "id": "deepseek-v4-pro_G12_Nalbuphine",
+   "drug": "Nalbuphine",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Treatment-resistant depression",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G11_Metformin",
+   "drug": "Metformin",
+   "disease": "Glioblastoma",
+   "orig_disease": "Inflammatory bowel disease",
+   "model": "qwen3.7-max",
+   "ex": 136
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Disulfiram",
+   "drug": "Disulfiram",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 5
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Niclosamide",
+   "drug": "Niclosamide",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 5
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Artesunate",
+   "drug": "Artesunate",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Digoxin",
+   "drug": "Digoxin",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 8
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Itraconazole",
+   "drug": "Itraconazole",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Propranolol",
+   "drug": "Propranolol",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 29
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Mifepristone",
+   "drug": "Mifepristone",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 3
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Cimetidine",
+   "drug": "Cimetidine",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Haloperidol",
+   "drug": "Haloperidol",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 32
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Raloxifene",
+   "drug": "Raloxifene",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 5
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Bromocriptine",
+   "drug": "Bromocriptine",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 28
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Rifampicin",
+   "drug": "Rifampicin",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 7
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Thalidomide",
+   "drug": "Thalidomide",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 34
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Methylene blue",
+   "drug": "Methylene blue",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 18
+  },
+  {
+   "id": "deepseek-v4-pro_G02_Acetylcysteine",
+   "drug": "Acetylcysteine",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Glioblastoma",
+   "model": "deepseek-v4-pro",
+   "ex": 17
+  },
+  {
+   "id": "deepseek-v4-pro_G03_Menatetrenone",
+   "drug": "Menatetrenone",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Pancreatic ductal adenocarcinoma",
+   "model": "deepseek-v4-pro",
+   "ex": 3
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Artesunate",
+   "drug": "Artesunate",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Valproic acid",
+   "drug": "Valproic acid",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 15
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Dapagliflozin",
+   "drug": "Dapagliflozin",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Albendazole",
+   "drug": "Albendazole",
+   "disease": "Alzheimer's disease",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 3
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Teriparatide",
+   "drug": "Teriparatide",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 4
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Febuxostat",
+   "drug": "Febuxostat",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Ticagrelor",
+   "drug": "Ticagrelor",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Fluoxetine",
+   "drug": "Fluoxetine",
+   "disease": "Glioblastoma",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 22
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Clozapine",
+   "drug": "Clozapine",
+   "disease": "Glioblastoma",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 8
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Deferoxamine",
+   "drug": "Deferoxamine",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Melatonin",
+   "drug": "Melatonin",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 51
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Simvastatin",
+   "drug": "Simvastatin",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 75
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Ivermectin",
+   "drug": "Ivermectin",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 3
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Montelukast",
+   "drug": "Montelukast",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 2
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Aspirin",
+   "drug": "Aspirin",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 567
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Deferiprone",
+   "drug": "Deferiprone",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 1
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Fenofibrate",
+   "drug": "Fenofibrate",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 3
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Risperidone",
+   "drug": "Risperidone",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "deepseek-v4-pro_G07_Pioglitazone",
+   "drug": "Pioglitazone",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Idiopathic pulmonary fibrosis",
+   "model": "deepseek-v4-pro",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G05_Montelukast",
+   "drug": "Montelukast",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 3
+  },
+  {
+   "id": "qwen3.7-max_G05_Salbutamol",
+   "drug": "Salbutamol",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G05_Dapagliflozin",
+   "drug": "Dapagliflozin",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 6
+  },
+  {
+   "id": "qwen3.7-max_G05_Losartan",
+   "drug": "Losartan",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 4
+  },
+  {
+   "id": "qwen3.7-max_G05_Liraglutide",
+   "drug": "Liraglutide",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 5
+  },
+  {
+   "id": "qwen3.7-max_G05_Metformin",
+   "drug": "Metformin",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 53
+  },
+  {
+   "id": "qwen3.7-max_G05_Spironolactone",
+   "drug": "Spironolactone",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G05_Carbamazepine",
+   "drug": "Carbamazepine",
+   "disease": "Glioblastoma",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 27
+  },
+  {
+   "id": "qwen3.7-max_G05_Sitagliptin",
+   "drug": "Sitagliptin",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G05_Sildenafil",
+   "drug": "Sildenafil",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 29
+  },
+  {
+   "id": "qwen3.7-max_G05_Orlistat",
+   "drug": "Orlistat",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 3
+  },
+  {
+   "id": "qwen3.7-max_G05_Rapamycin",
+   "drug": "Rapamycin",
+   "disease": "Glioblastoma",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 530
+  },
+  {
+   "id": "qwen3.7-max_G05_Amlodipine",
+   "drug": "Amlodipine",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G05_Pregabalin",
+   "drug": "Pregabalin",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 3
+  },
+  {
+   "id": "qwen3.7-max_G05_Febuxostat",
+   "drug": "Febuxostat",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 10
+  },
+  {
+   "id": "qwen3.7-max_G05_Atorvastatin",
+   "drug": "Atorvastatin",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G05_Celecoxib",
+   "drug": "Celecoxib",
+   "disease": "Drug-resistant tuberculosis",
+   "orig_disease": "Alzheimer's disease",
+   "model": "qwen3.7-max",
+   "ex": 5
+  },
+  {
+   "id": "qwen3.7-max_G09_Disulfiram",
+   "drug": "Disulfiram",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 20
+  },
+  {
+   "id": "qwen3.7-max_G09_Niclosamide",
+   "drug": "Niclosamide",
+   "disease": "Inflammatory bowel disease",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 5
+  },
+  {
+   "id": "qwen3.7-max_G09_Valproic acid",
+   "drug": "Valproic acid",
+   "disease": "Glioblastoma",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 161
+  },
+  {
+   "id": "qwen3.7-max_G09_Chloroquine",
+   "drug": "Chloroquine",
+   "disease": "Glioblastoma",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 146
+  },
+  {
+   "id": "qwen3.7-max_G09_Nifuratel",
+   "drug": "Nifuratel",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G09_Imatinib",
+   "drug": "Imatinib",
+   "disease": "Acute myeloid leukemia",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 961
+  },
+  {
+   "id": "qwen3.7-max_G09_Celecoxib",
+   "drug": "Celecoxib",
+   "disease": "Amyotrophic lateral sclerosis",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 24
+  },
+  {
+   "id": "qwen3.7-max_G09_Thioridazine",
+   "drug": "Thioridazine",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G09_Fluoxetine",
+   "drug": "Fluoxetine",
+   "disease": "Pulmonary arterial hypertension",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 27
+  },
+  {
+   "id": "qwen3.7-max_G09_Rapamycin",
+   "drug": "Rapamycin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 103
+  },
+  {
+   "id": "qwen3.7-max_G09_Bismuth subgallate",
+   "drug": "Bismuth subgallate",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 0
+  },
+  {
+   "id": "qwen3.7-max_G09_Atorvastatin",
+   "drug": "Atorvastatin",
+   "disease": "Treatment-resistant depression",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 1
+  },
+  {
+   "id": "qwen3.7-max_G09_Amlodipine",
+   "drug": "Amlodipine",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 2
+  },
+  {
+   "id": "qwen3.7-max_G09_Metformin",
+   "drug": "Metformin",
+   "disease": "Non-alcoholic steatohepatitis",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 578
+  },
+  {
+   "id": "qwen3.7-max_G09_Azithromycin",
+   "drug": "Azithromycin",
+   "disease": "Systemic lupus erythematosus",
+   "orig_disease": "Drug-resistant tuberculosis",
+   "model": "qwen3.7-max",
+   "ex": 24
+  }
+ ],
+ "bare": [
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G01",
+   "drug": "Auranofin",
+   "disease": "Acute myeloid leukemia",
+   "ex": 13,
+   "n_drug": 1739
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G01",
+   "drug": "Disulfiram",
+   "disease": "Acute myeloid leukemia",
+   "ex": 20,
+   "n_drug": 5406
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G01",
+   "drug": "Pirfenidone",
+   "disease": "Acute myeloid leukemia",
+   "ex": 3,
+   "n_drug": 2657
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G01",
+   "drug": "Prochlorperazine",
+   "disease": "Acute myeloid leukemia",
+   "ex": 0,
+   "n_drug": 1519
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G01",
+   "drug": "Mebendazole",
+   "disease": "Acute myeloid leukemia",
+   "ex": 13,
+   "n_drug": 3119
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G01",
+   "drug": "Terbinafine",
+   "disease": "Acute myeloid leukemia",
+   "ex": 12,
+   "n_drug": 4087
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G01",
+   "drug": "Clofazimine",
+   "disease": "Acute myeloid leukemia",
+   "ex": 5,
+   "n_drug": 2488
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G01",
+   "drug": "Itraconazole",
+   "disease": "Acute myeloid leukemia",
+   "ex": 168,
+   "n_drug": 13342
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G01",
+   "drug": "Prazosin",
+   "disease": "Acute myeloid leukemia",
+   "ex": 7,
+   "n_drug": 14339
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G01",
+   "drug": "Tolcapone",
+   "disease": "Acute myeloid leukemia",
+   "ex": 0,
+   "n_drug": 578
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G01",
+   "drug": "Sulfasalazine",
+   "disease": "Acute myeloid leukemia",
+   "ex": 10,
+   "n_drug": 7383
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G01",
+   "drug": "Leflunomide",
+   "disease": "Acute myeloid leukemia",
+   "ex": 9,
+   "n_drug": 3249
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G01",
+   "drug": "Escitalopram",
+   "disease": "Acute myeloid leukemia",
+   "ex": 0,
+   "n_drug": 4025
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G01",
+   "drug": "Candesartan",
+   "disease": "Acute myeloid leukemia",
+   "ex": 2,
+   "n_drug": 3746
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G01",
+   "drug": "Verapamil",
+   "disease": "Acute myeloid leukemia",
+   "ex": 143,
+   "n_drug": 28157
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G02",
+   "drug": "Disulfiram",
+   "disease": "Glioblastoma",
+   "ex": 61,
+   "n_drug": 5406
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G02",
+   "drug": "Itraconazole",
+   "disease": "Glioblastoma",
+   "ex": 12,
+   "n_drug": 13342
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G02",
+   "drug": "Mefloquine",
+   "disease": "Glioblastoma",
+   "ex": 13,
+   "n_drug": 3633
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G02",
+   "drug": "Propranolol",
+   "disease": "Glioblastoma",
+   "ex": 12,
+   "n_drug": 47829
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G02",
+   "drug": "Niclosamide",
+   "disease": "Glioblastoma",
+   "ex": 11,
+   "n_drug": 1669
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G02",
+   "drug": "Verapamil",
+   "disease": "Glioblastoma",
+   "ex": 35,
+   "n_drug": 28157
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G02",
+   "drug": "Auranofin",
+   "disease": "Glioblastoma",
+   "ex": 20,
+   "n_drug": 1739
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G02",
+   "drug": "Zileuton",
+   "disease": "Glioblastoma",
+   "ex": 2,
+   "n_drug": 830
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G02",
+   "drug": "Clemastine",
+   "disease": "Glioblastoma",
+   "ex": 1,
+   "n_drug": 615
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G02",
+   "drug": "Leflunomide",
+   "disease": "Glioblastoma",
+   "ex": 7,
+   "n_drug": 3249
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G02",
+   "drug": "Metformin",
+   "disease": "Glioblastoma",
+   "ex": 136,
+   "n_drug": 37483
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G02",
+   "drug": "Paroxetine",
+   "disease": "Glioblastoma",
+   "ex": 9,
+   "n_drug": 7379
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G03",
+   "drug": "Mebendazole",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 1,
+   "n_drug": 3119
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G02",
+   "drug": "Ribavirin",
+   "disease": "Glioblastoma",
+   "ex": 14,
+   "n_drug": 18799
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G02",
+   "drug": "Secukinumab",
+   "disease": "Glioblastoma",
+   "ex": 0,
+   "n_drug": 2973
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G03",
+   "drug": "Diclofenac",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 1,
+   "n_drug": 17253
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G02",
+   "drug": "Fluvoxamine",
+   "disease": "Glioblastoma",
+   "ex": 4,
+   "n_drug": 3585
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G03",
+   "drug": "Propranolol",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 5,
+   "n_drug": 47829
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G03",
+   "drug": "Ezetimibe",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 1,
+   "n_drug": 5426
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G03",
+   "drug": "Fluvastatin",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 1,
+   "n_drug": 2371
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G03",
+   "drug": "Tranylcypromine",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 0,
+   "n_drug": 2365
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G03",
+   "drug": "Disulfiram",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 7,
+   "n_drug": 5406
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G03",
+   "drug": "Zinc gluconate",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 0,
+   "n_drug": 2837
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G03",
+   "drug": "Itraconazole",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 1,
+   "n_drug": 13342
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G03",
+   "drug": "Amlexanox",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 1,
+   "n_drug": 253
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G04",
+   "drug": "Drospirenone",
+   "disease": "Amyotrophic lateral sclerosis",
+   "ex": 0,
+   "n_drug": 1158
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G04",
+   "drug": "Acamprosate",
+   "disease": "Amyotrophic lateral sclerosis",
+   "ex": 3,
+   "n_drug": 1145
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G04",
+   "drug": "Esomeprazole",
+   "disease": "Amyotrophic lateral sclerosis",
+   "ex": 1,
+   "n_drug": 2423
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G03",
+   "drug": "Loperamide",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 0,
+   "n_drug": 2793
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G04",
+   "drug": "Telmisartan",
+   "disease": "Amyotrophic lateral sclerosis",
+   "ex": 3,
+   "n_drug": 3158
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G03",
+   "drug": "Minocycline",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 2,
+   "n_drug": 11780
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G03",
+   "drug": "Bromocriptine",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 0,
+   "n_drug": 9637
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G04",
+   "drug": "Colchicine",
+   "disease": "Amyotrophic lateral sclerosis",
+   "ex": 11,
+   "n_drug": 25624
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G03",
+   "drug": "Ritonavir",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 3,
+   "n_drug": 10560
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G03",
+   "drug": "Dipyridamole",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 0,
+   "n_drug": 10993
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G04",
+   "drug": "Alosetron",
+   "disease": "Amyotrophic lateral sclerosis",
+   "ex": 0,
+   "n_drug": 383
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G04",
+   "drug": "Teriflunomide",
+   "disease": "Amyotrophic lateral sclerosis",
+   "ex": 4,
+   "n_drug": 1271
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G04",
+   "drug": "Bumetanide",
+   "disease": "Amyotrophic lateral sclerosis",
+   "ex": 0,
+   "n_drug": 3699
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G04",
+   "drug": "Atomoxetine",
+   "disease": "Amyotrophic lateral sclerosis",
+   "ex": 0,
+   "n_drug": 2440
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G04",
+   "drug": "Levosimendan",
+   "disease": "Amyotrophic lateral sclerosis",
+   "ex": 8,
+   "n_drug": 2022
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G04",
+   "drug": "Rifaximin",
+   "disease": "Amyotrophic lateral sclerosis",
+   "ex": 0,
+   "n_drug": 2124
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G05",
+   "drug": "Doxycycline",
+   "disease": "Alzheimer's disease",
+   "ex": 130,
+   "n_drug": 24012
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G04",
+   "drug": "Sarpogrelate",
+   "disease": "Amyotrophic lateral sclerosis",
+   "ex": 0,
+   "n_drug": 314
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G05",
+   "drug": "Canagliflozin",
+   "disease": "Alzheimer's disease",
+   "ex": 15,
+   "n_drug": 2362
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G04",
+   "drug": "Digoxin",
+   "disease": "Amyotrophic lateral sclerosis",
+   "ex": 5,
+   "n_drug": 17694
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G05",
+   "drug": "Baclofen",
+   "disease": "Alzheimer's disease",
+   "ex": 35,
+   "n_drug": 9233
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G04",
+   "drug": "Carvedilol",
+   "disease": "Amyotrophic lateral sclerosis",
+   "ex": 1,
+   "n_drug": 4546
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G05",
+   "drug": "Sildenafil",
+   "disease": "Alzheimer's disease",
+   "ex": 69,
+   "n_drug": 9395
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G04",
+   "drug": "Raltegravir",
+   "disease": "Amyotrophic lateral sclerosis",
+   "ex": 1,
+   "n_drug": 2331
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G05",
+   "drug": "Allopurinol",
+   "disease": "Alzheimer's disease",
+   "ex": 17,
+   "n_drug": 12193
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G05",
+   "drug": "Mifepristone",
+   "disease": "Alzheimer's disease",
+   "ex": 32,
+   "n_drug": 8369
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G05",
+   "drug": "Candesartan",
+   "disease": "Alzheimer's disease",
+   "ex": 26,
+   "n_drug": 3746
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G05",
+   "drug": "Valacyclovir",
+   "disease": "Alzheimer's disease",
+   "ex": 23,
+   "n_drug": 2035
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G05",
+   "drug": "Fenofibrate",
+   "disease": "Alzheimer's disease",
+   "ex": 23,
+   "n_drug": 4892
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G05",
+   "drug": "Ivacaftor",
+   "disease": "Alzheimer's disease",
+   "ex": 2,
+   "n_drug": 2284
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G06",
+   "drug": "Fluvoxamine",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 2,
+   "n_drug": 3585
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G05",
+   "drug": "Disulfiram",
+   "disease": "Alzheimer's disease",
+   "ex": 7,
+   "n_drug": 5406
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G06",
+   "drug": "Canagliflozin",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 5,
+   "n_drug": 2362
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G05",
+   "drug": "Zileuton",
+   "disease": "Alzheimer's disease",
+   "ex": 15,
+   "n_drug": 830
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G05",
+   "drug": "Acetazolamide",
+   "disease": "Alzheimer's disease",
+   "ex": 41,
+   "n_drug": 10775
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G06",
+   "drug": "Mifepristone",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 1,
+   "n_drug": 8369
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G06",
+   "drug": "Pirfenidone",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 22,
+   "n_drug": 2657
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G05",
+   "drug": "Celecoxib",
+   "disease": "Alzheimer's disease",
+   "ex": 126,
+   "n_drug": 9093
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G05",
+   "drug": "Pyridostigmine",
+   "disease": "Alzheimer's disease",
+   "ex": 35,
+   "n_drug": 3036
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G06",
+   "drug": "Linagliptin",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 0,
+   "n_drug": 1285
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G06",
+   "drug": "Verapamil",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 40,
+   "n_drug": 28157
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G06",
+   "drug": "Lapatinib",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 6,
+   "n_drug": 3749
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G06",
+   "drug": "Tofacitinib",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 3,
+   "n_drug": 4556
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G06",
+   "drug": "Aprepitant",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 0,
+   "n_drug": 1466
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G06",
+   "drug": "Teriflunomide",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 0,
+   "n_drug": 1271
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G06",
+   "drug": "Eltrombopag",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 1,
+   "n_drug": 1624
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G07",
+   "drug": "Disulfiram",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 6,
+   "n_drug": 5406
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G06",
+   "drug": "dl-3-n-Butylphthalide",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 0,
+   "n_drug": 605
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G07",
+   "drug": "Zileuton",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 3,
+   "n_drug": 830
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G06",
+   "drug": "Celecoxib",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 3,
+   "n_drug": 9093
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G07",
+   "drug": "Verapamil",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 1,
+   "n_drug": 28157
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G06",
+   "drug": "Chloroquine",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 23,
+   "n_drug": 32742
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G07",
+   "drug": "Thalidomide",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 25,
+   "n_drug": 13899
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G06",
+   "drug": "Fingolimod",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 3,
+   "n_drug": 4520
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G07",
+   "drug": "Roflumilast",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 10,
+   "n_drug": 1101
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G07",
+   "drug": "Sildenafil",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 58,
+   "n_drug": 9395
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G07",
+   "drug": "Deferoxamine",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 8,
+   "n_drug": 9695
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G07",
+   "drug": "Pentoxifylline",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 5,
+   "n_drug": 6088
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G07",
+   "drug": "Colchicine",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 39,
+   "n_drug": 25624
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G07",
+   "drug": "Itraconazole",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 13,
+   "n_drug": 13342
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G07",
+   "drug": "Metformin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 30,
+   "n_drug": 37483
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G07",
+   "drug": "Fluvoxamine",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 1,
+   "n_drug": 3585
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G08",
+   "drug": "Paroxetine",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 0,
+   "n_drug": 7379
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G07",
+   "drug": "Candesartan",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 3,
+   "n_drug": 3746
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G08",
+   "drug": "Aprepitant",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 0,
+   "n_drug": 1466
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G08",
+   "drug": "Bumetanide",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 0,
+   "n_drug": 3699
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G08",
+   "drug": "Celecoxib",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 13,
+   "n_drug": 9093
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G08",
+   "drug": "Propofol",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 3,
+   "n_drug": 29705
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G08",
+   "drug": "Colchicine",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 6,
+   "n_drug": 25624
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G07",
+   "drug": "Fenofibrate",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 2,
+   "n_drug": 4892
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G08",
+   "drug": "Niclosamide",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 3,
+   "n_drug": 1669
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G08",
+   "drug": "Domperidone",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 0,
+   "n_drug": 3058
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G08",
+   "drug": "Methotrexate",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 71,
+   "n_drug": 66793
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G08",
+   "drug": "Digoxin",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 8,
+   "n_drug": 17694
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G08",
+   "drug": "Teriparatide",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 0,
+   "n_drug": 3948
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G08",
+   "drug": "Isotretinoin",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 0,
+   "n_drug": 5898
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G08",
+   "drug": "Cabergoline",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 1,
+   "n_drug": 2389
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G08",
+   "drug": "Fingolimod",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 4,
+   "n_drug": 4520
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G08",
+   "drug": "Ezetimibe",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 89,
+   "n_drug": 5426
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G09",
+   "drug": "Ketorolac",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 0,
+   "n_drug": 4166
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G09",
+   "drug": "Metformin",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 23,
+   "n_drug": 37483
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G09",
+   "drug": "Fluvoxamine",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 0,
+   "n_drug": 3585
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G09",
+   "drug": "Carbamazepine",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 4,
+   "n_drug": 21635
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G09",
+   "drug": "Propranolol",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 5,
+   "n_drug": 47829
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G09",
+   "drug": "Fenofibrate",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 1,
+   "n_drug": 4892
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G09",
+   "drug": "Naltrexone",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 0,
+   "n_drug": 12359
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G09",
+   "drug": "Verapamil",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 76,
+   "n_drug": 28157
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G10",
+   "drug": "Memantine",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 7,
+   "n_drug": 5176
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G09",
+   "drug": "Disulfiram",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 4,
+   "n_drug": 5406
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G10",
+   "drug": "Denosumab",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 13,
+   "n_drug": 6060
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G10",
+   "drug": "Rifaximin",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 1,
+   "n_drug": 2124
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G09",
+   "drug": "Ursodeoxycholic acid",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 0,
+   "n_drug": 7851
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G09",
+   "drug": "Auranofin",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 5,
+   "n_drug": 1739
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G10",
+   "drug": "Bromocriptine",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 57,
+   "n_drug": 9637
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G10",
+   "drug": "Tofacitinib",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 83,
+   "n_drug": 4556
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G09",
+   "drug": "Sildenafil",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 0,
+   "n_drug": 9395
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G10",
+   "drug": "Eplerenone",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 0,
+   "n_drug": 2044
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G10",
+   "drug": "Metformin",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 53,
+   "n_drug": 37483
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G09",
+   "drug": "Acetazolamide",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 7,
+   "n_drug": 10775
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G09",
+   "drug": "Simvastatin",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 3,
+   "n_drug": 13243
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G11",
+   "drug": "Disulfiram",
+   "disease": "Inflammatory bowel disease",
+   "ex": 12,
+   "n_drug": 5406
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G10",
+   "drug": "Pirfenidone",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 10,
+   "n_drug": 2657
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G10",
+   "drug": "Dapagliflozin",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 6,
+   "n_drug": 4536
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G11",
+   "drug": "Miglustat",
+   "disease": "Inflammatory bowel disease",
+   "ex": 0,
+   "n_drug": 620
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G10",
+   "drug": "Dimethyl fumarate",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 7,
+   "n_drug": 2555
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G11",
+   "drug": "Amisulpride",
+   "disease": "Inflammatory bowel disease",
+   "ex": 2,
+   "n_drug": 1623
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G10",
+   "drug": "Anakinra",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 107,
+   "n_drug": 8297
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G11",
+   "drug": "Raloxifene",
+   "disease": "Inflammatory bowel disease",
+   "ex": 5,
+   "n_drug": 4546
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G11",
+   "drug": "Penfluridol",
+   "disease": "Inflammatory bowel disease",
+   "ex": 0,
+   "n_drug": 306
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G10",
+   "drug": "Ursodeoxycholic acid",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 22,
+   "n_drug": 7851
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G10",
+   "drug": "Metoprolol",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 9,
+   "n_drug": 9559
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G10",
+   "drug": "Allopurinol",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 26,
+   "n_drug": 12193
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G11",
+   "drug": "Zileuton",
+   "disease": "Inflammatory bowel disease",
+   "ex": 31,
+   "n_drug": 830
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G11",
+   "drug": "Fexinidazole",
+   "disease": "Inflammatory bowel disease",
+   "ex": 0,
+   "n_drug": 141
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G10",
+   "drug": "Sildenafil",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 29,
+   "n_drug": 9395
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G02",
+   "drug": "Atorvastatin",
+   "disease": "Glioblastoma",
+   "ex": 29,
+   "n_drug": 12929
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G11",
+   "drug": "Tranilast",
+   "disease": "Inflammatory bowel disease",
+   "ex": 9,
+   "n_drug": 841
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G02",
+   "drug": "Artemisinin",
+   "disease": "Glioblastoma",
+   "ex": 33,
+   "n_drug": 13695
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G11",
+   "drug": "Niclosamide",
+   "disease": "Inflammatory bowel disease",
+   "ex": 5,
+   "n_drug": 1669
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G11",
+   "drug": "Dapsone",
+   "disease": "Inflammatory bowel disease",
+   "ex": 110,
+   "n_drug": 7514
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G02",
+   "drug": "Valproic Acid",
+   "disease": "Glioblastoma",
+   "ex": 161,
+   "n_drug": 19702
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G11",
+   "drug": "Clopidogrel",
+   "disease": "Inflammatory bowel disease",
+   "ex": 18,
+   "n_drug": 18852
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G02",
+   "drug": "Disulfiram",
+   "disease": "Glioblastoma",
+   "ex": 61,
+   "n_drug": 5406
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G02",
+   "drug": "Pimozide",
+   "disease": "Glioblastoma",
+   "ex": 25,
+   "n_drug": 2719
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G11",
+   "drug": "Fluvoxamine",
+   "disease": "Inflammatory bowel disease",
+   "ex": 5,
+   "n_drug": 3585
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G02",
+   "drug": "Cannabidiol",
+   "disease": "Glioblastoma",
+   "ex": 81,
+   "n_drug": 8875
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G11",
+   "drug": "Propylthiouracil",
+   "disease": "Inflammatory bowel disease",
+   "ex": 4,
+   "n_drug": 6043
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G03",
+   "drug": "Chloroquine",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 83,
+   "n_drug": 32742
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G11",
+   "drug": "Pranlukast",
+   "disease": "Inflammatory bowel disease",
+   "ex": 5,
+   "n_drug": 500
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "goal_id": "G11",
+   "drug": "Vorinostat",
+   "disease": "Inflammatory bowel disease",
+   "ex": 17,
+   "n_drug": 3239
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G03",
+   "drug": "Disulfiram",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 7,
+   "n_drug": 5406
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G03",
+   "drug": "Auranofin",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 9,
+   "n_drug": 1739
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G02",
+   "drug": "Metformin",
+   "disease": "Glioblastoma",
+   "ex": 136,
+   "n_drug": 37483
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G02",
+   "drug": "Ivermectin",
+   "disease": "Glioblastoma",
+   "ex": 8,
+   "n_drug": 12067
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G02",
+   "drug": "Chloroquine",
+   "disease": "Glioblastoma",
+   "ex": 146,
+   "n_drug": 32742
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G02",
+   "drug": "Sildenafil",
+   "disease": "Glioblastoma",
+   "ex": 3,
+   "n_drug": 9395
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G03",
+   "drug": "Sulfasalazine",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 3,
+   "n_drug": 7383
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G02",
+   "drug": "Niclosamide",
+   "disease": "Glioblastoma",
+   "ex": 11,
+   "n_drug": 1669
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G02",
+   "drug": "Thioridazine",
+   "disease": "Glioblastoma",
+   "ex": 8,
+   "n_drug": 3353
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G02",
+   "drug": "Penfluridol",
+   "disease": "Glioblastoma",
+   "ex": 9,
+   "n_drug": 306
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G03",
+   "drug": "Losartan",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 17,
+   "n_drug": 11374
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G03",
+   "drug": "Metformin",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 98,
+   "n_drug": 37483
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G03",
+   "drug": "Ivermectin",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 1,
+   "n_drug": 12067
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G03",
+   "drug": "Artemisinin",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 10,
+   "n_drug": 13695
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G02",
+   "drug": "Mebendazole",
+   "disease": "Glioblastoma",
+   "ex": 25,
+   "n_drug": 3119
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G06",
+   "drug": "Baricitinib",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 1,
+   "n_drug": 2441
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G03",
+   "drug": "Pimozide",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 2,
+   "n_drug": 2719
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G02",
+   "drug": "Auranofin",
+   "disease": "Glioblastoma",
+   "ex": 20,
+   "n_drug": 1739
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G06",
+   "drug": "Fingolimod",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 3,
+   "n_drug": 4520
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G03",
+   "drug": "Captopril",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 2,
+   "n_drug": 14195
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G06",
+   "drug": "Liraglutide",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 5,
+   "n_drug": 5753
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G06",
+   "drug": "Metformin",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 31,
+   "n_drug": 37483
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G06",
+   "drug": "Dimethyl fumarate",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 4,
+   "n_drug": 2555
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G03",
+   "drug": "Itraconazole",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 1,
+   "n_drug": 13342
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G03",
+   "drug": "Atorvastatin",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 9,
+   "n_drug": 12929
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G06",
+   "drug": "Dapagliflozin",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 15,
+   "n_drug": 4536
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G03",
+   "drug": "Niclosamide",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 2,
+   "n_drug": 1669
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G06",
+   "drug": "Atorvastatin",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 24,
+   "n_drug": 12929
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G06",
+   "drug": "Empagliflozin",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 8,
+   "n_drug": 4554
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G07",
+   "drug": "Metformin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 30,
+   "n_drug": 37483
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G06",
+   "drug": "Spironolactone",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 38,
+   "n_drug": 10802
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G07",
+   "drug": "Atorvastatin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 3,
+   "n_drug": 12929
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G03",
+   "drug": "Mebendazole",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 1,
+   "n_drug": 3119
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G06",
+   "drug": "Pirfenidone",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 22,
+   "n_drug": 2657
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G07",
+   "drug": "Dimethyl fumarate",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 2,
+   "n_drug": 2555
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G07",
+   "drug": "Sildenafil",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 58,
+   "n_drug": 9395
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G06",
+   "drug": "Canagliflozin",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 5,
+   "n_drug": 2362
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G03",
+   "drug": "Penfluridol",
+   "disease": "Pancreatic ductal adenocarcinoma",
+   "ex": 1,
+   "n_drug": 306
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G07",
+   "drug": "Spironolactone",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 1,
+   "n_drug": 10802
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G07",
+   "drug": "Telmisartan",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 0,
+   "n_drug": 3158
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G07",
+   "drug": "Losartan",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 6,
+   "n_drug": 11374
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G07",
+   "drug": "Colchicine",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 39,
+   "n_drug": 25624
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G06",
+   "drug": "Semaglutide",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 2,
+   "n_drug": 5074
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G07",
+   "drug": "Baricitinib",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 9,
+   "n_drug": 2441
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G07",
+   "drug": "Ruxolitinib",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 7,
+   "n_drug": 4170
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G07",
+   "drug": "Fingolimod",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 1,
+   "n_drug": 4520
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G08",
+   "drug": "Semaglutide",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 196,
+   "n_drug": 5074
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G06",
+   "drug": "Ticagrelor",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 2,
+   "n_drug": 5043
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G08",
+   "drug": "Metformin",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 578,
+   "n_drug": 37483
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G07",
+   "drug": "Empagliflozin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 2,
+   "n_drug": 4554
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G08",
+   "drug": "Pioglitazone",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 434,
+   "n_drug": 7391
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G06",
+   "drug": "Colchicine",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 12,
+   "n_drug": 25624
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G08",
+   "drug": "Canagliflozin",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 38,
+   "n_drug": 2362
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G06",
+   "drug": "Methotrexate",
+   "disease": "Pulmonary arterial hypertension",
+   "ex": 34,
+   "n_drug": 66793
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G08",
+   "drug": "Atorvastatin",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 117,
+   "n_drug": 12929
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G08",
+   "drug": "Empagliflozin",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 91,
+   "n_drug": 4554
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G08",
+   "drug": "Spironolactone",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 15,
+   "n_drug": 10802
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G07",
+   "drug": "Pioglitazone",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 1,
+   "n_drug": 7391
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G08",
+   "drug": "Obeticholic acid",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 277,
+   "n_drug": 958
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G08",
+   "drug": "Tirzepatide",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 57,
+   "n_drug": 2191
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G07",
+   "drug": "Dapagliflozin",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 0,
+   "n_drug": 4536
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G09",
+   "drug": "Disulfiram",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 4,
+   "n_drug": 5406
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G08",
+   "drug": "Sitagliptin",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 62,
+   "n_drug": 3606
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G09",
+   "drug": "Ivermectin",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 3,
+   "n_drug": 12067
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G09",
+   "drug": "Sulfasalazine",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 2,
+   "n_drug": 7383
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G08",
+   "drug": "Losartan",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 31,
+   "n_drug": 11374
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G07",
+   "drug": "Acarbose",
+   "disease": "Idiopathic pulmonary fibrosis",
+   "ex": 0,
+   "n_drug": 4876
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G09",
+   "drug": "Azithromycin",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 70,
+   "n_drug": 15737
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G09",
+   "drug": "Desipramine",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 2,
+   "n_drug": 8077
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G09",
+   "drug": "Metformin",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 23,
+   "n_drug": 37483
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G09",
+   "drug": "Niclosamide",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 1,
+   "n_drug": 1669
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G10",
+   "drug": "Metformin",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 53,
+   "n_drug": 37483
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G09",
+   "drug": "Metronidazole",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 36,
+   "n_drug": 25000
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G10",
+   "drug": "Simvastatin",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 22,
+   "n_drug": 13243
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G09",
+   "drug": "Bortezomib",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 3,
+   "n_drug": 12699
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G10",
+   "drug": "Telmisartan",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 0,
+   "n_drug": 3158
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G09",
+   "drug": "Nifurtimox",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 1,
+   "n_drug": 1211
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G10",
+   "drug": "Empagliflozin",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 4,
+   "n_drug": 4554
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G09",
+   "drug": "Celecoxib",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 5,
+   "n_drug": 9093
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G10",
+   "drug": "Dimethyl fumarate",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 7,
+   "n_drug": 2555
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G10",
+   "drug": "Allopurinol",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 26,
+   "n_drug": 12193
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G10",
+   "drug": "Acamprosate",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 0,
+   "n_drug": 1145
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G10",
+   "drug": "Liraglutide",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 1,
+   "n_drug": 5753
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G10",
+   "drug": "Riluzole",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 0,
+   "n_drug": 2270
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G08",
+   "drug": "Liraglutide",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 223,
+   "n_drug": 5753
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G10",
+   "drug": "Fingolimod",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 13,
+   "n_drug": 4520
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G10",
+   "drug": "Niclosamide",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 2,
+   "n_drug": 1669
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G08",
+   "drug": "Fenofibrate",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 122,
+   "n_drug": 4892
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G08",
+   "drug": "Acarbose",
+   "disease": "Non-alcoholic steatohepatitis",
+   "ex": 10,
+   "n_drug": 4876
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G09",
+   "drug": "Atovaquone",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 4,
+   "n_drug": 1711
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G09",
+   "drug": "Clofazimine",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 552,
+   "n_drug": 2488
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G09",
+   "drug": "Artesunate",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 2,
+   "n_drug": 4478
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G09",
+   "drug": "Chloroquine",
+   "disease": "Drug-resistant tuberculosis",
+   "ex": 31,
+   "n_drug": 32742
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G10",
+   "drug": "Pioglitazone",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 10,
+   "n_drug": 7391
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G10",
+   "drug": "Spironolactone",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 15,
+   "n_drug": 10802
+  },
+  {
+   "model": "qwen3.7-max",
+   "goal_id": "G10",
+   "drug": "Dapagliflozin",
+   "disease": "Systemic lupus erythematosus",
+   "ex": 6,
+   "n_drug": 4536
+  }
+ ],
+ "robin": [
+  {
+   "drug": "Avacincaptad pegol",
+   "ex": 51,
+   "n_drug": 58
+  },
+  {
+   "drug": "Risuteganib",
+   "ex": 8,
+   "n_drug": 10
+  },
+  {
+   "drug": "Elamipretide",
+   "ex": 9,
+   "n_drug": 292
+  },
+  {
+   "drug": "Pegcetacoplan",
+   "ex": 84,
+   "n_drug": 247
+  },
+  {
+   "drug": "MCC950",
+   "ex": 6,
+   "n_drug": 1050
+  },
+  {
+   "drug": "Metformin",
+   "ex": 75,
+   "n_drug": 34577
+  },
+  {
+   "drug": "Lutein",
+   "ex": 744,
+   "n_drug": 7531
+  },
+  {
+   "drug": "Nicotinamide Mononucleotide",
+   "ex": 8,
+   "n_drug": 1781
+  },
+  {
+   "drug": "Metformin hydrochloride",
+   "ex": 75,
+   "n_drug": 34547
+  },
+  {
+   "drug": "Fenofibrate",
+   "ex": 32,
+   "n_drug": 4698
+  },
+  {
+   "drug": "Alda-1",
+   "ex": 0,
+   "n_drug": 193
+  },
+  {
+   "drug": "Recombinant human Gas6",
+   "ex": 1,
+   "n_drug": 101
+  },
+  {
+   "drug": "SkQ1",
+   "ex": 14,
+   "n_drug": 241
+  },
+  {
+   "drug": "Tauroursodeoxycholic acid",
+   "ex": 6,
+   "n_drug": 1233
+  },
+  {
+   "drug": "Dimethyl fumarate",
+   "ex": 8,
+   "n_drug": 2370
+  },
+  {
+   "drug": "Docosahexaenoic acid",
+   "ex": 199,
+   "n_drug": 20569
+  },
+  {
+   "drug": "Sulforaphane",
+   "ex": 14,
+   "n_drug": 3337
+  },
+  {
+   "drug": "Fenretinide",
+   "ex": 16,
+   "n_drug": 1032
+  },
+  {
+   "drug": "Omaveloxolone",
+   "ex": 1,
+   "n_drug": 104
+  },
+  {
+   "drug": "Ataluren",
+   "ex": 0,
+   "n_drug": 303
+  },
+  {
+   "drug": "MitoQ",
+   "ex": 1,
+   "n_drug": 770
+  },
+  {
+   "drug": "Everolimus",
+   "ex": 3,
+   "n_drug": 9622
+  },
+  {
+   "drug": "AICAR",
+   "ex": 11,
+   "n_drug": 2602
+  },
+  {
+   "drug": "Recombinant human MFG-E8",
+   "ex": 2,
+   "n_drug": 75
+  },
+  {
+   "drug": "VX-765",
+   "ex": 0,
+   "n_drug": 201
+  },
+  {
+   "drug": "Trehalose",
+   "ex": 10,
+   "n_drug": 11606
+  },
+  {
+   "drug": "Anakinra",
+   "ex": 5,
+   "n_drug": 7918
+  },
+  {
+   "drug": "Dapansutrile",
+   "ex": 0,
+   "n_drug": 36
+  },
+  {
+   "drug": "Bardoxolone methyl",
+   "ex": 2,
+   "n_drug": 366
+  },
+  {
+   "drug": "Humanin",
+   "ex": 19,
+   "n_drug": 502
+  },
+  {
+   "drug": "SR9009",
+   "ex": 0,
+   "n_drug": 132
+  },
+  {
+   "drug": "Rapamycin",
+   "ex": 123,
+   "n_drug": 59128
+  },
+  {
+   "drug": "Eculizumab",
+   "ex": 26,
+   "n_drug": 3161
+  },
+  {
+   "drug": "BGP-15",
+   "ex": 0,
+   "n_drug": 94
+  },
+  {
+   "drug": "Canakinumab",
+   "ex": 1,
+   "n_drug": 1263
+  },
+  {
+   "drug": "Trodusquemine",
+   "ex": 0,
+   "n_drug": 52
+  },
+  {
+   "drug": "AZ10606120",
+   "ex": 0,
+   "n_drug": 46
+  },
+  {
+   "drug": "Emixustat hydrochloride",
+   "ex": 5,
+   "n_drug": 6
+  },
+  {
+   "drug": "Resveratrol",
+   "ex": 96,
+   "n_drug": 19793
+  },
+  {
+   "drug": "Carvedilol",
+   "ex": 1,
+   "n_drug": 4391
+  },
+  {
+   "drug": "SR9011",
+   "ex": 0,
+   "n_drug": 20
+  },
+  {
+   "drug": "Naringenin",
+   "ex": 9,
+   "n_drug": 4835
+  },
+  {
+   "drug": "SRT1720",
+   "ex": 2,
+   "n_drug": 408
+  },
+  {
+   "drug": "ZLN005",
+   "ex": 1,
+   "n_drug": 66
+  },
+  {
+   "drug": "T0901317",
+   "ex": 3,
+   "n_drug": 746
+  },
+  {
+   "drug": "Apocynin",
+   "ex": 7,
+   "n_drug": 2642
+  },
+  {
+   "drug": "β-Lapachone",
+   "ex": 0,
+   "n_drug": 632
+  },
+  {
+   "drug": "Ripasudil",
+   "ex": 4,
+   "n_drug": 260
+  }
+ ]
+}

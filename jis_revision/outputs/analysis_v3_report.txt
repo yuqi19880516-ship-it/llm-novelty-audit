@@ -1,0 +1,134 @@
+=== 0. extended check {'extL2': (0.91, 95.3, 193, 9), 'extL1': (0.87, 94.3, 35, 2), 'extTE': (0.95, 98.0, 50, 1)} | overrides 109 | unresolved 0
+  system transitions first pass -> extended: Counter({('L2', 'L2'): 76, ('L2', 'L0'): 10, ('L1', 'L0'): 9, ('L2', 'L1'): 9, ('L1', 'L1'): 5})
+=== 1. coding reliability
+pairs read 300; agreement 0.920; Cohen kappa 0.780; disagreements adjudicated 24 | adjudicated to Counter({'L0': 9, 'L2': 8, 'L1': 7})
+  L0 vs rest kappa 0.84
+  L1 vs rest kappa 0.61
+  L2 vs rest kappa 0.85
+
+=== 2. spectrum (n items = 400 ; indeterminate 2 )
+  L0: 289/398 = 72.6% (95% CI 68.0–76.8)
+  L1: 32/398 = 8.0% (95% CI 5.8–11.1)
+  L2: 77/398 = 19.3% (95% CI 15.8–23.5)
+  L0∪L1: 321/398 = 80.7% (95% CI 76.5–84.2) | one-sided exact binomial p vs 0.5: 8.269844479516102e-37
+  cluster bootstrap (runs) 95% CI: {'L0': (np.float64(63.9), np.float64(80.9)), 'L1': (np.float64(5.1), np.float64(11.2)), 'L2': (np.float64(12.3), np.float64(26.8)), 'L01': (np.float64(73.2), np.float64(87.7))}
+  source=parsed: n=332 L0 70.5 L1 7.8 L2 21.7
+  source=translated: n=66 L0 83.3 L1 9.1 L2 7.6
+  model=deepseek-v4-pro: n=201 L0 64.7 L1 9.0 L2 26.4
+  model=qwen3.7-max: n=197 L0 80.7 L1 7.1 L2 12.2
+  per target L2 share:
+    Acute myeloid leukemia               n= 31 L2   6.5  L0  90.3
+    Alzheimer's disease                  n= 36 L2   5.6  L0  91.7
+    Amyotrophic lateral sclerosis        n= 32 L2  15.6  L0  78.1
+    Drug-resistant tuberculosis          n= 33 L2  24.2  L0  57.6
+    Glioblastoma                         n= 32 L2   0.0  L0  96.9
+    Idiopathic pulmonary fibrosis        n= 36 L2  11.1  L0  72.2
+    Inflammatory bowel disease           n= 35 L2  20.0  L0  77.1
+    Non-alcoholic steatohepatitis        n= 34 L2  17.6  L0  79.4
+    Pancreatic ductal adenocarcinoma     n= 35 L2  20.0  L0  77.1
+    Pulmonary arterial hypertension      n= 33 L2  27.3  L0  57.6
+    Systemic lupus erythematosus         n= 31 L2  32.3  L0  51.6
+    Treatment-resistant depression       n= 30 L2  56.7  L0  36.7
+
+=== 3. June machine coding (rows) vs v3 reading (cols), n = 307
+   L0 [115, 1, 0]
+   L1 [38, 1, 1]
+   L2 [68, 21, 62]
+  agreement 0.580 kappa 0.32
+  June-L2 items: 151 of which expanded co-occurrence >=1: 105 | read as L2: 62
+
+=== 4. construct sensitivity
+  zero co-occurrence: exact-phrase 95/398 = 23.9% (95% CI 19.9–28.3) | expanded 62/398 = 15.6% (95% CI 12.3–19.5)
+  L2 items with co-occurrence but no stated link (read): 22 | L2 with zero expanded co-occurrence: 55
+  strict L2 (zero expanded co-occurrence): 55/398 = 13.8% (95% CI 10.8–17.6)
+  logit L2 ~ log10 literature sizes: {'const': 14.23, 'log_dis': -1.72, 'log_drug': -2.14} p {'const': 0.0, 'log_dis': 0.0, 'log_drug': 0.0}
+
+=== 5. base model
+  deepseek-v4-pro: L0∪L1 148/201 = 73.6% (95% CI 67.1–79.2)
+  qwen3.7-max: L0∪L1 173/197 = 87.8% (95% CI 82.5–91.7)
+  FE logit (target FE, run-clustered SE): OR Qwen 3.04 (1.47–6.26) p=0.0026
+  run-level paired (targets with >=5 per model, n=12): Qwen higher in 9; mean diff 14.6 pp; Wilcoxon p=0.024
+
+=== 6. orchestration: evolved vs initially generated
+  evolved=0: n=348 L0 250/348 = 71.8% (95% CI 66.9–76.3) | L2 72/348 = 20.7% (95% CI 16.8–25.3)
+  evolved=1: n=50 L0 39/50 = 78.0% (95% CI 64.8–87.2) | L2 5/50 = 10.0% (95% CI 4.3–21.4)
+  within-run logit (run FE, clustered): OR evolved→L2 0.45 (0.11–1.76) p=0.250
+  stratum top: n=139 L2 23.0%
+  stratum mid: n=135 L2 13.3%
+  stratum bottom: n=124 L2 21.8%
+  chi2 [np.float64(8.31), 0.08097635113808883]
+
+=== 7. self-rating
+  completely novel n=153 L0  59.5 L1   7.8 L2  32.7
+  high             n= 21 L0  71.4 L1  14.3 L2  14.3
+  moderate         n=168 L0  79.2 L1   7.7 L2  13.1
+  known            n= 27 L0  96.3 L1   3.7 L2   0.0
+  completely novel: L0∪L1 103/153 = 67.3% (95% CI 59.5–74.2) p vs 0.30 = 2.0956819394680353e-21 | L0 91/153 = 59.5% (95% CI 51.6–66.9)
+  calibration logit (L2 ~ self-rating step, run FE, clustered): OR per step 2.17 p=0.0000
+  AUC of self-rating for L2: 0.67
+
+=== 8. memory probe v2
+  valid 393 of 398
+  L0: claims published evidence 277/287 = 96.5% (95% CI 93.7–98.1)
+  L1: claims published evidence 28/32 = 87.5% (95% CI 71.9–95.0)
+  L2: claims published evidence 39/74 = 52.7% (95% CI 41.5–63.7)
+  negative controls (zero co-occurrence pairs): claims published evidence 153/277 = 55.2% (95% CI 49.3–61.0)
+    deepseek-v4-pro: 95/137 = 69.3% (95% CI 61.2–76.4)
+    qwen3.7-max: 58/140 = 41.4% (95% CI 33.6–49.7)
+  sensitivity on L0 0.97; specificity on negative controls 0.45
+
+=== 9. perturbation v2
+  unrelated: n=293 original yes 72/293 = 24.6% (95% CI 20.0–29.8) | perturbed yes 21/293 = 7.2% (95% CI 4.7–10.7) | discordant 62/11 one-sided McNemar p=4.54e-10
+     deepseek-v4-pro: n=153 orig yes 13.7% | perturbed yes 3.3% | orig doubtful 82%
+     qwen3.7-max: n=140 orig yes 36.4% | perturbed yes 11.4% | orig doubtful 50%
+     L0: n=196 orig 34.2% pert 9.7% two-sided p=0.000
+     L1: n=25 orig 16.0% pert 4.0% two-sided p=0.375
+     L2: n=70 orig 1.4% pert 1.4% two-sided p=1.000
+  synthetic_form: n=385 original yes 102/385 = 26.5% (95% CI 22.3–31.1) | perturbed yes 3/385 = 0.8% (95% CI 0.3–2.3) | discordant 101/2 one-sided McNemar p=5.28e-28
+     deepseek-v4-pro: n=187 orig yes 14.4% | perturbed yes 1.1% | orig doubtful 82%
+     qwen3.7-max: n=198 orig yes 37.9% | perturbed yes 0.5% | orig doubtful 50%
+     L0: n=278 orig 34.2% pert 0.7% two-sided p=0.000
+     L1: n=32 orig 18.8% pert 0.0% two-sided p=0.031
+     L2: n=73 orig 1.4% pert 1.4% two-sided p=1.000
+  unparseable originals: 0 | no zero-co-occurrence counterfactual: 107
+
+=== 10. permutation baseline (same drugs, random other study target)
+  zero prior co-occurrence: system 64/400 = 16.0% (95% CI 12.7–19.9) | permuted 76/400 = 19.0% (95% CI 15.5–23.1) | median co-occurrence 6 vs 4
+  Fisher p 0.3060491656594395
+
+=== 11. bare vs full (screen: zero expanded co-occurrence), matched cells 18
+  bare 40/266 = 15.0% (95% CI 11.2–19.8) | full 49/303 = 16.2% (95% CI 12.5–20.7) | Fisher p 0.730
+  median co-occurrence bare 6 vs full 5
+
+=== 12. Robin (expanded, T = 2025-05-28)
+  n 46; zero co-occurrence 10 (of which small literature 5); co-occurring 36; ripasudil ex 4 n 260
+  top-8: [('Avacincaptad pegol', 51), ('Risuteganib', 8), ('Elamipretide', 9), ('Pegcetacoplan', 84), ('MCC950', 6), ('Metformin', 75), ('Lutein', 744), ('Nicotinamide Mononucleotide', 8)]
+
+=== 13. permutation baseline, read: coder agreement 0.875 kappa 0.73 n 271
+  unresolved 0
+  permuted L0: 261/400 = 65.2% (95% CI 60.5–69.8)  | system 289/398 = 72.6% (95% CI 68.0–76.8)
+  permuted L1: 34/400 = 8.5% (95% CI 6.1–11.6)  | system 32/398 = 8.0% (95% CI 5.8–11.1)
+  permuted L2: 105/400 = 26.2% (95% CI 22.2–30.8)  | system 77/398 = 19.3% (95% CI 15.8–23.5)
+  Fisher L0 p 0.026611069530152572 | L2 p 0.02267139810502097
+  ripasudil-AMD label: L1
+
+=== 14. screening vs reading decomposition
+  preregistered rule with exact counts and reading-based L0 (n=398): L0 289 L1 6 L2 103 -> L0∪L1 295/398 = 74.1% (95% CI 69.6–78.2)
+  preregistered rule with expanded counts and reading-based L0 (n=398): L0 289 L1 14 L2 95 -> L0∪L1 303/398 = 76.1% (95% CI 71.7–80.1)
+  screen without reading, L2 = zero co-occurrence (exact): 95/398 = 23.9% (95% CI 19.9–28.3)
+  screen without reading, L2 = zero co-occurrence (expanded): 62/398 = 15.6% (95% CI 12.3–19.5)
+  June screen caught 115 of 221 read-L0 items among the 307
+
+=== 15. perturbation vs literature presence
+  original assent, pairs with no prior co-occurrence: 0/64 = 0.0% (95% CI 0.0–5.7); with co-occurrence: 106/336 = 31.5% (95% CI 26.8–36.7)
+
+=== 16. self-rating calibration, initial hypotheses only (3-level scale)
+  n 348; OR per step 4.33 (2.26-8.28) p=0.0000; AUC 0.68
+   cn: n=153 L0 59.5 L1 7.8 L2 32.7
+   moderate: n=168 L0 79.2 L1 7.7 L2 13.1
+   known: n=27 L0 96.3 L1 3.7 L2 0.0
+
+=== 17. broad construct: {'L0': '289/398 = 72.6% (95% CI 68.0–76.8)', 'L1': '49/398 = 12.3% (95% CI 9.4–15.9)', 'L2': '60/398 = 15.1% (95% CI 11.9–18.9)'} | L0∪L1 338/398 = 84.9% (95% CI 81.1–88.1)
+   permuted broad: {'L0': '261/400 = 65.2% (95% CI 60.5–69.8)', 'L1': '70/400 = 17.5% (95% CI 14.1–21.5)', 'L2': '69/400 = 17.2% (95% CI 13.9–21.3)'} | Fisher L2 p 0.4420368761457866
+
+=== BH: {'H1': ('8.27e-37', '3.31e-36'), 'H3_index': ('2.10e-21', '2.79e-21'), 'H6_unrelated': ('4.54e-10', '4.54e-10'), 'H6_synthetic': ('5.28e-28', '1.06e-27')}
